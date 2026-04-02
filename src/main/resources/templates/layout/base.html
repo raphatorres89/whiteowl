@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org" th:fragment="layout(title, content)">
+
+<head th:replace="~{fragments/head :: head(${title})}"></head>
+
+<script th:src="@{/js/menu.js}"></script>
+<script th:src="@{/js/particles.js}"></script>
+<script th:src="@{/js/cursor.js}"></script>
+
+<body class="bg-main">
+
+    <!-- Partículas -->
+    <canvas id="magicCanvas" class="fixed inset-0 z-0 pointer-events-none"></canvas>
+
+    <!-- Cursor -->
+    <div id="cursorTrail" class="pointer-events-none fixed inset-0 z-50"></div>
+
+    <!-- Conteúdo -->
+    <div class="relative z-10">
+        <div th:replace="~{fragments/navbar :: navbar}"></div>
+
+        <main class="min-h-screen">
+            <div th:replace="${content}"></div>
+        </main>
+
+        <div th:replace="~{fragments/footer :: footer}"></div>
+    </div>
+
+</body>
+</html>

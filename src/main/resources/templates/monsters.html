@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('Whiteowl - Bestiário', ~{::section})}">
+
+<section>
+    <div class="max-w-7xl mx-auto px-4 py-10">
+
+        <div class="flex items-center gap-3 mb-2">
+            <img th:src="@{/images/icons/bestiary.png}"
+                 alt="Ícone do bestiário"
+                 class="w-10 h-10 md:w-20 md:h-20 object-contain">
+
+            <h1 class="text-3xl md:text-5xl text-gold">
+                Bestiário
+            </h1>
+        </div>
+
+        <form method="get" th:action="@{/monsters}"
+              class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6 mb-8 space-y-4">
+
+            <input type="hidden" name="page" value="0">
+            <input type="hidden" name="size" th:value="${monstersPage != null ? monstersPage.size : 12}">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Nome</label>
+                    <input type="text" name="name" th:value="${filter.name}"
+                           class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                </div>
+
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Tipo</label>
+                    <select name="type"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="">Todos</option>
+                        <option th:each="type : ${types}"
+                                th:value="${type}"
+                                th:text="${type}"
+                                th:selected="${type == filter.type}">
+                        </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">CR máximo</label>
+                    <select name="cr"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="">Todos</option>
+                        <option value="1" th:selected="${filter.cr != null and filter.cr == 1.0}">1</option>
+                        <option value="5" th:selected="${filter.cr != null and filter.cr == 5.0}">5</option>
+                        <option value="10" th:selected="${filter.cr != null and filter.cr == 10.0}">10</option>
+                        <option value="20" th:selected="${filter.cr != null and filter.cr == 20.0}">20</option>
+                        <option value="30" th:selected="${filter.cr != null and filter.cr == 30.0}">30</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Ambiente</label>
+                    <select name="environment"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="" th:selected="${filter.environment == null or #strings.isEmpty(filter.environment)}">Todos</option>
+                        <option th:each="environment : ${environments}"
+                                th:value="${environment}"
+                                th:text="${environment}"
+                                th:selected="${filter.environment != null and #strings.equalsIgnoreCase(#strings.trim(filter.environment), #strings.trim(environment))}">
+                        </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Alinhamento</label>
+                    <select name="alignment"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="" th:selected="${filter.alignment == null or #strings.isEmpty(filter.alignment)}">Todos</option>
+                        <option th:each="alignment : ${alignments}"
+                                th:value="${alignment}"
+                                th:text="${alignment}"
+                                th:selected="${filter.alignment != null and filter.alignment == alignment}">
+                        </option>
+                    </select>
+                </div>
+
+                <div class="flex items-end">
+                    <label class="inline-flex items-center gap-2 text-sm text-gray-300">
+                        <input type="checkbox" name="legendary" value="true"
+                               th:checked="${filter.legendary}">
+                        Somente lendários
+                    </label>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3">
+                <button type="submit"
+                        class="px-5 py-2 rounded-lg border border-gold text-gold hover:bg-gold hover:text-black transition">
+                    Filtrar
+                </button>
+
+                <a th:href="@{/monsters}"
+                   class="px-5 py-2 rounded-lg border border-gray-700 text-gray-300 hover:border-gold hover:text-gold transition text-center">
+                    Limpar filtros
+                </a>
+            </div>
+        </form>
+
+        <div class="flex items-center justify-between mb-4">
+            <p class="text-sm text-gray-400">
+                <span th:text="${monstersPage.totalElements()}">0</span> monstros encontrados
+            </p>
+        </div>
+
+        <div th:if="${#lists.isEmpty(monsters)}"
+             class="bg-card border border-gray-800 rounded-2xl p-8 text-center text-gray-400">
+            Nenhum monstro encontrado com os filtros informados.
+        </div>
+
+        <div th:unless="${#lists.isEmpty(monsters)}"
+             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <a th:each="monster : ${monsters}"
+               th:href="@{'/monsters/' + ${monster.slug}}"
+               class="block bg-card border border-gray-800 rounded-2xl overflow-hidden hover-glow arcane-glow transition">
+
+                <div class="h-56 bg-gradient-to-b from-[#1a1a1a] to-[#0f0f0f] flex items-center justify-center p-4 overflow-hidden">
+                    <img th:if="${monster.imgMain != null and #strings.trim(monster.imgMain) != ''}"
+                         th:src="${monster.imgMain}"
+                         th:alt="${monster.name}"
+                         class="max-w-full max-h-full object-contain">
+                    <div th:unless="${monster.imgMain != null and #strings.trim(monster.imgMain) != ''}"
+                         class="text-gray-600 text-sm">
+                        Sem imagem
+                    </div>
+                </div>
+
+                <div class="p-5">
+                    <div class="flex items-start justify-between gap-3 mb-2">
+                        <h2 class="text-xl text-gold" th:text="${monster.name}">Aboleth</h2>
+                        <span class="px-2 py-1 text-xs rounded-full border border-gold text-gold"
+                              th:text="'CR ' + ${monster.cr}">
+                            CR 10
+                        </span>
+                    </div>
+
+                    <p class="text-sm text-gray-400 mb-3"
+                       th:text="${monster.type + (monster.subtype != null and #strings.trim(monster.subtype) != '' ? ' (' + monster.subtype + ')' : '')}">
+                        Aberração
+                    </p>
+
+                    <p class="text-sm text-gray-500 mb-4"
+                       th:text="${monster.alignment}">
+                        Leal e Mau
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-4"
+                         th:if="${monster.environments != null and !#lists.isEmpty(monster.environments)}">
+                        <span th:each="env : ${monster.environments}"
+                              class="px-2 py-1 text-xs rounded-full border border-gray-700 text-gray-300"
+                              th:text="${env}">
+                            Oceano
+                        </span>
+                    </div>
+
+                    <div class="text-sm text-gold">
+                        Ver detalhes →
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Paginação-->
+        <div th:if="${monstersPage.totalPages > 1}"
+             class="mt-8 flex items-center justify-center gap-3 flex-wrap">
+
+            <a th:if="${monstersPage.hasPrevious}"
+               th:href="@{/monsters(
+                    page=${monstersPage.page - 1},
+                    size=${monstersPage.size},
+                    name=${filter.name},
+                    type=${filter.type},
+                    cr=${filter.cr},
+                    environment=${filter.environment},
+                    alignment=${filter.alignment},
+                    legendary=${filter.legendary}
+               )}"
+               class="px-4 py-2 rounded-lg border border-gray-700 text-gray-300 hover:border-gold hover:text-gold transition">
+                Anterior
+            </a>
+
+            <span class="px-4 py-2 rounded-lg border border-gold text-gold">
+                Página <span th:text="${monstersPage.page + 1}">1</span>
+                de <span th:text="${monstersPage.totalPages}">1</span>
+            </span>
+
+            <a th:if="${monstersPage.hasNext}"
+               th:href="@{/monsters(
+                    page=${monstersPage.page + 1},
+                    size=${monstersPage.size},
+                    name=${filter.name},
+                    type=${filter.type},
+                    cr=${filter.cr},
+                    environment=${filter.environment},
+                    alignment=${filter.alignment},
+                    legendary=${filter.legendary}
+               )}"
+               class="px-4 py-2 rounded-lg border border-gray-700 text-gray-300 hover:border-gold hover:text-gold transition">
+                Próxima
+            </a>
+        </div>
+    </div>
+</section>
+</html>

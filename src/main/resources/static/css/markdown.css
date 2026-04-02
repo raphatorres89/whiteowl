@@ -1,0 +1,227 @@
+.rich-text {
+    color: #d1d5db;
+    line-height: 1.75;
+    font-size: 0.95rem;
+}
+
+.rich-text > *:first-child {
+    margin-top: 0;
+}
+
+.rich-text > *:last-child {
+    margin-bottom: 0;
+}
+
+.rich-text strong {
+    font-weight: 600;
+    color: #f3f4f6;
+}
+
+.rich-text em {
+    font-style: italic;
+    color: #f5e6c8;
+}
+
+.rich-text strong em {
+    color: #f8e7b0;
+}
+
+/* Parágrafos */
+.rich-text p {
+    margin: 0.75rem 0 1rem;
+    white-space: pre-line;
+    color: #d1d5db;
+}
+
+/* Headers HTML reais */
+.rich-text h1,
+.rich-text h2,
+.rich-text h3,
+.rich-text h4,
+.rich-text h5,
+.rich-text h6,
+    /* Headers gerados pelo formatter */
+.rich-text .h1,
+.rich-text .h2,
+.rich-text .h3,
+.rich-text .h4,
+.rich-text .h5,
+.rich-text .h6 {
+    display: block;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+
+/* Cores e tamanhos */
+.rich-text h1,
+.rich-text .h1 {
+    font-size: 2rem;
+    color: #f3e7c2;
+}
+
+.rich-text h2,
+.rich-text .h2 {
+    font-size: 1.7rem;
+    color: #ead7a1;
+}
+
+.rich-text h3,
+.rich-text .h3 {
+    font-size: 1.4rem;
+    color: #e6d3a3;
+}
+
+.rich-text h4,
+.rich-text .h4 {
+    font-size: 1.2rem;
+    color: #d8b97a;
+}
+
+.rich-text h5,
+.rich-text .h5 {
+    font-size: 1.05rem;
+    color: #c9a96e;
+}
+
+.rich-text h6,
+.rich-text .h6 {
+    font-size: 0.92rem;
+    color: #b89256;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Section title (**texto**) */
+.rich-text .section-title {
+    display: block;
+    margin-top: 1.25rem;
+    margin-bottom: 0.45rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #c9a96e;
+}
+
+/* Listas */
+.rich-text .list,
+.rich-text ul,
+.rich-text ol {
+    margin: 0.5rem 0 1rem;
+    padding-left: 1.25rem;
+}
+
+.rich-text .list li,
+.rich-text ul li,
+.rich-text ol li {
+    margin: 0.3rem 0;
+    line-height: 1.65;
+    color: #d1d5db;
+}
+
+/* Negrito */
+.rich-text strong {
+    font-weight: 600;
+    color: #f3f4f6;
+}
+
+/*TABELAS*/
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #2d2d2d;
+    border-radius: 0.9rem;
+    margin: 0.8rem 0;
+}
+
+.rich-table {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.rich-table thead {
+    background: rgba(201, 169, 110, 0.08);
+}
+
+.rich-table th,
+.rich-table td {
+    padding: 0.75rem 0.9rem;
+    text-align: left;
+    border-bottom: 1px solid #2d2d2d;
+    vertical-align: top;
+}
+
+.rich-table th {
+    line-break: auto;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    line-height: 1.35;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #c9a96e;
+}
+
+.rich-table td {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    line-height: 1.6;
+}
+
+.rich-table td {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    line-height: 1.6;
+    font-size: 0.92rem;
+    color: #d1d5db;
+}
+
+.rich-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.rich-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .rich-text {
+        font-size: 0.9rem;
+    }
+
+    .rich-table th,
+    .rich-table td {
+        padding: 0.6rem 0.7rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .rich-text {
+        font-size: 0.85rem;
+    }
+}
+
+/*BLOCKQUOTE*/
+.rich-text blockquote {
+    margin: 1rem 0;
+    padding: 0.9rem 1rem;
+    border-left: 3px solid #c9a96e;
+    background: rgba(201, 169, 110, 0.06);
+    border-radius: 0.5rem;
+}
+
+.rich-text blockquote > *:first-child {
+    margin-top: 0;
+}
+
+.rich-text blockquote > *:last-child {
+    margin-bottom: 0;
+}

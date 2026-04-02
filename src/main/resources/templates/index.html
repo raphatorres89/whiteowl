@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('WhiteOwl - Grimório Arcano', ~{::pageContent})}">
+
+<section th:fragment="pageContent">
+
+    <!-- HERO -->
+    <section class="py-20 text-center">
+        <div class="max-w-3xl mx-auto px-4 md:px-6">
+
+            <h2 class="text-2xl sm:text-3xl md:text-5xl text-gold mb-6 leading-tight">
+                Explore o Conhecimento Arcano
+            </h2>
+
+            <p class="text-gray-400 mb-8">
+                Descubra criaturas, magias e segredos esquecidos.
+            </p>
+
+            <a href="/monsters"
+               class="inline-block px-4 md:px-6 py-3 border border-gold text-gold hover:bg-gold hover:text-black transition hover-glow">
+                Acessar Bestiário
+            </a>
+        </div>
+    </section>
+
+    <!-- CARDS -->
+    <section class="max-w-7xl mx-auto px-4 pb-20 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <div class="bg-card p-6 rounded-2xl border border-gray-800 rune-hover">
+            <h3 class="text-xl text-gold mb-4">Bestiário</h3>
+            <p class="text-gray-400 mb-4">
+                Criaturas lendárias e perigosas.
+            </p>
+            <a href="/monsters"
+               class="rune-hover inline-block px-6 py-3 border border-gold text-gold text-center">Ver mais →</a>
+        </div>
+
+        <div class="bg-card p-6 rounded-2xl border border-gray-800 rune-hover">
+            <h3 class="text-xl text-gold mb-4">Magias</h3>
+            <p class="text-gray-400 mb-4">
+                Poderes arcanos e feitiços.
+            </p>
+            <a href="/spells"
+               class="rune-hover inline-block px-6 py-3 border border-gold text-gold text-center">Ver mais →</a>
+        </div>
+
+        <div class="bg-card p-6 rounded-2xl border border-gray-800 rune-hover">
+            <h3 class="text-xl text-gold mb-4">Campanhas</h3>
+            <p class="text-gray-400 mb-4">
+                Gerencie suas aventuras.
+            </p>
+            <a href="/campaigns"
+               class="rune-hover inline-block px-6 py-3 border border-gold text-gold text-center">Ver mais →</a>
+        </div>
+
+    </section>
+
+</section>
+</html>

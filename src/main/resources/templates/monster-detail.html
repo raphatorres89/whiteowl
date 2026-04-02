@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('Whiteowl - Monstro', ~{::section})}">
+
+<section>
+    <div class="max-w-6xl mx-auto px-4 py-10">
+
+        <!-- HEADER -->
+        <div class="mb-8">
+            <div class="flex items-center gap-3 mb-2">
+                <img th:src="@{${monsterTypeIcon}}"
+                     th:alt="${monster.type}"
+                     class="w-10 h-10 md:w-20 md:h-20 object-contain">
+
+                <h1 class="text-3xl md:text-5xl text-gold mb-0"
+                    th:text="${monster.name}">
+                    Aboleth
+                </h1>
+            </div>
+
+            <p class="text-gray-400 italic"
+               th:text="${monster.type + (monster.subtype != null and #strings.trim(monster.subtype) != '' ? ' (' + monster.subtype + ')' : '') + ' • ' + monster.alignment}">
+                Aberration • Lawful Evil
+            </p>
+        </div>
+
+        <!-- GRID PRINCIPAL -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- IMAGEM -->
+            <div class="relative rounded-2xl border border-gray-800 bg-gradient-to-b from-[#1a1a1a] to-[#0f0f0f] overflow-hidden p-6">
+                <div class="h-[320px] sm:h-[420px] md:h-[520px] flex items-center justify-center">
+                    <img th:src="${monster.imgMain}"
+                         th:alt="${monster.name}"
+                         class="max-w-full max-h-full object-contain">
+                </div>
+            </div>
+
+            <!-- COLUNA DIREITA -->
+            <div class="space-y-6">
+
+                <!-- RESUMO -->
+                <div class="bg-card p-6 rounded-2xl border border-gray-800 space-y-4">
+
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="p-3 border border-gray-800 rounded-lg">
+                            <p class="text-xs text-gray-400">CA</p>
+                            <p class="text-lg text-gold" th:text="${monster.armorClass}">17</p>
+                            <p class="text-[11px] text-gray-500 mt-1"
+                               th:if="${monster.armorDesc != null and #strings.trim(monster.armorDesc) != ''}"
+                               th:text="${monster.armorDesc}">
+                                natural armor
+                            </p>
+                        </div>
+
+                        <div class="p-3 border border-gray-800 rounded-lg">
+                            <p class="text-xs text-gray-400">PV</p>
+                            <p class="text-lg text-gold" th:text="${monster.hitPoints}">135</p>
+                            <p class="text-[11px] text-gray-500 mt-1"
+                               th:if="${monster.hitDice != null and #strings.trim(monster.hitDice) != ''}"
+                               th:text="${monster.hitDice}">
+                                18d10+36
+                            </p>
+                        </div>
+
+                        <div class="p-3 border border-gray-800 rounded-lg">
+                            <p class="text-xs text-gray-400">CR</p>
+                            <p class="text-lg text-gold" th:text="${monster.cr}">10</p>
+                        </div>
+                    </div>
+
+                    <!-- SPEED -->
+                    <div th:if="${monster.speed != null}">
+                        <p class="text-sm text-gray-400 mb-2">Deslocamento</p>
+
+                        <div class="flex flex-wrap gap-2 text-xs">
+                            <span th:if="${monster.speed.walk != null}" class="px-3 py-1 rounded-full border border-gray-700 bg-black/20">
+                                Andar:
+                                <span class="text-gold" th:text="${monster.speed.walk}"></span>
+                            </span>
+
+                            <span th:if="${monster.speed.fly != null}" class="px-3 py-1 rounded-full border border-gray-700 bg-black/20">
+                                Voar:
+                                <span class="text-gold" th:text="${monster.speed.fly}"></span>
+                            </span>
+
+                            <span th:if="${monster.speed.swim != null}" class="px-3 py-1 rounded-full border border-gray-700 bg-black/20">
+                                Nadar:
+                                <span class="text-gold" th:text="${monster.speed.swim}"></span>
+                            </span>
+
+                            <span th:if="${monster.speed.climb != null}" class="px-3 py-1 rounded-full border border-gray-700 bg-black/20">
+                                Escalar:
+                                <span class="text-gold" th:text="${monster.speed.climb}"></span>
+                            </span>
+
+                            <span th:if="${monster.speed.burrow != null}" class="px-3 py-1 rounded-full border border-gray-700 bg-black/20">
+                                Cavar:
+                                <span class="text-gold" th:text="${monster.speed.burrow}"></span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- ATRIBUTOS -->
+                    <div>
+                        <p class="text-sm text-gray-400 mb-3">Atributos</p>
+
+                        <div class="grid grid-cols-3 gap-3 text-center text-sm">
+                            <div class="p-3 rounded-lg border border-gray-800">
+                                <p class="text-gray-400">FOR</p>
+                                <p th:text="${abilityScores.strength}">21</p>
+                            </div>
+                            <div class="p-3 rounded-lg border border-gray-800">
+                                <p class="text-gray-400">DES</p>
+                                <p th:text="${abilityScores.dexterity}">9</p>
+                            </div>
+                            <div class="p-3 rounded-lg border border-gray-800">
+                                <p class="text-gray-400">CON</p>
+                                <p th:text="${abilityScores.constitution}">15</p>
+                            </div>
+                            <div class="p-3 rounded-lg border border-gray-800">
+                                <p class="text-gray-400">INT</p>
+                                <p th:text="${abilityScores.intelligence}">18</p>
+                            </div>
+                            <div class="p-3 rounded-lg border border-gray-800">
+                                <p class="text-gray-400">SAB</p>
+                                <p th:text="${abilityScores.wisdom}">15</p>
+                            </div>
+                            <div class="p-3 rounded-lg border border-gray-800">
+                                <p class="text-gray-400">CAR</p>
+                                <p th:text="${abilityScores.charisma}">18</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SAVING THROWS -->
+                    <div th:if="${monster.strengthSave != null or monster.dexteritySave != null or monster.constitutionSave != null or monster.intelligenceSave != null or monster.wisdomSave != null or monster.charismaSave != null}">
+                        <p class="text-sm text-gray-400 mb-2">Testes de Resistência</p>
+
+                        <div class="flex flex-wrap gap-2 text-xs">
+                            <span th:if="${monster.strengthSave != null}" class="px-3 py-1 rounded-full border border-gray-700">FOR <span class="text-gold" th:text="${monster.strengthSave}"></span></span>
+                            <span th:if="${monster.dexteritySave != null}" class="px-3 py-1 rounded-full border border-gray-700">DES <span class="text-gold" th:text="${monster.dexteritySave}"></span></span>
+                            <span th:if="${monster.constitutionSave != null}" class="px-3 py-1 rounded-full border border-gray-700">CON <span class="text-gold" th:text="${monster.constitutionSave}"></span></span>
+                            <span th:if="${monster.intelligenceSave != null}" class="px-3 py-1 rounded-full border border-gray-700">INT <span class="text-gold" th:text="${monster.intelligenceSave}"></span></span>
+                            <span th:if="${monster.wisdomSave != null}" class="px-3 py-1 rounded-full border border-gray-700">SAB <span class="text-gold" th:text="${monster.wisdomSave}"></span></span>
+                            <span th:if="${monster.charismaSave != null}" class="px-3 py-1 rounded-full border border-gray-700">CAR <span class="text-gold" th:text="${monster.charismaSave}"></span></span>
+                        </div>
+                    </div>
+
+                    <!-- SKILLS -->
+                    <div th:if="${monster.skills != null and !#maps.isEmpty(monster.skills)}">
+                        <p class="text-sm text-gray-400 mb-2">Habilidades</p>
+
+                        <div class="flex flex-wrap gap-2 text-xs">
+                            <span th:each="entry : ${monster.skills.entrySet()}"
+                                  class="px-3 py-1 rounded-full border border-gray-700 bg-black/20">
+                                <span th:text="${entry.key}">percepção</span>:
+                                <span class="text-gold" th:text="${entry.value}">10</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- SENTIDOS / IDIOMAS -->
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div th:if="${monster.senses != null and #strings.trim(monster.senses) != ''}"
+                             class="p-4 rounded-xl border border-gray-800">
+                            <p class="text-sm text-gray-400 mb-1">Sentidos</p>
+                            <p class="text-sm text-gray-200" th:text="${monster.senses}"></p>
+                        </div>
+
+                        <div th:if="${monster.languages != null and #strings.trim(monster.languages) != ''}"
+                             class="p-4 rounded-xl border border-gray-800">
+                            <p class="text-sm text-gray-400 mb-1">Idiomas</p>
+                            <p class="text-sm text-gray-200" th:text="${monster.languages}"></p>
+                        </div>
+                    </div>
+
+                    <!-- AMBIENTES -->
+                    <div th:if="${monster.environments != null and !#lists.isEmpty(monster.environments)}">
+                        <p class="text-sm text-gray-400 mb-2">Ambientes</p>
+
+                        <div class="flex flex-wrap gap-2">
+                            <span th:each="env : ${monster.environments}"
+                                  th:text="${env}"
+                                  class="px-3 py-1 text-xs border border-gold text-gold rounded-full">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RESISTÊNCIAS E IMUNIDADES -->
+                <div class="bg-card p-6 rounded-2xl border border-gray-800 space-y-4"
+                     th:if="${(monster.damageVulnerabilities != null and #strings.trim(monster.damageVulnerabilities) != '') or
+                             (monster.damageResistances != null and #strings.trim(monster.damageResistances) != '') or
+                             (monster.damageImmunities != null and #strings.trim(monster.damageImmunities) != '') or
+                             (monster.conditionImmunities != null and #strings.trim(monster.conditionImmunities) != '')}">
+
+                    <h2 class="text-xl text-gold">Defesas</h2>
+
+                    <div th:if="${monster.damageVulnerabilities != null and #strings.trim(monster.damageVulnerabilities) != ''}">
+                        <p class="text-sm text-gray-400 mb-1">Vulnerabilidades</p>
+                        <p class="text-sm text-gray-200" th:text="${monster.damageVulnerabilities}"></p>
+                    </div>
+
+                    <div th:if="${monster.damageResistances != null and #strings.trim(monster.damageResistances) != ''}">
+                        <p class="text-sm text-gray-400 mb-1">Resistências</p>
+                        <p class="text-sm text-gray-200" th:text="${monster.damageResistances}"></p>
+                    </div>
+
+                    <div th:if="${monster.damageImmunities != null and #strings.trim(monster.damageImmunities) != ''}">
+                        <p class="text-sm text-gray-400 mb-1">Imunidades a dano</p>
+                        <p class="text-sm text-gray-200" th:text="${monster.damageImmunities}"></p>
+                    </div>
+
+                    <div th:if="${monster.conditionImmunities != null and #strings.trim(monster.conditionImmunities) != ''}">
+                        <p class="text-sm text-gray-400 mb-1">Imunidades a condição</p>
+                        <p class="text-sm text-gray-200" th:text="${monster.conditionImmunities}"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESCRIÇÃO -->
+        <div th:if="${monster.desc != null and #strings.trim(monster.desc) != ''}"
+             class="mt-10 bg-card p-6 rounded-2xl border border-gray-800">
+            <h2 class="text-xl text-gold mb-4">Descrição</h2>
+            <p class="text-gray-300 leading-relaxed" th:utext="${monster.desc}"></p>
+        </div>
+
+        <!-- HABILIDADES ESPECIAIS -->
+        <div th:if="${monster.specialAbilities != null and !#lists.isEmpty(monster.specialAbilities)}"
+             class="mt-10 bg-card p-6 rounded-2xl border border-gray-800">
+            <h2 class="text-xl text-gold mb-4">Habilidades Especiais</h2>
+
+            <div class="space-y-4">
+                <div th:each="ability : ${monster.specialAbilities}">
+                    <p class="text-gold font-semibold" th:text="${ability.name}"></p>
+                    <p class="text-gray-300 text-sm leading-relaxed" th:utext="${ability.desc}"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESCRIÇÃO LENDÁRIA -->
+        <div th:if="${monster.legendaryDesc != null and #strings.trim(monster.legendaryDesc) != ''}"
+             class="mt-10 bg-card p-6 rounded-2xl border border-gray-800">
+            <h2 class="text-xl text-gold mb-4">Descrição Lendária</h2>
+            <p class="text-gray-300 leading-relaxed" th:utext="${monster.legendaryDesc}"></p>
+        </div>
+
+        <!-- AÇÕES -->
+        <div th:if="${monster.actions != null and !#lists.isEmpty(monster.actions)}"
+             class="mt-10 bg-card p-6 rounded-2xl border border-gray-800">
+            <h2 class="text-xl text-gold mb-4">Ações</h2>
+
+            <div class="space-y-4">
+                <div th:each="action : ${monster.actions}">
+                    <p class="text-gold font-semibold" th:text="${action.name}"></p>
+                    <p class="text-gray-300 text-sm leading-relaxed" th:utext="${action.desc}"></p>
+
+                    <div class="flex flex-wrap gap-2 mt-2 text-xs"
+                         th:if="${action.attackBonus != null or action.damageDice != null or action.damageBonus != null}">
+                        <span th:if="${action.attackBonus != null}" class="px-2 py-1 rounded border border-gray-700">
+                            Ataque Bônus:
+                            <span class="text-gold" th:text="${action.attackBonus}"></span>
+                        </span>
+                        <span th:if="${action.damageDice != null and #strings.trim(action.damageDice) != ''}" class="px-2 py-1 rounded border border-gray-700">
+                            Dados de Dano:
+                            <span class="text-gold" th:text="${action.damageDice}"></span>
+                        </span>
+                        <span th:if="${action.damageBonus != null}" class="px-2 py-1 rounded border border-gray-700">
+                            Bônus de Dano:
+                            <span class="text-gold" th:text="${action.damageBonus}"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AÇÕES LENDÁRIAS -->
+        <div th:if="${monster.legendaryActions != null and !#lists.isEmpty(monster.legendaryActions)}"
+             class="mt-10 bg-card p-6 rounded-2xl border border-gray-800">
+            <h2 class="text-xl text-gold mb-4">Ações Lendárias</h2>
+
+            <div class="space-y-4">
+                <div th:each="action : ${monster.legendaryActions}">
+                    <p class="text-gold font-semibold" th:text="${action.name}"></p>
+                    <p class="text-gray-300 text-sm leading-relaxed" th:utext="${action.desc}"></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+</html>

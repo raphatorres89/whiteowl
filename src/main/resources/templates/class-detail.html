@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('Whiteowl - Classe', ~{::section})}">
+
+<section>
+    <div class="max-w-6xl mx-auto px-4 py-10">
+
+        <!-- HEADER -->
+        <div class="mb-8">
+            <div class="flex items-center gap-4 mb-2">
+                <img th:src="@{'/images/classes/' + ${characterClass.slug} + '.png'}"
+                     th:alt="${characterClass.name}"
+                     class="w-10 h-10 md:w-20 md:h-20 object-contain">
+
+                <h1 class="text-3xl md:text-5xl text-gold"
+                    th:text="${characterClass.name}">
+                    Bárbaro
+                </h1>
+            </div>
+
+            <p class="text-gray-400"
+               th:text="${characterClass.hitDice}">
+                1d12
+            </p>
+        </div>
+
+        <!-- RESUMO -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">Dado de Vida</p>
+                <p class="text-lg text-gold" th:text="${characterClass.hitDice}">1d12</p>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">PV no 1º nível</p>
+                <p class="text-gray-200" th:text="${characterClass.hpAt1stLevel}">
+                    12 + seu modificador de Constituição
+                </p>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">PV em níveis superiores</p>
+                <p class="text-gray-200" th:text="${characterClass.hpAtHigherLevels}">
+                    1d12 (ou 7) + seu modificador de Constituição por nível
+                </p>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">Armaduras</p>
+                <p class="text-gray-200" th:text="${characterClass.profArmor}">
+                    Armaduras leves, armaduras médias, escudos
+                </p>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">Armas</p>
+                <p class="text-gray-200" th:text="${characterClass.profWeapons}">
+                    Armas simples, armas marciais
+                </p>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">Ferramentas</p>
+                <p class="text-gray-200" th:text="${characterClass.profTools}">
+                    Nenhuma
+                </p>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">Testes de Resistência</p>
+                <p class="text-gray-200" th:text="${characterClass.profSavingThrows}">
+                    Força, Constituição
+                </p>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-5 md:col-span-2">
+                <p class="text-sm text-gray-400 mb-2">Perícias</p>
+                <p class="text-gray-200" th:text="${characterClass.profSkills}">
+                    Escolha duas entre...
+                </p>
+            </div>
+
+            <div th:if="${characterClass.spellcastingAbility != null and !#strings.isEmpty(characterClass.spellcastingAbility)}"
+                 class="bg-card border border-gray-800 rounded-2xl p-5">
+                <p class="text-sm text-gray-400 mb-2">Atributo de Magia</p>
+                <p class="text-gray-200" th:text="${characterClass.spellcastingAbility}">
+                    Sabedoria
+                </p>
+            </div>
+        </div>
+
+        <!-- DESCRIÇÃO -->
+        <div class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8 mb-10">
+            <h2 class="text-2xl text-gold mb-4">Descrição</h2>
+
+            <div class="rich-text" th:utext="${characterClass.descHtml}">
+                Descrição da classe...
+            </div>
+        </div>
+
+        <!-- EQUIPAMENTO -->
+        <div th:if="${characterClass.equipmentHtml() != null and !#strings.isEmpty(characterClass.equipmentHtml())}"
+             class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8 mb-10">
+            <h2 class="text-2xl text-gold mb-4">Equipamento Inicial</h2>
+
+            <div class="rich-text" th:utext="${characterClass.equipmentHtml}">
+                Equipamento inicial...
+            </div>
+        </div>
+
+        <!-- TABELA DA CLASSE -->
+        <div th:if="${characterClass.tableHtml() != null and !#strings.isEmpty(characterClass.tableHtml())}"
+             class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8 mb-10">
+            <h2 class="text-2xl text-gold mb-4">Progressão da Classe</h2>
+
+            <div th:utext="${characterClass.tableHtml()}"></div>
+        </div>
+
+        <!-- ARQUÉTIPOS -->
+        <div th:if="${characterClass.archetypes != null and !#lists.isEmpty(characterClass.archetypes)}"
+             class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8">
+            <h2 class="text-2xl text-gold mb-2"
+                th:text="${characterClass.subtypesName != null and !#strings.isEmpty(characterClass.subtypesName) ? characterClass.subtypesName : 'Arquétipos'}">
+                Caminhos Primais
+            </h2>
+
+            <p class="text-gray-400 mb-6">
+                Escolha um caminho para definir o estilo e as especializações da classe.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div th:each="archetype : ${characterClass.archetypes}"
+                     class="rich-text border border-gray-800 rounded-2xl p-5 bg-black/20 hover-glow transition">
+
+                    <h3 class="text-xl text-gold mb-2"
+                        th:text="${archetype.name}">
+                        Caminho do Berserker
+                    </h3>
+
+                    <p class="text-gray-300 mb-4"
+                       th:utext="${archetype.descHtml}">
+                        Descrição do arquétipo...
+                    </p>
+
+                    <div class="space-y-1 text-sm text-gray-400">
+                        <p th:if="${archetype.documentTitle != null and !#strings.isEmpty(archetype.documentTitle)}">
+                            <span class="text-gray-500">Documento:</span>
+                            <span th:text="${archetype.documentTitle}">5e Core Rules</span>
+                        </p>
+
+                        <p th:if="${archetype.documentSlug != null and !#strings.isEmpty(archetype.documentSlug)}">
+                            <span class="text-gray-500">Fonte:</span>
+                            <span th:text="${archetype.documentSlug}">wotc-srd</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+</html>
