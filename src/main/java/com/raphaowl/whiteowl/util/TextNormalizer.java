@@ -12,7 +12,7 @@ public final class TextNormalizer {
 
         String normalized = text.replace("\r\n", "\n");
 
-        normalized = normalized.replace("/n", "\n");
+//        normalized = normalized.replace("/n", "\n");
         normalized = normalized.replaceAll("([^\n])\\s+(#{1,6}\\s+)", "$1\n$2");
         normalized = normalized.replaceAll("(?m)^\\*\\s+", "- ");
         normalized = normalized.replaceAll("(?m)[ \t]+$", "");

@@ -26,6 +26,19 @@
     color: #f8e7b0;
 }
 
+/*Hiperlinks*/
+.rich-text a {
+    color: #c9a96e;
+    text-decoration: underline;
+    text-decoration-color: rgba(201, 169, 110, 0.4);
+    transition: all 0.2s ease;
+}
+
+.rich-text a:hover {
+    color: #f3e7c2;
+    text-decoration-color: #f3e7c2;
+}
+
 /* Parágrafos */
 .rich-text p {
     margin: 0.75rem 0 1rem;

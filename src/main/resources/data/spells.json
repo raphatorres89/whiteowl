@@ -466,7 +466,7 @@
   {
     "slug": "arcane-lock",
     "name": "Tranca Arcana",
-    "desc": "Você toca uma porta, janela, portão, baú ou outra entrada fechada, e ela fica trancada pela duração. Você e as criaturas que designar ao lançar esta magia podem abrir o objeto normalmente. Você também pode definir uma palavra-passe que, quando pronunciada a até 1,5 metro do objeto, suprime esta magia por 1 minuto. Caso contrário, ela fica intransponível até ser quebrada ou até a magia ser dissipada ou suprimida. Lançar knock no objeto suprime tranca arcana por 10 minutos. Enquanto estiver afetado por esta magia, o objeto fica mais difícil de quebrar ou forçar para abrir; a CD para quebrá-lo ou abrir quaisquer fechaduras nele aumenta em 10.",
+    "desc": "Você toca uma porta, janela, portão, baú ou outra entrada fechada, e ela fica trancada pela duração. Você e as criaturas que designar ao lançar esta magia podem abrir o objeto normalmente. Você também pode definir uma palavra-passe que, quando pronunciada a até 1,5 metro do objeto, suprime esta magia por 1 minuto. Caso contrário, ela fica intransponível até ser quebrada ou até a magia ser dissipada ou suprimida. Lançar Bater no objeto suprime tranca arcana por 10 minutos. Enquanto estiver afetado por esta magia, o objeto fica mais difícil de quebrar ou forçar para abrir; a CD para quebrá-lo ou abrir quaisquer fechaduras nele aumenta em 10.",
     "higher_level": "",
     "page": "phb 215",
     "range": "Toque",
@@ -1284,7 +1284,7 @@
   },
   {
     "slug": "clairvoyance",
-    "name": "Clairvoyance",
+    "name": "Clarividência",
     "desc": "Você cria um sensor invisível dentro do alcance em um local familiar para você (um lugar que você já visitou ou viu antes) ou em um local óbvio que não lhe seja familiar (como atrás de uma porta, na esquina ou em um bosque). O sensor permanece no lugar pela duração, e não pode ser atacado nem sofrer qualquer outra interação. Quando você conjura a magia, escolhe visão ou audição. Você pode usar o sentido escolhido através do sensor como se estivesse no espaço dele. Com sua ação, você pode alternar entre visão e audição. Uma criatura que possa ver o sensor (como uma criatura sob o efeito de ver invisibilidade ou visão verdadeira) vê um orbe luminoso e intangível, aproximadamente do tamanho do seu punho.",
     "higher_level": "",
     "page": "phb 222",
@@ -1380,7 +1380,7 @@
   },
   {
     "slug": "color-spray",
-    "name": "Spray de Cor",
+    "name": "Leque Cromático",
     "desc": "Uma deslumbrante profusão de luzes coloridas e cintilantes brota da sua mão. Role 6d10; o total é quantos pontos de vida de criaturas esta magia pode afetar. Criaturas em um cone de 4,5 metros originado em você são afetadas em ordem crescente de seus pontos de vida atuais (ignorando criaturas inconscientes e criaturas que não podem ver). Começando pela criatura com menos pontos de vida atuais, cada criatura afetada por esta magia fica cega até o fim da magia. Subtraia os pontos de vida de cada criatura do total antes de passar para a criatura com a próxima menor quantidade de pontos de vida. Os pontos de vida de uma criatura devem ser iguais ou menores que o total restante para que essa criatura seja afetada.",
     "higher_level": "Quando você conjura esta magia usando um espaço de magia de 2º nível ou superior, role 2d10 adicionais para cada nível do espaço acima do 1º.",
     "page": "phb 222",
@@ -1472,7 +1472,7 @@
   },
   {
     "slug": "commune-with-nature",
-    "name": "Comungar com a Natureza",
+    "name": "Comunhão com a Natureza",
     "desc": "Você brevemente se torna uno com a natureza e adquire conhecimento sobre o território ao redor. Ao ar livre, a magia lhe dá conhecimento da terra em um raio de 5 km de você. Em cavernas e outros ambientes subterrâneos naturais, o raio é limitado a 90 metros. A magia não funciona onde a natureza foi substituída por construções, como em masmorras e cidades. Você instantaneamente adquire conhecimento de até três fatos, à sua escolha, sobre qualquer um dos seguintes assuntos, conforme se relacionem à área: \n- terreno e corpos d'água \n- plantas, minerais, animais ou povos predominantes \n- celestiais, feéricos, corruptores, elementais ou mortos-vivos poderosos \n- influência de outros planos de existência \n- construções Por exemplo, você poderia determinar a localização de mortos-vivos poderosos na área, a localização de grandes fontes de água potável segura e a localização de quaisquer cidades próximas.",
     "higher_level": "",
     "page": "phb 224",
@@ -3974,7 +3974,7 @@
   },
   {
     "slug": "fog-cloud",
-    "name": "Névoa Obscurecente",
+    "name": "Núvem de Névoa",
     "desc": "Você cria uma esfera de névoa com raio de 6 metros, centrada em um ponto dentro do alcance. A esfera se espalha ao redor de cantos, e sua área fica fortemente obscurecida. Ela dura pela duração ou até que um vento de velocidade moderada ou maior (pelo menos 16 km por hora) a disperse.",
     "higher_level": "Quando você conjura esta magia usando um espaço de magia de 2º nível ou superior, o raio da névoa aumenta em 6 metros para cada nível do espaço acima do 1º.",
     "page": "phb 243",
@@ -5555,7 +5555,7 @@
   },
   {
     "slug": "knock",
-    "name": "Nocaute",
+    "name": "Bater",
     "desc": "Escolha um objeto que você possa ver dentro do alcance. O objeto pode ser uma porta, uma caixa, um baú, um conjunto de algemas, um cadeado ou outro objeto que contenha um meio mundano ou mágico que impeça o acesso. Um alvo que esteja fechado por uma fechadura mundana, ou que esteja emperrado ou travado, fica destrancado, destravado ou desemperrado. Se o objeto tiver várias fechaduras, apenas uma delas é destrancada. Se você escolher um alvo que esteja fechado com tranca arcana, essa magia é suprimida por 10 minutos, durante os quais o alvo pode ser aberto e fechado normalmente. Quando você conjura a magia, uma batida alta, audível a até 90 metros de distância, emana do objeto alvo.",
     "higher_level": "",
     "page": "phb 254",
@@ -6735,7 +6735,7 @@
   },
   {
     "slug": "nondetection",
-    "name": "Indetecção",
+    "name": "Indetectável",
     "desc": "Pela duração, você oculta da magia de adivinhação um alvo que tocar. O alvo pode ser uma criatura voluntária, um local ou um objeto com no máximo 3 metros em qualquer dimensão. O alvo não pode ser escolhido como alvo por nenhuma magia de adivinhação nem percebido por sensores mágicos de vidência.",
     "higher_level": "",
     "page": "phb 263",
@@ -8124,7 +8124,7 @@
   },
   {
     "slug": "seeming",
-    "name": "Semblante",
+    "name": "Aparência Ilusória",
     "desc": "Esta magia permite que você altere a aparência de qualquer número de criaturas que você possa ver dentro do alcance. Você dá a cada alvo escolhido uma nova aparência ilusória. Um alvo involuntário pode fazer um teste de resistência de Carisma e, se for bem-sucedido, não é afetado por esta magia. A magia disfarça a aparência física, bem como roupas, armadura, armas e equipamentos. Você pode fazer cada criatura parecer 30 centímetros mais baixa ou mais alta e parecer magra, gorda ou algo intermediário. Você não pode mudar o tipo corporal de um alvo, então deve escolher uma forma que tenha a mesma disposição básica de membros. Fora isso, a extensão da ilusão fica a seu critério. A magia dura pela duração, a menos que você use sua ação para encerrá-la antes. As alterações produzidas por esta magia não resistem à inspeção física. Por exemplo, se você usar esta magia para adicionar um chapéu ao traje de uma criatura, os objetos atravessam o chapéu, e qualquer um que o toque não sentiria nada ou sentiria a cabeça e o cabelo da criatura. Se você usar esta magia para parecer mais magro do que é, a mão de alguém que tentasse tocar você esbarraria em você enquanto aparentemente ainda estaria no ar. Uma criatura pode usar sua ação para inspecionar um alvo e fazer um teste de Inteligência (Investigação) contra a CD de resistência da sua magia. Se for bem-sucedida, ela percebe que o alvo está disfarçado.",
     "higher_level": "",
     "page": "phb 274",
@@ -8251,7 +8251,7 @@
   },
   {
     "slug": "shatter",
-    "name": "Despedaçar",
+    "name": "Estilhaçar",
     "desc": "Um ruído estridente e repentino, dolorosamente intenso, irrompe de um ponto à sua escolha dentro do alcance. Cada criatura em uma esfera de 3 metros de raio centrada nesse ponto deve fazer um teste de resistência de Constituição. Uma criatura sofre 3d8 de dano trovejante se falhar na resistência, ou metade desse dano se obtiver sucesso. Uma criatura feita de material inorgânico, como pedra, cristal ou metal, tem desvantagem nesse teste de resistência. Um objeto não mágico que não esteja sendo vestido nem carregado também sofre o dano se estiver na área da magia.",
     "higher_level": "Quando você conjura esta magia usando um espaço de magia de 3º nível ou superior, o dano aumenta em 1d8 para cada nível do espaço acima do 2º.",
     "page": "phb 275",
@@ -9427,7 +9427,7 @@
   },
   {
     "slug": "tree-stride",
-    "name": "Passo Arbóreo",
+    "name": "Caminhar Pelas Árvores",
     "desc": "Você ganha a habilidade de entrar em uma árvore e se mover de dentro dela para dentro de outra árvore do mesmo tipo a até 150 metros. Ambas as árvores devem estar vivas e ter pelo menos o mesmo tamanho que você. Você deve usar 1,5 metro de deslocamento para entrar em uma árvore. Você instantaneamente sabe a localização de todas as outras árvores do mesmo tipo em um raio de 150 metros e, como parte do movimento usado para entrar na árvore, pode tanto passar para uma dessas árvores quanto sair da árvore em que está. Você aparece em um espaço à sua escolha a até 1,5 metro da árvore de destino, usando mais 1,5 metro de deslocamento. Se você não tiver deslocamento restante, aparece a até 1,5 metro da árvore em que entrou. Você pode usar essa habilidade de transporte uma vez por rodada durante a duração. Você deve terminar cada turno fora de uma árvore.",
     "higher_level": "",
     "page": "phb 283",
@@ -9522,7 +9522,7 @@
   },
   {
     "slug": "true-seeing",
-    "name": "Visão da Verdade",
+    "name": "Visão Verdadeira",
     "desc": "Esta magia concede à criatura voluntária que você tocar a capacidade de ver as coisas como elas realmente são. Pela duração, a criatura tem visão verdadeira, percebe portas secretas ocultas por magia e pode ver o Plano Etéreo, tudo em um alcance de 36 metros.",
     "higher_level": "",
     "page": "phb 284",

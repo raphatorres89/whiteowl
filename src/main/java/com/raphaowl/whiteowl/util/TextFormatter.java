@@ -312,6 +312,12 @@ public final class TextFormatter {
 
         String escaped = escapeHtml(normalized);
 
+        // [texto](url) -> link
+        escaped = escaped.replaceAll(
+                "\\[([^\\]]+)]\\(([^)]+)\\)",
+                "<a href=\"$2\">$1</a>"
+        );
+
         // Restaura as quebras
         escaped = escaped.replace("%%BR%%", "<br>");
 
