@@ -3,6 +3,7 @@ package com.raphaowl.whiteowl.controller;
 import java.util.List;
 
 import com.raphaowl.whiteowl.controller.mapper.CharacterClassMapper;
+import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
 import com.raphaowl.whiteowl.model.CharacterClass;
 import com.raphaowl.whiteowl.service.CharacterClassService;
 
@@ -29,6 +30,10 @@ public class CharacterClassController {
                 .map(characterClassMapper::toSummaryView)
                 .toList();
         model.addAttribute("classes", characterClassSummaryViewList);
+
+        model.addAttribute("breadcrumbs", List.of(
+                new BreadcrumbItem("Classes", null)
+        ));
         return "classes";
     }
 
@@ -38,6 +43,11 @@ public class CharacterClassController {
         var characterClassView = characterClassMapper.toView(characterClass);
 
         model.addAttribute("characterClass", characterClassView);
+
+        model.addAttribute("breadcrumbs", List.of(
+                new BreadcrumbItem("Classes", "/classes"),
+                new BreadcrumbItem(characterClass.name(), null)
+        ));
         return "class-detail";
     }
 }

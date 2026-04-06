@@ -1,9 +1,11 @@
 package com.raphaowl.whiteowl.controller;
 
+import java.util.List;
 import java.util.Optional;
 
 import com.raphaowl.whiteowl.controller.mapper.MonsterMapper;
 import com.raphaowl.whiteowl.controller.view.AbilityScoresView;
+import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
 import com.raphaowl.whiteowl.controller.view.MonsterView;
 import com.raphaowl.whiteowl.model.Monster;
 import com.raphaowl.whiteowl.model.MonsterFilter;
@@ -44,6 +46,11 @@ public class MonsterController {
                 DndStatUtils.formatScore(monster.wisdom()),
                 DndStatUtils.formatScore(monster.charisma())
         ));
+
+        model.addAttribute("breadcrumbs", List.of(
+                new BreadcrumbItem("Monstros", "/monsters"),
+                new BreadcrumbItem(monster.name(), null)
+        ));
         return "monster-detail";
     }
 
@@ -63,6 +70,9 @@ public class MonsterController {
         model.addAttribute("environments", monsterService.findAllEnvironments());
         model.addAttribute("alignments", monsterService.findAllAlignments());
 
+        model.addAttribute("breadcrumbs", List.of(
+                new BreadcrumbItem("Monstros", null)
+        ));
         return "monsters";
     }
 }
