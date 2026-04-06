@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+<body>
+    <nav th:fragment="breadcrumb(items)" aria-label="breadcrumb" class="wo-breadcrumb">
+        <a th:href="@{/}" class="wo-breadcrumb-link">Início</a>
+
+        <th:block th:each="item, iterStat : ${items}">
+            <span class="wo-breadcrumb-separator">></span>
+
+            <a th:if="${!iterStat.last and item.url != null}"
+               th:href="${item.url}"
+               class="wo-breadcrumb-link"
+               th:text="${item.label}">
+            </a>
+
+            <span th:if="${iterStat.last or item.url == null}"
+                  class="wo-breadcrumb-current"
+                  th:text="${item.label}">
+            </span>
+        </th:block>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/*Race image*/
+.race-hero-image {
+    display: block;
+    max-height: 520px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 14px 30px rgba(0, 0, 0, 0.55));
+}
+
+@media (max-width: 1024px) {
+    .race-hero-image {
+        max-height: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .race-hero-image {
+        max-height: 360px;
+    }
+}
+
+/*Breadcrumbs*/
+.wo-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.wo-breadcrumb-link {
+    color: #cdbd92;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.wo-breadcrumb-link:hover {
+    color: #f5e7bf;
+    text-decoration: underline;
+}
+
+.wo-breadcrumb-separator {
+    color: rgba(255, 255, 255, 0.35);
+    user-select: none;
+}
+
+.wo-breadcrumb-current {
+    color: #f5e7bf;
+    font-weight: 600;
+}

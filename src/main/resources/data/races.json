@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Draconato",
+    "slug": "dragonborn",
+    "desc": "## Traços do Draconato\nSua herança dracônica se manifesta em uma variedade de traços que você compartilha com outros draconatos.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Força aumenta em 2, e seu valor de Carisma aumenta em 1.",
+    "asi": [
+      {
+        "attributes": [
+          "Strength"
+        ],
+        "value": 2
+      },
+      {
+        "attributes": [
+          "Charisma"
+        ],
+        "value": 1
+      }
+    ],
+    "age": "***Idade.*** Jovens draconatos crescem rapidamente. Eles andam poucas horas após a eclosão, atingem o tamanho e desenvolvimento de uma criança humana de 10 anos aos 3 anos de idade e alcançam a idade adulta aos 15. Vivem até cerca de 80 anos.",
+    "alignment": "***Tendência.*** Draconatos tendem a extremos, fazendo uma escolha consciente por um lado ou outro na guerra cósmica entre o bem e o mal. A maioria dos draconatos é boa, mas aqueles que se alinham ao mal podem ser vilões terríveis.",
+    "size": "***Tamanho.*** Draconatos são mais altos e pesados que humanos, medindo bem mais de 1,8 metro de altura e pesando em média quase 113 kg. Seu tamanho é Médio.",
+    "size_raw": "Médio",
+    "speed": {
+      "walk": 9
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 9 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e Dracônico. O Dracônico é considerado um dos idiomas mais antigos e é frequentemente usado no estudo da magia. A língua soa áspera para a maioria das outras criaturas e inclui numerosas consoantes duras e sibilantes.",
+    "vision": "",
+    "traits": "**Ascendência Dracônica** \n\n| Dragão       | Tipo de Dano       | Arma de Sopro                |\n|--------------|-------------------|------------------------------|\n| Negro        | Ácido              | linha de 1,5 por 9 m (teste de Des.) |\n| Azul         | Elétrico         | linha de 1,5 por 9 m (teste de Des.) |\n| Latão        | Fogo              | linha de 1,5 por 9 m (teste de Des.) |\n| Bronze       | Elétrico         | linha de 1,5 por 9 m (teste de Des.) |\n| Cobre        | Ácido              | linha de 1,5 por 9 m (teste de Des.) |\n| Dourado         | Fogo              | cone de 4,5 m (teste de Des.)      |\n| Verde        | Veneno            | cone de 4,5 m (teste de Con.)      |\n| Vermelho          | Fogo              | cone de 4,5 m (teste de Des.)      |\n| Prateado       | Frio              | cone de 4,5 m (teste de Con.)      |\n| Branco        | Frio              | cone de 4,5 m (teste de Con.)      |\n\n\n***Ascendência Dracônica.*** Você possui ascendência dracônica. Escolha um tipo de dragão da tabela de Ascendência Dracônica. Sua arma de sopro e resistência a dano são determinadas pelo tipo de dragão, conforme mostrado na tabela.\n\n***Arma de Sopro.*** Você pode usar sua ação para exalar energia destrutiva. Sua ascendência dracônica determina o tamanho, a forma e o tipo de dano da exalação.\nQuando você usa sua arma de sopro, cada criatura na área da exalação deve fazer um teste de resistência, cujo tipo é determinado por sua ascendência dracônica. A CD desse teste de resistência é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em caso de falha e metade desse dano em caso de sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível.\nApós usar sua arma de sopro, você não pode usá-la novamente até completar um descanso curto ou longo.\n\n***Resistência a Dano.*** Você possui resistência ao tipo de dano associado à sua ascendência dracônica.",
+    "subraces": [],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Anão",
+    "slug": "dwarf",
+    "desc": "## Traços do Anão\nSeu personagem anão possui uma variedade de habilidades inatas, parte integrante da natureza anã.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Constituição aumenta em 2.",
+    "asi": [
+      {
+        "attributes": [
+          "Constitution"
+        ],
+        "value": 2
+      }
+    ],
+    "age": "***Idade.*** Anões amadurecem na mesma taxa que humanos, mas são considerados jovens até atingirem 50 anos. Em média, vivem cerca de 350 anos.",
+    "alignment": "***Tendência.*** A maioria dos anões é leal, acreditando firmemente nos benefícios de uma sociedade bem ordenada. Também tendem ao bem, com um forte senso de justiça e a crença de que todos merecem compartilhar dos benefícios de uma ordem justa.",
+    "size": "***Tamanho.*** Anões medem entre 1,2 e 1,5 metro de altura e pesam em média cerca de 68 kg. Seu tamanho é Médio.",
+    "size_raw": "Médio",
+    "speed": {
+      "walk": 7.5
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 7,5 metros. Seu deslocamento não é reduzido ao usar armadura pesada.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e Anão. O idioma Anão é repleto de consoantes duras e sons guturais, e essas características se refletem em qualquer outro idioma que um anão fale.",
+    "vision": "***Visão no Escuro.*** Acostumado à vida subterrânea, você possui visão superior em condições de pouca luz e escuridão. Você pode enxergar na penumbra a até 18 metros como se fosse luz plena, e na escuridão como se fosse penumbra. Você não pode discernir cores na escuridão, apenas tons de cinza.",
+    "traits": "***Resiliência Anã.*** Você tem vantagem em testes de resistência contra veneno e possui resistência a dano de veneno.\n\n***Treinamento de Combate Anão.*** Você possui proficiência com machado de batalha, machado de mão, martelo leve e martelo de guerra.\n\n***Proficiência com Ferramentas.*** Você ganha proficiência com ferramentas de artesão à sua escolha: ferramentas de ferreiro, suprimentos de cervejeiro ou ferramentas de pedreiro.\n\n***Especialista em Pedra.*** Sempre que você fizer um teste de Inteligência (História) relacionado à origem de trabalhos em pedra, é considerado proficiente na perícia História e adiciona o dobro do seu bônus de proficiência ao teste, em vez do bônus normal.",
+    "subraces": [
+      {
+        "name": "Anão da Colina",
+        "slug": "hill-dwarf",
+        "desc": "Como um anão da colina, você possui sentidos aguçados, intuição profunda e notável resistência.",
+        "asi": [
+          {
+            "attributes": [
+              "Wisdom"
+            ],
+            "value": 1
+          }
+        ],
+        "traits": "***Robustez Anã.*** Seu máximo de pontos de vida aumenta em 1, e aumenta em 1 sempre que você ganha um nível.",
+        "asi_desc": "***Aumento de Atributo.*** Seu valor de Sabedoria aumenta em 1",
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+      }
+    ],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Elfo",
+    "slug": "elf",
+    "desc": "## Traços do Elfo\nSeu personagem elfo possui uma variedade de habilidades naturais, resultado de milhares de anos de refinamento élfico.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Destreza aumenta em 2.",
+    "asi": [
+      {
+        "attributes": [
+          "Dexterity"
+        ],
+        "value": 2
+      }
+    ],
+    "age": "***Idade.*** Embora elfos atinjam maturidade física aproximadamente na mesma idade que humanos, a compreensão élfica de idade adulta vai além do crescimento físico, abrangendo experiência de vida. Um elfo normalmente se considera adulto e adota um nome adulto por volta dos 100 anos e pode viver até cerca de 750 anos.",
+    "alignment": "***Tendência.*** Elfos amam a liberdade, a variedade e a autoexpressão, por isso tendem fortemente aos aspectos mais suaves do caos. Eles valorizam e protegem a liberdade dos outros tanto quanto a sua própria, e são mais frequentemente bons do que não. Os drow são uma exceção; seu exílio os tornou cruéis e perigosos. Drow são mais frequentemente maus do que não.",
+    "size": "***Tamanho.*** Elfos variam de menos de 1,5 metro a mais de 1,8 metro de altura e possuem constituição esguia. Seu tamanho é Médio.",
+    "size_raw": "Médio",
+    "speed": {
+      "walk": 9
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 9 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e Élfico. O Élfico é fluido, com entonações sutis e gramática intrincada. A literatura élfica é rica e variada, e suas canções e poemas são famosos entre outras raças. Muitos bardos aprendem o idioma para incluir baladas élficas em seus repertórios.",
+    "vision": "***Visão no Escuro.*** Acostumado a florestas crepusculares e ao céu noturno, você possui visão superior em condições de pouca luz e escuridão. Você pode enxergar na penumbra a até 18 metros como se fosse luz plena, e na escuridão como se fosse penumbra. Você não pode discernir cores na escuridão, apenas tons de cinza.",
+    "traits": "***Sentidos Aguçados.*** Você possui proficiência na perícia Percepção.\n\n***Ascendência Feérica.*** Você tem vantagem em testes de resistência contra ser enfeitiçado, e magia não pode colocá-lo para dormir.\n\n***Transe.*** Elfos não precisam dormir. Em vez disso, meditam profundamente, permanecendo semiconscientes, por 4 horas por dia. (A palavra em Comum para essa meditação é “transe”.) Enquanto medita, você pode sonhar de certa forma; esses sonhos são na verdade exercícios mentais que se tornaram reflexivos ao longo dos anos de prática.\nApós descansar dessa forma, você obtém o mesmo benefício que um humano obtém com 8 horas de sono.",
+    "subraces": [
+      {
+        "name": "Alto Elfo",
+        "slug": "high-elf",
+        "desc": "Como um alto elfo, você possui uma mente aguçada e domínio ao menos dos fundamentos da magia. Em muitos mundos de fantasia, existem dois tipos de altos elfos. Um tipo é altivo e recluso, acreditando ser superior aos não elfos e até a outros elfos. O outro tipo é mais comum e mais amigável, sendo frequentemente encontrado entre humanos e outras raças.",
+        "asi": [
+          {
+            "attributes": [
+              "Intelligence"
+            ],
+            "value": 1
+          }
+        ],
+        "traits": "***Treinamento em Armas Élficas.*** Você possui proficiência com espada longa, espada curta, arco curto e arco longo.\n\n***Truque.*** Você conhece um truque de sua escolha da lista de magias de mago. Inteligência é sua habilidade de conjuração para ele.\n\n***Idioma Extra.*** Você pode falar, ler e escrever um idioma adicional à sua escolha.",
+        "asi_desc": "***Aumento de Atributo.*** Seu valor de Inteligência aumenta em 1.",
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+      }
+    ],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Gnomo",
+    "slug": "gnome",
+    "desc": "## Traços do Gnomo\nSeu personagem gnomo possui certas características em comum com todos os outros gnomos.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Inteligência aumenta em 2.",
+    "asi": [
+      {
+        "attributes": [
+          "Intelligence"
+        ],
+        "value": 2
+      }
+    ],
+    "age": "***Idade.*** Gnomos amadurecem na mesma taxa que humanos, e a maioria é esperada a se estabelecer na vida adulta por volta dos 40 anos. Eles podem viver de 350 até quase 500 anos.",
+    "alignment": "***Tendência.*** Gnomos são mais frequentemente bons. Aqueles que tendem à ordem são sábios, engenheiros, pesquisadores, estudiosos, investigadores ou inventores. Aqueles que tendem ao caos são menestréis, trapaceiros, andarilhos ou joalheiros excêntricos. Gnomos têm bom coração, e até mesmo os trapaceiros entre eles são mais brincalhões do que maliciosos.",
+    "size": "***Tamanho.*** Gnomos têm entre 0,9 e 1,2 metro de altura e pesam em média cerca de 18 kg. Seu tamanho é Pequeno.",
+    "size_raw": "Pequeno",
+    "speed": {
+      "walk": 7.5
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 7,5 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e Gnômico. O idioma Gnômico, que usa o alfabeto anão, é conhecido por seus tratados técnicos e seus registros de conhecimento sobre o mundo natural.",
+    "vision": "***Visão no Escuro.*** Acostumado à vida subterrânea, você possui visão superior em condições de pouca luz e escuridão. Você pode enxergar na penumbra a até 18 metros como se fosse luz plena, e na escuridão como se fosse penumbra. Você não pode discernir cores na escuridão, apenas tons de cinza.",
+    "traits": "***Astúcia Gnômica.*** Você tem vantagem em todos os testes de resistência de Inteligência, Sabedoria e Carisma contra magia.",
+    "subraces": [
+      {
+        "name": "Gnomo das Rochas",
+        "slug": "rock-gnome",
+        "desc": "Como um gnomo das rochas, você possui uma inventividade natural e resistência acima da dos outros gnomos.",
+        "asi": [
+          {
+            "attributes": [
+              "Constitution"
+            ],
+            "value": 1
+          }
+        ],
+        "traits": "***Conhecimento de Artífice.*** Sempre que você fizer um teste de Inteligência (História) relacionado a itens mágicos, objetos alquímicos ou dispositivos tecnológicos, pode adicionar o dobro do seu bônus de proficiência, em vez de qualquer bônus de proficiência que normalmente aplicaria.\n\n***Engenhoqueiro.*** Você possui proficiência com ferramentas de artesão (ferramentas de engenhoqueiro). Usando essas ferramentas, você pode gastar 1 hora e 10 po em materiais para construir um pequeno dispositivo mecânico Minúsculo (CA 5, 1 PV). O dispositivo deixa de funcionar após 24 horas (a menos que você gaste 1 hora reparando-o para mantê-lo funcionando), ou quando você usa sua ação para desmontá-lo; nesse momento, você pode recuperar os materiais usados para criá-lo. Você pode ter até três desses dispositivos ativos ao mesmo tempo.\nAo criar um dispositivo, escolha uma das seguintes opções:\n* *Brinquedo Mecânico.* Este brinquedo é um animal, monstro ou pessoa mecânica, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo se move 1,5 metro pelo chão em cada um dos seus turnos em uma direção aleatória. Ele emite sons apropriados à criatura que representa.\n* *Acendedor de Fogo.* O dispositivo produz uma pequena chama, que você pode usar para acender uma vela, tocha ou fogueira. Usar o dispositivo requer sua ação.\n* *Caixa de Música.* Quando aberta, esta caixa de música toca uma única canção em volume moderado. A caixa para de tocar quando a música termina ou quando é fechada.",
+        "asi_desc": "***Aumento de Atributo.*** Seu valor de Constituição aumenta em 1.",
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+      }
+    ],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Meio-Elfo",
+    "slug": "half-elf",
+    "desc": "## Traços do Meio-Elfo\nSeu personagem meio-elfo possui algumas qualidades em comum com os elfos e outras que são únicas dos meio-elfos.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Carisma aumenta em 2, e dois outros atributos à sua escolha aumentam em 1.",
+    "asi": [
+      {
+        "attributes": [
+          "Charisma"
+        ],
+        "value": 2
+      },
+      {
+        "attributes": [
+          "Other"
+        ],
+        "value": 1
+      },
+      {
+        "attributes": [
+          "Other"
+        ],
+        "value": 1
+      }
+    ],
+    "age": "***Idade.*** Meio-elfos amadurecem na mesma taxa que humanos e atingem a idade adulta por volta dos 20 anos. No entanto, vivem muito mais que humanos, frequentemente ultrapassando 180 anos.",
+    "alignment": "***Tendência.*** Meio-elfos compartilham a inclinação caótica de sua herança élfica. Valorizam tanto a liberdade pessoal quanto a expressão criativa, não demonstrando amor por líderes nem desejo de seguidores. Sentem-se incomodados com regras, ressentem as exigências dos outros e, às vezes, mostram-se pouco confiáveis — ou, ao menos, imprevisíveis.",
+    "size": "***Tamanho.*** Meio-elfos têm aproximadamente o mesmo tamanho que humanos, variando entre 1,5 e 1,8 metro de altura. Seu tamanho é Médio.",
+    "size_raw": "Médio",
+    "speed": {
+      "walk": 9
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 9 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum, Élfico e um idioma adicional à sua escolha.",
+    "vision": "***Visão no Escuro.*** Graças ao seu sangue élfico, você possui visão superior em condições de pouca luz e escuridão. Você pode enxergar na penumbra a até 18 metros como se fosse luz plena, e na escuridão como se fosse penumbra. Você não pode discernir cores na escuridão, apenas tons de cinza.",
+    "traits": "***Ascendência Feérica.*** Você tem vantagem em testes de resistência contra ser enfeitiçado, e magia não pode colocá-lo para dormir.\n\n***Versatilidade em Perícias.*** Você ganha proficiência em duas perícias à sua escolha.",
+    "subraces": [],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Meio-Orc",
+    "slug": "half-orc",
+    "desc": "## Traços do Meio-Orc\nSeu personagem meio-orc possui certos traços derivados de sua ascendência orc.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Força aumenta em 2, e seu valor de Constituição aumenta em 1.",
+    "asi": [
+      {
+        "attributes": [
+          "Strength"
+        ],
+        "value": 2
+      },
+      {
+        "attributes": [
+          "Constitution"
+        ],
+        "value": 1
+      }
+    ],
+    "age": "***Idade.*** Meio-orcs amadurecem um pouco mais rápido que humanos, alcançando a idade adulta por volta dos 14 anos. Eles envelhecem visivelmente mais rápido e raramente vivem além dos 75 anos.",
+    "alignment": "***Tendência.*** Meio-orcs herdam uma tendência ao caos de seus pais orcs e não são fortemente inclinados ao bem. Meio-orcs criados entre orcs e dispostos a viver entre eles geralmente são maus.",
+    "size": "***Tamanho.*** Meio-orcs são um pouco maiores e mais robustos que humanos, variando de cerca de 1,5 metro a bem mais de 1,8 metro de altura. Seu tamanho é Médio.",
+    "size_raw": "Médio",
+    "speed": {
+      "walk": 9
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 9 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e Orc. O Orc é uma língua áspera e desagradável, com consoantes duras. Não possui um sistema de escrita próprio, sendo escrito com o alfabeto anão.",
+    "vision": "***Visão no Escuro.*** Graças ao seu sangue orc, você possui visão superior em condições de pouca luz e escuridão. Você pode enxergar na penumbra a até 18 metros como se fosse luz plena, e na escuridão como se fosse penumbra. Você não pode discernir cores na escuridão, apenas tons de cinza.",
+    "traits": "***Ameaçador.*** Você ganha proficiência na perícia Intimidação.\n\n***Resistência Implacável.*** Quando você é reduzido a 0 pontos de vida, mas não é morto imediatamente, você pode ficar com 1 ponto de vida em vez disso. Você não pode usar essa característica novamente até terminar um descanso longo.\n\n***Ataques Selvagens.*** Quando você acerta um golpe crítico com um ataque corpo a corpo com arma, pode rolar um dos dados de dano da arma uma vez adicional e adicioná-lo ao dano extra do acerto crítico.",
+    "subraces": [],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Halfling",
+    "slug": "halfling",
+    "desc": "## Traços do Halfling\nSeu personagem halfling possui uma série de traços em comum com todos os outros halflings.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Destreza aumenta em 2.",
+    "asi": [
+      {
+        "attributes": [
+          "Dexterity"
+        ],
+        "value": 2
+      }
+    ],
+    "age": "***Idade.*** Um halfling atinge a idade adulta aos 20 anos e geralmente vive até a metade de seu segundo século de vida.",
+    "alignment": "***Tendência.*** A maioria dos halflings é leal e boa. Em geral, são bondosos e gentis, detestam ver os outros sofrendo e não toleram opressão. Também são muito organizados e tradicionais, confiando fortemente no apoio de sua comunidade e no conforto de seus costumes antigos.",
+    "size": "***Tamanho.*** Halflings medem em média cerca de 0,9 metro de altura e pesam cerca de 18 kg. Seu tamanho é Pequeno.",
+    "size_raw": "Pequeno",
+    "speed": {
+      "walk": 7.5
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 7,5 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e Halfling. O idioma halfling não é secreto, mas os halflings relutam em compartilhá-lo com outros. Eles escrevem muito pouco, por isso não possuem uma grande tradição literária. Sua tradição oral, no entanto, é muito forte. Quase todos os halflings falam Comum para se comunicar com as pessoas nas terras onde vivem ou pelas quais viajam.",
+    "vision": "",
+    "traits": "***Sortudo.*** Quando você rola um 1 em um d20 para uma jogada de ataque, teste de habilidade ou teste de resistência, você pode rerrolar o dado e deve usar o novo resultado.\n\n***Corajoso.*** Você tem vantagem em testes de resistência contra ser amedrontado.\n\n***Agilidade Halfling.*** Você pode se mover através do espaço de qualquer criatura que seja de um tamanho maior que o seu.",
+    "subraces": [
+      {
+        "name": "Pés-Leves",
+        "slug": "lightfoot",
+        "desc": "Como um halfling pés-leves, você pode facilmente se esconder da vista, até mesmo usando outras pessoas como cobertura. Você tende a ser afável e se dá bem com os outros.\nHalflings pés-leves são mais propensos ao desejo de viajar do que outros halflings, e frequentemente vivem entre outras raças ou adotam uma vida nômade.",
+        "asi": [
+          {
+            "attributes": [
+              "Charisma"
+            ],
+            "value": 1
+          }
+        ],
+        "traits": "***Naturalmente Furtivo.*** Você pode tentar se esconder mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que você.",
+        "asi_desc": "***Aumento de Atributo.*** Seu valor de Carisma aumenta em 1.",
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+      },
+      {
+        "name": "Halfling Stoor",
+        "slug": "stoor-halfling",
+        "desc": "Halflings stoor recebem esse nome de uma palavra arcaica para \"forte\" ou \"grande\", e de fato o stoor médio é cerca de 15 cm mais alto que seus primos pés-leves. Eles também são particularmente resistentes para os padrões halflings, famosos por conseguirem aguentar as cervejas anãs mais fortes, o que também lhes rendeu a reputação de serem relativamente rudes. Ainda assim, a maioria dos halflings stoor é de bom coração e simples, e qualquer pés-leves ficaria feliz em ter alguns primos stoor para apoiá-lo em uma briga de taverna.",
+        "asi": [
+          {
+            "attributes": [
+              "Constitution"
+            ],
+            "value": 1
+          }
+        ],
+        "traits": "***Robustez Stoor.*** Você ganha resistência a dano de veneno e tem vantagem em testes de resistência contra veneno.",
+        "asi_desc": "***Aumento de Atributo.*** Seu valor de Constituição aumenta em 1.",
+        "document__slug": "o5e",
+        "document__title": "Open5e Original Content",
+        "document__url": "open5e.com"
+      }
+    ],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Humano",
+    "slug": "human",
+    "desc": "## Traços do Humano\nÉ difícil fazer generalizações sobre humanos, mas seu personagem humano possui estes traços.",
+    "asi_desc": "***Aumento de Atributo.*** Cada um dos seus atributos aumenta em 1.",
+    "asi": [
+      {
+        "attributes": [
+          "Strength"
+        ],
+        "value": 1
+      },
+      {
+        "attributes": [
+          "Dexterity"
+        ],
+        "value": 1
+      },
+      {
+        "attributes": [
+          "Constitution"
+        ],
+        "value": 1
+      },
+      {
+        "attributes": [
+          "Intelligence"
+        ],
+        "value": 1
+      },
+      {
+        "attributes": [
+          "Wisdom"
+        ],
+        "value": 1
+      },
+      {
+        "attributes": [
+          "Charisma"
+        ],
+        "value": 1
+      }
+    ],
+    "age": "***Idade.*** Humanos atingem a idade adulta no final da adolescência e vivem menos de um século.",
+    "alignment": "***Tendência.*** Humanos não tendem a um alinhamento específico. Entre eles encontram-se tanto os melhores quanto os piores.",
+    "size": "***Tamanho.*** Humanos variam bastante em altura e constituição, indo de cerca de 1,5 metro a bem mais de 1,8 metro de altura. Independentemente da sua posição nesse intervalo, seu tamanho é Médio.",
+    "size_raw": "Médio",
+    "speed": {
+      "walk": 9
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 9 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e um idioma adicional à sua escolha. Humanos normalmente aprendem os idiomas dos povos com quem convivem, incluindo dialetos obscuros. Eles gostam de misturar sua fala com palavras emprestadas de outras línguas: xingamentos orcs, expressões musicais élficas, termos militares anões, e assim por diante.",
+    "vision": "",
+    "traits": "",
+    "subraces": [],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  },
+  {
+    "name": "Tiefling",
+    "slug": "tiefling",
+    "desc": "## Traços do Tiefling\nTieflings compartilham certos traços raciais como resultado de sua descendência infernal.",
+    "asi_desc": "***Aumento de Atributo.*** Seu valor de Inteligência aumenta em 1, e seu valor de Carisma aumenta em 2.",
+    "asi": [
+      {
+        "attributes": [
+          "Intelligence"
+        ],
+        "value": 1
+      },
+      {
+        "attributes": [
+          "Charisma"
+        ],
+        "value": 2
+      }
+    ],
+    "age": "***Idade.*** Tieflings amadurecem na mesma taxa que humanos, mas vivem alguns anos a mais.",
+    "alignment": "***Tendência.*** Tieflings podem não ter uma tendência inata ao mal, mas muitos acabam seguindo esse caminho. Sejam maus ou não, sua natureza independente inclina muitos tieflings para um alinhamento caótico.",
+    "size": "***Tamanho.*** Tieflings têm aproximadamente o mesmo tamanho e constituição que humanos. Seu tamanho é Médio.",
+    "size_raw": "Médio",
+    "speed": {
+      "walk": 9
+    },
+    "speed_desc": "***Deslocamento.*** Seu deslocamento base de caminhada é de 9 metros.",
+    "languages": "***Idiomas.*** Você pode falar, ler e escrever Comum e Infernal.",
+    "vision": "***Visão no Escuro.*** Graças à sua herança infernal, você possui visão superior em condições de pouca luz e escuridão. Você pode enxergar na penumbra a até 18 metros como se fosse luz plena, e na escuridão como se fosse penumbra. Você não pode discernir cores na escuridão, apenas tons de cinza.",
+    "traits": "***Resistência Infernal.*** Você possui resistência a dano de fogo.\n\n***Legado Infernal.*** Você conhece o truque *taumaturgia*. Ao atingir o 3º nível, você pode conjurar a magia *repreensão infernal* como uma magia de 2º nível uma vez com este traço e recupera a capacidade de fazê-lo ao terminar um descanso longo. Ao atingir o 5º nível, você pode conjurar a magia *escuridão* uma vez com este traço e recupera a capacidade de fazê-lo ao terminar um descanso longo. Carisma é sua habilidade de conjuração para essas magias.",
+    "subraces": [],
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "[http://open5e.com/legal](http://open5e.com/legal)",
+    "document__url": "[http://dnd.wizards.com/articles/features/systems-reference-document-srd](http://dnd.wizards.com/articles/features/systems-reference-document-srd)"
+  }
+]

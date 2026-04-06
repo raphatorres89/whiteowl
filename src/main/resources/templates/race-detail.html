@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('Whiteowl - Raça', ~{::section})}">
+
+<section>
+    <div class="max-w-6xl mx-auto px-4 py-10">
+
+        <div th:replace="~{layout/breadcrumbs :: breadcrumb(${breadcrumbs})}"></div>
+
+        <div class="relative overflow-hidden rounded-3xl border border-gray-800 bg-card mb-10">
+            <div class="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-6 px-6 md:px-8 pt-8 pb-0">
+
+                <!-- TEXTO -->
+                <div class="pb-8">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-xl border border-gray-800 bg-black/20 p-2 shrink-0">
+                            <img th:src="@{${race.iconPath}}"
+                                 th:alt="${race.name}"
+                                 class="w-full h-full object-contain">
+                        </div>
+
+                        <div>
+                            <h1 class="text-3xl md:text-5xl text-gold leading-none"
+                                th:text="${race.name}">
+                                Meio-Elfo
+                            </h1>
+                            <p class="text-gray-400 mt-2"
+                               th:text="${race.sizeRaw}">
+                                Médio
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="max-w-2xl rich-text"
+                         th:utext="${race.descHtml}">
+                    </div>
+                </div>
+
+                <!-- PERSONAGEM -->
+                <div class="flex justify-center lg:justify-end items-end">
+                    <div class="relative w-56 md:w-72 lg:w-[22rem] xl:w-[24rem]">
+                        <div class="absolute inset-x-6 bottom-4 h-20 bg-gold/10 blur-3xl rounded-full"></div>
+
+                        <img th:src="@{${race.imagePath}}"
+                             th:alt="${race.name}"
+                             class="relative z-10 w-full h-auto object-contain race-hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Atributos</h2>
+                <div class="rich-text" th:utext="${race.asiDescHtml}"></div>
+
+                <div th:if="${race.asi != null and !#lists.isEmpty(race.asi)}" class="mt-4 space-y-2">
+                    <div th:each="asi : ${race.asiFormatted}"
+                         class="inline-block mr-2 mb-2 px-3 py-1 rounded-lg border border-gray-700 text-sm text-gray-300">
+                        <span th:text="${asi}"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Deslocamento</h2>
+                <div class="rich-text" th:utext="${race.speedDescHtml}"></div>
+
+                <div class="mt-4 text-sm text-gray-300" th:if="${race.speed != null}">
+                    <p th:if="${race.speed.walk != null}">Andar: <span class="text-gold" th:text="${race.speed.walk}"></span> m.</p>
+                    <p th:if="${race.speed.fly != null}">Voar: <span class="text-gold" th:text="${race.speed.fly}"></span> m.</p>
+                    <p th:if="${race.speed.swim != null}">Nadar: <span class="text-gold" th:text="${race.speed.swim}"></span> m.</p>
+                    <p th:if="${race.speed.climb != null}">Escalar: <span class="text-gold" th:text="${race.speed.climb}"></span> m.</p>
+                    <p th:if="${race.speed.burrow != null}">Cavar: <span class="text-gold" th:text="${race.speed.burrow}"></span> m.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8 mb-8">
+            <h2 class="text-2xl text-gold mb-4">Características</h2>
+            <div class="rich-text" th:utext="${race.traitsHtml}"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Idade</h2>
+                <div class="rich-text" th:utext="${race.ageHtml}"></div>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Alinhamento</h2>
+                <div class="rich-text" th:utext="${race.alignmentHtml}"></div>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Tamanho</h2>
+                <div class="rich-text" th:utext="${race.sizeHtml}"></div>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Idiomas</h2>
+                <div class="rich-text" th:utext="${race.languagesHtml}"></div>
+            </div>
+        </div>
+
+        <div th:if="${race.visionHtml != null and !#strings.isEmpty(race.visionHtml)}"
+             class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8 mb-8">
+            <h2 class="text-2xl text-gold mb-4">Visão</h2>
+            <div class="rich-text" th:utext="${race.visionHtml}"></div>
+        </div>
+
+        <div th:if="${race.subraces != null and !#lists.isEmpty(race.subraces)}"
+             class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8">
+            <h2 class="text-2xl text-gold mb-6">Sub-raças</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div th:each="subrace : ${race.subraces}"
+                     class="border border-gray-800 rounded-2xl p-5 bg-black/20">
+                    <h3 class="text-xl text-gold mb-3" th:text="${subrace.name}">Sub-raça</h3>
+                    <div class="rich-text" th:utext="${subrace.descHtml}"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</html>
