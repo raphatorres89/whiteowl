@@ -13,3 +13,29 @@ h1, h2, h3 {
 
 .text-gold { color: #c9a96e; }
 .border-gold { border-color: #c9a96e; }
+
+/*Dropdown*/
+select,
+.form-select,
+.form-control {
+    font-size: 16px;
+    min-height: 48px;
+}
+
+@media (max-width: 768px) {
+    select,
+    .form-select,
+    .form-control {
+        font-size: 16px;
+        min-height: 50px;
+        padding: 0.75rem 1rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+}
+
+select option {
+    font-size: 16px;
+}

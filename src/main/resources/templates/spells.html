@@ -39,7 +39,7 @@
                         <option value="" th:selected="${filter.level == null}">Todos</option>
                         <option th:each="level : ${levels}"
                                 th:value="${level}"
-                                th:text="${level == 0 ? 'Cantrip' : level}"
+                                th:text="${level == 0 ? 'Truque' : level}"
                                 th:selected="${filter.level != null and filter.level == level}">
                         </option>
                     </select>
