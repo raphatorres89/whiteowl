@@ -12,7 +12,7 @@
             <div class="mb-8">
 
                 <div class="flex items-center gap-3 mb-2">
-                    <img th:src="@{${spellSchoolIcon}}"
+                    <img th:src="${@spellSchoolIconUtils.iconPath(spell.school)}"
                          th:alt="${spell.school}"
                          class="w-10 h-10 md:w-20 md:h-20 object-contain">
 
@@ -108,7 +108,7 @@
             <div class="grid md:grid-cols-2 gap-6">
                 <div th:if="${spell.spellLists != null and !#lists.isEmpty(spell.spellLists)}"
                      class="p-4 rounded-xl border border-gray-800">
-                    <h2 class="text-lg text-gold mb-3">Spell Lists</h2>
+                    <h2 class="text-lg text-gold mb-3">Lista de Magia</h2>
                     <div class="flex flex-wrap gap-2">
                         <span th:each="spellList : ${spell.spellLists}"
                               th:text="${spellList}"

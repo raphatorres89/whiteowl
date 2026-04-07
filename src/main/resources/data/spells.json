@@ -24,8 +24,8 @@
     "school": "Evocação",
     "dnd_class": "Druida, Mago",
     "spell_lists": [
-      "druid",
-      "wizard"
+      "druida",
+      "mago"
     ],
     "archetype": "Druida: Pântano",
     "circles": "Pântano"
@@ -55,8 +55,8 @@
     "school": "Conjuração",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -86,7 +86,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -116,8 +116,8 @@
     "school": "Abjuração",
     "dnd_class": "Patrulheiro, Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "ranger",
-      "wizard"
+      "patrulheiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -147,8 +147,8 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -178,9 +178,9 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Druida, Patrulheiro, Conjurador Ritualístico",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "bard"
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -210,9 +210,9 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Druida, Patrulheiro, Conjurador Ritualístico",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "bard"
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -242,7 +242,7 @@
     "school": "Transmutação",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -272,8 +272,8 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "wizard"
+      "clérigo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -303,9 +303,9 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -335,7 +335,7 @@
     "school": "Abjuração",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -365,8 +365,8 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "wizard"
+      "clérigo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -396,8 +396,8 @@
     "school": "Encantamento",
     "dnd_class": "Druida, Mago",
     "spell_lists": [
-      "druid",
-      "wizard"
+      "druida",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -427,8 +427,8 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "wizard"
+      "clérigo",
+      "mago"
     ],
     "archetype": "Clérigo: Conhecimento",
     "circles": ""
@@ -458,7 +458,7 @@
     "school": "Evocação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -488,7 +488,7 @@
     "school": "Abjuração",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -518,8 +518,8 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -549,7 +549,7 @@
     "school": "Ilusão",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -579,9 +579,9 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -611,7 +611,7 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -641,8 +641,8 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Druida",
     "spell_lists": [
-      "druid",
-      "bard"
+      "druida",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -672,8 +672,8 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Paladino",
     "spell_lists": [
-      "cleric",
-      "bard"
+      "clérigo",
+      "bardo"
     ],
     "archetype": "Paladino: Vingança",
     "circles": ""
@@ -703,10 +703,10 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -736,9 +736,9 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "Clérigo: Natureza",
     "circles": "Floresta"
@@ -768,7 +768,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "Paladino: Devoção",
     "circles": ""
@@ -798,9 +798,9 @@
     "school": "Necromancia",
     "dnd_class": "Bardo, Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -830,8 +830,8 @@
     "school": "Conjuração",
     "dnd_class": "Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: O Grande Ancião",
     "circles": ""
@@ -861,7 +861,7 @@
     "school": "Evocação",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -891,7 +891,7 @@
     "school": "Encantamento",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -921,10 +921,10 @@
     "school": "Necromancia",
     "dnd_class": "Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": "Deserto"
@@ -954,11 +954,11 @@
     "school": "Necromancia",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: Demônio",
     "circles": ""
@@ -988,10 +988,10 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça, Bruxo: Arquifada",
     "circles": ""
@@ -1021,9 +1021,9 @@
     "school": "Ilusão",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Druida: Deserto",
     "circles": "Deserto"
@@ -1052,7 +1052,9 @@
     "spell_level": 2,
     "school": "Evocação",
     "dnd_class": "Paladino",
-    "spell_lists": [],
+    "spell_lists": [
+        "paladino"
+    ],
     "archetype": "",
     "circles": ""
   },
@@ -1081,10 +1083,10 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Luz, Bruxo: Corruptor",
     "circles": ""
@@ -1114,8 +1116,8 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "Clérigo: Tempestade",
     "circles": "Floresta"
@@ -1145,9 +1147,9 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Bruxo",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "warlock"
+      "clérigo",
+      "bardo",
+      "bruxo"
     ],
     "archetype": "Bruxo: Arquifada",
     "circles": ""
@@ -1177,8 +1179,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1208,12 +1210,12 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça",
     "circles": ""
@@ -1243,9 +1245,9 @@
     "school": "Necromancia",
     "dnd_class": "Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1275,9 +1277,9 @@
     "school": "Necromancia",
     "dnd_class": "Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1307,11 +1309,11 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: O Grande Ancião",
     "circles": ""
@@ -1341,7 +1343,7 @@
     "school": "Necromancia",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1371,9 +1373,9 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Druida: Subterrâneo",
     "circles": "Subterrâneo"
@@ -1403,8 +1405,8 @@
     "school": "Ilusão",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1434,8 +1436,8 @@
     "school": "Encantamento",
     "dnd_class": "Clérigo, Paladino, Bruxo",
     "spell_lists": [
-      "cleric",
-      "warlock"
+      "clérigo",
+      "bruxo"
     ],
     "archetype": "Bruxo: Corruptor",
     "circles": ""
@@ -1465,7 +1467,7 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Paladino, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "Paladino: Devoção",
     "circles": ""
@@ -1495,8 +1497,8 @@
     "school": "Adivinhação",
     "dnd_class": "Druida, Paladino, Patrulheiro, Conjurador Ritualístico",
     "spell_lists": [
-      "druid",
-      "ranger"
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "Paladino: Anciões",
     "circles": "Ártico, Floresta"
@@ -1526,10 +1528,10 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Conjurador Ritualístico, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1559,7 +1561,7 @@
     "school": "Encantamento",
     "dnd_class": "Bardo",
     "spell_lists": [
-      "bard"
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -1589,9 +1591,9 @@
     "school": "Evocação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Druida: Ártico",
     "circles": "Ártico"
@@ -1621,11 +1623,11 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Conhecimento",
     "circles": ""
@@ -1655,8 +1657,8 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Patrulheiro",
     "spell_lists": [
-      "druid",
-      "ranger"
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "",
     "circles": ""
@@ -1686,7 +1688,7 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -1716,8 +1718,8 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Mago",
     "spell_lists": [
-      "druid",
-      "wizard"
+      "druida",
+      "mago"
     ],
     "archetype": "",
     "circles": "Costa"
@@ -1747,8 +1749,8 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Bruxo",
     "spell_lists": [
-      "druid",
-      "warlock"
+      "druida",
+      "bruxo"
     ],
     "archetype": "",
     "circles": ""
@@ -1778,8 +1780,8 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Mago",
     "spell_lists": [
-      "druid",
-      "wizard"
+      "druida",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1809,8 +1811,8 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Patrulheiro",
     "spell_lists": [
-      "druid",
-      "ranger"
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "",
     "circles": ""
@@ -1840,8 +1842,8 @@
     "school": "Adivinhação",
     "dnd_class": "Conjurador Ritualístico, Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1871,8 +1873,8 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -1902,7 +1904,7 @@
     "school": "Evocação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1932,8 +1934,8 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "wizard"
+      "clérigo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1963,9 +1965,9 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "wizard"
+      "clérigo",
+      "druida",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -1995,9 +1997,9 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "wizard"
+      "clérigo",
+      "druida",
+      "mago"
     ],
     "archetype": "",
     "circles": "Costa"
@@ -2027,9 +2029,9 @@
     "school": "Abjuração",
     "dnd_class": "Paladino, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Paladino: Redenção",
     "circles": ""
@@ -2059,8 +2061,8 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida, Paladino",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "Druida: Deserto",
     "circles": "Deserto"
@@ -2090,9 +2092,9 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2122,8 +2124,8 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -2153,8 +2155,8 @@
     "school": "Ilusão",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2184,10 +2186,10 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -2217,9 +2219,9 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2249,10 +2251,10 @@
     "school": "Evocação",
     "dnd_class": "Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Pântano",
     "circles": "Pântano"
@@ -2282,10 +2284,10 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Patrulheiro, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "patrulheiro",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2315,10 +2317,10 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida, Paladino, Patrulheiro, Feiticeiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "sorcerer"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "feiticeiro"
     ],
     "archetype": "",
     "circles": "Campina"
@@ -2348,7 +2350,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -2378,8 +2380,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2409,8 +2411,8 @@
     "school": "Conjuração",
     "dnd_class": "Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2440,7 +2442,7 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -2470,12 +2472,12 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro, Conjurador Ritualístico, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2505,9 +2507,9 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Druida, Paladino, Patrulheiro, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "",
     "circles": ""
@@ -2537,10 +2539,10 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: O Grande Ancião",
     "circles": ""
@@ -2570,11 +2572,11 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Clérigo, Paladino, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça, Paladino: Vingança",
     "circles": ""
@@ -2604,10 +2606,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça",
     "circles": ""
@@ -2637,8 +2639,8 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2668,7 +2670,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -2698,12 +2700,12 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça",
     "circles": ""
@@ -2733,8 +2735,8 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Druida, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "Druida: Floresta, Campina",
     "circles": "Floresta, Campina"
@@ -2764,7 +2766,7 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "Clérigo: Guerra",
     "circles": ""
@@ -2794,7 +2796,7 @@
     "school": "Evocação",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -2824,10 +2826,10 @@
     "school": "Encantamento",
     "dnd_class": "Clérigo, Druida, Feiticeiro, Bruxo",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer",
-      "warlock"
+      "clérigo",
+      "druida",
+      "feiticeiro",
+      "bruxo"
     ],
     "archetype": "Clérigo: Natureza, Bruxo: Arquifada, O Grande Ancião",
     "circles": ""
@@ -2857,10 +2859,10 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -2890,11 +2892,11 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça, Bruxo: Arquifada, O Grande Ancião",
     "circles": ""
@@ -2924,10 +2926,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Druida, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "warlock",
-      "wizard"
+      "druida",
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Campina",
     "circles": "Campina"
@@ -2957,7 +2959,7 @@
     "school": "Transmutação",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -2987,9 +2989,9 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida, Feiticeiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer"
+      "clérigo",
+      "druida",
+      "feiticeiro"
     ],
     "archetype": "",
     "circles": ""
@@ -3019,7 +3021,7 @@
     "school": "Evocação",
     "dnd_class": "Bruxo",
     "spell_lists": [
-      "warlock"
+      "bruxo"
     ],
     "archetype": "",
     "circles": ""
@@ -3049,10 +3051,10 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Clérigo, Druida, Feiticeiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro"
     ],
     "archetype": "",
     "circles": ""
@@ -3082,8 +3084,8 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3113,7 +3115,7 @@
     "school": "Conjuração",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -3143,8 +3145,8 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Bruxo",
     "spell_lists": [
-      "bard",
-      "warlock"
+      "bardo",
+      "bruxo"
     ],
     "archetype": "",
     "circles": ""
@@ -3174,11 +3176,11 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3208,9 +3210,9 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3240,10 +3242,10 @@
     "school": "Necromancia",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": "",
@@ -3277,10 +3279,10 @@
     "school": "Necromancia",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3310,7 +3312,7 @@
     "school": "Transmutação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3340,10 +3342,10 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Clérigo, Druida, Bruxo",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "warlock"
+      "clérigo",
+      "druida",
+      "bardo",
+      "bruxo"
     ],
     "archetype": "Clérigo: Luz, Bruxo: Arquifada",
     "circles": ""
@@ -3373,7 +3375,7 @@
     "school": "Conjuração",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3403,8 +3405,8 @@
     "school": "Necromancia",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3434,10 +3436,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3467,9 +3469,9 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3499,10 +3501,10 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Druida, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "warlock",
-      "wizard"
+      "druida",
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3532,7 +3534,7 @@
     "school": "Encantamento",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3561,7 +3563,9 @@
     "spell_level": 2,
     "school": "Conjuração",
     "dnd_class": "Paladino",
-    "spell_lists": [],
+    "spell_lists": [
+      "paladino"
+    ],
     "archetype": "",
     "circles": ""
   },
@@ -3590,9 +3594,9 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Druida, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "",
     "circles": ""
@@ -3622,9 +3626,9 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard"
+      "clérigo",
+      "druida",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -3654,9 +3658,9 @@
     "school": "Necromancia",
     "dnd_class": "Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3686,8 +3690,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3717,8 +3721,8 @@
     "school": "Evocação",
     "dnd_class": "Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: Demônio",
     "circles": ""
@@ -3748,9 +3752,9 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida, Feiticeiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer"
+      "clérigo",
+      "druida",
+      "feiticeiro"
     ],
     "archetype": "",
     "circles": ""
@@ -3780,8 +3784,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Luz, Bruxo: Demônio",
     "circles": ""
@@ -3811,7 +3815,7 @@
     "school": "Evocação",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -3841,8 +3845,8 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Paladino, Bruxo",
     "spell_lists": [
-      "cleric",
-      "warlock"
+      "clérigo",
+      "bruxo"
     ],
     "archetype": "Paladino: Devoção, Bruxo: Demônio",
     "circles": ""
@@ -3872,9 +3876,9 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "wizard"
+      "clérigo",
+      "druida",
+      "mago"
     ],
     "archetype": "Clérigo: Luz",
     "circles": ""
@@ -3904,8 +3908,8 @@
     "school": "Transmutação",
     "dnd_class": "Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3935,7 +3939,7 @@
     "school": "Conjuração",
     "dnd_class": "Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3965,9 +3969,9 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -3997,11 +4001,11 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida, Patrulheiro, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Tempestade",
     "circles": ""
@@ -4031,7 +4035,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -4061,9 +4065,9 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "warlock",
-      "wizard"
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4093,10 +4097,10 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Druida, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "warlock",
-      "wizard"
+      "druida",
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4126,10 +4130,10 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "Paladino: Devoção",
     "circles": "Ártico, Costa, Floresta, Campina, Pântano"
@@ -4159,7 +4163,7 @@
     "school": "Evocação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4189,10 +4193,10 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Subterrâneo",
     "circles": "Subterrâneo"
@@ -4222,9 +4226,9 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4254,10 +4258,10 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4287,8 +4291,8 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo, Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "cleric",
-      "wizard"
+      "clérigo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4318,7 +4322,7 @@
     "school": "Transmutação",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -4348,8 +4352,8 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Bruxo",
     "spell_lists": [
-      "bard",
-      "warlock"
+      "bardo",
+      "bruxo"
     ],
     "archetype": "",
     "circles": ""
@@ -4379,8 +4383,8 @@
     "school": "Abjuração",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4410,9 +4414,9 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4442,8 +4446,8 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Patrulheiro",
     "spell_lists": [
-      "druid",
-      "ranger"
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "",
     "circles": ""
@@ -4473,7 +4477,7 @@
     "school": "Conjuração",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4503,11 +4507,11 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Subterrâneo, Bruxo: Arquifada",
     "circles": "Subterrâneo"
@@ -4537,9 +4541,9 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard"
+      "clérigo",
+      "druida",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -4569,7 +4573,7 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -4599,8 +4603,8 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -4630,8 +4634,8 @@
     "school": "Adivinhação",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -4661,7 +4665,7 @@
     "school": "Evocação",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -4691,10 +4695,10 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Tempestade",
     "circles": ""
@@ -4724,8 +4728,8 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Bruxo",
     "spell_lists": [
-      "cleric",
-      "warlock"
+      "clérigo",
+      "bruxo"
     ],
     "archetype": "Bruxo: Demônio",
     "circles": ""
@@ -4755,10 +4759,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Druida, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "warlock",
-      "wizard"
+      "druida",
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": "Deserto"
@@ -4788,7 +4792,7 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -4818,9 +4822,9 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Paladino, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Druida: Campina, Paladino: Vingança",
     "circles": "Campina"
@@ -4850,8 +4854,8 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -4881,9 +4885,9 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard"
+      "clérigo",
+      "druida",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -4913,8 +4917,8 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Druida",
     "spell_lists": [
-      "druid",
-      "bard"
+      "druida",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -4944,7 +4948,7 @@
     "school": "Evocação",
     "dnd_class": "Paladino, Bruxo",
     "spell_lists": [
-      "warlock"
+      "bruxo"
     ],
     "archetype": "Paladino: Quebrador de Juramento",
     "circles": ""
@@ -4974,8 +4978,8 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -5005,7 +5009,7 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Paladino",
     "spell_lists": [
-      "bard"
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -5035,9 +5039,9 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "warlock",
-      "wizard"
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: O Grande Ancião",
     "circles": ""
@@ -5067,11 +5071,11 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Paladino, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Guerra, Paladino: Vingança",
     "circles": ""
@@ -5101,12 +5105,12 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Paladino: Vingança",
     "circles": "Ártico"
@@ -5136,7 +5140,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -5166,7 +5170,7 @@
     "school": "Adivinhação",
     "dnd_class": "Paladino, Patrulheiro",
     "spell_lists": [
-      "ranger"
+      "patrulheiro"
     ],
     "archetype": "Paladino: Vingança",
     "circles": ""
@@ -5196,10 +5200,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5229,10 +5233,10 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida, Paladino, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Tempestade, Paladino: Anciões",
     "circles": "Ártico"
@@ -5262,9 +5266,9 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "mago"
     ],
     "archetype": "Clérigo: Conhecimento",
     "circles": ""
@@ -5294,9 +5298,9 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Conjurador Ritualístico, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "warlock",
-      "wizard"
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5326,8 +5330,8 @@
     "school": "Abjuração",
     "dnd_class": "Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5357,8 +5361,8 @@
     "school": "Conjuração",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5388,7 +5392,7 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -5418,9 +5422,9 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida, Feiticeiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer"
+      "clérigo",
+      "druida",
+      "feiticeiro"
     ],
     "archetype": "",
     "circles": "Deserto, Campina, Pântano, Subterrâneo"
@@ -5450,7 +5454,7 @@
     "school": "Conjuração",
     "dnd_class": "Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5480,11 +5484,11 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Campina",
     "circles": "Campina"
@@ -5514,8 +5518,8 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5545,10 +5549,10 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Patrulheiro, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "patrulheiro",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5578,9 +5582,9 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5610,9 +5614,9 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5642,10 +5646,10 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -5675,8 +5679,8 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5706,10 +5710,10 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5739,9 +5743,9 @@
     "school": "Evocação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Druida: Montanha",
     "circles": "Montanha"
@@ -5771,9 +5775,9 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Druida, Patrulheiro, Conjurador Ritualístico",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "bard"
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -5803,11 +5807,11 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard",
-      "wizard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": "Pântano"
@@ -5837,11 +5841,11 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard",
-      "wizard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5871,10 +5875,10 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Druida, Patrulheiro, Mago",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "bard",
-      "wizard"
+      "druida",
+      "patrulheiro",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5904,8 +5908,8 @@
     "school": "Abjuração",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5935,10 +5939,10 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -5968,9 +5972,9 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6000,7 +6004,7 @@
     "school": "Necromancia",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6030,8 +6034,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6061,8 +6065,8 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6092,8 +6096,8 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Paladino, Mago",
     "spell_lists": [
-      "cleric",
-      "wizard"
+      "clérigo",
+      "mago"
     ],
     "archetype": "Clérigo: Guerra",
     "circles": ""
@@ -6123,8 +6127,8 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6154,10 +6158,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6187,9 +6191,9 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard"
+      "clérigo",
+      "druida",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -6249,7 +6253,7 @@
     "school": "Evocação",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -6279,10 +6283,10 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6312,7 +6316,7 @@
     "school": "Conjuração",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6342,8 +6346,8 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "Druida: Montanha",
     "circles": "Montanha"
@@ -6373,11 +6377,11 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Bardo, Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6407,9 +6411,9 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6439,8 +6443,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6470,8 +6474,8 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6501,10 +6505,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6534,9 +6538,9 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Druida, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "wizard"
+      "druida",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6566,11 +6570,11 @@
     "school": "Ilusão",
     "dnd_class": "Clérigo, Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça, Druida: Campina",
     "circles": "Costa"
@@ -6600,8 +6604,8 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6631,10 +6635,10 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Paladino, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Campina, Paladino: Anciões, Vingança",
     "circles": "Costa"
@@ -6664,9 +6668,9 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça",
     "circles": ""
@@ -6696,7 +6700,7 @@
     "school": "Evocação",
     "dnd_class": "Druida, Paladino",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "Paladino: Anciões",
     "circles": ""
@@ -6726,9 +6730,9 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6758,10 +6762,10 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Patrulheiro, Mago",
     "spell_lists": [
-      "cleric",
-      "ranger",
-      "bard",
-      "wizard"
+      "clérigo",
+      "patrulheiro",
+      "bardo",
+      "mago"
     ],
     "archetype": "Clérigo: Conhecimento",
     "circles": ""
@@ -6791,9 +6795,9 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Druida, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "Clérigo: Trapaça",
     "circles": "Campina"
@@ -6823,8 +6827,8 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Mago",
     "spell_lists": [
-      "druid",
-      "wizard"
+      "druida",
+      "mago"
     ],
     "archetype": "Druida: Montanha",
     "circles": "Montanha"
@@ -6854,7 +6858,7 @@
     "school": "Ilusão",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6884,7 +6888,7 @@
     "school": "Ilusão",
     "dnd_class": "Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6914,7 +6918,7 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -6944,10 +6948,10 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Druida, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -6977,10 +6981,10 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7010,11 +7014,11 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro, Bruxo",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard",
-      "warlock"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo",
+      "bruxo"
     ],
     "archetype": "Clérigo: Natureza, Paladino: Anciões, Bruxo: Arquifada",
     "circles": "Floresta"
@@ -7044,10 +7048,10 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7077,11 +7081,11 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Clérigo, Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Trapaça",
     "circles": ""
@@ -7111,10 +7115,10 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7144,10 +7148,10 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7207,10 +7211,10 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7240,8 +7244,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7271,7 +7275,7 @@
     "school": "Abjuração",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7301,7 +7305,7 @@
     "school": "Abjuração",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7331,7 +7335,7 @@
     "school": "Conjuração",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -7361,8 +7365,8 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7392,8 +7396,8 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7423,11 +7427,11 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Druida, Paladino, Patrulheiro, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Paladino: Anciões, Vingança",
     "circles": "Deserto"
@@ -7457,9 +7461,9 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7489,9 +7493,9 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Druida, Paladino, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "",
     "circles": ""
@@ -7521,8 +7525,8 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Paladino, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -7552,8 +7556,8 @@
     "school": "Necromancia",
     "dnd_class": "Bardo, Clérigo, Paladino",
     "spell_lists": [
-      "cleric",
-      "bard"
+      "clérigo",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -7583,8 +7587,8 @@
     "school": "Necromancia",
     "dnd_class": "Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7614,8 +7618,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7645,8 +7649,8 @@
     "school": "Necromancia",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": "",
@@ -7680,9 +7684,9 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard"
+      "clérigo",
+      "druida",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -7712,7 +7716,7 @@
     "school": "Transmutação",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -7742,9 +7746,9 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7774,7 +7778,7 @@
     "school": "Evocação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7804,8 +7808,8 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -7835,8 +7839,8 @@
     "school": "Necromancia",
     "dnd_class": "Bardo, Clérigo",
     "spell_lists": [
-      "cleric",
-      "bard"
+      "clérigo",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -7866,9 +7870,9 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7898,7 +7902,7 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -7928,7 +7932,7 @@
     "school": "Transmutação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -7988,7 +7992,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "Paladino: Devoção",
     "circles": ""
@@ -8018,10 +8022,10 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Luz, Bruxo: Demônio",
     "circles": ""
@@ -8051,11 +8055,11 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Paladino: Vingança",
     "circles": "Costa, Pântano"
@@ -8085,7 +8089,7 @@
     "school": "Conjuração",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8115,9 +8119,9 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8147,10 +8151,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: Arquifada",
     "circles": ""
@@ -8180,10 +8184,10 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Clérigo, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: O Grande Ancião",
     "circles": ""
@@ -8213,7 +8217,7 @@
     "school": "Transmutação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8243,8 +8247,8 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Mago",
     "spell_lists": [
-      "druid",
-      "wizard"
+      "druida",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8274,11 +8278,11 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Tempestade",
     "circles": ""
@@ -8308,8 +8312,8 @@
     "school": "Abjuração",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8339,7 +8343,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Paladino",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -8369,7 +8373,7 @@
     "school": "Transmutação",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -8399,8 +8403,8 @@
     "school": "Evocação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8430,10 +8434,10 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Clérigo, Druida, Patrulheiro, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "Druida: Deserto",
     "circles": "Deserto"
@@ -8463,9 +8467,9 @@
     "school": "Ilusão",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8495,7 +8499,7 @@
     "school": "Ilusão",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -8525,10 +8529,10 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: Arquifada",
     "circles": ""
@@ -8558,10 +8562,10 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Tempestade",
     "circles": "Ártico"
@@ -8591,9 +8595,9 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Druida: Ártico",
     "circles": "Ártico"
@@ -8623,7 +8627,7 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -8653,10 +8657,10 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Druida, Paladino, Patrulheiro, Conjurador Ritualístico",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "bard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "Clérigo: Natureza, Paladino: Anciões",
     "circles": ""
@@ -8686,8 +8690,8 @@
     "school": "Necromancia",
     "dnd_class": "Bardo, Clérigo",
     "spell_lists": [
-      "cleric",
-      "bard"
+      "clérigo",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -8717,9 +8721,9 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Druida, Patrulheiro",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "bard"
+      "druida",
+      "patrulheiro",
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -8749,10 +8753,10 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Floresta, Montanha, Subterrâneo",
     "circles": "Floresta, Montanha, Subterrâneo"
@@ -8782,9 +8786,9 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "Clérigo: Natureza",
     "circles": "Ártico, Montanha"
@@ -8814,7 +8818,7 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -8874,11 +8878,11 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "druid",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Druida: Pântano, Subterrâneo, Bruxo: Demônio",
     "circles": "Pântano, Subterrâneo"
@@ -8908,9 +8912,9 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "wizard"
+      "clérigo",
+      "druida",
+      "mago"
     ],
     "archetype": "",
     "circles": "Montanha, Subterrâneo"
@@ -8940,11 +8944,11 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo, Druida, Paladino, Patrulheiro, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Guerra, Paladino: Anciões",
     "circles": "Montanha"
@@ -8974,7 +8978,7 @@
     "school": "Conjuração",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -9004,11 +9008,11 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Conhecimento",
     "circles": ""
@@ -9038,9 +9042,9 @@
     "school": "Evocação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9070,9 +9074,9 @@
     "school": "Evocação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9102,9 +9106,9 @@
     "school": "Abjuração",
     "dnd_class": "Bardo, Clérigo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9134,9 +9138,9 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Bruxo: O Grande Ancião",
     "circles": ""
@@ -9166,7 +9170,7 @@
     "school": "Adivinhação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9196,9 +9200,9 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9228,9 +9232,9 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Feiticeiro, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9260,7 +9264,7 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -9290,11 +9294,11 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Clérigo, Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "bard",
-      "sorcerer",
-      "wizard"
+      "clérigo",
+      "druida",
+      "bardo",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Clérigo: Tempestade",
     "circles": ""
@@ -9324,8 +9328,8 @@
     "school": "Transmutação",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9355,8 +9359,8 @@
     "school": "Evocação",
     "dnd_class": "Bardo, Conjurador Ritualístico, Mago",
     "spell_lists": [
-      "bard",
-      "wizard"
+      "bardo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9386,11 +9390,11 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9420,7 +9424,7 @@
     "school": "Conjuração",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -9450,9 +9454,9 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo, Druida, Paladino, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "Clérigo: Natureza, Paladino: Anciões",
     "circles": "Floresta"
@@ -9482,9 +9486,9 @@
     "school": "Transmutação",
     "dnd_class": "Bardo, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "warlock",
-      "wizard"
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9514,8 +9518,8 @@
     "school": "Necromancia",
     "dnd_class": "Clérigo, Druida",
     "spell_lists": [
-      "cleric",
-      "druid"
+      "clérigo",
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -9545,11 +9549,11 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Clérigo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9579,10 +9583,10 @@
     "school": "Adivinhação",
     "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "bardo",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9612,9 +9616,9 @@
     "school": "Conjuração",
     "dnd_class": "Bardo, Conjurador Ritualístico, Bruxo, Mago",
     "spell_lists": [
-      "bard",
-      "warlock",
-      "wizard"
+      "bardo",
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9644,8 +9648,8 @@
     "school": "Necromancia",
     "dnd_class": "Bruxo, Mago",
     "spell_lists": [
-      "warlock",
-      "wizard"
+      "bruxo",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9675,7 +9679,7 @@
     "school": "Encantamento",
     "dnd_class": "Bardo",
     "spell_lists": [
-      "bard"
+      "bardo"
     ],
     "archetype": "",
     "circles": ""
@@ -9705,11 +9709,11 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida, Feiticeiro, Bruxo, Mago",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "sorcerer",
-      "warlock",
-      "wizard"
+      "clérigo",
+      "druida",
+      "feiticeiro",
+      "bruxo",
+      "mago"
     ],
     "archetype": "Clérigo: Luz, Bruxo: Demônio",
     "circles": ""
@@ -9739,7 +9743,7 @@
     "school": "Evocação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9769,7 +9773,7 @@
     "school": "Evocação",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -9799,9 +9803,9 @@
     "school": "Evocação",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": "Deserto, Montanha"
@@ -9831,7 +9835,7 @@
     "school": "Conjuração",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -9861,7 +9865,7 @@
     "school": "Abjuração",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -9891,10 +9895,10 @@
     "school": "Transmutação",
     "dnd_class": "Druida, Patrulheiro, Conjurador Ritualístico, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "ranger",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "patrulheiro",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": "Costa"
@@ -9924,10 +9928,10 @@
     "school": "Transmutação",
     "dnd_class": "Clérigo, Druida, Patrulheiro, Conjurador Ritualístico, Feiticeiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger",
-      "sorcerer"
+      "clérigo",
+      "druida",
+      "patrulheiro",
+      "feiticeiro"
     ],
     "archetype": "",
     "circles": "Costa, Pântano"
@@ -9957,9 +9961,9 @@
     "school": "Conjuração",
     "dnd_class": "Druida, Feiticeiro, Mago",
     "spell_lists": [
-      "druid",
-      "sorcerer",
-      "wizard"
+      "druida",
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "Druida: Subterrâneo",
     "circles": "Subterrâneo"
@@ -9989,7 +9993,7 @@
     "school": "Ilusão",
     "dnd_class": "Mago",
     "spell_lists": [
-      "wizard"
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -10019,7 +10023,7 @@
     "school": "Transmutação",
     "dnd_class": "Druida",
     "spell_lists": [
-      "druid"
+      "druida"
     ],
     "archetype": "",
     "circles": ""
@@ -10049,9 +10053,9 @@
     "school": "Evocação",
     "dnd_class": "Clérigo, Druida, Patrulheiro",
     "spell_lists": [
-      "cleric",
-      "druid",
-      "ranger"
+      "clérigo",
+      "druida",
+      "patrulheiro"
     ],
     "archetype": "Clérigo: Natureza",
     "circles": ""
@@ -10081,8 +10085,8 @@
     "school": "Conjuração",
     "dnd_class": "Feiticeiro, Mago",
     "spell_lists": [
-      "sorcerer",
-      "wizard"
+      "feiticeiro",
+      "mago"
     ],
     "archetype": "",
     "circles": ""
@@ -10112,7 +10116,7 @@
     "school": "Conjuração",
     "dnd_class": "Clérigo",
     "spell_lists": [
-      "cleric"
+      "clérigo"
     ],
     "archetype": "",
     "circles": ""
@@ -10142,9 +10146,1647 @@
     "school": "Encantamento",
     "dnd_class": "Bardo, Clérigo, Paladino",
     "spell_lists": [
-      "cleric",
-      "bard"
+      "clérigo",
+      "bardo"
     ],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "crown-of-madness",
+    "name": "Coroa da Loucura",
+    "desc": "Um humanoide à sua escolha, que você possa ver dentro do alcance, deve ser bem-sucedido em um teste de resistência de Sabedoria ou ficará enfeitiçado por você durante a duração do efeito. Enquanto o alvo estiver enfeitiçado dessa forma, uma coroa retorcida de ferro serrilhado aparecerá em sua cabeça, e uma aura de loucura brilhará em seus olhos. O alvo enfeitiçado deve usar sua ação antes de se mover em cada um de seus turnos para realizar um ataque corpo a corpo contra uma criatura que você escolha mentalmente, diferente de si mesmo. O alvo pode agir normalmente em seu turno se você não escolher nenhuma criatura ou se não houver nenhuma ao seu alcance. Em seus turnos subsequentes, você deve usar sua ação para manter o controle sobre o alvo, ou a magia termina. Além disso, o alvo pode fazer um teste de resistência de Sabedoria ao final de cada um de seus turnos. Em caso de sucesso, a magia termina.",
+    "higher_level": "",
+    "page": "",
+    "range": "36 metros",
+    "target_range_sort": 36,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Encantamento",
+    "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
+    "spell_lists": [
+      "bard",
+      "sorcerer",
+      "warlock",
+      "wizard"
+    ],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "destructive-wave",
+    "name": "Onda Destrutiva",
+    "desc": "Você golpeia o chão, criando uma explosão de energia divina que se propaga a partir de você. Cada criatura à sua escolha a até 9 metros de você deve ser bem-sucedida em um teste de resistência de Constituição ou sofrerá 5d6 de dano trovejante, além de 5d6 de dano radiante ou necrótico (à sua escolha), e será derrubada. Uma criatura que for bem-sucedida em seu teste de resistência sofrerá metade do dano e não será derrubada.",
+    "higher_level": "",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Evocação",
+    "dnd_class": "Paladino",
+    "spell_lists": [
+      "paladino"
+    ],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "threshold-slip",
+    "name": "Deslizamento de Limiar",
+    "desc": "O limiar de uma porta, o peitoril de uma janela, o encontro entre o chão e a parede, ou a interseção de duas paredes — todos esses são pontos de deslocamento para você. Ao conjurar esta magia, você pode entrar na junção de duas superfícies, atravessar o limite do Plano Material e reaparecer em um espaço desocupado que possua outra junção visível a até 18 metros de você.\n\nVocê pode levar consigo uma criatura voluntária do seu tamanho ou menor que esteja tocando você. A junção de destino deve possuir espaços desocupados para ambos aparecerem; caso contrário, a magia falha.",
+    "higher_level": "",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação bônus",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "mud",
+    "name": "Lama",
+    "desc": "O solo em um raio de 6 metros centrado em um ponto dentro do alcance se transforma em uma lama espessa e viscosa. A área se torna terreno difícil pela duração da magia.\n\nQuando uma criatura entra na área afetada pela primeira vez em um turno ou começa seu turno nela, deve realizar um teste de resistência de Força. Em caso de falha, seu deslocamento é reduzido a 0 até o início de seu próximo turno.",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma porção de lama",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Transmutação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "power-word-fling",
+    "name": "Palavra de Poder: Arremessar",
+    "desc": "Você murmura uma palavra de poder que faz com que uma criatura que você possa ver dentro do alcance seja arremessada vertical ou horizontalmente. A criatura deve ser bem-sucedida em um teste de resistência de Força ou será arremessada até 4,5 metros na vertical ou horizontal.\n\nSe o alvo colidir com uma superfície, como um teto ou parede, ele para de se mover e sofre 3d6 de dano contundente. Se o alvo for arremessado verticalmente, ele cai ao chão, sofrendo dano de queda normalmente, a menos que possua deslocamento de voo ou outro meio de evitar a queda.\n\nSe o alvo colidir com outra criatura, ele para de se mover e sofre 3d6 de dano contundente, e a criatura atingida deve ser bem-sucedida em um teste de resistência de Força ou ficará caída.\n\nApós ser arremessado horizontalmente ou cair após um arremesso vertical, independentemente de ter colidido com algo, o alvo fica caído.\n\nComo uma ação bônus em cada um de seus turnos subsequentes, você pode tentar arremessar a mesma criatura novamente. O alvo deve realizar outro teste de resistência de Força ou será arremessado.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, a distância que você pode arremessar o alvo aumenta em 1,5 metro, e o dano causado ao colidir com uma superfície ou criatura aumenta em 1d6 para cada nível do espaço acima do 3º.",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "power-word-rend",
+    "name": "Palavra de Poder: Dilacerar",
+    "desc": "Você pronuncia uma palavra de poder que faz com que os órgãos internos de uma criatura que você possa ver dentro do alcance se rompam. O alvo deve realizar um teste de resistência de Constituição. Ele sofre 4d6 + 20 de dano de força em caso de falha, ou metade do dano em caso de sucesso.\n\nSe o alvo estiver com menos da metade de seus pontos de vida máximos, ele realiza este teste de resistência com desvantagem.\n\nEsta magia não afeta criaturas que não possuem órgãos internos vitais, como constructos, limos e mortos-vivos.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 4º. As criaturas devem estar a até 9 metros umas das outras ao serem escolhidas como alvo.",
+    "page": "",
+    "range": "27 metros",
+    "target_range_sort": 27,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Evocação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "bombardment-of-stings",
+    "name": "Bombardeio de Ferrões",
+    "desc": "Cada criatura em um cone de 9 metros deve realizar um teste de resistência de Destreza. Uma criatura sofre 4d6 de dano perfurante e fica envenenada por 1 minuto em caso de falha, ou metade do dano e não fica envenenada em caso de sucesso.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 2º.",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um punhado de ferrões de abelha",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Evocação",
+    "dnd_class": "Druida, Patrulheiro, Feiticeiro, Mago",
+    "spell_lists": [
+      "druida",
+      "patrulheiro",
+      "feiticeiro",
+      "mago"
+    ],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "enchanted-bloom",
+    "name": "Flor Encantada",
+    "desc": "Você passa 1 hora ungindo uma rosa com óleos perfumados e imbuindo-a com magia feérica. A primeira criatura além de você que tocar a rosa antes do fim da magia se fere nos espinhos e deve realizar um teste de resistência de Carisma. Em caso de falha, a criatura cai em um sono profundo por 24 horas, podendo ser despertada apenas pela magia restauração maior ou por magia similar, ou se você decidir encerrar a magia com uma ação.\n\nEnquanto estiver adormecida, a criatura não precisa comer nem beber, e não envelhece.\n\nCada vez que a criatura sofrer dano, ela realiza um novo teste de resistência de Carisma. Em caso de sucesso, a magia termina sobre ela.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de nível superior, a duração do sono aumenta para 7 dias com um espaço de 6º nível, para 30 dias com um espaço de 7º nível, para 180 dias com um espaço de 8º nível e para 1 ano com um espaço de 9º nível.",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma rosa cortada nas últimas 24 horas e óleos rituais no valor de 100 po, consumidos pela magia",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "24 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 hora",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Encantamento",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "dreamwine",
+    "name": "Vinho dos Sonhos",
+    "desc": "Você imbuí uma garrafa de vinho com magia feérica. Durante a conjuração desta magia, você e até sete outras criaturas podem beber o vinho encantado. Ao final da conjuração, cada criatura que bebeu o vinho passa a enxergar criaturas e objetos invisíveis como se fossem visíveis, pode ver o Plano Etéreo e possui vantagem em testes e testes de resistência de Carisma pela duração da magia.\n\nCriaturas e objetos etéreos aparecem de forma fantasmagórica e translúcida.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma garrafa de vinho élfico no valor de pelo menos 25 po, consumida pela magia",
+    "can_be_cast_as_ritual": true,
+    "ritual": "sim",
+    "duration": "1 hora",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 minuto",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Adivinhação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "vine-carpet",
+    "name": "Tapete de Vinhas",
+    "desc": "Você faz com que um espesso tapete de vinhas cresça a partir de um ponto no chão dentro do alcance. As vinhas cobrem objetos e criaturas caídas em um raio de 6 metros desse ponto.\n\nEnquanto estiverem cobertos dessa forma, objetos e criaturas possuem cobertura total desde que permaneçam imóveis. Uma criatura que se move enquanto está sob o tapete possui apenas cobertura três quartos contra ataques vindos do outro lado do tapete. Uma criatura coberta que se levanta deixa de estar coberta e passa a ficar sobre o tapete.\n\nO tapete de vinhas é macio o suficiente para que uma criatura de tamanho Grande ou menor possa caminhar sobre ele sem ferir ou perceber aqueles que estão cobertos por ele. Quando a magia termina, as vinhas murcham e desaparecem, revelando quaisquer objetos e criaturas que ainda estavam cobertos.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "1 hora",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "protection-from-the-void",
+    "name": "Proteção contra o Vazio",
+    "desc": "Até o fim da magia, uma criatura voluntária que você tocar possui resistência a dano necrótico e psíquico, além de ter vantagem em testes de resistência contra magias do vazio.",
+    "higher_level": "",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma pequena barra de prata no valor de 15 pc, consumida pela magia",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 10 minutos",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Magia do Vazio",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "frenzied-bolt",
+    "name": "Raio Frenético",
+    "desc": "Você dispara um raio de cores vibrantes contra uma criatura à sua escolha dentro do alcance. Se o ataque atingir, o alvo sofre 3d8 de dano, de um tipo determinado ao rolar na tabela de Tipo de Dano Aleatório.\n\nSe o resultado da rolagem de ataque (antes de modificadores) for ímpar, o raio salta para um novo alvo à sua escolha dentro do alcance que ainda não tenha sido afetado por esta magia, exigindo uma nova jogada de ataque. O raio continua saltando entre alvos até que você obtenha um número par na rolagem de ataque, erre um alvo ou não haja mais alvos disponíveis.\n\nVocê e seus aliados também podem ser alvos válidos desta magia, caso você esteja com muita sorte — ou azar.\n\n | Tipo de Dano Aleatório |\n| 1 ácido |\n| 2 frio|\n| 3 fogo|\n| 4 força|\n| 5 elétrico|\n| 6 necrótico|\n| 7 veneno|\n| 8 psíquico|\n| 9 radiante|\n| 10 trovejante |",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, você cria um raio adicional para cada nível acima do 2º. Cada alvo pode ser atingido apenas uma vez por conjuração da magia, não uma vez por raio.",
+    "page": "",
+    "range": "36 metros",
+    "target_range_sort": 36,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Evocação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "reset",
+    "name": "Reiniciar",
+    "desc": "Escolha até quatro criaturas dentro do alcance. Se o alvo for um aliado, ele pode rolar novamente a iniciativa, mantendo o melhor resultado entre os dois. Se o alvo for um inimigo, ele deve ser bem-sucedido em um teste de resistência de Sabedoria ou deverá rolar novamente a iniciativa, mantendo o resultado que você preferir.\n\nAs mudanças na ordem de iniciativa entram em vigor no início do próximo turno.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, você pode afetar uma criatura adicional para cada nível do espaço acima do 4º.",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Transmutação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "battle-mind",
+    "name": "Mente de Batalha",
+    "desc": "Você adquire uma percepção sobrenatural da área ao seu redor, permitindo obter insights que podem ser compartilhados com seus aliados para lhes conceder vantagem em combate. Você tem vantagem em testes de Sabedoria (Percepção) feitos para determinar surpresa no início de um encontro de combate. Se você não estiver surpreso, seus aliados também não estarão.\n\nEnquanto estiver em combate com a magia ativa, você pode usar uma ação bônus em seu turno para produzir um dos seguintes efeitos (os aliados devem ser capazes de ver ou ouvir você para se beneficiarem):\n\n* Um aliado recebe vantagem em sua próxima jogada de ataque, teste de resistência ou teste de habilidade.\n* Um inimigo tem desvantagem na próxima jogada de ataque que fizer contra você ou um aliado.\n* Você descobre a localização de uma criatura invisível ou escondida e compartilha essa informação com aliados que possam ver ou ouvir você. Esse conhecimento não remove vantagens da criatura, apenas revela sua posição naquele momento. Se a criatura se mover depois, sua nova posição não é revelada.\n* Três aliados que possam ver e ouvir você em seu turno recebem os efeitos das magias bênção, orientação ou resistência em seus turnos; você escolhe individualmente o benefício para cada aliado. O aliado deve usar o benefício em seu turno, ou ele é perdido.",
+    "higher_level": "",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um pedaço de teia de aranha ou um pequeno orbe de cristal",
+    "can_be_cast_as_ritual": true,
+    "ritual": "sim",
+    "duration": "Até 10 minutos",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Adivinhação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "phantasmal-force",
+    "name": "Força Fantasmagórica",
+    "desc": "Você tenta criar uma ilusão na mente de uma criatura que você possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Inteligência. Em caso de falha, você cria um objeto, criatura ou outro fenômeno ilusório de até 3 metros cúbicos, perceptível apenas para o alvo pela duração da magia. A ilusão inclui som, temperatura e outros estímulos.\n\nO alvo pode usar uma ação para examinar a ilusão com um teste de Inteligência (Investigação) contra a CD da sua magia. Em caso de sucesso, o alvo percebe que se trata de uma ilusão, e a magia termina.\n\nEnquanto estiver afetado pela magia, o alvo trata a ilusão como se fosse real e racionaliza quaisquer resultados ilógicos ao interagir com ela. Por exemplo, se atravessar uma ponte ilusória e sobreviver à queda, ele acredita que a ponte existe e que outra coisa causou a queda.\n\nUm alvo afetado pode até sofrer dano da ilusão se ela representar um perigo. Em cada um dos seus turnos, a ilusão pode causar 2d8 de dano psíquico ao alvo se ele estiver na área da ilusão ou a até 1,5 metro dela. O alvo percebe o dano como sendo de um tipo apropriado à ilusão.",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Ilusão",
+    "dnd_class": "Bardo, Feiticeiro, Bruxo, Mago",
+    "spell_lists": [ "bardo", "feiticeiro", "bruxo", "mago" ],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "dissonant-whispers",
+    "name": "Sussurros Dissonantes",
+    "desc": "Uma criatura à sua escolha que você possa ver dentro do alcance ouve uma melodia discordante em sua mente. O alvo deve realizar um teste de resistência de Sabedoria. Em caso de falha, sofre 3d6 de dano psíquico e deve imediatamente usar sua reação, se disponível, para se mover o mais longe possível de você, utilizando a rota mais segura. Em caso de sucesso, o alvo sofre apenas metade do dano.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de nível superior, o dano aumenta em 1d6 para cada nível acima do 1º.",
+    "page": "Player's Handbook",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Encantamento",
+    "dnd_class": "Bardo",
+    "spell_lists": [
+      "bardo"
+    ],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "heart-to-heart",
+    "name": "Coração a Coração",
+    "desc": "Pela duração da magia, você e a criatura que você tocar permanecem estáveis e inconscientes se forem reduzidos a 0 pontos de vida enquanto o outro possuir 1 ou mais pontos de vida.\n\nSe você tocar uma criatura morrendo, ela se torna estável, mas permanece inconsciente enquanto estiver com 0 pontos de vida.\n\nSe ambos forem reduzidos a 0 pontos de vida, vocês devem realizar testes de morte normalmente.\n\nSe você ou o alvo recuperarem pontos de vida, qualquer um de vocês pode escolher dividir esses pontos entre os dois, desde que estejam a até 18 metros um do outro.",
+    "higher_level": "",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma gota do seu sangue",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "1 hora",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Necromancia",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "dead-walking",
+    "name": "Passos Entre os Mortos",
+    "desc": "Como parte da conjuração desta magia, você coloca uma moeda de cobre sob a língua. Esta magia torna até seis criaturas voluntárias que você possa ver dentro do alcance invisíveis para mortos-vivos pela duração.\n\nQualquer coisa que o alvo esteja vestindo ou carregando também se torna invisível enquanto estiver em sua posse. A magia termina para todos os alvos se qualquer um deles atacar ou conjurar uma magia.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º nível, sua duração passa a ser de 1 hora sem exigir concentração. Ao usar um espaço de 4º nível ou superior, a duração aumenta em 1 hora para cada nível acima do 3º.",
+    "page": "",
+    "range": "3 metros",
+    "target_range_sort": 3,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma moeda de cobre",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 hora",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Ilusão",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "gird-the-spirit",
+    "name": "Fortificar o Espírito",
+    "desc": "Sua magia protege a criatura alvo contra as energias que drenam a vida dos mortos-vivos. Pela duração, o alvo é imune a efeitos de criaturas mortas-vivas que reduzem seus atributos, como o dreno de Força de uma sombra, ou seu máximo de pontos de vida, como o Dreno de Vida de um espectro.\n\nEsta magia não impede o dano desses ataques; ela previne apenas a redução de atributos ou do máximo de pontos de vida.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "1 minuto",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 reação, que você usa quando você ou uma criatura a até 9 metros de você é atingida por um ataque de um morto-vivo",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Abjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "life-from-death",
+    "name": "Vida a Partir da Morte",
+    "desc": "Seu toque pode drenar energia de mortos-vivos para curar suas feridas. Faça um ataque corpo a corpo de magia contra uma criatura morta-viva ao seu alcance. Em caso de acerto, o alvo sofre 2d6 de dano radiante, e você ou um aliado a até 9 metros de você recupera pontos de vida iguais à metade do dano radiante causado.\n\nSe usado em um aliado, este efeito não pode restaurar mais do que metade do máximo de pontos de vida do alvo. Este efeito não pode curar mortos-vivos ou constructos.\n\nAté o fim da magia, você pode realizar esse ataque novamente em cada um dos seus turnos como uma ação.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, o dano aumenta em 1d6 para cada nível acima do 3º.",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Necromancia",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "mantle-of-the-brave",
+    "name": "Manto dos Corajosos",
+    "desc": "Você toca até quatro criaturas, fortalecendo sua coragem. A próxima vez que uma criatura afetada por esta magia precisar realizar um teste de resistência contra uma magia ou efeito que causaria a condição amedrontado, ela terá vantagem na rolagem.\n\nApós uma criatura receber esse benefício, a magia termina para ela.",
+    "higher_level": "",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "1 hora",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Abjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "litany-of-sure-hands",
+    "name": "Litania de Mãos Seguras",
+    "desc": "Esta magia permite que uma criatura dentro do alcance execute rapidamente uma tarefa simples (exceto atacar ou conjurar uma magia) como uma ação bônus em seu turno. Exemplos incluem encontrar um item na mochila, beber uma poção ou puxar uma corda. Outras ações também podem se enquadrar nessa categoria, a critério do Mestre.\n\nO alvo também ignora a propriedade \"recarga\" de armas.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "1 minuto",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação bônus",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Adivinhação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "invested-champion",
+    "name": "Campeão Investido",
+    "desc": "Você toca uma criatura e escolhe se torná-la seu campeão ou se tornar o campeão dela.\n\nSe você escolher que a criatura se torne seu campeão, ela luta em seu nome. Enquanto esta magia estiver ativa, você pode conjurar qualquer magia com alcance de toque em seu campeão como se tivesse alcance de 18 metros. Os ataques do seu campeão são considerados mágicos, e você pode usar uma ação bônus em seu turno para encorajá-lo, concedendo vantagem em sua próxima jogada de ataque.\n\nSe você se tornar o campeão de outra criatura, você ganha vantagem em todas as jogadas de ataque contra criaturas que tenham atacado seu protegido no último turno. Se você estiver empunhando um escudo e uma criatura a até 1,5 metro de você atacar seu protegido, você pode usar sua reação para impor desvantagem na jogada de ataque, como se possuísse o estilo de luta Proteção. Se você já possuir esse estilo de luta, além de impor desvantagem, você também pode empurrar o inimigo 1,5 metro em qualquer direção para longe do seu protegido ao usar sua reação. Você também pode usar uma ação bônus em seu turno para rerrolar o dano de qualquer ataque bem-sucedido contra uma criatura que esteja ameaçando seu protegido.\n\nIndependentemente da forma escolhida, se a distância entre o campeão e seu aliado designado ultrapassar 18 metros, a magia termina.",
+    "higher_level": "",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um frasco de água benta",
+    "can_be_cast_as_ritual": true,
+    "ritual": "sim",
+    "duration": "Até 1 hora",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Evocação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "inspiring-speech",
+    "name": "Discurso Inspirador",
+    "desc": "O componente verbal desta magia é um discurso empolgante de 10 minutos. Ao final do discurso, todos os seus aliados dentro da área afetada que o ouviram recebem um bônus de +1 nas jogadas de ataque e vantagem em testes de resistência por 1 hora contra efeitos que causem as condições enfeitiçado ou amedrontado.\n\nAlém disso, cada alvo recebe pontos de vida temporários iguais ao seu modificador de habilidade de conjuração.\n\nSe você se afastar mais de 1,6 km de seus aliados ou morrer, a magia termina. Um personagem só pode ser afetado por uma conjuração desta magia por vez; conjurações sobrepostas não têm efeito adicional nem estendem a duração.",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "1 hora",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "10 minutos",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Encantamento",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "storm-of-wings",
+    "name": "Tempestade de Asas",
+    "desc": "Você cria uma tempestade de pássaros espectrais, morcegos ou insetos voadores em uma esfera de 4,5 metros de raio em um ponto que você possa ver dentro do alcance. A tempestade se espalha ao redor de cantos, e sua área fica levemente obscurecida. Cada criatura dentro da área quando ela surge, e cada criatura que iniciar seu turno nela, é afetada pela tempestade.\n\nComo uma ação bônus em seu turno, você pode mover a tempestade até 9 metros. Como uma ação em seu turno, você pode mudar o tipo da tempestade, como de morcegos para insetos.\n\n**Morcegos**. A criatura sofre 4d6 de dano necrótico, e seu deslocamento é reduzido pela metade enquanto estiver na tempestade, pois os morcegos se agarram a ela e drenam seu sangue.\n\n**Pássaros**. A criatura sofre 4d6 de dano cortante e tem desvantagem nas jogadas de ataque enquanto estiver na tempestade, pois os pássaros atrapalham seus ataques.\n\n**Insetos**. A criatura sofre 4d6 de dano de veneno e deve realizar um teste de resistência de Constituição sempre que conjurar uma magia enquanto estiver na tempestade. Em caso de falha, a magia falha, consumindo a ação, mas não o espaço de magia.",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma gota de mel",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "sudden-stampede",
+    "name": "Debandada Repentina",
+    "desc": "Você conjura uma multidão de espíritos feéricos que se manifestam como cavalos em disparada. Esses cavalos avançam em uma linha de 3 metros de largura por 18 metros de comprimento, em uma direção à sua escolha a partir de um ponto dentro do alcance, atropelando todas as criaturas em seu caminho antes de desaparecerem.\n\nCada criatura na linha sofre 6d10 de dano contundente e fica caída. Um teste de resistência de Destreza bem-sucedido reduz o dano pela metade e impede que a criatura fique caída.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma ferradura",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "bloodhound",
+    "name": "Faro Aguçado",
+    "desc": "Você toca uma criatura voluntária para conceder a ela um olfato aprimorado. Pela duração, essa criatura tem vantagem em testes de Sabedoria (Percepção) que dependam do olfato e em testes de Sabedoria (Sobrevivência) para rastrear.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º nível, você também concede ao alvo visão às cegas em um alcance de 9 metros pela duração.",
+    "page": "5e SRD",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma gota de amônia",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "8 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Transmutação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "hunters-endurance",
+    "name": "Resistência do Caçador",
+    "desc": "Você invoca o poder da terra para sustentá-lo enquanto caça sua presa. Descreva ou nomeie uma criatura que seja familiar a você. Se você não estiver familiarizado com a criatura alvo, deve usar uma unha, mecha de cabelo, pedaço de pelo ou gota de sangue dela como componente material para direcionar esta magia.\n\nAté o fim da magia, você tem vantagem em todos os testes de Sabedoria (Percepção) e Sabedoria (Sobrevivência) para encontrar e rastrear o alvo, e deve persegui-lo ativamente como se estivesse sob o efeito de uma geas.\n\nAlém disso, você não sofre níveis de exaustão adquiridos ao perseguir sua presa, como por falta de descanso ou perigos ambientais entre você e o alvo, enquanto a magia estiver ativa. Quando a magia termina, você sofre todos os níveis de exaustão que foram suprimidos.\n\nA magia termina apenas após 24 horas, quando o alvo morrer, quando estiver em outro plano ou quando estiver imobilizado dentro da sua linha de visão.",
+    "higher_level": "",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma unha, mecha de cabelo, pedaço de pelo ou gota de sangue do alvo, caso você não esteja familiarizado com ele",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "24 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 minuto",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Encantamento",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "instant-snare",
+    "name": "Laço Instantâneo",
+    "desc": "Você cria uma armadilha em um ponto que possa ver dentro do alcance. Você pode deixá-la como uma armadilha mágica ou usar sua reação para ativá-la quando uma criatura de tamanho Grande ou menor que você possa ver se mover a até 3 metros dela.\n\nSe deixada como armadilha, uma criatura deve ser bem-sucedida em um teste de Inteligência (Investigação) ou Sabedoria (Percepção) contra a CD de suas magias para detectá-la. Quando uma criatura de tamanho Grande ou menor se mover a até 1,5 metro da armadilha, ela é ativada. A criatura deve realizar um teste de resistência de Destreza ou será puxada magicamente para o ar.\n\nA criatura fica restringida e pendurada de cabeça para baixo a 1,5 metro acima do local da armadilha por 1 minuto. Uma criatura restringida pode repetir o teste de resistência ao final de cada um de seus turnos, escapando com sucesso.\n\nAlternativamente, uma criatura pode usar sua ação para realizar um teste de Inteligência (Arcanismo) contra a CD de suas magias. Em caso de sucesso, a criatura é libertada e a armadilha se reinicia após 1 minuto. Se o sucesso for por 5 ou mais, a armadilha é destruída.\n\nEsta magia o alerta com um sinal mental quando a armadilha é ativada, desde que você esteja a até 1,6 km dela. Esse sinal desperta você se estiver dormindo.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, você pode criar uma armadilha adicional para cada nível acima do 3º. Quando receber o sinal mental, você saberá qual armadilha foi ativada caso tenha mais de uma.",
+    "page": "",
+    "range": "36 metros",
+    "target_range_sort": 36,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um laço de barbante",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "24 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Abjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "mark-prey",
+    "name": "Marcar Presa",
+    "desc": "Você escolhe uma criatura que possa ver dentro do alcance como sua presa. Até o fim da magia, você tem vantagem em testes de Sabedoria (Percepção) e Sabedoria (Sobrevivência) para encontrar ou rastrear sua presa.\n\nAlém disso, o alvo fica envolto por uma luz visível apenas para você. Qualquer jogada de ataque que você fizer contra sua presa tem vantagem se você puder vê-la, e ela não pode se beneficiar de invisibilidade contra você.\n\nSe o alvo cair a 0 pontos de vida antes do fim da magia, você pode usar uma ação bônus em um turno subsequente para marcar um novo alvo como sua presa.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 4º nível, você pode manter a concentração por até 8 horas. Ao usar um espaço de 5º nível ou superior, você pode manter a concentração por até 24 horas.",
+    "page": "",
+    "range": "36 metros",
+    "target_range_sort": 36,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 hora",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação bônus",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Adivinhação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "harry",
+    "name": "Atormentar",
+    "desc": "Você instila um senso irresistível de insegurança e terror no alvo. O alvo deve realizar um teste de resistência de Sabedoria. Em caso de falha, o alvo tem desvantagem em testes de Destreza (Furtividade) para evitar sua percepção e fica amedrontado por você enquanto estiver dentro da sua linha de visão.\n\nEnquanto você estiver a até 1,6 km do alvo, você tem vantagem em testes de Sabedoria (Sobrevivência) para rastreá-lo, e o alvo não pode realizar um descanso longo, aterrorizado com a ideia de que você está por perto. O alvo pode repetir o teste de resistência a cada 10 minutos, encerrando a magia em caso de sucesso.\n\nEm caso de sucesso inicial, o alvo não é afetado e você não pode usar esta magia contra ele novamente por 24 horas.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 6º nível, a duração passa a ser concentração, até 8 horas, e o alvo pode repetir o teste de resistência uma vez por hora. Ao usar um espaço de 8º nível ou superior, a duração passa a ser concentração, até 24 horas, e o alvo pode repetir o teste de resistência a cada 8 horas.",
+    "page": "",
+    "range": "36 metros",
+    "target_range_sort": 36,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um pedaço de pelo de animal de caça",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 hora",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Encantamento",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "heart-seeking-arrow",
+    "name": "Flecha Perseguidora do Coração",
+    "desc": "Na próxima vez que você fizer um ataque com arma à distância durante a duração da magia, a munição da arma — ou a própria arma, caso seja arremessada — busca os órgãos vitais do alvo. Faça a jogada de ataque normalmente.\n\nEm caso de acerto, a arma causa 6d6 de dano adicional do mesmo tipo causado pela arma. Em caso de erro, ela ainda causa metade desse dano, pois segue em direção ao alvo com precisão sobrenatural.\n\nSe este ataque reduzir o alvo a 0 pontos de vida, ele terá desvantagem em seu próximo teste de morte e, caso morra, só poderá ser trazido de volta à vida por meio de uma magia de ressurreição verdadeira ou desejo.\n\nEsta magia não afeta mortos-vivos ou constructos.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, o dano adicional em caso de acerto aumenta em 1d6 para cada nível acima do 4º.",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação bônus",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Transmutação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "killing-fields",
+    "name": "Campos de Extermínio",
+    "desc": "Você invoca espíritos primordiais da natureza para transformar o terreno natural em um cubo de 30 metros dentro do alcance em uma área privada de caça. A área não pode incluir estruturas construídas; se houver alguma, a magia termina.\n\nEnquanto você estiver consciente e dentro da área, você percebe a presença e a direção, mas não a localização exata, de cada besta ou monstruosidade com Inteligência 3 ou menor dentro da área.\n\nQuando uma dessas criaturas tenta deixar a área, deve realizar um teste de resistência de Sabedoria. Em caso de falha, ela fica desorientada, incerta de sua direção, e permanece na área por 1 hora. Em caso de sucesso, ela consegue sair.\n\nAo conjurar a magia, você pode designar criaturas que serão beneficiadas pelos efeitos da área. Todas as demais criaturas são prejudicadas.\n\nVocê também pode definir uma palavra de comando que, ao ser dita em voz alta, concede ao falante os benefícios da área.\n\nDentro da área, aplicam-se os seguintes efeitos:\n\n* Uma criatura beneficiada tem vantagem em jogadas de ataque contra uma criatura prejudicada se pelo menos um aliado beneficiado estiver a até 1,5 metro do alvo e não estiver incapacitado.\n* Uma vez por turno, quando uma criatura beneficiada acerta com uma arma, ela causa 1d6 de dano adicional do mesmo tipo contra uma criatura prejudicada.\n* Uma criatura beneficiada tem vantagem em testes de Sabedoria (Sobrevivência) e Destreza (Furtividade) contra criaturas prejudicadas.Você pode tornar esta magia permanente ao conjurá-la no mesmo local todos os dias por um ano. Estruturas construídas após a magia se tornar permanente não a encerram.",
+    "higher_level": "",
+    "page": "",
+    "range": "90 metros",
+    "target_range_sort": 90,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um animal de caça, que deve ser sacrificado durante a conjuração",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "24 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "10 minutos",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Transmutação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "iron-gut",
+    "name": "Estômago de Ferro",
+    "desc": "Pela duração da magia, uma criatura voluntária que você tocar possui resistência a dano de veneno e vantagem em testes de resistência contra veneno.\n\nQuando a criatura afetada realizar um teste de resistência de Constituição contra um efeito que cause dano de veneno ou que a envenene, ela pode escolher ser bem-sucedida automaticamente. Se fizer isso, a magia termina sobre ela.\n\nEnquanto estiver sob efeito desta magia, a criatura não pode obter benefícios de alimentos mágicos, como aqueles criados por bagas boas ou banquete heroico, e não sofre efeitos negativos de alimentos não mágicos potencialmente prejudiciais, como comida estragada ou água imprópria. A criatura é afetada normalmente por outros itens mágicos consumíveis, como poções.\n\nA criatura pode identificar comida envenenada pelo sabor azedo, sendo que venenos mais letais possuem sabor mais intenso.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, você pode afetar uma criatura adicional para cada nível acima do 3º.",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um bezoar",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 hora",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Transmutação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "adjust-position",
+    "name": "Ajustar Posição",
+    "desc": "Você ajusta a posição de um aliado para uma melhor colocação tática. Você move uma criatura voluntária dentro do alcance em até 1,5 metro. Esse movimento não provoca ataques de oportunidade.\n\nA criatura se desloca fisicamente pelo espaço (não é teletransporte), portanto não pode haver obstáculos físicos no caminho, como paredes ou portas.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 2º nível ou superior, você pode afetar uma criatura voluntária adicional para cada nível acima do 1º.",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação bônus",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Transmutação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "glyph-of-shifting",
+    "name": "Glifo de Deslocamento",
+    "desc": "Você cria um glifo oculto ao traçá-lo em uma superfície ou objeto que você tocar. Ao conjurar a magia, você também pode escolher um local conhecido por você, a até 8 km e no mesmo plano de existência, como destino do efeito do glifo.\n\nO glifo é ativado quando é tocado por uma criatura que não esteja ciente de sua presença. A criatura deve ser bem-sucedida em um teste de resistência de Sabedoria ou será teleportada para o destino do glifo. Se nenhum destino tiver sido definido, a criatura sofre 4d4 de dano de força e fica caída.\n\nO glifo desaparece após ser ativado ou quando a duração da magia termina.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, sua duração aumenta em 24 horas e a distância máxima até o destino aumenta em 8 km para cada nível acima do 2º.",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "diamante em pó no valor de pelo menos 50 po, consumido pela magia",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "24 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "10 minutos",
+    "level": "2º nível",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "dimensional-shove",
+    "name": "Empurrão Dimensional",
+    "desc": "Esta magia empurra uma criatura que você tocar através de um portal dimensional, fazendo com que ela desapareça e reapareça a uma curta distância. O alvo deve realizar um teste de resistência de Sabedoria. Em caso de falha, ele desaparece de sua posição atual e reaparece a até 9 metros de você em uma direção à sua escolha.\n\nEsse deslocamento pode atravessar paredes, criaturas ou outras superfícies sólidas, mas o alvo não pode reaparecer dentro de um objeto sólido nem fora de uma superfície firme. Em vez disso, reaparece no espaço seguro desocupado mais próximo ao longo do trajeto.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, a distância aumenta em 9 metros para cada nível acima do 3º.",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "portal-jaunt",
+    "name": "Salto por Portal",
+    "desc": "Você toca uma chave especialmente preparada em uma porta ou portão, transformando-o em um portal unidirecional para outra porta semelhante dentro do alcance. Esta magia funciona com qualquer porta ou abertura artificial, como portais ou arcos, mas não com aberturas naturais, como entradas de cavernas ou rachaduras. Você deve conhecer o destino ou ser capaz de vê-lo ao conjurar a magia.\n\nAo concluir a conjuração, a porta tocada se abre, revelando uma imagem cintilante do local além da porta de destino. Você pode atravessar a porta, emergindo instantaneamente pela porta de destino.\n\nVocê também pode permitir que uma outra criatura voluntária atravesse o portal. Tudo que você carrega atravessa com você, incluindo outras criaturas, voluntárias ou não.\n\nPara os fins desta magia, fechaduras, trancas ou efeitos mágicos como tranca arcana não têm efeito durante sua duração. Você só pode viajar para um lado da porta que tenha visto ou visitado fisicamente anteriormente (efeitos de adivinhação contam como visão).\n\nAssim que você ou uma criatura atravessar o portal, ambas as portas se fecham, encerrando a magia. Se ninguém atravessar dentro de 1 rodada, a magia termina.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 4º nível ou superior, o alcance aumenta em 30 metros e a duração aumenta em 1 rodada para cada nível acima do 3º. Cada rodada adicional permite que uma criatura extra atravesse o portal antes do fim da magia.",
+    "page": "",
+    "range": "90 metros",
+    "target_range_sort": 90,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma pequena chave de latão",
+    "can_be_cast_as_ritual": true,
+    "ritual": "sim",
+    "duration": "1 rodada",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "reposition",
+    "name": "Reposicionamento",
+    "desc": "Você designa até três criaturas aliadas (uma delas pode ser você) dentro do alcance. Cada alvo se teletransporta para um espaço desocupado de sua escolha que possa ver a até 9 metros de si mesmo.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, você pode afetar uma criatura aliada adicional para cada nível acima do 4º.",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V",
+    "requires_verbal_components": true,
+    "requires_somatic_components": false,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação bônus",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "pierce-the-veil",
+    "name": "Transpassar o Véu",
+    "desc": "Ao desenhar uma porta etérea cintilante no ar e bater três vezes, você invoca uma entidade de outro plano para fornecer conhecimento ou conselhos. A porta se abre e a entidade, envolta em sombras ou obscurecida, aparece no limiar. Ela responde até cinco perguntas de forma verdadeira e da melhor maneira possível, mas suas respostas podem não ser claras ou diretas.\n\nA entidade não pode atravessar a porta nem interagir com nada do seu lado, exceto ao falar. Da mesma forma, criaturas do seu lado não podem atravessar ou interagir com o outro lado além de fazer perguntas.\n\nA magia permite que você e a entidade compreendam mutuamente suas palavras, como se ambos estivessem sob o efeito de compreender idiomas.\n\nAo conjurar esta magia, você deve solicitar uma entidade específica, um tipo específico de criatura ou uma criatura de um plano específico de existência. A criatura não pode ser nativa do plano em que você está.\n\nApós fazer o pedido, realize um teste usando sua habilidade de conjuração. A CD é 12 se solicitar uma criatura de um plano específico, 16 se solicitar um tipo específico de criatura ou 20 se solicitar uma entidade específica (o Mestre pode realizar esse teste em segredo).\n\nSe o teste falhar, a criatura que responde é escolhida pelo Mestre, podendo vir de qualquer plano. Independentemente do resultado, a criatura sempre terá Inteligência de pelo menos 8 e capacidade de falar e ouvir.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "alguns centímetros de corda de uma forca de encruzilhada",
+    "can_be_cast_as_ritual": true,
+    "ritual": "sim",
+    "duration": "10 minutos",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 minuto",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Adivinhação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "bardo",
+    "name": "Bardo",
+    "desc": "Você captura parte da essência vital que se dissipa de uma criatura no momento de sua morte, manipulando a energia do limiar entre a vida e a morte. Você pode então usar essa essência para imediatamente prejudicar ou ajudar outra criatura que possa ver dentro do alcance.\n\nSe optar por prejudicar, o alvo deve realizar um teste de resistência de Sabedoria. Em caso de falha, sofre 6d8 + seu modificador de habilidade de conjuração de dano psíquico, ou metade do dano em caso de sucesso.\n\nSe optar por ajudar, o alvo recupera pontos de vida iguais a 3d8 + seu modificador de habilidade de conjuração.\n\nEsta magia não pode ser ativada pela morte de um constructo ou morto-vivo, e não pode restaurar pontos de vida a essas criaturas.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma pitada de terra de cemitério",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 reação, que você usa quando vê uma criatura a até 9 metros de você morrer",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Necromancia",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "sacrificial-healing",
+    "name": "Cura Sacrificial",
+    "desc": "Você cura os ferimentos de outra criatura assumindo-os para si ou transferindo-os para outra criatura voluntária dentro do alcance. Role 4d8. O valor obtido é a quantidade de pontos de vida restaurados ao alvo e também o dano que você sofre, conforme as feridas se fecham no alvo e surgem em seu corpo (ou no corpo da outra criatura voluntária escolhida).",
+    "higher_level": "",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma faca de prata",
+    "can_be_cast_as_ritual": true,
+    "ritual": "sim",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Necromancia",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "illuminate-spoor",
+    "name": "Rastro Iluminado",
+    "desc": "Você toca um conjunto de rastros deixados por uma única criatura.\n\nEsse conjunto de rastros e todos os outros rastros feitos pela mesma criatura passam a emitir um brilho fraco. Você e até três criaturas que você designar ao conjurar a magia podem ver esse brilho. Uma criatura que consiga ver o brilho obtém sucesso automático em testes de Sabedoria (Sobrevivência) para rastrear essa criatura.\n\nSe os rastros estiverem cobertos por objetos que dificultem a visão, como folhas ou lama, você e as criaturas designadas têm vantagem em testes de Sabedoria (Sobrevivência) para segui-los.\n\nSe a criatura mudar seus rastros, como ao trocar ou remover calçados, o brilho termina no ponto onde os rastros mudam. Até o fim da magia, você pode usar uma ação para tocar e iluminar um novo conjunto de rastros.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º nível ou superior, a duração passa a ser concentração, até 8 horas. Ao usar um espaço de 5º nível ou superior, a duração passa a ser concentração, até 24 horas.",
+    "page": "",
+    "range": "Toque",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um vaga-lume",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 hora",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Adivinhação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "going-in-circles",
+    "name": "Andando em Círculos",
+    "desc": "Você faz com que um terreno natural em um cubo de até 1,6 km de lado se torne difícil de atravessar. Criaturas dentro da área têm desvantagem em testes de Sabedoria (Sobrevivência) para seguir rastros ou viajar com segurança, pois os caminhos parecem se torcer e se dobrar de forma ilógica.\n\nO terreno em si não muda, apenas a percepção das criaturas dentro dele. Uma criatura que obtiver sucesso em dois testes de Sabedoria (Sobrevivência) enquanto estiver na área percebe a ilusão como ela realmente é e passa a ver as distorções sobrepostas ao terreno.\n\nUma criatura que sair e retornar à área antes do fim da magia volta a ser afetada, mesmo que já tenha resistido anteriormente.\n\nUma criatura que conjurar encontrar o caminho automaticamente descobre uma rota para sair da área.\n\nAo conjurar esta magia, você pode definir uma palavra-chave. Uma criatura que disser essa palavra ao entrar na área percebe automaticamente a ilusão e não é afetada por ela.\n\nSe você conjurar esta magia no mesmo local todos os dias por um ano, a ilusão se torna permanente até ser dissipada.",
+    "higher_level": "",
+    "page": "",
+    "range": "À vista",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um pedaço do terreno alvo",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "24 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "10 minutos",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Ilusão",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "tracer",
+    "name": "Rastreador",
+    "desc": "Ao conjurar esta magia, e como uma ação bônus em cada um dos seus turnos até o fim da duração, você pode imbuir uma munição disparada por uma arma à distância com um pequeno sinal invisível.\n\nSe um ataque à distância com essa munição atingir um alvo, o sinal é transferido para ele. A arma que disparou a munição fica sintonizada com o sinal e se torna quente ao toque quando apontada na direção do alvo, desde que ele esteja no mesmo plano de existência que você.\n\nVocê pode ter apenas um alvo marcado por vez. Se marcar outro alvo, o efeito no anterior termina.\n\nUma criatura deve ser bem-sucedida em um teste de Inteligência (Arcanismo) contra a CD de suas magias para perceber o sinal mágico.",
+    "higher_level": "",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma gota de tinta brilhante",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "8 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação bônus",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Adivinhação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "hunting-stand",
+    "name": "Posto de Caça",
+    "desc": "Você cria um abrigo camuflado entre os galhos de uma árvore ou entre um conjunto de rochas.\n\nO abrigo ocupa um cubo de 3 metros centrado em um ponto dentro do alcance e pode comportar até nove criaturas de tamanho Médio ou menor. O interior do abrigo é confortável e seco, independentemente das condições climáticas externas.\n\nA camuflagem do abrigo concede certo grau de ocultação aos seus ocupantes; criaturas fora do abrigo têm desvantagem em testes de Sabedoria (Percepção) e Inteligência (Investigação) para detectar ou localizar criaturas dentro dele.",
+    "higher_level": "",
+    "page": "",
+    "range": "36 metros",
+    "target_range_sort": 36,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um modelo rudimentar do abrigo",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "8 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 minuto",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "harrying-hounds",
+    "name": "Matilha Implacável",
+    "desc": "Ao conjurar esta magia, escolha uma direção (norte, sul, nordeste, etc.). Cada criatura em uma esfera de 6 metros de raio centrada em um ponto à sua escolha dentro do alcance deve ser bem-sucedida em um teste de resistência de Sabedoria ou será afetada.\n\nQuando uma criatura afetada se desloca, ela o faz em ritmo acelerado na direção oposta à escolhida, acreditando estar sendo perseguida por uma matilha de cães ou lobos. Quando não está se deslocando, ela fica amedrontada da direção escolhida.\n\nA criatura ocasionalmente ouve uivos ou vê olhos brilhantes na escuridão no limite de sua visão naquela direção. Ela não para em um destino, movendo-se em semicírculos ao redor dele, temendo ser alcançada se parar.\n\nA criatura pode repetir o teste de resistência ao final de cada período de 4 horas, encerrando o efeito em caso de sucesso.\n\nA criatura se move pelo caminho mais seguro possível. Se não puder se mover com segurança na direção oposta, ela se encolhe no lugar, defendendo-se de ameaças, mas sem realizar outras ações. Nessa situação, pode repetir o teste de resistência a cada minuto.\n\nO efeito da magia é suspenso enquanto a criatura estiver em combate, permitindo que ela aja normalmente.\n\nSe a criatura viajar por mais de 8 horas, pode sofrer exaustão como em uma marcha forçada.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 6º nível ou superior, a duração aumenta em 4 horas para cada nível acima do 5º.",
+    "page": "",
+    "range": "54 metros",
+    "target_range_sort": 54,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um tufo de pelo de um cão de caça",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "8 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Encantamento",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "maim",
+    "name": "Mutilar",
+    "desc": "Suas mãos se transformam em garras envoltas em energia necrótica.\n\nFaça um ataque corpo a corpo de magia contra uma criatura ao seu alcance. Em caso de acerto, o alvo sofre 4d6 de dano necrótico e uma parte de seu corpo à sua escolha é afetada:\n\nMembro Superior. O alvo tem desvantagem em testes de Força e, se possuir a ação Multiataque, tem desvantagem em sua primeira jogada de ataque a cada rodada.\n\nMembro Inferior. O deslocamento do alvo é reduzido em 3 metros e ele tem desvantagem em testes de Destreza.\n\nCorpo. Escolha um tipo de dano: contundente, perfurante ou cortante. O alvo perde sua resistência a esse tipo de dano. Se não possuir resistência, passa a ter vulnerabilidade a ele.\n\nO efeito é permanente até ser removido por remover maldição, restauração maior ou magia similar.",
+    "higher_level": "",
+    "page": "",
+    "range": "Pessoal",
+    "target_range_sort": 0,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Necromancia",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "devouring-darkness",
+    "name": "Escuridão Devoradora",
+    "desc": "Monstros aterrorizantes e pesadelescos habitam o vazio desconhecido entre os planos. Escolha até seis pontos que você possa ver dentro do alcance. Uma escuridão mágica semelhante ao vazio se expande de cada ponto, formando esferas de 3 metros de raio pela duração. A escuridão contorna cantos. Criaturas com visão no escuro não conseguem enxergar através dessa escuridão, e nenhuma luz, mágica ou não, pode iluminá-la.\n\nCada criatura dentro de uma esfera quando a magia é conjurada deve realizar um teste de resistência de Destreza. Em caso de falha, sofre 6d10 de dano perfurante e 5d6 de dano psíquico e fica restringida enquanto entidades invisíveis a dilaceram. Em caso de sucesso, sofre metade do dano e não fica restringida.\n\nUma criatura restringida pode usar sua ação para realizar um teste de Força contra a CD de suas magias, encerrando a condição em caso de sucesso.\n\nQuando uma criatura entra em uma esfera pela primeira vez em um turno ou inicia seu turno nela, deve realizar um teste de resistência de Inteligência. Em caso de falha, sofre 5d6 de dano psíquico, ou metade em caso de sucesso.\n\nAs esferas não podem ser movidas após criadas. Uma criatura em áreas sobrepostas não sofre efeitos adicionais por estar em mais de uma esfera.",
+    "higher_level": "",
+    "page": "",
+    "range": "90 metros",
+    "target_range_sort": 90,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "9º nível",
+    "level_int": 9,
+    "spell_level": 9,
+    "school": "Evocação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "door-of-the-far-traveler",
+    "name": "Porta do Viajante Distante",
+    "desc": "Você conjura uma porta para um destino à sua escolha que permanece pela duração da magia ou até ser dissipada. Você desenha o contorno da porta com giz em uma superfície rígida (como uma parede, penhasco ou convés de navio) e inscreve símbolos mágicos ao redor. A abertura deve ter pelo menos 30 cm de largura por 60 cm de altura e no máximo 1,5 metro de largura por 3 metros de altura. Após desenhar a porta, você posiciona a maçaneta, que se fixa magicamente à superfície, transformando o desenho em uma porta real para o destino escolhido.\n\nA porta permanece funcional durante toda a duração. Qualquer criatura pode abri-la ou fechá-la e atravessá-la em ambas as direções.\n\nO destino pode estar em qualquer plano de existência, mas deve ser familiar a você. O grau de familiaridade determina a precisão do destino. Locais já visitados têm precisão total; locais apenas descritos podem levar a imprecisões; locais vagamente conhecidos podem levar a destinos similares, porém diferentes.\n\nA magia não cria uma porta no destino, mas se conecta a uma porta existente. Não é possível conectar-se a locais sem portas. Enquanto ativa, a porta conectada passa a ligar apenas ao local onde você lançou a magia.\n\nAntes de conjurar, você deve passar 1 hora gravando símbolos mágicos na maçaneta para sintonizá-la ao destino desejado. A maçaneta permanece sintonizada até ser usada ou até que você a sintonize novamente.\n\nA magia termina se a maçaneta for removida da porta. Você pode removê-la como uma ação bônus de qualquer lado da porta, desde que ela esteja fechada.\n\nSe a duração terminar naturalmente, a maçaneta cai no chão do lado em que você estiver. Após o término da magia, a maçaneta perde sua sintonização e precisa ser preparada novamente.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 9º nível, a duração aumenta para 12 horas.",
+    "page": "",
+    "range": "3 metros",
+    "target_range_sort": 3,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um pedaço de giz e uma maçaneta de latão, estanho ou ferro",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "6 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "10 minutos + 1 hora de sintonização",
+    "level": "8º nível",
+    "level_int": 8,
+    "spell_level": 8,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "ethereal-stairs",
+    "name": "Escadaria Etérea",
+    "desc": "Você cria uma escadaria a partir do vazio no ar. Uma escada cintilante de 3 metros de largura aparece e permanece pela duração. A escadaria sobe em um ângulo de 45 graus até um ponto a até 18 metros acima do solo.\n\nA escada consiste apenas de degraus sem suporte aparente, a menos que você escolha fazê-la parecer de pedra ou madeira. Mesmo assim, sua natureza mágica é evidente, pois é translúcida e sem cor, e apenas os degraus são sólidos; o restante é tão intangível quanto o ar.\n\nA escadaria pode suportar até 10 toneladas de peso. Ela pode ser reta, em espiral ou em zigue-zague. Sua base deve estar conectada ao solo sólido, mas seu topo não precisa se conectar a nada.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 6º nível ou superior, a escadaria se estende por mais 6 metros para cada nível acima do 5º.",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "5º nível",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "hypnagogia",
+    "name": "Hipnagogia",
+    "desc": "Você altera o estado mental de uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Inteligência. Em caso de falha, escolha um dos efeitos abaixo. Ao final de cada turno, o alvo pode repetir o teste, encerrando a magia em caso de sucesso. Criaturas com Inteligência 4 ou menos não são afetadas.\n\n* **Paralisia do Sono.** Um peso esmagador e fadiga dominam a criatura. Seu deslocamento é reduzido pela metade e ela tem desvantagem em ataques com armas.\n\n* **Fantasmata.** A criatura imagina alucinações vívidas e aterrorizantes em um ponto à sua escolha dentro do alcance. Pela duração, ela fica amedrontada e deve usar a ação de Disparada em cada turno para se afastar desse ponto pelo caminho mais seguro possível.\n\n* **Falso Despertar.** A criatura entra em um estado de transe, sem plena consciência do ambiente. Ela não pode usar reações e deve rolar 1d4 no início de cada turno para determinar seu comportamento. Sempre que sofrer dano, pode repetir o teste de resistência.\n\n | d4 | Comportamento |\n| 1 | A criatura usa Disparada e se move em uma direção aleatória (role 1d8 para determinar a direção). |\n| 2 | A criatura usa sua ação para simular atividades cotidianas, como escovar os dentes ou comer. |\n| 3 | A criatura se move até seu deslocamento em direção a uma criatura aleatória e realiza um ataque corpo a corpo contra ela. |\n| 4 | A criatura não faz nada neste turno. |",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 5º nível ou superior, você pode afetar uma criatura adicional para cada nível acima do 4º. As criaturas devem estar a até 9 metros umas das outras ao serem escolhidas.",
+    "page": "",
+    "range": "27 metros",
+    "target_range_sort": 27,
+    "components": "S, M",
+    "requires_verbal_components": false,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "uma pitada de penugem de ganso",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Encantamento",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "hypnic-jerk",
+    "name": "Espasmo Hipnagógico",
+    "desc": "Coisas estranhas acontecem na mente e no corpo no momento entre estar acordado e dormir. Uma das mais comuns é o susto causado por uma sensação repentina de queda.\n\nCom um estalar de dedos, você provoca essa sensação em uma criatura que possa ver dentro do alcance. O alvo deve realizar um teste de resistência de Sabedoria. Em caso de falha, sofre 1d6 de dano de força. Se falhar por 5 ou mais, ele deixa cair um objeto que esteja segurando, que cai em seu espaço.\n\nO dano da magia aumenta em 1d6 ao atingir o 5º nível (2d6), 11º nível (3d6) e 17º nível (4d6).",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "S",
+    "requires_verbal_components": false,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "Truque",
+    "level_int": 0,
+    "spell_level": 0,
+    "school": "Ilusão",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "mind-maze",
+    "name": "Labirinto Mental",
+    "desc": "Escolha uma criatura que você possa ver dentro do alcance. Ela deve ser bem-sucedida em um teste de resistência de Inteligência ou ficará mentalmente presa em um labirinto imaginário de espelhos pela duração.\n\nEnquanto estiver presa dessa forma, a criatura fica incapacitada, acreditando estar sozinha vagando pelo labirinto. Externamente, ela aparenta estar atordoada, girando no próprio lugar e tocando barreiras inexistentes.\n\nCada vez que o alvo sofrer dano, ele pode repetir o teste de resistência de Inteligência, encerrando a magia em caso de sucesso.",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um fragmento de vidro prateado",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Até 1 minuto",
+    "concentration": "sim",
+    "requires_concentration": true,
+    "casting_time": "1 ação",
+    "level": "6º nível",
+    "level_int": 6,
+    "spell_level": 6,
+    "school": "Encantamento",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "mirror-realm",
+    "name": "Reino do Espelho",
+    "desc": "Você transforma um espelho em um portal mágico para um reino extradimensional. Você e quaisquer criaturas que designar ao conjurar a magia podem atravessar o portal para esse reino. Pela duração, o espelho permanece ancorado no plano de origem e não pode ser danificado por meios mundanos. Criaturas não designadas não podem atravessar nem ver o interior do reino.\n\nO reino dentro do espelho é uma réplica exata do local de origem. A temperatura é confortável e ameaças ambientais são versões inofensivas das reais. Itens mágicos refletidos não possuem propriedades mágicas, mas itens levados para dentro funcionam normalmente. Comida e bebida refletem suas versões reais e podem ser consumidas normalmente.\n\nApenas itens presentes no momento da conjuração existem no reino. Itens colocados depois não aparecem. Criaturas só entram se você permitir. Objetos retirados do reino se desfazem, mas os efeitos de comida e bebida permanecem.\n\nO som atravessa o espelho em ambas as direções. Criaturas no reino podem ver o mundo exterior, mas do lado de fora vê-se apenas o reflexo. Objetos só atravessam o portal se estiverem sendo carregados, e magias não podem atravessar.\n\nOs limites do reino correspondem ao espaço original, mas não podem exceder aproximadamente 4.600 m². Se o espaço for maior, uma névoa cinza impenetrável delimita a área.\n\nQualquer criatura ainda dentro do reino quando a magia termina é expelida para o espaço vazio mais próximo.\n\nSe esta magia for conjurada no mesmo local todos os dias por um ano, ela se torna permanente. Uma vez permanente, o espelho não pode ser movido ou destruído por meios mundanos. Você pode redefinir quais criaturas podem entrar ao conjurar a magia novamente perto do espelho.",
+    "higher_level": "",
+    "page": "",
+    "range": "27 metros",
+    "target_range_sort": 27,
+    "components": "S, M",
+    "requires_verbal_components": false,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um espelho emoldurado com pelo menos 1,5 metro de altura",
+    "can_be_cast_as_ritual": true,
+    "ritual": "sim",
+    "duration": "24 horas",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "7º nível",
+    "level_int": 7,
+    "spell_level": 7,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "reciprocating-portal",
+    "name": "Portal Recíproco",
+    "desc": "Com um gesto e uma palavra sussurrada, você faz surgir um portal circular negro no chão sob uma ou mais criaturas. Você pode criar um portal de 4,5 metros de diâmetro, dois de 3 metros ou seis de 1,5 metro.\n\nUma criatura que esteja na área de um portal deve realizar um teste de resistência de Destreza. Em caso de falha, ela cai através do portal, desaparece em um semiplano onde permanece atordoada enquanto cai indefinidamente, e o portal se fecha.\n\nNo início do seu próximo turno, as criaturas que falharam reaparecem caindo de portais correspondentes diretamente acima de suas posições anteriores. A criatura cai no espaço que ocupava ou no espaço desocupado mais próximo, fica caída e sofre dano de queda como se tivesse caído 18 metros.\n\nCriaturas voadoras ou levitando não são afetadas por esta magia.",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "3º nível",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "Conjuração",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "rive",
+    "name": "Rasgar",
+    "desc": "Você manipula os filamentos de transição e possibilidade para dilacerar seus inimigos. Escolha uma criatura que você possa ver dentro do alcance e faça um ataque mágico à distância.\n\nEm caso de acerto, o alvo sofre 5d8 de dano de frio enquanto fios de vazio congelante partem de sua mão e o envolvem.\n\nSe o alvo não for nativo do plano em que você está, ele sofre 3d6 de dano psíquico adicional e deve ser bem-sucedido em um teste de resistência de Constituição ou ficará atordoado até o final do próximo turno.",
+    "higher_level": "",
+    "page": "",
+    "range": "18 metros",
+    "target_range_sort": 18,
+    "components": "S, M",
+    "requires_verbal_components": false,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "um fio de gaze fina",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "Instantânea",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "4º nível",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Evocação",
+    "dnd_class": "",
+    "spell_lists": [],
+    "archetype": "",
+    "circles": ""
+  },
+  {
+    "slug": "subliminal-aversion",
+    "name": "Aversão Subliminar",
+    "desc": "Você protege uma criatura dentro do alcance tornando dolorosa a escolha de atacá-la. Quando a criatura protegida é atingida por um ataque corpo a corpo realizado a até 1,5 metro dela, o atacante sofre 1d4 de dano psíquico.",
+    "higher_level": "",
+    "page": "",
+    "range": "9 metros",
+    "target_range_sort": 9,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "não",
+    "duration": "1 minuto",
+    "concentration": "não",
+    "requires_concentration": false,
+    "casting_time": "1 ação",
+    "level": "1º nível",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "Abjuração",
+    "dnd_class": "",
+    "spell_lists": [],
     "archetype": "",
     "circles": ""
   }

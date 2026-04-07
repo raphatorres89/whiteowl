@@ -1,11 +1,14 @@
 package com.raphaowl.whiteowl.util;
 
-public final class SpellSchoolIconUtils {
+import org.springframework.stereotype.Component;
+
+@Component
+public class SpellSchoolIconUtils {
 
     public SpellSchoolIconUtils() {
     }
 
-    public static String iconPath(String school) {
+    public String iconPath(String school) {
         if (school == null || school.isBlank()) {
             return "/images/schools/default.png";
         }

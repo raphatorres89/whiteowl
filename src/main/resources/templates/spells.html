@@ -103,11 +103,19 @@
                class="block bg-card border border-gray-800 rounded-2xl p-5 hover-glow arcane-glow transition rune-hover">
 
                 <div class="flex items-start justify-between gap-3 mb-3">
-                    <h2 class="text-xl text-gold" th:text="${spell.name}">Acid Arrow</h2>
+                    <div class="flex items-center gap-3 min-w-0">
+                        <img th:src="${@spellSchoolIconUtils.iconPath(spell.school)}"
+                             th:alt="${'Escola ' + spell.school}"
+                             class="w-20 h-20 object-contain shrink-0">
 
-                    <span class="px-2 py-1 text-xs rounded-full border border-gold text-gold"
+                        <h2 class="text-xl text-gold truncate" th:text="${spell.name}">
+                            Fireball
+                        </h2>
+                    </div>
+
+                    <span class="px-2 py-1 text-xs rounded-full border border-gold text-gold shrink-0"
                           th:text="${spell.level}">
-                        2nd-level
+                        3rd-level
                     </span>
                 </div>
 

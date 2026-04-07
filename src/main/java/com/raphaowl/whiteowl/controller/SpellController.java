@@ -3,11 +3,9 @@ package com.raphaowl.whiteowl.controller;
 import java.util.List;
 
 import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
-import com.raphaowl.whiteowl.model.PageResult;
 import com.raphaowl.whiteowl.model.Spell;
 import com.raphaowl.whiteowl.model.SpellFilter;
 import com.raphaowl.whiteowl.service.SpellService;
-import com.raphaowl.whiteowl.util.SpellSchoolIconUtils;
 import com.raphaowl.whiteowl.util.TextFormatter;
 import com.raphaowl.whiteowl.util.TextNormalizer;
 
@@ -45,6 +43,7 @@ public class SpellController {
         model.addAttribute("breadcrumbs", List.of(
                 new BreadcrumbItem("Magias", null)
         ));
+
         return "spells";
     }
 
@@ -58,8 +57,6 @@ public class SpellController {
 
         model.addAttribute("spellDescHtml", TextFormatter.toHtml(normalizedDesc));
         model.addAttribute("spellHigherLevelHtml", TextFormatter.toHtml(normalizedHigherLevel));
-
-        model.addAttribute("spellSchoolIcon", SpellSchoolIconUtils.iconPath(spell.school()));
 
         model.addAttribute("breadcrumbs", List.of(
                 new BreadcrumbItem("Magias", "/spells"),
