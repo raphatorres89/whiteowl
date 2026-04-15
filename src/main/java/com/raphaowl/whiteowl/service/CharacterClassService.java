@@ -21,7 +21,8 @@ public class CharacterClassService {
     }
 
     public CharacterClass findBySlug(String slug) {
-        return findAll().stream()
+        List<CharacterClass> all = findAll();
+        return all.stream()
                 .filter(c -> c.slug().equalsIgnoreCase(slug))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Class not found: " + slug));

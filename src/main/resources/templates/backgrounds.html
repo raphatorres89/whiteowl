@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('Whiteowl - Antecedentes', ~{::section})}">
+
+<section>
+    <div class="max-w-7xl mx-auto px-4 py-10">
+
+        <div th:replace="~{layout/breadcrumbs :: breadcrumb(${breadcrumbs})}"></div>
+
+        <div class="mb-8">
+            <div class="flex items-center gap-4 mb-2">
+                <img th:src="@{/images/icons/backgrounds.png}"
+                     alt="Ícone de antecedentes"
+                     class="w-10 h-10 md:w-20 md:h-20 object-contain">
+
+                <h1 class="text-3xl md:text-5xl text-gold">
+                    Antecedentes
+                </h1>
+            </div>
+
+            <p class="text-gray-400">
+                Descubra origens, ofícios, talentos e histórias que moldaram seu personagem.
+            </p>
+        </div>
+
+        <div th:if="${#lists.isEmpty(backgrounds)}"
+             class="bg-card border border-gray-800 rounded-2xl p-8 text-center text-gray-400">
+            Nenhum antecedente encontrado.
+        </div>
+
+        <div th:unless="${#lists.isEmpty(backgrounds)}"
+             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <a th:each="background : ${backgrounds}"
+               th:href="@{'/backgrounds/' + ${background.slug}}"
+               class="block bg-card border border-gray-800 rounded-2xl p-5 hover-glow arcane-glow transition">
+
+                <div class="flex items-start justify-between gap-3 mb-3">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <img th:src="@{${background.iconPath}}"
+                             th:alt="${background.name}"
+                             class="w-22 h-20 object-contain shrink-0">
+
+                        <h2 class="text-xl text-gold" th:text="${background.name}">
+                            Artesão
+                        </h2>
+                    </div>
+                </div>
+
+                <p class="text-sm text-gray-500 mb-3" th:text="${background.feature}">
+                    Marca do Ofício
+                </p>
+
+                <p class="text-sm text-gray-400 line-clamp-3" th:text="${background.summary}">
+                    Resumo do antecedente...
+                </p>
+            </a>
+        </div>
+    </div>
+</section>
+</html>

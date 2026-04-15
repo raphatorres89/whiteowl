@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('Whiteowl - Antecedente', ~{::section})}">
+
+<section>
+    <div class="max-w-6xl mx-auto px-4 py-10">
+
+        <div th:replace="~{layout/breadcrumbs :: breadcrumb(${breadcrumbs})}"></div>
+
+        <!-- HERO -->
+        <div class="relative overflow-hidden rounded-3xl border border-gray-800 bg-card mb-10">
+            <div class="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-6 px-6 md:px-8 pt-8 pb-0">
+
+                <div class="pb-8">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="flex items-center justify-center w-14 h-14 md:w-20 md:h-20 shrink-0">
+                            <img th:src="@{${background.iconPath}}"
+                                 th:alt="${background.name}"
+                                 class="w-full h-full object-contain">
+                        </div>
+
+                        <div>
+                            <h1 class="text-3xl md:text-5xl text-gold leading-none"
+                                th:text="${background.name}">
+                                Artesão
+                            </h1>
+                            <p class="text-gray-400 mt-2"
+                               th:text="${background.feature}">
+                                Marca do Ofício
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="max-w-2xl rich-text"
+                         th:utext="${background.descHtml}">
+                    </div>
+                </div>
+
+                <div class="flex justify-center lg:justify-end items-end">
+                    <div class="relative w-56 md:w-72 lg:w-[22rem] xl:w-[24rem]">
+                        <div class="absolute inset-x-6 bottom-4 h-20 bg-gold/10 blur-3xl rounded-full"></div>
+
+                        <img th:src="@{${background.imagePath}}"
+                             th:alt="${background.name}"
+                             class="relative z-10 w-full h-auto object-contain race-hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Proficiências</h2>
+
+                <div class="space-y-3 text-gray-300">
+                    <p th:if="${background.skillProficiencies != null}">
+                        <span class="text-gray-500">Perícias:</span>
+                        <span th:text="${background.skillProficiencies}"></span>
+                    </p>
+
+                    <p th:if="${background.toolProficiencies != null}">
+                        <span class="text-gray-500">Ferramentas:</span>
+                        <span th:text="${background.toolProficiencies}"></span>
+                    </p>
+
+                    <p th:if="${background.languages != null}">
+                        <span class="text-gray-500">Idiomas:</span>
+                        <span th:text="${background.languages}"></span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-card border border-gray-800 rounded-2xl p-6">
+                <h2 class="text-xl text-gold mb-4">Equipamento</h2>
+                <p class="text-gray-300"
+                   th:text="${background.equipment}">
+                    Um conjunto de ferramentas...
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8 mb-8">
+            <h2 class="text-2xl text-gold mb-4"
+                th:text="${background.feature}">
+                Marca do Ofício
+            </h2>
+
+            <div class="rich-text"
+                 th:utext="${background.featureDescHtml}">
+            </div>
+        </div>
+
+        <div th:if="${background.suggestedCharacteristicsHtml != null and !#strings.isEmpty(background.suggestedCharacteristicsHtml)}"
+             class="bg-card border border-gray-800 rounded-2xl p-6 md:p-8">
+            <h2 class="text-2xl text-gold mb-4">Características Sugeridas</h2>
+
+            <div class="rich-text"
+                 th:utext="${background.suggestedCharacteristicsHtml}">
+            </div>
+        </div>
+    </div>
+</section>
+</html>
