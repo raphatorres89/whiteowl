@@ -4,9 +4,8 @@ import java.util.List;
 
 import com.raphaowl.whiteowl.controller.mapper.BackgroundMapper;
 import com.raphaowl.whiteowl.controller.view.BackgroundView;
-import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
-import com.raphaowl.whiteowl.model.Background;
 import com.raphaowl.whiteowl.service.BackgroundService;
+import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -29,9 +28,7 @@ public class BackgroundController {
                 .toList();
         model.addAttribute("backgrounds", backgrounds);
 
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Antecedentes", null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildRootFor("Antecedentes"));
         return "backgrounds";
     }
 
@@ -42,10 +39,8 @@ public class BackgroundController {
 
         model.addAttribute("background", backgroundView);
 
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Antecedentes", "/backgrounds"),
-                new BreadcrumbItem(backgroundView.name(), null)
-        ));
+        model.addAttribute("breadcrumbs",
+                           BreadcrumbBuilder.buildBreadcrumb("Antecedentes", "/backgrounds", backgroundView.name()));
         return "background-detail";
     }
 }

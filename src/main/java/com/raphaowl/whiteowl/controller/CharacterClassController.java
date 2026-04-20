@@ -1,11 +1,8 @@
 package com.raphaowl.whiteowl.controller;
 
-import java.util.List;
-
 import com.raphaowl.whiteowl.controller.mapper.CharacterClassMapper;
-import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
-import com.raphaowl.whiteowl.model.CharacterClass;
 import com.raphaowl.whiteowl.service.CharacterClassService;
+import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -31,9 +28,7 @@ public class CharacterClassController {
                 .toList();
         model.addAttribute("classes", characterClassSummaryViewList);
 
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Classes", null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildRootFor("Classes"));
         return "classes";
     }
 
@@ -44,10 +39,7 @@ public class CharacterClassController {
 
         model.addAttribute("characterClass", characterClassView);
 
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Classes", "/classes"),
-                new BreadcrumbItem(characterClass.name(), null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildBreadcrumb("Classes", "/classes", characterClass.name()));
         return "class-detail";
     }
 }

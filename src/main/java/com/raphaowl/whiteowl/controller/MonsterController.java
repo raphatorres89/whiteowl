@@ -1,16 +1,9 @@
 package com.raphaowl.whiteowl.controller;
 
-import java.util.List;
-import java.util.Optional;
-
 import com.raphaowl.whiteowl.controller.mapper.MonsterMapper;
-import com.raphaowl.whiteowl.controller.view.AbilityScoresView;
-import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
-import com.raphaowl.whiteowl.controller.view.MonsterView;
-import com.raphaowl.whiteowl.model.Monster;
 import com.raphaowl.whiteowl.model.MonsterFilter;
 import com.raphaowl.whiteowl.service.MonsterService;
-import com.raphaowl.whiteowl.util.DndStatUtils;
+import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
 import com.raphaowl.whiteowl.util.MonsterTypeIconUtils;
 
 import org.springframework.stereotype.Controller;
@@ -32,25 +25,16 @@ public class MonsterController {
 
     @GetMapping("/{id}")
     public String monsterDetail(@PathVariable String id, Model model) {
-        MonsterView monster = monsterService.findById(id)
+        var monster = monsterService.findById(id)
                 .map(MonsterMapper::toView)
                 .orElseThrow(() -> new RuntimeException("Monster not found"));
 
         model.addAttribute("monster", monster);
         model.addAttribute("monsterTypeIcon", MonsterTypeIconUtils.iconPath(monster.type()));
-        model.addAttribute("abilityScores", new AbilityScoresView(
-                DndStatUtils.formatScore(monster.strength()),
-                DndStatUtils.formatScore(monster.dexterity()),
-                DndStatUtils.formatScore(monster.constitution()),
-                DndStatUtils.formatScore(monster.intelligence()),
-                DndStatUtils.formatScore(monster.wisdom()),
-                DndStatUtils.formatScore(monster.charisma())
-        ));
+        model.addAttribute("abilityScores", MonsterMapper.toAbilityScoresView(monster));
 
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Monstros", "/monsters"),
-                new BreadcrumbItem(monster.name(), null)
-        ));
+        model.addAttribute("breadcrumbs",
+                           BreadcrumbBuilder.buildBreadcrumb("Monstros", "/monsters", monster.name()));
         return "monster-detail";
     }
 
@@ -70,9 +54,7 @@ public class MonsterController {
         model.addAttribute("environments", monsterService.findAllEnvironments());
         model.addAttribute("alignments", monsterService.findAllAlignments());
 
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Monstros", null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildRootFor("Monstros"));
         return "monsters";
     }
 }

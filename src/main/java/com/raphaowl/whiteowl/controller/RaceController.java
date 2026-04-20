@@ -3,9 +3,9 @@ package com.raphaowl.whiteowl.controller;
 import java.util.List;
 
 import com.raphaowl.whiteowl.controller.mapper.RaceViewMapper;
-import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
 import com.raphaowl.whiteowl.controller.view.RaceView;
 import com.raphaowl.whiteowl.service.RaceService;
+import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -32,9 +32,7 @@ public class RaceController {
                 .toList();
 
         model.addAttribute("races", races);
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Raças", null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildRootFor("Raças"));
         return "races";
     }
 
@@ -42,10 +40,7 @@ public class RaceController {
     public String raceDetail(@PathVariable String slug, Model model) {
         RaceView race = raceViewMapper.toView(raceService.findBySlug(slug));
         model.addAttribute("race", race);
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Raças", "/races"),
-                new BreadcrumbItem(race.name(), null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildBreadcrumb("Raças", "/races", race.name()));
         return "race-detail";
     }
 }

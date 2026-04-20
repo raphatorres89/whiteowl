@@ -1,11 +1,9 @@
 package com.raphaowl.whiteowl.controller;
 
-import java.util.List;
-
-import com.raphaowl.whiteowl.controller.view.BreadcrumbItem;
 import com.raphaowl.whiteowl.model.Spell;
 import com.raphaowl.whiteowl.model.SpellFilter;
 import com.raphaowl.whiteowl.service.SpellService;
+import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
 import com.raphaowl.whiteowl.util.TextFormatter;
 import com.raphaowl.whiteowl.util.TextNormalizer;
 
@@ -40,9 +38,7 @@ public class SpellController {
         model.addAttribute("spells", spellsPage.content());
         model.addAttribute("schools", spellService.findAllSchools());
         model.addAttribute("levels", spellService.findAllLevels());
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Magias", null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildRootFor("Magias"));
 
         return "spells";
     }
@@ -58,10 +54,7 @@ public class SpellController {
         model.addAttribute("spellDescHtml", TextFormatter.toHtml(normalizedDesc));
         model.addAttribute("spellHigherLevelHtml", TextFormatter.toHtml(normalizedHigherLevel));
 
-        model.addAttribute("breadcrumbs", List.of(
-                new BreadcrumbItem("Magias", "/spells"),
-                new BreadcrumbItem(spell.name(), null)
-        ));
+        model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildBreadcrumb("Magias", "/spells", spell.name()));
         return "spell-detail";
     }
 }

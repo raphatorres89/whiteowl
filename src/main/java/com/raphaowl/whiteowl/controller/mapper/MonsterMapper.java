@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import com.raphaowl.whiteowl.controller.view.AbilityScoresView;
 import com.raphaowl.whiteowl.controller.view.ActionView;
 import com.raphaowl.whiteowl.controller.view.MonsterView;
 import com.raphaowl.whiteowl.model.Action;
 import com.raphaowl.whiteowl.model.Monster;
+import com.raphaowl.whiteowl.util.DndStatUtils;
 import com.raphaowl.whiteowl.util.MonsterSkillUtils;
 import com.raphaowl.whiteowl.util.TextFormatter;
 import com.raphaowl.whiteowl.util.TextNormalizer;
@@ -60,6 +62,16 @@ public class MonsterMapper {
                 mapActions(monster.legendaryActions()),
                 mapActions(monster.specialAbilities())
         );
+    }
+
+    public static AbilityScoresView toAbilityScoresView(MonsterView monster) {
+        return new AbilityScoresView(
+                DndStatUtils.formatScore(monster.strength()),
+                DndStatUtils.formatScore(monster.dexterity()),
+                DndStatUtils.formatScore(monster.constitution()),
+                DndStatUtils.formatScore(monster.intelligence()),
+                DndStatUtils.formatScore(monster.wisdom()),
+                DndStatUtils.formatScore(monster.charisma()));
     }
 
     private static Map<String, Integer> mapSkills(Map<String, Integer> skills) {
