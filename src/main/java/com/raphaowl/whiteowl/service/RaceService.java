@@ -1,6 +1,7 @@
 package com.raphaowl.whiteowl.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.raphaowl.whiteowl.model.Race;
 import com.raphaowl.whiteowl.repository.RaceRepository;
@@ -19,10 +20,9 @@ public class RaceService {
         return raceRepository.findAll();
     }
 
-    public Race findBySlug(String slug) {
+    public Optional<Race> findBySlug(String slug) {
         return findAll().stream()
                 .filter(race -> race.slug().equalsIgnoreCase(slug))
-                .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("Race not found: " + slug));
+                .findFirst();
     }
 }

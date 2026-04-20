@@ -1,6 +1,7 @@
 package com.raphaowl.whiteowl.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.raphaowl.whiteowl.model.Background;
 import com.raphaowl.whiteowl.repository.BackgroundRepository;
@@ -19,8 +20,7 @@ public class BackgroundService {
         return backgroundRepository.findAll();
     }
 
-    public Background findBySlug(String slug) {
-        return backgroundRepository.findById(slug)
-                .orElseThrow(() -> new RuntimeException("Background not found: " + slug));
+    public Optional<Background> findBySlug(String slug) {
+        return backgroundRepository.findById(slug);
     }
 }

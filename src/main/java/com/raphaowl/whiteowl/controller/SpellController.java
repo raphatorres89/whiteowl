@@ -1,11 +1,10 @@
 package com.raphaowl.whiteowl.controller;
 
-import com.raphaowl.whiteowl.model.Spell;
+import com.raphaowl.whiteowl.controller.mapper.SpellMapper;
+import com.raphaowl.whiteowl.exceptions.SpellNotFoundException;
 import com.raphaowl.whiteowl.model.SpellFilter;
 import com.raphaowl.whiteowl.service.SpellService;
 import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
-import com.raphaowl.whiteowl.util.TextFormatter;
-import com.raphaowl.whiteowl.util.TextNormalizer;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,15 +14,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import lombok.RequiredArgsConstructor;
+
 @Controller
 @RequestMapping("/spells")
+@RequiredArgsConstructor
 public class SpellController {
 
     private final SpellService spellService;
-
-    public SpellController(SpellService spellService) {
-        this.spellService = spellService;
-    }
 
     @GetMapping
     public String listSpells(
@@ -45,14 +43,11 @@ public class SpellController {
 
     @GetMapping("/{slug}")
     public String spellDetail(@PathVariable String slug, Model model) {
-        Spell spell = spellService.findBySlug(slug);
+        var spell = spellService.findBySlug(slug)
+                .map(SpellMapper::toView)
+                .orElseThrow(() -> new SpellNotFoundException(slug));
+
         model.addAttribute("spell", spell);
-
-        String normalizedDesc = TextNormalizer.normalize(spell.desc());
-        String normalizedHigherLevel = TextNormalizer.normalize(spell.higherLevel());
-
-        model.addAttribute("spellDescHtml", TextFormatter.toHtml(normalizedDesc));
-        model.addAttribute("spellHigherLevelHtml", TextFormatter.toHtml(normalizedHigherLevel));
 
         model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildBreadcrumb("Magias", "/spells", spell.name()));
         return "spell-detail";

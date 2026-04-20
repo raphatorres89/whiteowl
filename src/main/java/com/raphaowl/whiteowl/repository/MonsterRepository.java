@@ -40,7 +40,7 @@ public class MonsterRepository {
         return monsters.values().stream().toList();
     }
 
-    public Optional<Monster>  findById(String id) {
-        return Optional.ofNullable(monsters.get(id));
+    public Optional<Monster> findBySlug(String slug) {
+        return Optional.ofNullable(monsters.get(slug));
     }
 }

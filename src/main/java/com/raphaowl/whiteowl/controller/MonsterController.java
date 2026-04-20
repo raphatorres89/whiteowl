@@ -1,6 +1,7 @@
 package com.raphaowl.whiteowl.controller;
 
 import com.raphaowl.whiteowl.controller.mapper.MonsterMapper;
+import com.raphaowl.whiteowl.exceptions.MonsterNotFoundException;
 import com.raphaowl.whiteowl.model.MonsterFilter;
 import com.raphaowl.whiteowl.service.MonsterService;
 import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
@@ -23,21 +24,6 @@ public class MonsterController {
 
     private final MonsterService monsterService;
 
-    @GetMapping("/{id}")
-    public String monsterDetail(@PathVariable String id, Model model) {
-        var monster = monsterService.findById(id)
-                .map(MonsterMapper::toView)
-                .orElseThrow(() -> new RuntimeException("Monster not found"));
-
-        model.addAttribute("monster", monster);
-        model.addAttribute("monsterTypeIcon", MonsterTypeIconUtils.iconPath(monster.type()));
-        model.addAttribute("abilityScores", MonsterMapper.toAbilityScoresView(monster));
-
-        model.addAttribute("breadcrumbs",
-                           BreadcrumbBuilder.buildBreadcrumb("Monstros", "/monsters", monster.name()));
-        return "monster-detail";
-    }
-
     @GetMapping
     public String listMonsters(
             @ModelAttribute MonsterFilter filter,
@@ -56,5 +42,20 @@ public class MonsterController {
 
         model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildRootFor("Monstros"));
         return "monsters";
+    }
+
+    @GetMapping("/{id}")
+    public String monsterDetail(@PathVariable String id, Model model) {
+        var monster = monsterService.findBySlug(id)
+                .map(MonsterMapper::toView)
+                .orElseThrow(() -> new MonsterNotFoundException(id));
+
+        model.addAttribute("monster", monster);
+        model.addAttribute("monsterTypeIcon", MonsterTypeIconUtils.iconPath(monster.type()));
+        model.addAttribute("abilityScores", MonsterMapper.toAbilityScoresView(monster));
+
+        model.addAttribute("breadcrumbs",
+                           BreadcrumbBuilder.buildBreadcrumb("Monstros", "/monsters", monster.name()));
+        return "monster-detail";
     }
 }

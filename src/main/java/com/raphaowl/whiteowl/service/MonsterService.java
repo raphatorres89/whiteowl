@@ -22,8 +22,8 @@ public class MonsterService {
 
     private final MonsterRepository monsterRepository;
 
-    public Optional<Monster> findById(String id) {
-        return monsterRepository.findById(id);
+    public Optional<Monster> findBySlug(String slug) {
+        return monsterRepository.findBySlug(slug);
     }
 
     public PageResult<Monster> findAll(MonsterFilter filter, int page, int size) {

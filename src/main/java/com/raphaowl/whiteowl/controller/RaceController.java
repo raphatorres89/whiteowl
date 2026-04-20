@@ -2,8 +2,9 @@ package com.raphaowl.whiteowl.controller;
 
 import java.util.List;
 
-import com.raphaowl.whiteowl.controller.mapper.RaceViewMapper;
+import com.raphaowl.whiteowl.controller.mapper.RaceMapper;
 import com.raphaowl.whiteowl.controller.view.RaceView;
+import com.raphaowl.whiteowl.exceptions.RaceNotFoundException;
 import com.raphaowl.whiteowl.service.RaceService;
 import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
 
@@ -13,22 +14,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import lombok.RequiredArgsConstructor;
+
 @Controller
 @RequestMapping("/races")
+@RequiredArgsConstructor
 public class RaceController {
 
     private final RaceService raceService;
-    private final RaceViewMapper raceViewMapper;
-
-    public RaceController(RaceService raceService, RaceViewMapper raceViewMapper) {
-        this.raceService = raceService;
-        this.raceViewMapper = raceViewMapper;
-    }
 
     @GetMapping
     public String listRaces(Model model) {
         List<RaceView> races = raceService.findAll().stream()
-                .map(raceViewMapper::toView)
+                .map(RaceMapper::toView)
                 .toList();
 
         model.addAttribute("races", races);
@@ -38,7 +36,10 @@ public class RaceController {
 
     @GetMapping("/{slug}")
     public String raceDetail(@PathVariable String slug, Model model) {
-        RaceView race = raceViewMapper.toView(raceService.findBySlug(slug));
+        var race = raceService.findBySlug(slug)
+                .map(RaceMapper::toView)
+                .orElseThrow(() -> new RaceNotFoundException(slug));
+
         model.addAttribute("race", race);
         model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildBreadcrumb("Raças", "/races", race.name()));
         return "race-detail";

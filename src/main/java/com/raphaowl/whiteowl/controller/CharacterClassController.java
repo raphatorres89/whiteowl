@@ -1,6 +1,7 @@
 package com.raphaowl.whiteowl.controller;
 
 import com.raphaowl.whiteowl.controller.mapper.CharacterClassMapper;
+import com.raphaowl.whiteowl.exceptions.CharacterClassNotFoundException;
 import com.raphaowl.whiteowl.service.CharacterClassService;
 import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
 
@@ -10,21 +11,20 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 @Controller
 @RequestMapping("/classes")
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class CharacterClassController {
 
     private final CharacterClassService characterClassService;
-    private final CharacterClassMapper characterClassMapper;
 
     @GetMapping
     public String listClasses(Model model) {
         var characterClasses = characterClassService.findAll();
         var characterClassSummaryViewList = characterClasses.stream()
-                .map(characterClassMapper::toSummaryView)
+                .map(CharacterClassMapper::toSummaryView)
                 .toList();
         model.addAttribute("classes", characterClassSummaryViewList);
 
@@ -34,10 +34,11 @@ public class CharacterClassController {
 
     @GetMapping("/{slug}")
     public String classDetail(@PathVariable String slug, Model model) {
-        var characterClass = characterClassService.findBySlug(slug);
-        var characterClassView = characterClassMapper.toView(characterClass);
+        var characterClass = characterClassService.findBySlug(slug)
+                .map(CharacterClassMapper::toView)
+                .orElseThrow(() -> new CharacterClassNotFoundException(slug));
 
-        model.addAttribute("characterClass", characterClassView);
+        model.addAttribute("characterClass", characterClass);
 
         model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildBreadcrumb("Classes", "/classes", characterClass.name()));
         return "class-detail";

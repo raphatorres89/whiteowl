@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 import com.raphaowl.whiteowl.model.PageResult;
@@ -90,11 +91,10 @@ public class SpellService {
                 .toList();
     }
 
-    public Spell findBySlug(String slug) {
+    public Optional<Spell> findBySlug(String slug) {
         return spellRepository.findAll().stream()
                 .filter(spell -> spell.slug() != null && spell.slug().equalsIgnoreCase(slug))
-                .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("Spell not found: " + slug));
+                .findFirst();
     }
 
     public List<String> findAllSchools() {

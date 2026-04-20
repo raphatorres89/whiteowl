@@ -11,14 +11,13 @@ import com.raphaowl.whiteowl.controller.view.BackgroundView;
 @Component
 public class BackgroundMapper {
 
-    public BackgroundView toView(Background background) {
+    public static BackgroundView toView(Background background) {
         return new BackgroundView(
                 background.name(),
                 background.slug(),
                 "/images/backgrounds/" + background.slug() + ".png",
                 "/images/backgrounds/characters/" + background.slug() + ".png",
                 TextSummaryUtils.summarize(background.desc(), 180),
-
                 format(background.desc()),
                 background.skillProficiencies(),
                 background.toolProficiencies(),
@@ -35,7 +34,7 @@ public class BackgroundMapper {
         );
     }
 
-    private String format(String rawText) {
+    private static String format(String rawText) {
         return TextFormatter.toHtml(TextNormalizer.normalize(rawText));
     }
 }

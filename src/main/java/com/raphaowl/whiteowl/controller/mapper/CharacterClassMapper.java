@@ -12,12 +12,9 @@ import com.raphaowl.whiteowl.util.TextFormatter;
 import com.raphaowl.whiteowl.util.TextNormalizer;
 import com.raphaowl.whiteowl.util.TextSummaryUtils;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class CharacterClassMapper {
 
-    public CharacterClassView toView(CharacterClass characterClass) {
+    public static CharacterClassView toView(CharacterClass characterClass) {
         return new CharacterClassView(
                 characterClass.name(),
                 characterClass.slug(),
@@ -38,7 +35,7 @@ public class CharacterClassMapper {
         );
     }
 
-    public CharacterClassSummaryView toSummaryView(CharacterClass characterClass) {
+    public static CharacterClassSummaryView toSummaryView(CharacterClass characterClass) {
         return new CharacterClassSummaryView(
                 characterClass.name(),
                 characterClass.slug(),
@@ -50,17 +47,17 @@ public class CharacterClassMapper {
         );
     }
 
-    private List<ArchetypeView> mapArchetypes(List<Archetype> archetypes) {
+    private static List<ArchetypeView> mapArchetypes(List<Archetype> archetypes) {
         if (archetypes == null) {
             return List.of();
         }
 
         return archetypes.stream()
-                .map(this::toView)
+                .map(CharacterClassMapper::toView)
                 .toList();
     }
 
-    private ArchetypeView toView(Archetype archetype) {
+    private static ArchetypeView toView(Archetype archetype) {
         return new ArchetypeView(
                 archetype.name(),
                 archetype.slug(),
@@ -72,7 +69,7 @@ public class CharacterClassMapper {
         );
     }
 
-    private String format(String rawText) {
+    private static String format(String rawText) {
         return TextFormatter.toHtml(TextNormalizer.normalize(rawText));
     }
 }

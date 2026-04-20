@@ -94,14 +94,14 @@
 
             <div class="mb-8">
                 <h2 class="text-xl text-gold mb-3">Descrição</h2>
-                <div class="rich-text" th:utext="${spellDescHtml}">
+                <div class="rich-text" th:utext="${spell.descHtml}">
                 </div>
             </div>
 
-            <div th:if="${spell.higherLevel != null and #strings.trim(spell.higherLevel) != ''}"
+            <div th:if="${spell.higherLevelHtml != null and #strings.trim(spell.higherLevelHtml) != ''}"
                  class="mb-8">
                 <h2 class="text-xl text-gold mb-3">Em níveis superiores</h2>
-                <div class="rich-text" th:utext="${spellHigherLevelHtml}">
+                <div class="rich-text" th:utext="${spell.higherLevelHtml}">
                 </div>
             </div>
 

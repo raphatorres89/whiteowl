@@ -16,9 +16,9 @@ import com.raphaowl.whiteowl.util.TextSummaryUtils;
 import org.springframework.stereotype.Component;
 
 @Component
-public class RaceViewMapper {
+public class RaceMapper {
 
-    public RaceView toView(Race race) {
+    public static RaceView toView(Race race) {
         return new RaceView(
                 race.name(),
                 race.slug(),
@@ -52,17 +52,17 @@ public class RaceViewMapper {
         );
     }
 
-    private List<SubraceView> mapSubraces(List<Subrace> subraces) {
+    private static List<SubraceView> mapSubraces(List<Subrace> subraces) {
         if (subraces == null) {
             return List.of();
         }
 
         return subraces.stream()
-                .map(this::toView)
+                .map(RaceMapper::toView)
                 .toList();
     }
 
-    private SubraceView toView(Subrace subrace) {
+    private static SubraceView toView(Subrace subrace) {
         return new SubraceView(
                 subrace.name(),
                 subrace.slug(),
@@ -74,11 +74,11 @@ public class RaceViewMapper {
         );
     }
 
-    private String format(String rawText) {
+    private static String format(String rawText) {
         return TextFormatter.toHtml(TextNormalizer.normalize(rawText));
     }
 
-    private List<String> formatAsi(List<AbilityScoreIncrease> asi) {
+    private static List<String> formatAsi(List<AbilityScoreIncrease> asi) {
         if (asi == null) {
             return List.of();
         }
