@@ -1,0 +1,136 @@
+[
+  {
+    "code": "LG",
+    "slug": "lawful-good",
+    "name": "Leal e Bom",
+    "axis": {
+      "law_chaos": "lawful",
+      "good_evil": "good"
+    },
+    "description": "Criaturas Leais e Boas podem ser confiadas para fazer a coisa certa conforme esperado pela sociedade.",
+    "examples": [
+      "Dragões Dourados",
+      "Paladinos",
+      "Anões"
+    ]
+  },
+  {
+    "code": "NG",
+    "slug": "neutral-good",
+    "name": "Neutro e Bom",
+    "axis": {
+      "law_chaos": "neutral",
+      "good_evil": "good"
+    },
+    "description": "Fazem o melhor que podem para ajudar os outros de acordo com suas necessidades.",
+    "examples": [
+      "Celestiais",
+      "Gigantes das Nuvens",
+      "Gnomos"
+    ]
+  },
+  {
+    "code": "CG",
+    "slug": "chaotic-good",
+    "name": "Caótico e Bom",
+    "axis": {
+      "law_chaos": "chaotic",
+      "good_evil": "good"
+    },
+    "description": "Agem conforme a própria consciência, com pouca preocupação pelo que os outros esperam.",
+    "examples": [
+      "Dragões de Cobre",
+      "Elfos",
+      "Unicórnios"
+    ]
+  },
+  {
+    "code": "LN",
+    "slug": "lawful-neutral",
+    "name": "Leal e Neutro",
+    "axis": {
+      "law_chaos": "lawful",
+      "good_evil": "neutral"
+    },
+    "description": "Agem de acordo com leis, tradições ou códigos pessoais.",
+    "examples": [
+      "Monges",
+      "Magos"
+    ]
+  },
+  {
+    "code": "N",
+    "slug": "true-neutral",
+    "name": "Neutro",
+    "axis": {
+      "law_chaos": "neutral",
+      "good_evil": "neutral"
+    },
+    "description": "Preferem evitar questões morais e não tomam partido, fazendo o que parece melhor no momento.",
+    "examples": [
+      "Homens-Lagarto",
+      "Druidas",
+      "Humanos"
+    ]
+  },
+  {
+    "code": "CN",
+    "slug": "chaotic-neutral",
+    "name": "Caótico e Neutro",
+    "axis": {
+      "law_chaos": "chaotic",
+      "good_evil": "neutral"
+    },
+    "description": "Seguem seus impulsos e valorizam a liberdade pessoal acima de tudo.",
+    "examples": [
+      "Bárbaros",
+      "Ladinos",
+      "Bardos"
+    ]
+  },
+  {
+    "code": "LE",
+    "slug": "lawful-evil",
+    "name": "Leal e Mau",
+    "axis": {
+      "law_chaos": "lawful",
+      "good_evil": "evil"
+    },
+    "description": "Tomam metodicamente o que desejam dentro dos limites de um código de tradição, lealdade ou ordem.",
+    "examples": [
+      "Diabos",
+      "Dragões Azuis",
+      "Hobgoblins"
+    ]
+  },
+  {
+    "code": "NE",
+    "slug": "neutral-evil",
+    "name": "Neutro e Mau",
+    "axis": {
+      "law_chaos": "neutral",
+      "good_evil": "evil"
+    },
+    "description": "Fazem qualquer coisa da qual possam se safar, sem compaixão ou remorso.",
+    "examples": [
+      "Drows",
+      "Gigantes das Nuvens",
+      "Goblins"
+    ]
+  },
+  {
+    "code": "CE",
+    "slug": "chaotic-evil",
+    "name": "Caótico e Mau",
+    "axis": {
+      "law_chaos": "chaotic",
+      "good_evil": "evil"
+    },
+    "description": "Agem com violência arbitrária, movidos por ganância, ódio ou sede de sangue.",
+    "examples": [
+      "Demônios",
+      "Dragões Vermelhos",
+      "Orcs"
+    ]
+  }
+]

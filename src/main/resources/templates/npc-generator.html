@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout/base :: layout('Whiteowl - Gerador de NPCs', ~{::section})}">
+
+<section>
+    <div class="max-w-7xl mx-auto px-4 py-10">
+
+        <div th:replace="~{layout/breadcrumbs :: breadcrumb(${breadcrumbs})}"></div>
+
+        <div class="mb-8">
+            <div class="flex items-center gap-4 mb-2">
+                <img th:src="@{/images/icons/npcs.png}"
+                     alt="Ícone de NPCs"
+                     class="w-10 h-10 md:w-20 md:h-20 object-contain">
+
+                <h1 class="text-3xl md:text-5xl text-gold">
+                    Gerador de NPCs
+                </h1>
+            </div>
+
+            <p class="text-gray-400">
+                Gere personagens rapidamente para tavernas, cidades, guildas e aventuras.
+            </p>
+        </div>
+
+        <form method="get"
+              th:action="@{/npcs/generator}"
+              class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6 mb-8 space-y-4">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Raça</label>
+                    <select name="race"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="" th:selected="${filter.race == null or #strings.isEmpty(filter.race)}">Aleatória</option>
+                        <option th:each="race : ${races}"
+                                th:value="${race}"
+                                th:text="${race}"
+                                th:selected="${filter.race != null and #strings.equalsIgnoreCase(#strings.trim(filter.race), #strings.trim(race))}">
+                        </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Classe</label>
+                    <select name="clazz"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="" th:selected="${filter.clazz == null or #strings.isEmpty(filter.clazz)}">Aleatória</option>
+                        <option th:each="clazz : ${classes}"
+                                th:value="${clazz}"
+                                th:text="${clazz}"
+                                th:selected="${filter.clazz != null and #strings.equalsIgnoreCase(#strings.trim(filter.clazz), #strings.trim(clazz))}">
+                        </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Antecedente</label>
+                    <select name="background"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="" th:selected="${filter.background == null or #strings.isEmpty(filter.background)}">Aleatório</option>
+                        <option th:each="background : ${backgrounds}"
+                                th:value="${background}"
+                                th:text="${background}"
+                                th:selected="${filter.background != null and #strings.equalsIgnoreCase(#strings.trim(filter.background), #strings.trim(background))}">
+                        </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Alinhamento</label>
+                    <select name="alignment"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="" th:selected="${filter.alignment == null or #strings.isEmpty(filter.alignment)}">Aleatório</option>
+                        <option th:each="alignment : ${alignments}"
+                                th:value="${alignment}"
+                                th:text="${alignment}"
+                                th:selected="${filter.alignment != null and #strings.equalsIgnoreCase(#strings.trim(filter.alignment), #strings.trim(alignment))}">
+                        </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm text-gray-400 mb-2">Gênero</label>
+                    <select name="gender"
+                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                        <option value="" th:selected="${filter.gender == null or #strings.isEmpty(filter.gender)}">Aleatório</option>
+                        <option value="Masculino" th:selected="${filter.gender == 'Masculino'}">Masculino</option>
+                        <option value="Feminino" th:selected="${filter.gender == 'Feminino'}">Feminino</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3">
+                <button type="submit"
+                        class="px-5 py-2 rounded-lg border border-gold text-gold hover:bg-gold hover:text-black transition">
+                    Gerar NPC
+                </button>
+
+                <a th:href="@{/npcs/generator}"
+                   class="px-5 py-2 rounded-lg border border-gray-700 text-gray-300 hover:border-gold hover:text-gold transition text-center">
+                    Aleatório total
+                </a>
+            </div>
+        </form>
+
+        <div th:if="${npc == null}"
+             class="bg-card border border-gray-800 rounded-2xl p-8 text-center text-gray-400">
+            Nenhum NPC gerado ainda.
+        </div>
+
+        <div th:if="${npc != null}" class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+            <div class="lg:col-span-2 bg-card border border-gray-800 rounded-2xl p-6 hover-glow">
+                <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
+                    <div>
+                        <h2 class="text-3xl text-gold mb-2" th:text="${npc.name}">
+                            Elyra Vael
+                        </h2>
+
+                        <p class="text-gray-400 text-lg" th:text="${npc.title}">
+                            A Guardiã das Cinzas
+                        </p>
+                    </div>
+
+                    <span class="px-3 py-1 text-sm rounded-full border border-gold text-gold self-start"
+                          th:text="'Nível ' + ${npc.level}">
+                        Nível 4
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-sm">
+                    <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
+                        <p class="text-gray-500 mb-1">Raça</p>
+                        <p class="text-white" th:text="${npc.race}">Elfo</p>
+                    </div>
+
+                    <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
+                        <p class="text-gray-500 mb-1">Classe</p>
+                        <p class="text-white" th:text="${npc.clazz}">Mago</p>
+                    </div>
+
+                    <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
+                        <p class="text-gray-500 mb-1">Antecedente</p>
+                        <p class="text-white" th:text="${npc.background}">Sábio</p>
+                    </div>
+
+                    <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
+                        <p class="text-gray-500 mb-1">Alinhamento</p>
+                        <p class="text-white" th:text="${npc.alignment}">Neutro</p>
+                    </div>
+
+                    <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
+                        <p class="text-gray-500 mb-1">Gênero</p>
+                        <p class="text-white" th:text="${npc.gender}">Feminino</p>
+                    </div>
+
+                    <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
+                        <p class="text-gray-500 mb-1">Idade</p>
+                        <p class="text-white" th:text="${npc.age} + ' anos'">34 anos</p>
+                    </div>
+                </div>
+
+                <div class="space-y-5">
+                    <div>
+                        <h3 class="text-xl text-gold mb-2">Aparência</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.appearance}">
+                            Trajes escuros, olhar atento e mãos marcadas por tinta arcana.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl text-gold mb-2">Personalidade</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality}">
+                            Reservada, inteligente e desconfiada.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl text-gold mb-2">Motivação</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.goal}">
+                            Recuperar um tomo perdido.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl text-gold mb-2">Segredo</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.secret}">
+                            Já serviu uma facção proibida.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl text-gold mb-2">Gancho de aventura</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.hook}">
+                            Pode contratar o grupo para investigar ruínas antigas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
+                    <h3 class="text-xl text-gold mb-4">Traços marcantes</h3>
+
+                    <div class="flex flex-wrap gap-2">
+                        <span th:each="trait : ${npc.traits}"
+                              class="px-3 py-1 text-xs rounded-full border border-gray-700 text-gray-300"
+                              th:text="${trait}">
+                            Observadora
+                        </span>
+                    </div>
+                </div>
+
+                <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
+                    <h3 class="text-xl text-gold mb-4">Ideais</h3>
+
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li th:each="ideal : ${npc.ideals}" th:text="${ideal}">
+                            Conhecimento acima da ambição.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
+                    <h3 class="text-xl text-gold mb-4">Falhas</h3>
+
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li th:each="flaw : ${npc.flaws}" th:text="${flaw}">
+                            Confia pouco nos outros.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
+                    <h3 class="text-xl text-gold mb-4">Itens marcantes</h3>
+
+                    <ul class="space-y-2 text-gray-300 text-sm">
+                        <li th:each="item : ${npc.notableItems}" th:text="${item}">
+                            Amuleto rachado de prata.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</html>
