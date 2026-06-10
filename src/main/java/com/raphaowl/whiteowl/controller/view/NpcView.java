@@ -2,14 +2,20 @@ package com.raphaowl.whiteowl.controller.view;
 
 import java.util.List;
 
+import com.raphaowl.whiteowl.enums.AlignmentEnum;
+import com.raphaowl.whiteowl.enums.BackgroundEnum;
+import com.raphaowl.whiteowl.enums.ClassEnum;
+import com.raphaowl.whiteowl.enums.Gender;
+import com.raphaowl.whiteowl.enums.RaceEnum;
+
 public record NpcView(
         String name,
         String title,
-        String race,
-        String clazz,
-        String background,
-        String alignment,
-        String gender,
+        RaceEnum race,
+        ClassEnum clazz,
+        BackgroundEnum background,
+        AlignmentEnum alignment,
+        Gender gender,
         Integer age,
         int level,
         String appearance,

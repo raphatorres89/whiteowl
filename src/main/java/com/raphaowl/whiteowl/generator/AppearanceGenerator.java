@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 import com.raphaowl.whiteowl.enums.Gender;
-import com.raphaowl.whiteowl.model.Race;
+import com.raphaowl.whiteowl.enums.RaceEnum;
 
 import org.springframework.stereotype.Component;
 
@@ -79,7 +79,7 @@ public class AppearanceGenerator {
             "olhos sem pupilas visíveis"
     );
 
-    public String generate(Gender gender, Race race) {
+    public String generate(Gender gender, RaceEnum race) {
 
         String hair = random(
                 gender == Gender.FEMALE
@@ -102,14 +102,14 @@ public class AppearanceGenerator {
         );
     }
 
-//    private String raceTrait(Race race) {
-//        return switch (race) {
-//            case ELF -> random(ELF_TRAITS);
-//            case DWARF -> random(DWARF_TRAITS);
-//            case TIEFLING -> random(TIEFLING_TRAITS);
-//            default -> "";
-//        };
-//    }
+    private String raceTrait(RaceEnum race) {
+        return switch (race) {
+            case ELF -> random(ELF_TRAITS);
+            case DWARF -> random(DWARF_TRAITS);
+            case TIEFLING -> random(TIEFLING_TRAITS);
+            default -> "";
+        };
+    }
 
     private String random(List<String> values) {
         return values.get(RANDOM.nextInt(values.size()));

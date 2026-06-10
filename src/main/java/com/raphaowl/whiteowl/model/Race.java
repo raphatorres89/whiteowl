@@ -3,6 +3,7 @@ package com.raphaowl.whiteowl.model;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.raphaowl.whiteowl.enums.RaceEnum;
 
 public record Race(
         String name,
@@ -44,4 +45,7 @@ public record Race(
         @JsonProperty("document__url")
         String documentUrl
 ) {
+        public RaceEnum toEnum() {
+                return RaceEnum.fromSlug(slug);
+        }
 }

@@ -34,9 +34,9 @@
                             class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
                         <option value="" th:selected="${filter.race == null or #strings.isEmpty(filter.race)}">Aleatória</option>
                         <option th:each="race : ${races}"
-                                th:value="${race}"
-                                th:text="${race}"
-                                th:selected="${filter.race != null and #strings.equalsIgnoreCase(#strings.trim(filter.race), #strings.trim(race))}">
+                                th:value="${race.name()}"
+                                th:text="${race.getLabel}"
+                                th:selected="${filter.race == race}">
                         </option>
                     </select>
                 </div>
@@ -47,9 +47,9 @@
                             class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
                         <option value="" th:selected="${filter.clazz == null or #strings.isEmpty(filter.clazz)}">Aleatória</option>
                         <option th:each="clazz : ${classes}"
-                                th:value="${clazz}"
-                                th:text="${clazz}"
-                                th:selected="${filter.clazz != null and #strings.equalsIgnoreCase(#strings.trim(filter.clazz), #strings.trim(clazz))}">
+                                th:value="${clazz.name()}"
+                                th:text="${clazz.getLabel}"
+                                th:selected="${filter.clazz == clazz}">
                         </option>
                     </select>
                 </div>
@@ -60,9 +60,9 @@
                             class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
                         <option value="" th:selected="${filter.background == null or #strings.isEmpty(filter.background)}">Aleatório</option>
                         <option th:each="background : ${backgrounds}"
-                                th:value="${background}"
-                                th:text="${background}"
-                                th:selected="${filter.background != null and #strings.equalsIgnoreCase(#strings.trim(filter.background), #strings.trim(background))}">
+                                th:value="${background.name()}"
+                                th:text="${background.getLabel}"
+                                th:selected="${filter.background == background}">
                         </option>
                     </select>
                 </div>
@@ -73,9 +73,9 @@
                             class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
                         <option value="" th:selected="${filter.alignment == null or #strings.isEmpty(filter.alignment)}">Aleatório</option>
                         <option th:each="alignment : ${alignments}"
-                                th:value="${alignment}"
-                                th:text="${alignment}"
-                                th:selected="${filter.alignment != null and #strings.equalsIgnoreCase(#strings.trim(filter.alignment), #strings.trim(alignment))}">
+                                th:value="${alignment.name()}"
+                                th:text="${alignment.getLabel}"
+                                th:selected="${filter.alignment == alignment}">
                         </option>
                     </select>
                 </div>
@@ -85,8 +85,11 @@
                     <select name="gender"
                             class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
                         <option value="" th:selected="${filter.gender == null or #strings.isEmpty(filter.gender)}">Aleatório</option>
-                        <option value="Masculino" th:selected="${filter.gender == 'Masculino'}">Masculino</option>
-                        <option value="Feminino" th:selected="${filter.gender == 'Feminino'}">Feminino</option>
+                        <option th:each="gender : ${genders}"
+                                th:value="${gender.name()}"
+                                th:text="${gender.label}"
+                                th:selected="${filter.gender == gender}">
+                        </option>
                     </select>
                 </div>
             </div>
@@ -132,27 +135,27 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-sm">
                     <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
                         <p class="text-gray-500 mb-1">Raça</p>
-                        <p class="text-white" th:text="${npc.race}">Elfo</p>
+                        <p class="text-white" th:text="${npc.race.getLabel}">Elfo</p>
                     </div>
 
                     <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
                         <p class="text-gray-500 mb-1">Classe</p>
-                        <p class="text-white" th:text="${npc.clazz}">Mago</p>
+                        <p class="text-white" th:text="${npc.clazz.getLabel}">Mago</p>
                     </div>
 
                     <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
                         <p class="text-gray-500 mb-1">Antecedente</p>
-                        <p class="text-white" th:text="${npc.background}">Sábio</p>
+                        <p class="text-white" th:text="${npc.background.getLabel}">Sábio</p>
                     </div>
 
                     <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
                         <p class="text-gray-500 mb-1">Alinhamento</p>
-                        <p class="text-white" th:text="${npc.alignment}">Neutro</p>
+                        <p class="text-white" th:text="${npc.alignment.getLabel}">Neutro</p>
                     </div>
 
                     <div class="bg-[#111] border border-gray-800 rounded-xl p-4">
                         <p class="text-gray-500 mb-1">Gênero</p>
-                        <p class="text-white" th:text="${npc.gender}">Feminino</p>
+                        <p class="text-white" th:text="${npc.gender.label}">Feminino</p>
                     </div>
 
                     <div class="bg-[#111] border border-gray-800 rounded-xl p-4">

@@ -1,6 +1,15 @@
 package com.raphaowl.whiteowl.enums;
 
-public enum Gender {
-    MALE,
-    FEMALE,
+import lombok.Getter;
+
+@Getter
+public enum Gender implements LabeledEnum {
+    MALE("Masculino"),
+    FEMALE("Feminino");
+
+    private final String label;
+
+    Gender(String label) {
+        this.label = label;
+    }
 }

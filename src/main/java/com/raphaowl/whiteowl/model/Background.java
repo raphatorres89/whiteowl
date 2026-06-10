@@ -1,6 +1,7 @@
 package com.raphaowl.whiteowl.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.raphaowl.whiteowl.enums.BackgroundEnum;
 
 public record Background (
         String name,
@@ -26,4 +27,7 @@ public record Background (
         @JsonProperty("document__url")
         String documentUrl
 ) {
+    public BackgroundEnum type() {
+        return BackgroundEnum.fromSlug(slug);
+    }
 }
