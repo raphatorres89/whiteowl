@@ -7,6 +7,7 @@ import com.raphaowl.whiteowl.enums.BackgroundEnum;
 import com.raphaowl.whiteowl.enums.ClassEnum;
 import com.raphaowl.whiteowl.enums.Gender;
 import com.raphaowl.whiteowl.enums.RaceEnum;
+import com.raphaowl.whiteowl.generator.personality.Personality;
 
 public record NpcView(
         String name,
@@ -19,12 +20,5 @@ public record NpcView(
         Integer age,
         int level,
         String appearance,
-        String personality,
-        String goal,
-        String secret,
-        String hook,
-        List<String> traits,
-        List<String> ideals,
-        List<String> flaws,
-        List<String> notableItems
+        Personality personality
 ) {}

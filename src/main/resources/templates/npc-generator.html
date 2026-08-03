@@ -173,30 +173,30 @@
                     </div>
 
                     <div>
-                        <h3 class="text-xl text-gold mb-2">Personalidade</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality}">
-                            Reservada, inteligente e desconfiada.
+                        <h3 class="text-xl text-gold mb-2">Temperamento</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.temperament()}">
+                            Organizado.
                         </p>
                     </div>
 
                     <div>
                         <h3 class="text-xl text-gold mb-2">Motivação</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.goal}">
-                            Recuperar um tomo perdido.
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.goal}">
+                            Observa antes de agir.
                         </p>
                     </div>
 
                     <div>
-                        <h3 class="text-xl text-gold mb-2">Segredo</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.secret}">
-                            Já serviu uma facção proibida.
+                        <h3 class="text-xl text-gold mb-2">Comportamento Social</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.socialBehavior()}">
+                            Gosta de ouvir histórias.
                         </p>
                     </div>
 
                     <div>
-                        <h3 class="text-xl text-gold mb-2">Gancho de aventura</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.hook}">
-                            Pode contratar o grupo para investigar ruínas antigas.
+                        <h3 class="text-xl text-gold mb-2">Virtude</h3>
+                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.virtue()}">
+                            Integridade.
                         </p>
                     </div>
                 </div>
@@ -204,45 +204,31 @@
 
             <div class="space-y-6">
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
-                    <h3 class="text-xl text-gold mb-4">Traços marcantes</h3>
-
-                    <div class="flex flex-wrap gap-2">
-                        <span th:each="trait : ${npc.traits}"
-                              class="px-3 py-1 text-xs rounded-full border border-gray-700 text-gray-300"
-                              th:text="${trait}">
-                            Observadora
-                        </span>
-                    </div>
+                    <h3 class="text-xl text-gold mb-4">Hábitos</h3>
+                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.habit}">
+                        Participa de cerimônias religiosas.
+                    </p>
                 </div>
 
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
-                    <h3 class="text-xl text-gold mb-4">Ideais</h3>
-
-                    <ul class="space-y-2 text-gray-300 text-sm">
-                        <li th:each="ideal : ${npc.ideals}" th:text="${ideal}">
-                            Conhecimento acima da ambição.
-                        </li>
-                    </ul>
+                    <h3 class="text-xl text-gold mb-4">Defeito</h3>
+                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.flaw}">
+                        Desconfiança
+                    </p>
                 </div>
 
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
-                    <h3 class="text-xl text-gold mb-4">Falhas</h3>
-
-                    <ul class="space-y-2 text-gray-300 text-sm">
-                        <li th:each="flaw : ${npc.flaws}" th:text="${flaw}">
-                            Confia pouco nos outros.
-                        </li>
-                    </ul>
+                    <h3 class="text-xl text-gold mb-4">Medos</h3>
+                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.fear}">
+                        Falhar perante sua divindade.
+                    </p>
                 </div>
 
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
-                    <h3 class="text-xl text-gold mb-4">Itens marcantes</h3>
-
-                    <ul class="space-y-2 text-gray-300 text-sm">
-                        <li th:each="item : ${npc.notableItems}" th:text="${item}">
-                            Amuleto rachado de prata.
-                        </li>
-                    </ul>
+                    <h3 class="text-xl text-gold mb-4">Objetivo</h3>
+                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.goal}">
+                        Servir sua divindade.
+                    </p>
                 </div>
             </div>
         </div>
