@@ -5,13 +5,16 @@ import java.util.Random;
 
 import com.raphaowl.whiteowl.controller.view.NpcFilter;
 import com.raphaowl.whiteowl.controller.view.NpcView;
+import com.raphaowl.whiteowl.enums.AlignmentEnum;
 import com.raphaowl.whiteowl.enums.BackgroundEnum;
 import com.raphaowl.whiteowl.enums.ClassEnum;
 import com.raphaowl.whiteowl.enums.Gender;
 import com.raphaowl.whiteowl.enums.RaceEnum;
 import com.raphaowl.whiteowl.generator.NpcGenerator;
-import com.raphaowl.whiteowl.generator.alignment.AlignmentGenerator;
+import com.raphaowl.whiteowl.generator.WeightedRandom;
 import com.raphaowl.whiteowl.generator.alignment.RaceAlignmentWeights;
+import com.raphaowl.whiteowl.generator.background.ClassBackgroundWeights;
+import com.raphaowl.whiteowl.generator.classes.RaceClassWeights;
 import com.raphaowl.whiteowl.generator.personality.PersonalityGenerator;
 import com.raphaowl.whiteowl.util.EnumUtils;
 
@@ -158,27 +161,31 @@ public class ElfAppearanceGenerator implements NpcGenerator {
 
     private static final List<ClassEnum> ELF_CLASSES =
             List.of(ClassEnum.RANGER, ClassEnum.WIZARD, ClassEnum.DRUID, ClassEnum.ROGUE, ClassEnum.BARD, ClassEnum.FIGHTER);
+    public static final RaceEnum RACE = RaceEnum.ELF;
 
-    private final AlignmentGenerator alignmentGenerator;
     private final PersonalityGenerator personalityGenerator;
 
-    public ElfAppearanceGenerator(AlignmentGenerator alignmentGenerator, PersonalityGenerator personalityGenerator) {
-        this.alignmentGenerator = alignmentGenerator;
+    public ElfAppearanceGenerator(PersonalityGenerator personalityGenerator) {
         this.personalityGenerator = personalityGenerator;
     }
 
     @Override
     public NpcView generate(NpcFilter filter) {
-        BackgroundEnum background = EnumUtils.pick(null, BackgroundEnum.class);
+
+        ClassEnum clazz = WeightedRandom.pick(RaceClassWeights.get(RACE)).clazz();
+        AlignmentEnum alignment = WeightedRandom.pick(RaceAlignmentWeights.get(RACE)).alignment();
+        BackgroundEnum background = WeightedRandom.pick(ClassBackgroundWeights.get(clazz)).background();
+
         return new NpcView(
                 getName(filter.gender()),
                 TITLES.get(RANDOM.nextInt(TITLES.size())),
-                RaceEnum.ELF,
-                ELF_CLASSES.get(RANDOM.nextInt(ELF_CLASSES.size())), background,
-                alignmentGenerator.generate(RaceAlignmentWeights.get(RaceEnum.ELF)),
+                RACE,
+                clazz,
+                background,
+                alignment,
                 EnumUtils.pick(filter.gender(), Gender.class),
                 RANDOM.nextInt(MAX_AGE),
-                1,
+                RANDOM.nextInt(16),
                 generateAppearance(),
                 personalityGenerator.generate(background));
     }

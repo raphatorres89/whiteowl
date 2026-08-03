@@ -11,9 +11,10 @@ import org.springframework.stereotype.Component;
 public final class AppearanceGeneratorFactory {
     private final Map<RaceEnum, NpcGenerator> generators;
 
-    public AppearanceGeneratorFactory(ElfAppearanceGenerator elfAppearanceGenerator) {
+    public AppearanceGeneratorFactory(ElfAppearanceGenerator elfAppearanceGenerator, HumanAppearanceGenerator humanAppearanceGenerator) {
         this.generators = Map.of(
-                RaceEnum.ELF, elfAppearanceGenerator
+                RaceEnum.ELF, elfAppearanceGenerator,
+                RaceEnum.HUMAN, humanAppearanceGenerator
         );
     }
 
