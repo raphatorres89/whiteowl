@@ -1,11 +1,11 @@
 package com.raphaowl.whiteowl.service;
 
-import java.util.Random;
-
 import com.raphaowl.whiteowl.controller.view.NpcFilter;
 import com.raphaowl.whiteowl.controller.view.NpcView;
-import com.raphaowl.whiteowl.generator.NpcGenerator;
-import com.raphaowl.whiteowl.generator.appearance.AppearanceGeneratorFactory;
+import com.raphaowl.whiteowl.generator.CharacterGenerator;
+import com.raphaowl.whiteowl.generator.CharacterProfile;
+import com.raphaowl.whiteowl.generator.old.NpcGenerator;
+import com.raphaowl.whiteowl.generator.old.appearance.AppearanceGeneratorFactory;
 
 import org.springframework.stereotype.Service;
 
@@ -15,17 +15,13 @@ import lombok.Getter;
 @Service
 public class NpcService {
 
-    private final AppearanceGeneratorFactory appearanceGeneratorFactory;
+    private final CharacterGenerator  characterGenerator;
 
-    private final Random random = new Random();
-
-    public NpcService(AppearanceGeneratorFactory appearanceGeneratorFactory) {
-        this.appearanceGeneratorFactory = appearanceGeneratorFactory;
+    public NpcService(CharacterGenerator characterGenerator) {
+        this.characterGenerator = characterGenerator;
     }
 
-    public NpcView generate(NpcFilter filter) {
-        NpcGenerator generator = appearanceGeneratorFactory.getGenerator(filter.race());
-
-        return generator.generate(filter);
+    public CharacterProfile generate(NpcFilter filter) {
+        return characterGenerator.generate(filter);
     }
 }

@@ -1,30 +1,31 @@
 package com.raphaowl.whiteowl.generator.personality;
 
 import java.util.List;
-import java.util.concurrent.ThreadLocalRandom;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import com.raphaowl.whiteowl.enums.BackgroundEnum;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class PersonalityGenerator {
 
-    public Personality generate(BackgroundEnum background) {
-        PersonalityProfile profile = BackgroundPersonalityProfiles.get(background);
+    private final Map<BackgroundEnum, BackgroundPersonalityGenerator> generators;
 
-        return new Personality(
-                random(profile.temperaments()),
-                random(profile.socialBehaviors()),
-                random(profile.virtues()),
-                random(profile.flaws()),
-                random(profile.habits()),
-                random(profile.fears()),
-                random(profile.goals())
-        );
+    public PersonalityGenerator(List<BackgroundPersonalityGenerator> generators) {
+        this.generators = generators.stream()
+                .collect(Collectors.toMap(BackgroundPersonalityGenerator::background, Function.identity()));
     }
 
-    private String random(List<String> list) {
-        return list.get(ThreadLocalRandom.current().nextInt(list.size()));
+    public Personality generate(CharacterContext context) {
+        BackgroundPersonalityGenerator generator = generators.get(context.background());
+
+        if (generator == null) {
+            throw new IllegalArgumentException("No personality generator for " + context.background());
+        }
+
+        return generator.generate(context);
     }
 }
