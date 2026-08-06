@@ -4,24 +4,23 @@ import java.util.List;
 import java.util.Random;
 
 import com.raphaowl.whiteowl.controller.view.NpcFilter;
-import com.raphaowl.whiteowl.controller.view.NpcView;
 import com.raphaowl.whiteowl.enums.AlignmentEnum;
 import com.raphaowl.whiteowl.enums.BackgroundEnum;
 import com.raphaowl.whiteowl.enums.ClassEnum;
 import com.raphaowl.whiteowl.enums.Gender;
 import com.raphaowl.whiteowl.enums.RaceEnum;
-import com.raphaowl.whiteowl.generator.NpcGenerator;
-import com.raphaowl.whiteowl.generator.WeightedRandom;
 import com.raphaowl.whiteowl.generator.alignment.RaceAlignmentWeights;
 import com.raphaowl.whiteowl.generator.background.ClassBackgroundWeights;
-import com.raphaowl.whiteowl.generator.classes.RaceClassWeights;
+import com.raphaowl.whiteowl.generator.clazz.RaceClassWeights;
+import com.raphaowl.whiteowl.generator.personality.CharacterContext;
 import com.raphaowl.whiteowl.generator.personality.PersonalityGenerator;
+import com.raphaowl.whiteowl.generator.util.WeightedRandom;
 import com.raphaowl.whiteowl.util.EnumUtils;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class ElfAppearanceGenerator implements NpcGenerator {
+public class ElfAppearanceGenerator implements RaceAppearanceGenerator {
 
     public static final int MAX_AGE = 750;
     private static final Random RANDOM = new Random();
@@ -170,24 +169,32 @@ public class ElfAppearanceGenerator implements NpcGenerator {
     }
 
     @Override
-    public NpcView generate(NpcFilter filter) {
+    public RaceEnum race() {
+        return RACE;
+    }
 
-        ClassEnum clazz = WeightedRandom.pick(RaceClassWeights.get(RACE)).clazz();
-        AlignmentEnum alignment = WeightedRandom.pick(RaceAlignmentWeights.get(RACE)).alignment();
-        BackgroundEnum background = WeightedRandom.pick(ClassBackgroundWeights.get(clazz)).background();
+    @Override
+    public Appearance generate(NpcFilter filter) {
 
-        return new NpcView(
+        ClassEnum clazz = WeightedRandom.pick(RaceClassWeights.get(RACE));
+        AlignmentEnum alignment = WeightedRandom.pick(RaceAlignmentWeights.get(RACE));
+        BackgroundEnum background = WeightedRandom.pick(ClassBackgroundWeights.get(clazz));
+        Gender gender = EnumUtils.pick(filter.gender(), Gender.class);
+
+        return new Appearance(
                 getName(filter.gender()),
                 TITLES.get(RANDOM.nextInt(TITLES.size())),
                 RACE,
                 clazz,
                 background,
                 alignment,
-                EnumUtils.pick(filter.gender(), Gender.class),
+                gender,
                 RANDOM.nextInt(MAX_AGE),
                 RANDOM.nextInt(16),
                 generateAppearance(),
-                personalityGenerator.generate(background));
+                personalityGenerator.generate(new CharacterContext(
+                        RACE, gender, clazz, background, alignment
+                )));
     }
 
     private String getName(Gender gender) {

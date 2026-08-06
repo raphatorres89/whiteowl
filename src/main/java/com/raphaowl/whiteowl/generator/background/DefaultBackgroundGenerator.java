@@ -2,7 +2,6 @@ package com.raphaowl.whiteowl.generator.background;
 
 import com.raphaowl.whiteowl.enums.BackgroundEnum;
 import com.raphaowl.whiteowl.enums.ClassEnum;
-import com.raphaowl.whiteowl.generator.old.background.ClassBackgroundWeights;
 import com.raphaowl.whiteowl.generator.util.WeightedRandom;
 
 import org.springframework.stereotype.Service;

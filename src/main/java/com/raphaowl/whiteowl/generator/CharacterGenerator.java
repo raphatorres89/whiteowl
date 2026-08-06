@@ -1,19 +1,18 @@
 package com.raphaowl.whiteowl.generator;
 
-import java.util.Optional;
-
 import com.raphaowl.whiteowl.controller.view.NpcFilter;
 import com.raphaowl.whiteowl.enums.AlignmentEnum;
 import com.raphaowl.whiteowl.enums.BackgroundEnum;
 import com.raphaowl.whiteowl.enums.ClassEnum;
 import com.raphaowl.whiteowl.enums.Gender;
 import com.raphaowl.whiteowl.enums.RaceEnum;
+import com.raphaowl.whiteowl.generator.alignment.AlignmentGenerator;
+import com.raphaowl.whiteowl.generator.appearance.Appearance;
 import com.raphaowl.whiteowl.generator.appearance.AppearanceGenerator;
 import com.raphaowl.whiteowl.generator.background.BackgroundGenerator;
 import com.raphaowl.whiteowl.generator.clazz.ClassGenerator;
 import com.raphaowl.whiteowl.generator.gender.GenderGenerator;
 import com.raphaowl.whiteowl.generator.name.NameGenerator;
-import com.raphaowl.whiteowl.generator.old.alignment.AlignmentGenerator;
 import com.raphaowl.whiteowl.generator.personality.CharacterContext;
 import com.raphaowl.whiteowl.generator.personality.Personality;
 import com.raphaowl.whiteowl.generator.personality.PersonalityGenerator;
@@ -58,20 +57,20 @@ public class CharacterGenerator {
         String name = raceNameGenerator.generateName(race, gender);
         String title = raceNameGenerator.generateTitle(race, gender);
 
-        String appearance = appearanceGenerator.generate(race, gender, clazz);
+        CharacterContext context = new CharacterContext(race, gender, clazz, background, alignment);
 
-        Personality personality = personalityGenerator.generate(
-            new CharacterContext(
-                race,
-                gender,
-                clazz,
-                background,
-                alignment
-        ));
+        Appearance appearance = appearanceGenerator.generate(filter);
+        Personality personality = personalityGenerator.generate(context);
 
         return new CharacterProfile(
                 name,
                 title,
-                race, gender, clazz, background, alignment, appearance, personality);
+                race,
+                gender,
+                clazz,
+                background,
+                alignment,
+                appearance,
+                personality);
     }
 }

@@ -5,7 +5,6 @@ import java.util.Map;
 
 import com.raphaowl.whiteowl.enums.ClassEnum;
 import com.raphaowl.whiteowl.enums.RaceEnum;
-import com.raphaowl.whiteowl.generator.old.classes.ClassWeight;
 
 public final class RaceClassWeights {
 

@@ -5,7 +5,6 @@ import java.util.Map;
 
 import com.raphaowl.whiteowl.enums.AlignmentEnum;
 import com.raphaowl.whiteowl.enums.RaceEnum;
-import com.raphaowl.whiteowl.generator.old.alignment.AlignmentWeight;
 
 public final class RaceAlignmentWeights {
 

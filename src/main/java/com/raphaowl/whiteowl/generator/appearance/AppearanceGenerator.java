@@ -5,8 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import com.raphaowl.whiteowl.enums.ClassEnum;
-import com.raphaowl.whiteowl.enums.Gender;
+import com.raphaowl.whiteowl.controller.view.NpcFilter;
 import com.raphaowl.whiteowl.enums.RaceEnum;
 
 import org.springframework.stereotype.Service;
@@ -20,7 +19,7 @@ public class AppearanceGenerator {
         this.generators = generators.stream().collect(Collectors.toMap(RaceAppearanceGenerator::race, Function.identity()));
     }
 
-    public String generate(RaceEnum race, Gender gender, ClassEnum clazz) {
-        return generators.get(race).generate(gender, clazz);
+    public Appearance generate(NpcFilter filter) {
+        return generators.get(filter.race()).generate(filter);
     }
 }
