@@ -5,7 +5,6 @@ import com.raphaowl.whiteowl.enums.BackgroundEnum;
 import com.raphaowl.whiteowl.enums.ClassEnum;
 import com.raphaowl.whiteowl.enums.Gender;
 import com.raphaowl.whiteowl.enums.RaceEnum;
-import com.raphaowl.whiteowl.generator.appearance.Appearance;
 import com.raphaowl.whiteowl.generator.personality.Personality;
 
 public record CharacterProfile(
@@ -16,7 +15,7 @@ public record CharacterProfile(
         ClassEnum clazz,
         BackgroundEnum background,
         AlignmentEnum alignment,
-        Appearance appearance,
+        String appearance,
         Personality personality
 ) {
 

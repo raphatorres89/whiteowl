@@ -7,7 +7,6 @@ import com.raphaowl.whiteowl.enums.ClassEnum;
 import com.raphaowl.whiteowl.enums.Gender;
 import com.raphaowl.whiteowl.enums.RaceEnum;
 import com.raphaowl.whiteowl.generator.alignment.AlignmentGenerator;
-import com.raphaowl.whiteowl.generator.appearance.Appearance;
 import com.raphaowl.whiteowl.generator.appearance.AppearanceGenerator;
 import com.raphaowl.whiteowl.generator.background.BackgroundGenerator;
 import com.raphaowl.whiteowl.generator.clazz.ClassGenerator;
@@ -59,7 +58,7 @@ public class CharacterGenerator {
 
         CharacterContext context = new CharacterContext(race, gender, clazz, background, alignment);
 
-        Appearance appearance = appearanceGenerator.generate(filter);
+        String appearance = appearanceGenerator.generate(filter);
         Personality personality = personalityGenerator.generate(context);
 
         return new CharacterProfile(

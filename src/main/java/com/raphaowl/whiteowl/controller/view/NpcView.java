@@ -36,7 +36,7 @@ public record NpcView(
                 profile.gender(),
                 1,
                 1,
-                profile.appearance().appearance(),
+                profile.appearance(),
                 profile.personality());
     }
 }

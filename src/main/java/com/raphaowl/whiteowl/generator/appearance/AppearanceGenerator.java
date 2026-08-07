@@ -19,7 +19,7 @@ public class AppearanceGenerator {
         this.generators = generators.stream().collect(Collectors.toMap(RaceAppearanceGenerator::race, Function.identity()));
     }
 
-    public Appearance generate(NpcFilter filter) {
-        return generators.get(filter.race()).generate(filter);
+    public String generate(NpcFilter filter) {
+        return generators.get(filter.race()).generate();
     }
 }
