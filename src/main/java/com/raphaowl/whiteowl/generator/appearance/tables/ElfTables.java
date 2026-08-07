@@ -2,6 +2,8 @@ package com.raphaowl.whiteowl.generator.appearance.tables;
 
 import java.util.List;
 
+import com.raphaowl.whiteowl.generator.appearance.AppearanceTables;
+
 public final class ElfTables {
 
     public static final List<String> BODY_TYPES =
@@ -117,4 +119,16 @@ public final class ElfTables {
             "carrega uma bolsa de couro ricamente decorada"
     );
 
+    public static final AppearanceTables DATA = new AppearanceTables(
+            BODY_TYPES,
+            MOVEMENTS,
+            SKIN,
+            HAIR,
+            EYES,
+            TRAITS,
+            MARKS,
+            EXPRESSIONS,
+            CLOTHES,
+            ACCESSORIES
+    );
 }

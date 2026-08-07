@@ -54,7 +54,7 @@ public class CharacterGenerator {
         AlignmentEnum alignment = alignmentGenerator.generate(filter.alignment(), race, clazz, background);
 
         String name = raceNameGenerator.generateName(race, gender);
-        String title = raceNameGenerator.generateTitle(race, gender);
+        String title = raceNameGenerator.generateTitle(race);
 
         CharacterContext context = new CharacterContext(race, gender, clazz, background, alignment);
 

@@ -2,6 +2,8 @@ package com.raphaowl.whiteowl.generator.name.tables;
 
 import java.util.List;
 
+import com.raphaowl.whiteowl.generator.name.RaceNames;
+
 public final class ElfNames {
 
     private ElfNames() {
@@ -22,8 +24,16 @@ public final class ElfNames {
                     "Thia", "Valanthe", "Xyrra");
 
     public static final List<String> TITLES =
-            List.of("Andarilho das Florestas", "Guardião das Árvores Antigas", "Vigia do Bosque", "Caçador Silencioso", "Arqueiro da Lua", "Filho " +
-                            "das Estrelas", "Portador da Aurora", "Sábio dos Rios", "Protetor dos Bosques", "Cantor das Folhas", "Senhor dos Cervos",
-                    "Sentinela da Fronteira", "Peregrino Élfico", "Mestre dos Ventos", "Observador das Constelações", "Defensor da Natureza",
-                    "Caminhante da Névoa", "Guardião dos Antigos Segredos", "Herdeiro da Corte Élfica", "Imortal Errante");
+            List.of("Andarilho das Florestas", "Guardião das Árvores Antigas", "Vigia do Bosque", "Caçador Silencioso", "Arqueiro da Lua",
+                    "Filho " + "das Estrelas", "Portador da Aurora", "Sábio dos Rios", "Protetor dos Bosques", "Cantor das Folhas", "Senhor dos " +
+                            "Cervos", "Sentinela da Fronteira", "Peregrino Élfico", "Mestre dos Ventos", "Observador das Constelações", "Defensor " +
+                            "da Natureza", "Caminhante da Névoa", "Guardião dos Antigos Segredos", "Herdeiro da Corte Élfica", "Imortal Errante");
+
+    public static final List<String> SURNAMES =
+            List.of("Ashwood", "Silverbrook", "Moonbrook", "Ravencrest", "Brightwood", "Stormvale", "Oakheart", "Wintermere", "Dawnwhisper",
+                    "Nightbreeze", "Greenhill", "Riverwind", "Blackthorn", "Sunmeadow", "Mistvale", "Highgrove", "Emberfield", "Fairwind",
+                    "Whiteridge", "Starbrook", "Grayleaf", "Thornfield", "Windrunner", "Rosewood", "Deepvale", "Stonebrook", "Lightfoot",
+                    "Ashenvale", "Falconcrest", "Goldenleaf");
+
+    public static final RaceNames DATA = new RaceNames(MALE_NAMES, FEMALE_NAMES, SURNAMES, TITLES);
 }

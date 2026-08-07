@@ -2,6 +2,8 @@ package com.raphaowl.whiteowl.generator.appearance.tables;
 
 import java.util.List;
 
+import com.raphaowl.whiteowl.generator.appearance.AppearanceTables;
+
 public final class HumanTables {
     public static final List<String> BODY_TYPES = List.of(
             "alto e musculoso",
@@ -131,5 +133,18 @@ public final class HumanTables {
             "carrega uma espada bem conservada",
             "usa um chapéu de viajante",
             "mantém um pequeno amuleto da sorte"
+    );
+
+    public static final AppearanceTables DATA = new AppearanceTables(
+            BODY_TYPES,
+            MOVEMENTS,
+            SKIN,
+            HAIR,
+            EYES,
+            TRAITS,
+            MARKS,
+            EXPRESSIONS,
+            CLOTHES,
+            ACCESSORIES
     );
 }

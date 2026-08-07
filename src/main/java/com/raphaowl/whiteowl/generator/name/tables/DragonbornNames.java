@@ -2,161 +2,34 @@ package com.raphaowl.whiteowl.generator.name.tables;
 
 import java.util.List;
 
+import com.raphaowl.whiteowl.generator.name.RaceNames;
+
 public final class DragonbornNames {
 
-    private DragonbornNames() {
-    }
+    public static final List<String> MALE_NAMES =
+            List.of("Arjhan", "Balasar", "Bharash", "Donaar", "Ghesh", "Heskan", "Kriv", "Medrash", "Mehen", "Nadarr", "Pandjed", "Patrin", "Rhogar"
+                    , "Shamash", "Shedinn", "Tarhun", "Torinn", "Vargach", "Akrahn", "Vorugal", "Korth", "Rhazgar", "Zorash", "Mordai", "Thavax",
+                    "Garund", "Korvash", "Norix", "Drakar", "Vaeros", "Kharzun", "Thorash", "Mazgar", "Vorash", "Korran", "Drath", "Razhik",
+                    "Tarkhan", "Gorvax", "Zarkhan", "Harvek", "Korath", "Rhazek", "Varesh", "Tharok", "Drogan", "Khazrim", "Vorgrim", "Rhazor",
+                    "Drazek");
 
-    public static final List<String> MALE_NAMES = List.of(
-            "Arjhan",
-            "Balasar",
-            "Bharash",
-            "Donaar",
-            "Ghesh",
-            "Heskan",
-            "Kriv",
-            "Medrash",
-            "Mehen",
-            "Nadarr",
-            "Pandjed",
-            "Patrin",
-            "Rhogar",
-            "Shamash",
-            "Shedinn",
-            "Tarhun",
-            "Torinn",
-            "Vargach",
-            "Akrahn",
-            "Vorugal",
-            "Korth",
-            "Rhazgar",
-            "Zorash",
-            "Mordai",
-            "Thavax",
-            "Garund",
-            "Korvash",
-            "Norix",
-            "Drakar",
-            "Vaeros",
-            "Kharzun",
-            "Thorash",
-            "Mazgar",
-            "Vorash",
-            "Korran",
-            "Drath",
-            "Razhik",
-            "Tarkhan",
-            "Gorvax",
-            "Zarkhan",
-            "Harvek",
-            "Korath",
-            "Rhazek",
-            "Varesh",
-            "Tharok",
-            "Drogan",
-            "Khazrim",
-            "Vorgrim",
-            "Rhazor",
-            "Drazek"
-    );
+    public static final List<String> FEMALE_NAMES =
+            List.of("Akra", "Biri", "Daar", "Farideh", "Harann", "Flavilar", "Jheri", "Kava", "Korinn", "Mishann", "Nala", "Perra", "Raiann", "Sora"
+                    , "Surina", "Thava", "Uadjit", "Zykroff", "Varana", "Ashara", "Khesra", "Rhava", "Vorana", "Tazira", "Mazhara", "Korasha",
+                    "Veshra", "Tharissa", "Zarasha", "Dravira", "Khara", "Rhazira", "Vorissa", "Khalira", "Sharava", "Norasha", "Azhara", "Varessa"
+                    , "Drazira", "Korava", "Rhazanna", "Tharaya", "Mazhira", "Zoraya", "Vashara", "Khessara", "Tarissa", "Voraya", "Sharika",
+                    "Rhavira");
 
-    public static final List<String> FEMALE_NAMES = List.of(
-            "Akra",
-            "Biri",
-            "Daar",
-            "Farideh",
-            "Harann",
-            "Flavilar",
-            "Jheri",
-            "Kava",
-            "Korinn",
-            "Mishann",
-            "Nala",
-            "Perra",
-            "Raiann",
-            "Sora",
-            "Surina",
-            "Thava",
-            "Uadjit",
-            "Zykroff",
-            "Varana",
-            "Ashara",
-            "Khesra",
-            "Rhava",
-            "Vorana",
-            "Tazira",
-            "Mazhara",
-            "Korasha",
-            "Veshra",
-            "Tharissa",
-            "Zarasha",
-            "Dravira",
-            "Khara",
-            "Rhazira",
-            "Vorissa",
-            "Khalira",
-            "Sharava",
-            "Norasha",
-            "Azhara",
-            "Varessa",
-            "Drazira",
-            "Korava",
-            "Rhazanna",
-            "Tharaya",
-            "Mazhira",
-            "Zoraya",
-            "Vashara",
-            "Khessara",
-            "Tarissa",
-            "Voraya",
-            "Sharika",
-            "Rhavira"
-    );
+    public static final List<String> TITLES =
+            List.of("Escama Rubra", "Filho do Dragão", "Guardião do Clã", "Portador da Chama", "Martelo do Clã", "Escudo de Bahamut", "A Voz do " +
+                    "Ancião", "O Inabalável", "O Que Nunca Recuou", "Presa de Bronze", "Olho da Tempestade", "Guardião da Forja", "Quebra-Muralhas"
+                    , "O Indomável", "Caçador de Wyrms", "Escama de Ferro", "O Honrado", "O Incansável", "Portador da Honra", "Último Defensor");
 
-    public static final List<String> TITLES = List.of(
-            "Escama Rubra",
-            "Filho do Dragão",
-            "Guardião do Clã",
-            "Portador da Chama",
-            "Martelo do Clã",
-            "Escudo de Bahamut",
-            "A Voz do Ancião",
-            "O Inabalável",
-            "O Que Nunca Recuou",
-            "Presa de Bronze",
-            "Olho da Tempestade",
-            "Guardião da Forja",
-            "Quebra-Muralhas",
-            "O Indomável",
-            "Caçador de Wyrms",
-            "Escama de Ferro",
-            "O Honrado",
-            "O Incansável",
-            "Portador da Honra",
-            "Último Defensor"
-    );
+    public static final List<String> CLAN_NAMES =
+            List.of("Clethtinthiallor", "Daardendrian", "Delmirev", "Drachedandion", "Fenkenkabradon", "Kepeshkmolik", "Kerrhylon", "Kimbatuul",
+                    "Linxakasendalor", "Myastan", "Nemmonis", "Norixius", "Ophinshtalajiir", "Prexijandilin", "Shestendeliath", "Turnuroth",
+                    "Verthisathurgiesh", "Yarjerit", "Vorqiros", "Thraxian");
 
-    public static final List<String> CLAN_NAMES = List.of(
-            "Clethtinthiallor",
-            "Daardendrian",
-            "Delmirev",
-            "Drachedandion",
-            "Fenkenkabradon",
-            "Kepeshkmolik",
-            "Kerrhylon",
-            "Kimbatuul",
-            "Linxakasendalor",
-            "Myastan",
-            "Nemmonis",
-            "Norixius",
-            "Ophinshtalajiir",
-            "Prexijandilin",
-            "Shestendeliath",
-            "Turnuroth",
-            "Verthisathurgiesh",
-            "Yarjerit",
-            "Vorqiros",
-            "Thraxian"
-    );
+    public static final RaceNames DATA = new RaceNames(MALE_NAMES, FEMALE_NAMES, CLAN_NAMES, TITLES);
 
 }

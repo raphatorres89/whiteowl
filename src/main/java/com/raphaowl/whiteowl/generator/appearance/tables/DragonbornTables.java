@@ -2,6 +2,8 @@ package com.raphaowl.whiteowl.generator.appearance.tables;
 
 import java.util.List;
 
+import com.raphaowl.whiteowl.generator.appearance.AppearanceTables;
+
 public final class DragonbornTables {
     public static final List<String> BODY_TYPES = List.of(
             "alto e extremamente musculoso",
@@ -131,5 +133,18 @@ public final class DragonbornTables {
             "carrega um martelo de guerra finamente forjado",
             "usa um amuleto representando Bahamut",
             "carrega um antigo troféu de guerra"
+    );
+
+    public static final AppearanceTables DATA = new AppearanceTables(
+            BODY_TYPES,
+            MOVEMENTS,
+            SKIN,
+            HAIR,
+            EYES,
+            TRAITS,
+            MARKS,
+            EXPRESSIONS,
+            CLOTHES,
+            ACCESSORIES
     );
 }

@@ -2,6 +2,8 @@ package com.raphaowl.whiteowl.generator.appearance.tables;
 
 import java.util.List;
 
+import com.raphaowl.whiteowl.generator.appearance.AppearanceTables;
+
 public final class DwarfTables {
     public static final List<String> BODY_TYPES = List.of(
             "baixo e extremamente robusto",
@@ -133,6 +135,17 @@ public final class DwarfTables {
             "mantém um cachimbo de madeira entalhada"
     );
 
-
+    public static final AppearanceTables DATA = new AppearanceTables(
+            BODY_TYPES,
+            MOVEMENTS,
+            SKIN,
+            HAIR,
+            EYES,
+            TRAITS,
+            MARKS,
+            EXPRESSIONS,
+            CLOTHES,
+            ACCESSORIES
+    );
 
 }
