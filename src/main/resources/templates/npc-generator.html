@@ -30,67 +30,77 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
                 <div>
                     <label class="block text-sm text-gray-400 mb-2">Raça</label>
-                    <select name="race"
-                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
-                        <option value="" th:selected="${filter.race == null or #strings.isEmpty(filter.race)}">Aleatória</option>
-                        <option th:each="race : ${races}"
-                                th:value="${race.name()}"
-                                th:text="${race.getLabel}"
-                                th:selected="${filter.race == race}">
-                        </option>
-                    </select>
+                    <label>
+                        <select name="race"
+                                class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                            <option value="" th:selected="${filter.race == null or #strings.isEmpty(filter.race)}">Aleatória</option>
+                            <option th:each="race : ${races}"
+                                    th:value="${race.name()}"
+                                    th:text="${race.getLabel}"
+                                    th:selected="${filter.race == race}">
+                            </option>
+                        </select>
+                    </label>
                 </div>
 
                 <div>
                     <label class="block text-sm text-gray-400 mb-2">Classe</label>
-                    <select name="clazz"
-                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
-                        <option value="" th:selected="${filter.clazz == null or #strings.isEmpty(filter.clazz)}">Aleatória</option>
-                        <option th:each="clazz : ${classes}"
-                                th:value="${clazz.name()}"
-                                th:text="${clazz.getLabel}"
-                                th:selected="${filter.clazz == clazz}">
-                        </option>
-                    </select>
+                    <label>
+                        <select name="clazz"
+                                class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                            <option value="" th:selected="${filter.clazz == null or #strings.isEmpty(filter.clazz)}">Aleatória</option>
+                            <option th:each="clazz : ${classes}"
+                                    th:value="${clazz.name()}"
+                                    th:text="${clazz.getLabel}"
+                                    th:selected="${filter.clazz == clazz}">
+                            </option>
+                        </select>
+                    </label>
                 </div>
 
                 <div>
                     <label class="block text-sm text-gray-400 mb-2">Antecedente</label>
-                    <select name="background"
-                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
-                        <option value="" th:selected="${filter.background == null or #strings.isEmpty(filter.background)}">Aleatório</option>
-                        <option th:each="background : ${backgrounds}"
-                                th:value="${background.name()}"
-                                th:text="${background.getLabel}"
-                                th:selected="${filter.background == background}">
-                        </option>
-                    </select>
+                    <label>
+                        <select name="background"
+                                class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                            <option value="" th:selected="${filter.background == null or #strings.isEmpty(filter.background)}">Aleatório</option>
+                            <option th:each="background : ${backgrounds}"
+                                    th:value="${background.name()}"
+                                    th:text="${background.getLabel}"
+                                    th:selected="${filter.background == background}">
+                            </option>
+                        </select>
+                    </label>
                 </div>
 
                 <div>
                     <label class="block text-sm text-gray-400 mb-2">Alinhamento</label>
-                    <select name="alignment"
-                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
-                        <option value="" th:selected="${filter.alignment == null or #strings.isEmpty(filter.alignment)}">Aleatório</option>
-                        <option th:each="alignment : ${alignments}"
-                                th:value="${alignment.name()}"
-                                th:text="${alignment.getLabel}"
-                                th:selected="${filter.alignment == alignment}">
-                        </option>
-                    </select>
+                    <label>
+                        <select name="alignment"
+                                class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                            <option value="" th:selected="${filter.alignment == null or #strings.isEmpty(filter.alignment)}">Aleatório</option>
+                            <option th:each="alignment : ${alignments}"
+                                    th:value="${alignment.name()}"
+                                    th:text="${alignment.getLabel}"
+                                    th:selected="${filter.alignment == alignment}">
+                            </option>
+                        </select>
+                    </label>
                 </div>
 
                 <div>
                     <label class="block text-sm text-gray-400 mb-2">Gênero</label>
-                    <select name="gender"
-                            class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
-                        <option value="" th:selected="${filter.gender == null or #strings.isEmpty(filter.gender)}">Aleatório</option>
-                        <option th:each="gender : ${genders}"
-                                th:value="${gender.name()}"
-                                th:text="${gender.label}"
-                                th:selected="${filter.gender == gender}">
-                        </option>
-                    </select>
+                    <label>
+                        <select name="gender"
+                                class="w-full rounded-lg bg-[#111] border border-gray-700 px-4 py-2 text-sm text-white">
+                            <option value="" th:selected="${filter.gender == null or #strings.isEmpty(filter.gender)}">Aleatório</option>
+                            <option th:each="gender : ${genders}"
+                                    th:value="${gender.name()}"
+                                    th:text="${gender.label}"
+                                    th:selected="${filter.gender == gender}">
+                            </option>
+                        </select>
+                    </label>
                 </div>
             </div>
 
@@ -110,6 +120,25 @@
         <div th:if="${npc == null}"
              class="bg-card border border-gray-800 rounded-2xl p-8 text-center text-gray-400">
             Nenhum NPC gerado ainda.
+        </div>
+
+        <div class="npc-avatar">
+            <img th:src="@{${npc.racePath()}}" class="npc-race" alt="Avatar">
+
+            <div class="npc-icons">
+
+                <img th:src="@{${npc.classPath()}}"
+                     class="npc-icon"
+                     th:alt="${npc.clazz().label}"
+                     th:title="${npc.clazz().label}">
+
+                <img th:src="@{${npc.backgroundPath()}}"
+                     class="npc-icon"
+                     th:alt="${npc.background().label}"
+                     th:title="${npc.background().label}">
+
+            </div>
+
         </div>
 
         <div th:if="${npc != null}" class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -174,28 +203,21 @@
 
                     <div>
                         <h3 class="text-xl text-gold mb-2">Temperamento</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.temperament()}">
+                        <p class="text-gray-300 leading-relaxed capitalize" th:text="${npc.personality.temperament()}">
                             Organizado.
                         </p>
                     </div>
 
                     <div>
-                        <h3 class="text-xl text-gold mb-2">Motivação</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.goal}">
-                            Observa antes de agir.
-                        </p>
-                    </div>
-
-                    <div>
                         <h3 class="text-xl text-gold mb-2">Comportamento Social</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.socialBehavior()}">
+                        <p class="text-gray-300 leading-relaxed capitalize" th:text="${npc.personality.socialBehavior()}">
                             Gosta de ouvir histórias.
                         </p>
                     </div>
 
                     <div>
                         <h3 class="text-xl text-gold mb-2">Virtude</h3>
-                        <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.virtue()}">
+                        <p class="text-gray-300 leading-relaxed capitalize" th:text="${npc.personality.virtue()}">
                             Integridade.
                         </p>
                     </div>
@@ -205,28 +227,28 @@
             <div class="space-y-6">
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
                     <h3 class="text-xl text-gold mb-4">Hábitos</h3>
-                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.habit}">
+                    <p class="text-gray-300 leading-relaxed capitalize" th:text="${npc.personality.habit}">
                         Participa de cerimônias religiosas.
                     </p>
                 </div>
 
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
                     <h3 class="text-xl text-gold mb-4">Defeito</h3>
-                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.flaw}">
+                    <p class="text-gray-300 leading-relaxed capitalize" th:text="${npc.personality.flaw}">
                         Desconfiança
                     </p>
                 </div>
 
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
                     <h3 class="text-xl text-gold mb-4">Medos</h3>
-                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.fear}">
+                    <p class="text-gray-300 leading-relaxed capitalize" th:text="${npc.personality.fear}">
                         Falhar perante sua divindade.
                     </p>
                 </div>
 
                 <div class="bg-card border border-gray-800 rounded-2xl p-5 arcane-glow">
                     <h3 class="text-xl text-gold mb-4">Objetivo</h3>
-                    <p class="text-gray-300 leading-relaxed" th:text="${npc.personality.goal}">
+                    <p class="text-gray-300 leading-relaxed capitalize" th:text="${npc.personality.goal}">
                         Servir sua divindade.
                     </p>
                 </div>

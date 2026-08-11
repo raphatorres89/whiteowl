@@ -162,7 +162,7 @@
   {
     "name": "Membro de Guilda",
     "desc": "Nunca é ruim fazer parte de um grupo, e quando você pertence a uma guilda, oportunidades batem à sua porta.\n\nVocê é membro de uma guilda de ofício ou artesanato? Ou de uma ordem de magos ou caçadores de monstros? Ou conseguiu entrar em uma guilda secreta de ladrões ou assassinos?",
-    "slug": "guildmember",
+    "slug": "guild-member",
     "skill_proficiencies": "Duas à sua escolha.",
     "tool_proficiencies": null,
     "languages": null,

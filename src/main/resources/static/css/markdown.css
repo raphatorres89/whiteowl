@@ -238,3 +238,8 @@
 .rich-text blockquote > *:last-child {
     margin-bottom: 0;
 }
+
+/* primeira letra maiúscula*/
+.capitalize::first-letter {
+    text-transform: uppercase;
+}

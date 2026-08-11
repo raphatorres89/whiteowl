@@ -12,8 +12,11 @@ public record NpcView(
         String name,
         String title,
         RaceEnum race,
+        String racePath,
         ClassEnum clazz,
+        String classPath,
         BackgroundEnum background,
+        String backgroundPath,
         AlignmentEnum alignment,
         Gender gender,
         Integer age,
@@ -22,7 +25,7 @@ public record NpcView(
         Personality personality
 ) {
     public NpcView() {
-        this(null, null, null, null, null, null, null, 1, 1, null, null);
+        this(null, null, null, null, null, null, null, null, null, null, 1, 1, null, null);
     }
 
     public NpcView fromCharacterProfile(CharacterProfile profile) {
@@ -30,8 +33,11 @@ public record NpcView(
                 profile.name(),
                 profile.title(),
                 profile.race(),
+                "/images/races/icons/" + profile.race().getSlug() + ".png",
                 profile.clazz(),
+                "/images/classes/" + profile.clazz().name().toLowerCase() + ".png",
                 profile.background(),
+                "/images/backgrounds/" + profile.background().getSlug().replaceAll("_", "-") + ".png",
                 profile.alignment(),
                 profile.gender(),
                 1,
