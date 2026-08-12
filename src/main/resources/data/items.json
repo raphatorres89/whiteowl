@@ -1,0 +1,1186 @@
+[
+  {
+    "key": "srd_abacus",
+    "name": "Ábaco",
+    "desc": "Um ábaco.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.91",
+    "weight_unit": "kg",
+    "cost": "2.00"
+  },
+  {
+    "key": "srd_acid",
+    "name": "Ácido",
+    "desc": "Como uma ação, você pode espirrar o conteúdo deste frasco em uma criatura a até 1,5 metro de você ou arremessar o frasco a até 6 metros, quebrando-o com o impacto. Em ambos os casos, faça um ataque à distância contra uma criatura ou objeto, tratando o ácido como uma arma improvisada. Se acertar, o alvo sofre 2d6 de dano de ácido.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.00",
+    "weight_unit": "kg",
+    "cost": "0.00"
+  },
+  {
+    "key": "srd_acid-vial",
+    "name": "Ácido (frasco)",
+    "desc": "Como uma ação, você pode espirrar o conteúdo deste frasco em uma criatura a até 1,5 metro de você ou arremessar o frasco a até 6 metros, quebrando-o com o impacto. Em ambos os casos, faça um ataque à distância contra uma criatura ou objeto, tratando o ácido como uma arma improvisada. Se acertar, o alvo sofre 2d6 de dano de ácido.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.45",
+    "weight_unit": "kg",
+    "cost": "25.00"
+  },
+  {
+    "key": "srd_alchemists-fire-flask",
+    "name": "Fogo de Alquimista (frasco)",
+    "desc": "Este fluido viscoso e adesivo entra em combustão quando exposto ao ar. Como uma ação, você pode arremessar este frasco a até 6 metros, quebrando-o com o impacto. Faça um ataque à distância contra uma criatura ou objeto, tratando o fogo de alquimista como uma arma improvisada. Se acertar, o alvo sofre 1d4 de dano de fogo no início de cada um de seus turnos. Uma criatura pode encerrar esse dano usando sua ação para realizar um teste de Destreza CD 10 para apagar as chamas.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.45",
+    "weight_unit": "kg",
+    "cost": "50.00"
+  },
+  {
+    "key": "srd_alchemists-supplies",
+    "name": "Ferramentas de Alquimista",
+    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "3.63",
+    "weight_unit": "kg",
+    "cost": "50.00"
+  },
+  {
+    "key": "srd_amulet",
+    "name": "Amuleto",
+    "desc": "Pode ser usado como símbolo sagrado.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.45",
+    "weight_unit": "kg",
+    "cost": "5.00"
+  },
+  {
+    "key": "srd_antitoxin-vial",
+    "name": "Antitoxina (frasco)",
+    "desc": "Uma criatura que beber este frasco de líquido recebe vantagem em testes de resistência contra veneno por 1 hora. Não concede nenhum benefício a mortos-vivos ou constructos.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.00",
+    "weight_unit": "kg",
+    "cost": "50.00"
+  },
+  {
+    "key": "srd_arrow-bow",
+    "name": "Flecha (arco)",
+    "desc": "Uma flecha para um arco.",
+    "category": {
+      "name": "Munição",
+      "key": "ammunition"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.02",
+    "weight_unit": "kg",
+    "cost": "0.05"
+  },
+  {
+    "key": "srd_assassins-blood",
+    "name": "Sangue de Assassino",
+    "desc": "Uma criatura exposta a este veneno deve realizar um teste de resistência de Constituição CD 10. Se falhar, sofre 6 (1d12) de dano de veneno e fica envenenada por 24 horas. Se obtiver sucesso, sofre metade do dano e não fica envenenada.\n\n\r\n\r\n***Ingerido.*** Uma criatura deve engolir uma dose inteira de um veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem no teste de resistência ou causar apenas metade do dano em caso de falha.",
+    "category": {
+      "name": "Veneno",
+      "key": "poison"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.00",
+    "weight_unit": "kg",
+    "cost": "150.00"
+  },
+  {
+    "key": "srd_backpack",
+    "name": "Mochila",
+    "desc": "Uma mochila. Capacidade: aproximadamente 28,3 litros ou 13,6 kg de equipamento.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.27",
+    "weight_unit": "kg",
+    "cost": "2.00"
+  },
+  {
+    "key": "srd_bagpipes",
+    "name": "Gaita de Foles",
+    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.72",
+    "weight_unit": "kg",
+    "cost": "30.00"
+  },
+  {
+    "key": "srd_ball-bearings-bag-of-1000",
+    "name": "Esferas de Metal (saco com 1.000)",
+    "desc": "Como uma ação, você pode espalhar estas pequenas esferas de metal de sua bolsa para cobrir uma área quadrada e nivelada de aproximadamente 3 metros de lado. Uma criatura que se mova pela área coberta deve ser bem-sucedida em um teste de resistência de Destreza CD 10 ou ficará caída. Uma criatura que atravesse a área usando metade do deslocamento não precisa realizar o teste.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.91",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_barrel",
+    "name": "Barril",
+    "desc": "Um barril. Capacidade: aproximadamente 151 litros de líquido ou 113 litros de sólidos.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "31.75",
+    "weight_unit": "kg",
+    "cost": "2.00"
+  },
+  {
+    "key": "srd_basket",
+    "name": "Cesta",
+    "desc": "Uma cesta. Capacidade: aproximadamente 57 litros ou 18,1 kg de equipamento.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.91",
+    "weight_unit": "kg",
+    "cost": "0.40"
+  },
+  {
+    "key": "srd_battleaxe",
+    "name": "Machado de Batalha",
+    "desc": "Um machado de batalha.",
+    "category": {
+      "name": "Arma",
+      "key": "weapon"
+    },
+    "weapon": {
+      "name": "Machado de Batalha",
+      "key": "srd_battleaxe",
+      "damage_type": {
+        "name": "Cortante",
+        "key": "slashing"
+      },
+      "damage_dice": "1d8",
+      "properties": [
+        {
+          "property": {
+            "name": "Versátil",
+            "type": null,
+            "desc": "Esta arma pode ser usada com uma ou duas mãos. Um valor de dano entre parênteses aparece junto à propriedade — esse é o dano quando a arma é usada com as duas mãos para realizar um ataque corpo a corpo."
+          },
+          "detail": "1d10"
+        }
+      ],
+      "is_simple": false,
+      "is_martial": true,
+      "is_improvised": false,
+      "distance_unit": "meters"
+    },
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1.81",
+    "weight_unit": "kg",
+    "cost": "10.00"
+  },
+  {
+    "key": "srd_bedroll",
+    "name": "Saco de Dormir",
+    "desc": "Um saco de dormir.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "3.18",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_bell",
+    "name": "Sino",
+    "desc": "Um sino.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.00",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_blanket",
+    "name": "Cobertor",
+    "desc": "Um cobertor.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.00",
+    "weight_unit": "kg",
+    "cost": "0.50"
+  },
+  {
+    "key": "srd_block-and-tackle",
+    "name": "Talha",
+    "desc": "Um conjunto de polias com um cabo passando por elas e um gancho para prender a objetos. Uma talha permite içar até quatro vezes o peso que você normalmente consegue levantar.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.27",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_blowgun",
+    "name": "Zarabatana",
+    "desc": "Uma zarabatana.",
+    "category": {
+      "name": "Arma",
+      "key": "weapon"
+    },
+    "weapon": {
+      "name": "Zarabatana",
+      "key": "srd_blowgun",
+      "damage_type": {
+        "name": "Perfurante",
+        "key": "piercing"
+      },
+      "damage_dice": "1",
+      "properties": [
+        {
+          "property": {
+            "name": "Munição",
+            "type": null,
+            "desc": "Você pode usar uma arma que tenha a propriedade Munição para realizar um ataque à distância somente se tiver munição para disparar com a arma. Cada vez que você atacar com a arma, uma unidade de munição é consumida. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa ter uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição utilizada gastando 1 minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade Munição para realizar um ataque corpo a corpo, deverá tratá-la como uma arma improvisada (consulte a seção “Armas Improvisadas”). Uma funda precisa estar carregada para causar qualquer dano quando usada dessa maneira."
+          },
+          "detail": "alcance 7,5/30 m"
+        },
+        {
+          "property": {
+            "name": "Recarga",
+            "type": null,
+            "desc": "Devido ao tempo necessário para carregar esta arma, você pode disparar apenas uma unidade de munição quando usar uma ação, ação bônus ou reação para dispará-la, independentemente do número de ataques que normalmente poderia realizar."
+          },
+          "detail": null
+        }
+      ],
+      "is_simple": false,
+      "is_martial": true,
+      "is_improvised": false,
+      "distance_unit": "meters"
+    },
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.45",
+    "weight_unit": "kg",
+    "cost": "10.00"
+  },
+  {
+    "key": "srd_blowgun-needles",
+    "name": "Dardos de Zarabatana",
+    "desc": "Dardos para serem disparados com uma zarabatana.",
+    "category": {
+      "name": "Munição",
+      "key": "ammunition"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.009",
+    "weight_unit": "kg",
+    "cost": "0.02"
+  },
+  {
+    "key": "srd_book",
+    "name": "Livro",
+    "desc": "Um livro pode conter poesias, relatos históricos, informações sobre uma área específica de conhecimento, diagramas e anotações sobre invenções de gnomos ou praticamente qualquer outra coisa que possa ser representada por meio de textos ou imagens. Um livro de magias é um grimório (descrito posteriormente nesta seção).",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.268",
+    "weight_unit": "kg",
+    "cost": "25.00"
+  },
+  {
+    "key": "srd_bottle-glass",
+    "name": "Garrafa de Vidro",
+    "desc": "Uma garrafa de vidro. Capacidade: 0,71 litro de líquido.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.907",
+    "weight_unit": "kg",
+    "cost": "2.00"
+  },
+  {
+    "key": "srd_breastplate",
+    "name": "Peitoral",
+    "desc": "Esta armadura consiste em uma peça metálica ajustada para proteger o peito, usada junto com couro flexível. Embora deixe as pernas e os braços relativamente desprotegidos, essa armadura oferece boa proteção aos órgãos vitais do usuário sem limitar significativamente seus movimentos.",
+    "category": {
+      "name": "Armadura",
+      "key": "armor"
+    },
+    "weapon": null,
+    "armor": {
+      "name": "Peitoral",
+      "key": "srd_breastplate",
+      "category": "medium",
+      "ac_base": 14,
+      "ac_display": "14 + modificador de DES (máx. 2)",
+      "ac_add_dexmod": true,
+      "ac_cap_dexmod": 2,
+      "grants_stealth_disadvantage": false,
+      "strength_score_required": null
+    },
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "9.072",
+    "weight_unit": "kg",
+    "cost": "400.00"
+  },
+  {
+    "key": "srd_brewers-supplies",
+    "name": "Suprimentos de Cervejeiro",
+    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "4.082",
+    "weight_unit": "kg",
+    "cost": "20.00"
+  },
+  {
+    "key": "srd_bucket",
+    "name": "Balde",
+    "desc": "Um balde. Capacidade: 11,36 litros de líquido ou 14,16 litros de sólidos.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.907",
+    "weight_unit": "kg",
+    "cost": "0.05"
+  },
+  {
+    "key": "srd_burnt-othur-fumes",
+    "name": "Fumaça de Othur Queimado",
+    "desc": "Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou sofrerá 10 (3d6) de dano de veneno e deverá repetir o teste de resistência no início de cada um de seus turnos. A cada teste de resistência falho subsequente, a criatura sofre 3 (1d6) de dano de veneno. Após três testes de resistência bem-sucedidos, o veneno termina.\n\n***Inalado.*** Esses venenos são pós ou gases que fazem efeito quando inalados. Soprar o pó ou liberar o gás afeta criaturas dentro de um cubo de 1,5 metro. A nuvem resultante se dissipa imediatamente. Prender a respiração é ineficaz contra venenos inalados, pois eles afetam as membranas nasais, os canais lacrimais e outras partes do corpo.",
+    "category": {
+      "name": "Veneno",
+      "key": "poison"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.000",
+    "weight_unit": "kg",
+    "cost": "500.00"
+  },
+  {
+    "key": "srd_calligraphers-supplies",
+    "name": "Suprimentos de Calígrafo",
+    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.268",
+    "weight_unit": "kg",
+    "cost": "10.00"
+  },
+  {
+    "key": "srd_caltrops-bag-of-20",
+    "name": "Estrepes (saco com 20)",
+    "desc": "Como uma ação, você pode espalhar um saco de estrepes para cobrir uma área quadrada de 1,5 metro de lado. Qualquer criatura que entre na área deve ser bem-sucedida em um teste de resistência de Destreza CD 15 ou para de se mover neste turno e sofre 1 de dano perfurante. Sofrer esse dano reduz o deslocamento de caminhada da criatura em 3 metros até que ela recupere pelo menos 1 ponto de vida. Uma criatura que atravesse a área usando metade do deslocamento não precisa realizar o teste de resistência.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.907",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_candle",
+    "name": "Vela",
+    "desc": "Por 1 hora, uma vela emite luz plena em um raio de 1,5 metro e luz fraca por mais 1,5 metro.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.000",
+    "weight_unit": "kg",
+    "cost": "0.01"
+  },
+  {
+    "key": "srd_canvas",
+    "name": "Lona",
+    "desc": "0,84 m² de lona.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.454",
+    "weight_unit": "kg",
+    "cost": "0.10"
+  },
+  {
+    "key": "srd_carpenters-tools",
+    "name": "Ferramentas de Carpinteiro",
+    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.722",
+    "weight_unit": "kg",
+    "cost": "8.00"
+  },
+  {
+    "key": "srd_carriage",
+    "name": "Carruagem",
+    "desc": "Veículo puxado.",
+    "category": {
+      "name": "Veículo Terrestre",
+      "key": "land-vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Enorme",
+      "key": "huge"
+    },
+    "weight": "272.155",
+    "weight_unit": "kg",
+    "cost": "100.00"
+  },
+  {
+    "key": "srd_cart",
+    "name": "Carroça",
+    "desc": "Veículo puxado.",
+    "category": {
+      "name": "Veículo Terrestre",
+      "key": "land-vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Grande",
+      "key": "large"
+    },
+    "weight": "90.718",
+    "weight_unit": "kg",
+    "cost": "15.00"
+  },
+  {
+    "key": "srd_cartographers-tools",
+    "name": "Ferramentas de Cartógrafo",
+    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.722",
+    "weight_unit": "kg",
+    "cost": "15.00"
+  },
+  {
+    "key": "srd_case-crossbow-bolt",
+    "name": "Estojo para Virotes de Besta",
+    "desc": "Este estojo de madeira pode comportar até vinte virotes de besta.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.454",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_case-map-or-scroll",
+    "name": "Estojo para Mapa ou Pergaminho",
+    "desc": "Este estojo cilíndrico de couro pode comportar até dez folhas de papel enroladas ou cinco folhas de pergaminho enroladas.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.454",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_chain-10-feet",
+    "name": "Corrente (3 metros)",
+    "desc": "Uma corrente tem 10 pontos de vida. Ela pode ser rompida com um teste de Força CD 20 bem-sucedido.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "4.536",
+    "weight_unit": "kg",
+    "cost": "5.00"
+  },
+  {
+    "key": "srd_chain-mail",
+    "name": "Cota de Malha",
+    "desc": "Feita de anéis metálicos interligados, a cota de malha inclui uma camada de tecido acolchoado usada por baixo da malha para evitar irritações e amortecer o impacto dos golpes. A armadura inclui manoplas.",
+    "category": {
+      "name": "Armadura",
+      "key": "armor"
+    },
+    "weapon": null,
+    "armor": {
+      "name": "Cota de Malha",
+      "key": "srd_chain-mail",
+      "category": "heavy",
+      "ac_base": 16,
+      "ac_display": "16",
+      "ac_add_dexmod": false,
+      "ac_cap_dexmod": null,
+      "grants_stealth_disadvantage": true,
+      "strength_score_required": 13
+    },
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "24.948",
+    "weight_unit": "kg",
+    "cost": "75.00"
+  },
+  {
+    "key": "srd_chain-shirt",
+    "name": "Camisa de Malha",
+    "desc": "Feita de anéis metálicos interligados, uma camisa de malha é usada entre camadas de roupas ou couro. Esta armadura oferece proteção moderada à parte superior do corpo do usuário e permite que o som dos anéis roçando uns nos outros seja abafado pelas camadas externas.",
+    "category": {
+      "name": "Armadura",
+      "key": "armor"
+    },
+    "weapon": null,
+    "armor": {
+      "name": "Camisa de Malha",
+      "key": "srd_chain-shirt",
+      "category": "medium",
+      "ac_base": 13,
+      "ac_display": "13 + modificador de DES (máx. 2)",
+      "ac_add_dexmod": true,
+      "ac_cap_dexmod": 2,
+      "grants_stealth_disadvantage": false,
+      "strength_score_required": null
+    },
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "9.072",
+    "weight_unit": "kg",
+    "cost": "50.00"
+  },
+  {
+    "key": "srd_chalk-1-piece",
+    "name": "Giz (1 unidade)",
+    "desc": "Um pedaço de giz.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.000",
+    "weight_unit": "kg",
+    "cost": "0.01"
+  },
+  {
+    "key": "srd_chariot",
+    "name": "Carruagem",
+    "desc": "Veículo puxado.",
+    "category": {
+      "name": "Veículo Terrestre",
+      "key": "land-vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Grande",
+      "key": "large"
+    },
+    "weight": "45.359",
+    "weight_unit": "kg",
+    "cost": "250.00"
+  },
+  {
+    "key": "srd_chest",
+    "name": "Baú",
+    "desc": "Um baú. Capacidade: 0,34 m³/136 kg de equipamento.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Pequeno",
+      "key": "small"
+    },
+    "weight": "11.340",
+    "weight_unit": "kg",
+    "cost": "5.00"
+  },
+  {
+    "key": "srd_chicken",
+    "name": "Galinha",
+    "desc": "Uma galinha.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1.361",
+    "weight_unit": "kg",
+    "cost": "0.02"
+  },
+  {
+    "key": "srd_cinnamon",
+    "name": "Canela",
+    "desc": "0,454 kg de canela.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.454",
+    "weight_unit": "kg",
+    "cost": "2.00"
+  },
+  {
+    "key": "srd_climbers-kit",
+    "name": "Kit de Escalada",
+    "desc": "Um kit de escalada inclui pitões especiais, pontas para botas, luvas e um arnês. Você pode usar o kit de escalada como uma ação para se ancorar; quando fizer isso, você não pode cair mais de 7,62 metros a partir do ponto onde se ancorou e não pode escalar mais de 7,62 metros para longe desse ponto sem desfazer a âncora.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "5.443",
+    "weight_unit": "kg",
+    "cost": "25.00"
+  },
+  {
+    "key": "srd_clothes-common",
+    "name": "Roupas, Comuns",
+    "desc": "Roupas comuns.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1.361",
+    "weight_unit": "kg",
+    "cost": "0.50"
+  },
+  {
+    "key": "srd_clothes-costume",
+    "name": "Roupas, Fantasia",
+    "desc": "Uma fantasia.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1.814",
+    "weight_unit": "kg",
+    "cost": "5.00"
+  },
+  {
+    "key": "srd_clothes-fine",
+    "name": "Roupas, Finas",
+    "desc": "Roupas elegantes.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.722",
+    "weight_unit": "kg",
+    "cost": "15.00"
+  },
+  {
+    "key": "srd_clothes-travelers",
+    "name": "Roupas, de Viajante",
+    "desc": "Roupas de viajante.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1.814",
+    "weight_unit": "kg",
+    "cost": "2.00"
+  },
+  {
+    "key": "srd_cloves",
+    "name": "Cravos-da-índia",
+    "desc": "0,454 kg de cravos-da-índia.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.454",
+    "weight_unit": "kg",
+    "cost": "3.00"
+  },
+  {
+    "key": "srd_club",
+    "name": "Clava",
+    "desc": "Uma clava.",
+    "category": {
+      "name": "Arma",
+      "key": "weapon"
+    },
+    "weapon": {
+      "name": "Clava",
+      "key": "srd_club",
+      "damage_type": {
+        "name": "Concussão",
+        "key": "bludgeoning"
+      },
+      "damage_dice": "1d4",
+      "properties": [
+        {
+          "property": {
+            "name": "Leve",
+            "type": null,
+            "desc": "Uma arma leve é pequena e fácil de manejar, sendo ideal para lutar com duas armas."
+          },
+          "detail": null
+        }
+      ],
+      "is_simple": true,
+      "is_martial": false,
+      "is_improvised": false,
+      "distance_unit": "feet"
+    },
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.907",
+    "weight_unit": "kg",
+    "cost": "0.10"
+  },
+  {
+    "key": "srd_cobblers-tools",
+    "name": "Ferramentas de Sapateiro",
+    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\nProficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade feitos usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2.268",
+    "weight_unit": "kg",
+    "cost": "5.00"
+  },
+  {
+    "key": "srd_component-pouch",
+    "name": "Bolsa de Componentes",
+    "desc": "Uma bolsa de componentes é uma pequena bolsa de couro impermeável presa a um cinto, com compartimentos para armazenar todos os componentes materiais e outros itens especiais necessários para conjurar suas magias, exceto aqueles componentes que possuem um custo específico (conforme indicado na descrição da magia).",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.907",
+    "weight_unit": "kg",
+    "cost": "25.00"
+  },
+  {
+    "key": "srd_cooks-utensils",
+    "name": "Utensílios de Cozinheiro",
+    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\nProficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade feitos usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "category": {
+      "name": "Ferramentas",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "3.629",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_copper",
+    "name": "Cobre",
+    "desc": "0,454 kg de cobre.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.454",
+    "weight_unit": "kg",
+    "cost": "0.50"
+  },
+  {
+    "key": "srd_copper-piece",
+    "name": "Peça de Cobre",
+    "desc": "Uma peça de prata vale dez peças de cobre, que são comuns entre trabalhadores e mendigos. Uma única peça de cobre compra uma vela, uma tocha ou um pedaço de giz.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.009",
+    "weight_unit": "kg",
+    "cost": "0.01"
+  },
+  {
+    "key": "srd_cotton-cloth",
+    "name": "Tecido de Algodão",
+    "desc": "0,836 m² de tecido de algodão.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.454",
+    "weight_unit": "kg",
+    "cost": "0.50"
+  },
+  {
+    "key": "srd_cow",
+    "name": "Vaca",
+    "desc": "Uma vaca.",
+    "category": {
+      "name": "Mercadoria",
+      "key": "trade-good"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Grande",
+      "key": "large"
+    },
+    "weight": "453.592",
+    "weight_unit": "kg",
+    "cost": "10.00"
+  },
+  {
+    "key": "srd_crawler-mucus",
+    "name": "Muco de Rastejador",
+    "desc": "Este veneno deve ser coletado de um rastejador morto ou incapacitado. Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou ficará envenenada por 1 minuto. A criatura envenenada fica paralisada. A criatura pode repetir o teste de resistência ao final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.\n\n***Contato.*** O veneno de contato pode ser espalhado sobre um objeto e permanece potente até ser tocado ou lavado. Uma criatura que tocar o veneno de contato com a pele exposta sofre seus efeitos.",
+    "category": {
+      "name": "Veneno",
+      "key": "poison"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.000",
+    "weight_unit": "kg",
+    "cost": "200.00"
+  }
+]
