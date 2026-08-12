@@ -40,6 +40,7 @@ public class ItemController {
         CategoryEnum categoryEnum = CategoryEnum.fromKey(category);
         List<ItemView> items = itemService.findByCategory(categoryEnum).stream()
                 .map(ItemMapper::toView)
+                .sorted(Comparator.comparing(ItemView::name))
                 .toList();
 
         model.addAttribute("items", items);

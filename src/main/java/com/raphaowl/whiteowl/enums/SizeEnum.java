@@ -8,7 +8,8 @@ public enum SizeEnum {
     SMALL,
     MEDIUM,
     LARGE,
-    HUGE;
+    HUGE,
+    GARGANTUAN;
 
     @JsonValue
     public String jsonValue() {

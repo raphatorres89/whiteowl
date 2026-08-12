@@ -16,6 +16,7 @@ public enum CategoryEnum {
     POISON("poison", "Veneno"),
     RING("ring", "Anel"),
     ROD("rod", "Cajado"),
+    STAFF("staff", "Vara"),
     SHIELD("shield", "Escudo"),
     TOOLS("tools", "Ferramentas"),
     TRADE_GOOD("trade-good", "Bem Comercial"),

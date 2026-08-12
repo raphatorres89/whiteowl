@@ -1,10 +1,12 @@
 package com.raphaowl.whiteowl.controller.view;
 
+import java.util.List;
+
 public record WeaponView(
         String name,
-        // damageType
+        DamageView damage,
         String damageDice,
-        // properties
+        List<WeaponPropertyView> properties,
         boolean simple,
         boolean martial,
         boolean improvised,

@@ -1535,6 +1535,7 @@
     "weight_unit": "lb",
     "cost": "25.00"
   },
+
   {
     "key": "srd_drow-poison",
     "name": "Drow poison",
@@ -1728,6 +1729,7 @@
     "weight_unit": "lb",
     "cost": "0.02"
   },
+
   {
     "key": "srd_flute",
     "name": "Flute",
@@ -1938,6 +1940,7 @@
     "weight_unit": "lb",
     "cost": "2.00"
   },
+
   {
     "key": "srd_greataxe",
     "name": "Greataxe",
@@ -2246,6 +2249,7 @@
     "weight_unit": "lb",
     "cost": "5.00"
   },
+
   {
     "key": "srd_hide-armor",
     "name": "Hide Armor",
@@ -2458,6 +2462,7 @@
     "weight_unit": "lb",
     "cost": "25.00"
   },
+
   {
     "key": "srd_jug-or-pitcher",
     "name": "Jug or pitcher",
@@ -2678,6 +2683,7 @@
     "weight_unit": "lb",
     "cost": "5.00"
   },
+
   {
     "key": "srd_light-hammer",
     "name": "Light hammer",
@@ -2953,6 +2959,7 @@
     "weight_unit": "lb",
     "cost": "100.00"
   },
+
   {
     "key": "srd_malice",
     "name": "Malice",
@@ -3198,6 +3205,7 @@
     "weight_unit": "lb",
     "cost": "1.00"
   },
+
   {
     "key": "srd_oil-of-taggit",
     "name": "Oil of taggit",
@@ -3388,6 +3396,7 @@
     "weight_unit": "lb",
     "cost": "2.00"
   },
+
   {
     "key": "srd_perfume-vial",
     "name": "Perfume (vial)",
@@ -3608,6 +3617,7 @@
     "weight_unit": "lb",
     "cost": "100.00"
   },
+
   {
     "key": "srd_poisoners-kit",
     "name": "Poisoner's kit",
@@ -3832,6 +3842,7 @@
     "weight_unit": "lb",
     "cost": "25.00"
   },
+
   {
     "key": "srd_rations-1-day",
     "name": "Rations (1 day)",
@@ -4022,6 +4033,7 @@
     "weight_unit": "lb",
     "cost": "15.00"
   },
+
   {
     "key": "srd_sailing-ship",
     "name": "Sailing Ship",
@@ -4242,6 +4254,7 @@
     "weight_unit": "lb",
     "cost": "10.00"
   },
+
   {
     "key": "srd_shortbow",
     "name": "Shortbow",
@@ -4504,6 +4517,7 @@
     "weight_unit": "lb",
     "cost": "20.00"
   },
+
   {
     "key": "srd_sling",
     "name": "Sling",
@@ -4746,6 +4760,7 @@
     "weight_unit": "lb",
     "cost": "1000.00"
   },
+
   {
     "key": "srd_staff",
     "name": "Staff",
@@ -4996,6 +5011,7 @@
     "weight_unit": "lb",
     "cost": "5.00"
   },
+
   {
     "key": "srd_truth-serum",
     "name": "Truth serum",
@@ -5211,6 +5227,7 @@
     "weight_unit": "lb",
     "cost": "1.00"
   },
+
   {
     "key": "srd_wheat",
     "name": "Wheat",
