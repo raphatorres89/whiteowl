@@ -1,6 +1,7 @@
 package com.raphaowl.whiteowl.controller;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 import com.raphaowl.whiteowl.enums.CategoryEnum;
 import com.raphaowl.whiteowl.util.BreadcrumbBuilder;
@@ -17,7 +18,7 @@ public class ItemController {
     @GetMapping
     public String index(Model model) {
         model.addAttribute("categories", Arrays.stream(CategoryEnum.values())
-                .sorted((c1, c2) -> c1.getLabel().compareTo(c2.getLabel()))
+                .sorted(Comparator.comparing(CategoryEnum::getLabel))
                 .toArray(CategoryEnum[]::new));
 
         model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildRootFor("Itens"));
