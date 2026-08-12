@@ -8,9 +8,9 @@ public record ItemWeapon(
         DamageType damageType,
         String damageDice,
         List<WeaponProperty> properties,
-        boolean isSimple,
-        boolean isMartial,
-        boolean isImprovised,
+        Boolean isSimple,
+        Boolean isMartial,
+        Boolean isImprovised,
         String distanceUnit
 ) {
 }

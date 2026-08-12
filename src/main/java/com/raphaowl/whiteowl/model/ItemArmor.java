@@ -4,11 +4,11 @@ public record ItemArmor(
         String name,
         String key,
         String category,
-        int acBase,
+        Integer acBase,
         String acDisplay,
-        boolean acAddDexMod,
+        Boolean acAddDexMod,
         Integer acCapDexMod,
-        boolean grantsStealthDisadvantage,
+        Boolean grantsStealthDisadvantage,
         Integer strengthScoreRequired
 ) {
 }

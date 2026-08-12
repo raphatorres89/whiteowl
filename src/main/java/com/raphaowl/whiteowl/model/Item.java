@@ -2,6 +2,8 @@ package com.raphaowl.whiteowl.model;
 
 import java.math.BigDecimal;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public record Item(
         String key,
         String name,
@@ -11,6 +13,7 @@ public record Item(
         ItemArmor armor,
         ItemSize size,
         BigDecimal weight,
+        @JsonProperty("weight_unit")
         String weightUnit,
         BigDecimal cost
 ) {

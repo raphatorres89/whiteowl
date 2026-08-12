@@ -34,12 +34,12 @@
              class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <a th:each="category : ${categories}"
-               th:href="@{/items/category/{category}(category=${category.name().toLowerCase()})}"
+               th:href="@{/items/category/{category}(category=${category.getKey()})}"
                class="block bg-card border border-gray-800 rounded-2xl p-5 hover-glow arcane-glow transition">
 
                 <div class="flex items-start justify-between gap-3 mb-3">
                     <div class="flex items-center gap-3 min-w-0">
-                        <img th:src="@{'/images/items/categories/' + ${category.slug()} + '.png'}"
+                        <img th:src="@{'/images/items/categories/' + ${category.getKey()} + '.png'}"
                              th:alt="${category.label}"
                              class="w-22 h-20 object-contain shrink-0">
 
