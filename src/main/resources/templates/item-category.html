@@ -25,7 +25,141 @@
             Nenhum item encontrado.
         </div>
 
-        <div th:unless="${#lists.isEmpty(items)}"
+        <div th:if="${!#lists.isEmpty(items) and category.getKey() == 'weapon'}"
+             class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6">
+            <div class="mb-4 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+                <p class="text-sm text-gray-400">Clique no título da coluna para ordenar.</p>
+                <label class="text-sm text-gray-300 flex items-center gap-2">
+                    <span>Tipo:</span>
+                    <select id="weaponTypeFilter"
+                            class="bg-black/30 border border-gray-700 rounded-md px-2 py-1 text-sm text-gray-200">
+                        <option value="all">Todos</option>
+                        <option value="simple">Simples</option>
+                        <option value="martial">Marcial</option>
+                        <option value="improvised">Improvisada</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="min-w-full text-sm text-left text-gray-300" id="weaponsTable">
+                    <thead class="text-xs uppercase tracking-wide text-gray-400 border-b border-gray-800">
+                    <tr>
+                        <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="name">Nome</th>
+                        <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="type">Tipo</th>
+                        <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="damageDice">Dano</th>
+                        <th class="px-3 py-2">Propriedades</th>
+                        <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="weight">Peso</th>
+                        <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="cost">Custo</th>
+                    </tr>
+                    </thead>
+                    <tbody id="weaponsTableBody" class="divide-y divide-gray-800/80">
+                    <tr th:each="item : ${items}"
+                        class="hover:bg-black/20 transition"
+                        th:attr="data-name=${item.name},
+                                 data-type=${item.weapon != null ? (item.weapon.martial ? 'Marcial' : (item.weapon.simple ? 'Simples' : (item.weapon.improvised ? 'Improvisada' : '-'))) : '-'},
+                                 data-damage-dice=${item.weapon != null and item.weapon.damageDice != null ? item.weapon.damageDice : '-'},
+                                 data-weight=${item.weight != null ? item.weight : -1},
+                                 data-cost=${item.cost != null ? item.cost : -1},
+                                 data-simple=${item.weapon != null and item.weapon.simple},
+                                 data-martial=${item.weapon != null and item.weapon.martial},
+                                 data-improvised=${item.weapon != null and item.weapon.improvised}">
+                        <td class="px-3 py-3 text-white font-medium" th:text="${item.name}">Flecha</td>
+                        <td class="px-3 py-3">
+                            <span th:if="${item.weapon != null and item.weapon.simple}" class="px-2 py-0.5 rounded border border-gray-700">Simples</span>
+                            <span th:if="${item.weapon != null and item.weapon.martial}" class="px-2 py-0.5 rounded border border-gray-700">Marcial</span>
+                            <span th:if="${item.weapon != null and item.weapon.improvised}" class="px-2 py-0.5 rounded border border-gray-700">Improvisada</span>
+                            <span th:if="${item.weapon == null or (!item.weapon.simple and !item.weapon.martial and !item.weapon.improvised)}">-</span>
+                        </td>
+                        <td class="px-3 py-3">
+                            <span th:if="${item.weapon != null and item.weapon.damageDice != null}" th:text="${item.weapon.damageDice}"></span>
+                            <span th:if="${item.weapon != null and item.weapon.damage != null and item.weapon.damage.name != null}"
+                                  class="text-gray-400"
+                                  th:text="${' ' + item.weapon.damage.name}"></span>
+                            <span th:if="${item.weapon == null or item.weapon.damageDice == null}">-</span>
+                        </td>
+                        <td class="px-3 py-3 text-gray-400">
+                            <span th:if="${item.weapon != null and !#lists.isEmpty(item.weapon.properties)}"
+                                  th:each="prop, iter : ${item.weapon.properties}">
+                                <span th:text="${prop.property != null ? prop.property.name : ''}"></span>
+                                <span th:if="${prop.detail != null and !#strings.isEmpty(prop.detail)}"
+                                      th:text="${' (' + prop.detail + ')'}"></span><span th:if="${!iter.last}">, </span>
+                            </span>
+                            <span th:if="${item.weapon == null or #lists.isEmpty(item.weapon.properties)}">-</span>
+                        </td>
+                        <td class="px-3 py-3" th:text="${item.weight != null ? item.weight + ' ' + item.weightUnit : '-'}">1 kg</td>
+                        <td class="px-3 py-3" th:text="${item.cost != null ? item.cost + ' PO' : '-'}">10 PO</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <script>
+                (() => {
+                    const table = document.getElementById('weaponsTable');
+                    const tbody = document.getElementById('weaponsTableBody');
+                    const filter = document.getElementById('weaponTypeFilter');
+                    if (!table || !tbody || !filter) return;
+
+                    const headers = table.querySelectorAll('[data-sort-key]');
+                    let currentSortKey = null;
+                    let currentDirection = 1;
+
+                    const getValue = (row, key) => {
+                        if (key === 'name') return (row.dataset.name || '').toLowerCase();
+                        if (key === 'type') return (row.dataset.type || '').toLowerCase();
+                        if (key === 'damageDice') return (row.dataset.damageDice || '').toLowerCase();
+                        if (key === 'weight') return Number(row.dataset.weight ?? -1);
+                        if (key === 'cost') return Number(row.dataset.cost ?? -1);
+                        return '';
+                    };
+
+                    const applyFilter = () => {
+                        const selected = filter.value;
+                        Array.from(tbody.querySelectorAll('tr')).forEach((row) => {
+                            if (selected === 'all') {
+                                row.classList.remove('hidden');
+                                return;
+                            }
+
+                            const matches =
+                                (selected === 'simple' && row.dataset.simple === 'true') ||
+                                (selected === 'martial' && row.dataset.martial === 'true') ||
+                                (selected === 'improvised' && row.dataset.improvised === 'true');
+
+                            row.classList.toggle('hidden', !matches);
+                        });
+                    };
+
+                    const sortRows = (key) => {
+                        if (currentSortKey === key) {
+                            currentDirection *= -1;
+                        } else {
+                            currentSortKey = key;
+                            currentDirection = 1;
+                        }
+
+                        const rows = Array.from(tbody.querySelectorAll('tr'));
+                        rows.sort((a, b) => {
+                            const aValue = getValue(a, key);
+                            const bValue = getValue(b, key);
+                            if (aValue < bValue) return -1 * currentDirection;
+                            if (aValue > bValue) return 1 * currentDirection;
+                            return 0;
+                        });
+                        rows.forEach((row) => tbody.appendChild(row));
+                        applyFilter();
+                    };
+
+                    headers.forEach((header) => {
+                        header.addEventListener('click', () => sortRows(header.dataset.sortKey));
+                    });
+                    filter.addEventListener('change', applyFilter);
+                })();
+            </script>
+        </div>
+
+        <div th:if="${!#lists.isEmpty(items) and category.getKey() != 'weapon'}"
              class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
             <a th:each="item : ${items}"

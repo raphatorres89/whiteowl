@@ -3840,8 +3840,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.000",
-    "weight_unit": "lb",
+    "weight": "0.907 ",
+    "weight_unit": "kg",
     "cost": "0.50"
   },
   {
@@ -3858,8 +3858,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.000",
-    "weight_unit": "lb",
+    "weight": "0.907 ",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -3886,8 +3886,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "40.000",
-    "weight_unit": "lb",
+    "weight": "8.165",
+    "weight_unit": "kg",
     "cost": "30.00"
   },
   {
@@ -3904,8 +3904,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.000",
-    "weight_unit": "lb",
+    "weight": "1.81 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -3922,8 +3922,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "10.00"
   },
   {
@@ -3940,8 +3940,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "10.000",
-    "weight_unit": "lb",
+    "weight": "4.53",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -3958,8 +3958,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "5.000",
-    "weight_unit": "lb",
+    "weight": "2.27 ",
+    "weight_unit": "kg",
     "cost": "10.00"
   },
   {
@@ -3976,8 +3976,8 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "100.000",
-    "weight_unit": "lb",
+    "weight": "45.3",
+    "weight_unit": "kg",
     "cost": "50.00"
   },
   {
@@ -3994,8 +3994,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.500",
-    "weight_unit": "lb",
+    "weight": "0.2",
+    "weight_unit": "kg",
     "cost": "0.01"
   },
   {
@@ -4012,8 +4012,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "15.00"
   },
   {
@@ -4030,14 +4030,14 @@
       "name": "Gargantuan",
       "key": "gargantuan"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "10000.00"
   },
   {
     "key": "srd_salt",
     "name": "Sal",
-    "desc": "1 lb de sal.",
+    "desc": "0.45 kg de sal.",
     "category": {
       "name": "Mercadoria",
       "key": "trade-good"
@@ -4048,8 +4048,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "0.05"
   },
   {
@@ -4076,8 +4076,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "45.000",
-    "weight_unit": "lb",
+    "weight": "20",
+    "weight_unit": "kg",
     "cost": "50.00"
   },
   {
@@ -4094,8 +4094,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "3.000",
-    "weight_unit": "lb",
+    "weight": "1.36 ",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -4142,8 +4142,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "3.000",
-    "weight_unit": "lb",
+    "weight": "1.36 ",
+    "weight_unit": "kg",
     "cost": "25.00"
   },
   {
@@ -4160,8 +4160,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "0.50"
   },
   {
@@ -4178,8 +4178,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "200.00"
   },
   {
@@ -4196,8 +4196,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "2.00"
   },
   {
@@ -4214,8 +4214,8 @@
       "name": "Medium",
       "key": "medium"
     },
-    "weight": "75.000",
-    "weight_unit": "lb",
+   "weight": "34",
+    "weight_unit": "kg",
     "cost": "2.00"
   },
   {
@@ -4232,8 +4232,8 @@
       "name": "Tiny",
       "key": "tiny"
     },
-    "weight": "6.000",
-    "weight_unit": "lb",
+    "weight": "2.7",
+    "weight_unit": "kg",
     "cost": "10.00"
   },
   {
@@ -4280,8 +4280,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.000",
-    "weight_unit": "lb",
+    "weight": "0.907 ",
+    "weight_unit": "kg",
     "cost": "25.00"
   },
   {
@@ -4328,8 +4328,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.000",
-    "weight_unit": "lb",
+    "weight": "0.907 ",
+    "weight_unit": "kg",
     "cost": "10.00"
   },
   {
@@ -4346,8 +4346,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "5.000",
-    "weight_unit": "lb",
+    "weight": "2.27 ",
+    "weight_unit": "kg",
     "cost": "2.00"
   },
   {
@@ -4386,8 +4386,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.000",
-    "weight_unit": "lb",
+    "weight": "0.907 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -4404,8 +4404,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "0.05"
   },
   {
@@ -4422,8 +4422,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -4440,14 +4440,14 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "10.00"
   },
   {
     "key": "srd_silver",
     "name": "Prata",
-    "desc": "1 lb de prata.",
+    "desc": "0.45 kg de prata.",
     "category": {
       "name": "Mercadoria",
       "key": "trade-good"
@@ -4458,8 +4458,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -4476,8 +4476,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.020",
-    "weight_unit": "lb",
+    "weight": "0.9",
+    "weight_unit": "kg",
     "cost": "0.10"
   },
   {
@@ -4494,8 +4494,8 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "300.000",
-    "weight_unit": "lb",
+    "weight": "136",
+    "weight_unit": "kg",
     "cost": "20.00"
   },
   {
@@ -4534,8 +4534,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "0.10"
   },
   {
@@ -4552,8 +4552,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.075",
-    "weight_unit": "lb",
+    "weight": "0.03",
+    "weight_unit": "kg",
     "cost": "0.01"
   },
   {
@@ -4570,8 +4570,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "8.000",
-    "weight_unit": "lb",
+    "weight": "3.6",
+    "weight_unit": "kg",
     "cost": "20.00"
   },
   {
@@ -4588,8 +4588,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "0.02"
   },
   {
@@ -4636,8 +4636,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.000",
-    "weight_unit": "lb",
+    "weight": "1.36 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -4654,8 +4654,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.000",
-    "weight_unit": "lb",
+    "weight": "1.36 ",
+    "weight_unit": "kg",
     "cost": "50.00"
   },
   {
@@ -4672,8 +4672,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.500",
-    "weight_unit": "lb",
+    "weight": "0.2",
+    "weight_unit": "kg",
     "cost": "0.10"
   },
   {
@@ -4700,8 +4700,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "60.000",
-    "weight_unit": "lb",
+    "weight": "27.2",
+    "weight_unit": "kg",
     "cost": "200.00"
   },
   {
@@ -4718,8 +4718,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -4736,8 +4736,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "1000.00"
   },
   {
@@ -4776,8 +4776,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "4.000",
-    "weight_unit": "lb",
+    "weight": "1.81 ",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -4804,8 +4804,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "13.000",
-    "weight_unit": "lb",
+    "weight": "5.9",
+    "weight_unit": "kg",
     "cost": "45.00"
   },
   {
@@ -4822,8 +4822,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "20.000",
-    "weight_unit": "lb",
+    "weight": "9",
+    "weight_unit": "kg",
     "cost": "2.00"
   },
   {
@@ -4840,8 +4840,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "25.00"
   },
   {
@@ -4858,8 +4858,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "0.50"
   },
   {
@@ -4876,8 +4876,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "10.000",
-    "weight_unit": "lb",
+    "weight": "4.53",
+    "weight_unit": "kg",
     "cost": "50.00"
   },
   {
@@ -4894,8 +4894,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "0.01"
   },
   {
@@ -4912,8 +4912,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "600.00"
   },
   {
@@ -4930,8 +4930,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -4986,8 +4986,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "4.000",
-    "weight_unit": "lb",
+    "weight": "1.81 ",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -5004,8 +5004,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "150.00"
   },
   {
@@ -5022,8 +5022,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "0.000",
-    "weight_unit": "lb",
+    "weight": "0.0 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -5040,8 +5040,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "30.00"
   },
   {
@@ -5058,8 +5058,8 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "400.000",
-    "weight_unit": "lb",
+    "weight": "181.000",
+    "weight_unit": "kg",
     "cost": "35.00"
   },
   {
@@ -5076,8 +5076,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "10.00"
   },
   {
@@ -5107,8 +5107,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "2.000",
-    "weight_unit": "lb",
+    "weight": "0.907 ",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -5147,8 +5147,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "2.000",
-    "weight_unit": "lb",
+    "weight": "0.907 ",
+    "weight_unit": "kg",
     "cost": "15.00"
   },
   {
@@ -5166,13 +5166,13 @@
       "key": "gargantuan"
     },
     "weight": "0.000",
-    "weight_unit": "lb",
+    "weight_unit": "kg",
     "cost": "25000.00"
   },
   {
     "key": "srd_waterskin",
     "name": "Odre",
-    "desc": "Usado para beber. 5 lb é o peso quando cheio. Capacidade: 4 litros de líquido.",
+    "desc": "Usado para beber. 2,27 kg é o peso quando cheio. Capacidade: 4 litros de líquido.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5183,8 +5183,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "5.000",
-    "weight_unit": "lb",
+    "weight": "2.27 ",
+    "weight_unit": "kg",
     "cost": "0.20"
   },
   {
@@ -5201,8 +5201,8 @@
       "name": "Miúdo",
       "key": "tiny"
     },
-    "weight": "5.000",
-    "weight_unit": "lb",
+    "weight": "2.27 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -5219,8 +5219,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "0.01"
   },
   {
@@ -5237,8 +5237,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "0.01"
   },
   {
@@ -5277,8 +5277,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.000",
-    "weight_unit": "lb",
+    "weight": "1.36 ",
+    "weight_unit": "kg",
     "cost": "2.00"
   },
   {
@@ -5295,8 +5295,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "5.000",
-    "weight_unit": "lb",
+    "weight": "2.27 ",
+    "weight_unit": "kg",
     "cost": "1.00"
   },
   {
@@ -5335,8 +5335,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.000",
-    "weight_unit": "lb",
+    "weight": "1.81 ",
+    "weight_unit": "kg",
     "cost": "5.00"
   },
   {
@@ -5354,7 +5354,7 @@
       "key": "tiny"
     },
     "weight": "0.000",
-    "weight_unit": "lb",
+    "weight_unit": "kg",
     "cost": "1200.00"
   },
   {
@@ -5371,8 +5371,8 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.000",
-    "weight_unit": "lb",
+    "weight": "0.45",
+    "weight_unit": "kg",
     "cost": "10.00"
   }
 ]
