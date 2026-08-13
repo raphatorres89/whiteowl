@@ -14,12 +14,8 @@ public enum CategoryEnum {
     ARMOR("armor", "Armadura"),
     DRAWN_VEHICLE("drawn-vehicle", "Veículo Puxado"),
     POISON("poison", "Veneno"),
-    RING("ring", "Anel"),
-    ROD("rod", "Cajado"),
-    STAFF("staff", "Vara"),
     TOOLS("tools", "Ferramentas"),
     TRADE_GOOD("trade-good", "Bem Comercial"),
-    WAND("wand", "Varinha"),
     WATERBORNE_VEHICLE("waterborne-vehicle", "Veículo Aquático"),
     WEAPON("weapon", "Arma"),
     LAND_VEHICLE("land-vehicle", "Veículo Terrestre");

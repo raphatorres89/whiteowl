@@ -13,7 +13,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.91",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "2"
   },
@@ -31,9 +31,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.00",
+    "weight": "0.5",
     "weight_unit": "kg",
-    "cost": "0.00"
+    "cost": "25"
   },
   {
     "key": "srd_acid-vial",
@@ -55,7 +55,7 @@
   },
   {
     "key": "srd_alchemists-fire-flask",
-    "name": "Fogo de Alquimista (frasco)",
+    "name": "Fogo Alquímico (frasco)",
     "desc": "Este fluido viscoso e adesivo entra em combustão quando exposto ao ar. Como uma ação, você pode arremessar este frasco a até 6 metros, quebrando-o com o impacto. Faça um ataque à distância contra uma criatura ou objeto, tratando o fogo de alquimista como uma arma improvisada. Se acertar, o alvo sofre 1d4 de dano de fogo no início de cada um de seus turnos. Uma criatura pode encerrar esse dano usando sua ação para realizar um teste de Destreza CD 10 para apagar as chamas.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -73,7 +73,7 @@
   },
   {
     "key": "srd_alchemists-supplies",
-    "name": "Ferramentas de Alquimista",
+    "name": "Suprimentos de Alquimista",
     "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
     "category": {
       "name": "Ferramentas",
@@ -85,7 +85,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.63",
+    "weight": "4",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -121,7 +121,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.00",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -157,7 +157,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.00",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "150.00"
   },
@@ -175,7 +175,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.27",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "2"
   },
@@ -193,7 +193,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.72",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "30.00"
   },
@@ -211,7 +211,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.91",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -229,14 +229,14 @@
       "name": "Médio",
       "key": "medium"
     },
-    "weight": "31.75",
+    "weight": "35",
     "weight_unit": "kg",
     "cost": "2"
   },
   {
     "key": "srd_basket",
     "name": "Cesta",
-    "desc": "Uma cesta. Capacidade: aproximadamente 57 litros ou 18,1 kg de equipamento.",
+    "desc": "Uma cesta. Capacidade: aproximadamente 57 litros ou 18 kg de equipamento.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -247,7 +247,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.91",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "0.40"
   },
@@ -305,7 +305,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.18",
+    "weight": "3.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -323,7 +323,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.00",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -341,13 +341,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.00",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "0.50"
   },
   {
     "key": "srd_block-and-tackle",
-    "name": "Talha",
+    "name": "Roldana e Polias",
     "desc": "Um conjunto de polias com um cabo passando por elas e um gancho para prender a objetos. Uma talha permite içar até quatro vezes o peso que você normalmente consegue levantar.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -359,7 +359,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.27",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -450,7 +450,7 @@
   {
     "key": "srd_bottle-glass",
     "name": "Garrafa de Vidro",
-    "desc": "Uma garrafa de vidro. Capacidade: 0,71 litro de líquido.",
+    "desc": "Uma garrafa de vidro. Capacidade: 1 litro de líquido.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -507,7 +507,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.082",
+    "weight": "4.5",
     "weight_unit": "kg",
     "cost": "20.00"
   },
@@ -543,7 +543,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "500.00"
   },
@@ -597,7 +597,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.01"
   },
@@ -615,7 +615,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -693,7 +693,7 @@
   },
   {
     "key": "srd_case-crossbow-bolt",
-    "name": "Estojo para Virotes de Besta",
+    "name": "Estojo, Virotes de Besta",
     "desc": "Este estojo de madeira pode comportar até vinte virotes de besta.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -705,13 +705,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
   {
     "key": "srd_case-map-or-scroll",
-    "name": "Estojo para Mapa ou Pergaminho",
+    "name": "Estojo, Mapa ou Pergaminho",
     "desc": "Este estojo cilíndrico de couro pode comportar até dez folhas de papel enroladas ou cinco folhas de pergaminho enroladas.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -723,7 +723,25 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
+    "weight_unit": "kg",
+    "cost": "1.00"
+  },
+  {
+    "key": "srd_map",
+    "name": "Mapa",
+    "desc": "Este mapa pode ser usado para navegação e planejamento de viagens.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -815,7 +833,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.01"
   },
@@ -851,7 +869,7 @@
       "name": "Pequeno",
       "key": "small"
     },
-    "weight": "11.340",
+    "weight": "12.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -887,14 +905,14 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "2"
   },
   {
     "key": "srd_climbers-kit",
     "name": "Kit de Escalada",
-    "desc": "Um kit de escalada inclui pitões especiais, pontas para botas, luvas e um arnês. Você pode usar o kit de escalada como uma ação para se ancorar; quando fizer isso, você não pode cair mais de 7,62 metros a partir do ponto onde se ancorou e não pode escalar mais de 7,62 metros para longe desse ponto sem desfazer a âncora.",
+    "desc": "Um Kit de Escalada inclui arnês, luvas, pítons e ponteiras de bota. Como uma ação Usar Objeto, você pode usar o Kit de Escalada para se ancorar; quando o fizer, você não pode cair a mais de 7,5 metros do ponto de ancoragem e não pode se mover a mais de 7,5 metros de lá sem desfazer a âncora como uma Ação Bônus.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -908,6 +926,132 @@
     "weight": "6",
     "weight_unit": "kg",
     "cost": "25.00"
+  },
+  {
+    "key": "srd_artists-kit",
+    "name": "Kit de Artista",
+    "desc": "Um Kit de Artista contém os seguintes itens: Caixa para Fogo, Cantil, Espelho, 3 Fantasias, Lanterna Foca-Facho, Mochila, 8 potes de Óleo, 9 dias de Rações, Saco de Dormir, Sino.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "29",
+    "weight_unit": "kg",
+    "cost": "40.00"
+  },
+  {
+    "key": "srd_burglars-kit",
+    "name": "Kit de Assaltante",
+    "desc": "Um Kit de Assaltante contém os seguintes itens: Caixa para Fogo, Cantil, Corda, Esferas de Metal, Lanterna Coberta, Mochila, 7 potes de Óleo, Pé de Cabra, 5 dias de Rações, Sino e 10 Velas.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "21",
+    "weight_unit": "kg",
+    "cost": "16.00"
+  },
+  {
+    "key": "srd_adventurers-kit",
+    "name": "Kit de Aventureiro",
+    "desc": "Um Kit de Aventureiro contém os seguintes itens: Caixa para Fogo, Cantil, Corda, Mochila, 2 potes de Óleo, 10 dias de Rações, Saco de Dormir, 10 Tochas.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "27.5",
+    "weight_unit": "kg",
+    "cost": "10.00"
+  },
+  {
+    "key": "srd_diplomats-kit",
+    "name": "Kit de Diplomata",
+    "desc": "Um Kit de Diplomata contém os seguintes itens: Baú, Caixa para Fogo, 5 Canetas Tinteiro, 2 Estojos de Mapa ou Pergaminho, Lâmpada, 4 potes de Óleo, Perfume, 5 folhas de Papel, 5 folhas de Pergaminho, Roupas Finas, Tinta.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "6",
+    "weight_unit": "kg",
+    "cost": "39.00"
+  },
+  {
+    "key": "srd_scholars-kit",
+    "name": "Kit de Erudito",
+    "desc": "Um Kit de Erudito contém os seguintes itens: Caixa para Fogo, Caneta Tinteiro, Lâmpada, Livro, Mochila, 10 potes de Óleo, 10 folhas de Pergaminho, Tinta.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "11",
+    "weight_unit": "kg",
+    "cost": "40.00"
+  },
+  {
+    "key": "srd_dungeon-explorers-kit",
+    "name": "Kit de Explorador de Masmorras",
+    "desc": "Um Kit de Explorador de Masmorras contém os seguintes itens: Caixa para Fogo, Cantil, Corda, Estrepes, Mochila, 2 potes de Óleo, Pé de Cabra, 10 dias de Rações, 10 Tochas.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "27.5",
+    "weight_unit": "kg",
+    "cost": "12.00"
+  },
+  {
+      "key": "srd_priests-kit",
+    "name": "Kit de Sacerdote",
+    "desc": "Um Kit de Sacerdote contém os seguintes itens: Água Benta, Caixa para Fogo, Cobertor, Lâmpada, Mochila, 7 dias de Rações, Túnica.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "14.5",
+    "weight_unit": "kg",
+    "cost": "33.00"
   },
   {
     "key": "srd_clothes-common",
@@ -926,6 +1070,24 @@
     "weight": "1.5",
     "weight_unit": "kg",
     "cost": "0.50"
+  },
+  {
+    "key": "srd_tunic",
+    "name": "Túnica",
+    "desc": "Uma Túnica tem significado vocacional ou cerimonial.Alguns eventos e locais admitem apenas pessoas vestindo uma Túnica com certas cores ou símbolos.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "2",
+    "weight_unit": "kg",
+    "cost": "1"
   },
   {
     "key": "srd_clothes-costume",
@@ -965,7 +1127,7 @@
   },
   {
     "key": "srd_clothes-travelers",
-    "name": "Roupas, de Viajante",
+    "name": "Roupas, Viagem",
     "desc": "Roupas de viajante.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -995,7 +1157,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "3.00"
   },
@@ -1107,7 +1269,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -1143,7 +1305,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -1179,7 +1341,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "200.00"
   },
@@ -1513,7 +1675,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -1635,7 +1797,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -1671,7 +1833,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "200.00"
   },
@@ -1743,7 +1905,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -1761,7 +1923,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "300.00"
   },
@@ -1816,8 +1978,8 @@
   },
   {
     "key": "srd_flask-or-tankard",
-    "name": "Frasco ou caneca",
-    "desc": "Para beber. Capacidade: 1 pinta de líquido.",
+    "name": "Cantil ou caneca",
+    "desc": "Para beber. Capacidade: 500 ml de líquido.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1828,7 +1990,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.02"
   },
@@ -1846,7 +2008,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.02"
   },
@@ -1864,7 +2026,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "2"
   },
@@ -1900,7 +2062,7 @@
       "name": "Colossal",
       "key": "gargantuan"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "30000.00"
   },
@@ -1918,7 +2080,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -1980,7 +2142,7 @@
   },
   {
     "key": "srd_glassblowers-tools",
-    "name": "Ferramentas de soprador de vidro",
+    "name": "Ferramentas de Vidreiro",
     "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\\n\\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
     "category": {
       "name": "Ferramentas",
@@ -2028,7 +2190,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -2052,7 +2214,7 @@
   },
   {
     "key": "srd_grappling-hook",
-    "name": "Gancho de escalada",
+    "name": "Arpéu",
     "desc": "Um gancho de escalada.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -2450,13 +2612,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
   {
     "key": "srd_horn",
-    "name": "Trompa",
+    "name": "Trombeta",
     "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
     "category": {
       "name": "Ferramentas",
@@ -2486,7 +2648,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -2504,13 +2666,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "11.340",
+    "weight": "12.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
   {
     "key": "srd_ink-1-ounce-bottle",
-    "name": "Tinta (frasco de 28,35 ml)",
+    "name": "Tinta (frasco de 30 ml)",
     "desc": "Um frasco de tinta.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -2522,13 +2684,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "10.00"
   },
   {
     "key": "srd_ink-pen",
-    "name": "Caneta de tinta",
+    "name": "Caneta Tinteiro",
     "desc": "Uma caneta para escrever com tinta.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -2540,7 +2702,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.02"
   },
@@ -2558,7 +2720,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -2622,8 +2784,8 @@
   },
   {
     "key": "srd_jug-or-pitcher",
-    "name": "Jarra ou cântaro",
-    "desc": "Para beber bastante. Capacidade: 3,79 litros de líquido.",
+    "name": "Jarro",
+    "desc": "Para beber bastante. Capacidade: 4 litros de líquido.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2652,7 +2814,7 @@
       "name": "Colossal",
       "key": "gargantuan"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "3000.00"
   },
@@ -2670,7 +2832,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "11.340",
+    "weight": "12.5",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -2688,7 +2850,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -2706,7 +2868,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -2824,7 +2986,7 @@
   },
   {
     "key": "srd_lantern-bullseye",
-    "name": "Lanterna, foco",
+    "name": "Lanterna Foca-facho",
     "desc": "Uma lanterna de foco emite luz plena em um cone de 18 metros e luz fraca por mais 18 metros. Depois de acesa, queima por 6 horas com um frasco (473 ml) de óleo.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -2842,7 +3004,7 @@
   },
   {
     "key": "srd_lantern-hooded",
-    "name": "Lanterna, coberta",
+    "name": "Lanterna Coberta",
     "desc": "Uma lanterna coberta emite luz plena em um raio de 9 metros e luz fraca por mais 9 metros. Depois de acesa, queima por 6 horas com um frasco (473 ml) de óleo. Com uma ação, você pode baixar a cobertura, reduzindo a luz para luz fraca em um raio de 1,5 metro.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -2966,14 +3128,14 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
   {
     "key": "srd_lock",
-    "name": "Fechadura",
-    "desc": "Uma chave é fornecida com a fechadura. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode arrombar esta fechadura com um teste de Destreza CD 15 bem-sucedido. Seu Mestre pode decidir que fechaduras melhores estão disponíveis por preços mais altos.",
+    "name": "Cadeado",
+    "desc": "Uma chave é fornecida com o cadeado. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode arrombar este cadeado com um teste de Destreza CD 15 bem-sucedido. Seu Mestre pode decidir que cadeados melhores estão disponíveis por preços mais altos.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2984,7 +3146,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -3058,7 +3220,7 @@
       "name": "Colossal",
       "key": "gargantuan"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "10000.00"
   },
@@ -3183,7 +3345,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "100.00"
   },
@@ -3201,13 +3363,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "250.00"
   },
   {
     "key": "srd_manacles",
-    "name": "Algemas",
+    "name": "Grilhões",
     "desc": "Estas contenções de metal podem prender uma criatura Pequena ou Média. Escapar das algemas requer um teste de Destreza CD 20 bem-sucedido. Rompê-las requer um teste de Força CD 20 bem-sucedido. Cada conjunto de algemas vem com uma chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode arrombar a fechadura das algemas com um teste de Destreza CD 15 bem-sucedido. As algemas têm 15 pontos de vida.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -3303,7 +3465,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.20"
   },
@@ -3321,7 +3483,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "1500.00"
   },
@@ -3339,7 +3501,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.227",
+    "weight": "0.250",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -3454,7 +3616,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "400.00"
   },
@@ -3524,7 +3686,7 @@
   },
   {
     "key": "srd_painters-supplies",
-    "name": "Suprimentos de pintor",
+    "name": "Suprimentos de Pintor",
     "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nProficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
     "category": {
       "name": "Ferramentas",
@@ -3554,7 +3716,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "250.00"
   },
@@ -3590,7 +3752,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.20"
   },
@@ -3608,7 +3770,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -3626,7 +3788,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "2"
   },
@@ -3644,7 +3806,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -3792,7 +3954,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "500.00"
   },
@@ -3828,7 +3990,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -3846,14 +4008,14 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "100.00"
   },
   {
     "key": "srd_poisoners-kit",
-    "name": "Kit de envenenador",
-    "desc": "Um kit de envenenador inclui os frascos, produtos químicos e outros equipamentos necessários para a criação de venenos. A proficiência com este kit permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer para fabricar ou usar venenos.",
+    "name": "Kit de Veneno",
+    "desc": "Um kit de veneno inclui os frascos, produtos químicos e outros equipamentos necessários para a criação de venenos. A proficiência com este kit permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer para fabricar ou usar venenos.",
     "category": {
       "name": "Ferramentas",
       "key": "tools"
@@ -3870,8 +4032,8 @@
   },
   {
     "key": "srd_pole-10-foot",
-    "name": "Vara (3 metros)",
-    "desc": "Uma vara de 3 metros.",
+    "name": "Baliza",
+    "desc": "Uma baliza de 3 metros.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3906,7 +4068,7 @@
   },
   {
     "key": "srd_potters-tools",
-    "name": "Ferramentas de oleiro",
+    "name": "Ferramentas de Oleiro",
     "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
     "category": {
       "name": "Ferramentas",
@@ -3924,8 +4086,8 @@
   },
   {
     "key": "srd_pouch",
-    "name": "Bolsa",
-    "desc": "Uma bolsa de tecido ou couro pode conter até 20 projéteis de funda ou 50 agulhas de zarabatana, entre outras coisas. Uma bolsa compartimentada para guardar componentes de magia é chamada de bolsa de componentes (descrita anteriormente nesta seção).\r\nCapacidade: 0,0057 metros cúbicos/2,722 kg de equipamento.",
+    "name": "Algibeira",
+    "desc": "Uma algibeira de tecido ou couro pode conter até 20 projéteis de funda ou 50 agulhas de zarabatana, entre outras coisas. Uma algibeira compartimentada para guardar componentes de magia é chamada de algibeira de componentes (descrita anteriormente nesta seção).\r\nCapacidade: 0,0057 metros cúbicos/2,722 kg de equipamento.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3936,7 +4098,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -3954,7 +4116,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "2000.00"
   },
@@ -4012,7 +4174,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -4030,7 +4192,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "15.876",
+    "weight": "16.5",
     "weight_unit": "kg",
     "cost": "4.00"
   },
@@ -4158,11 +4320,11 @@
   },
   {
     "key": "srd_rod",
-    "name": "Bastão",
+    "name": "Cajado (também um Bastão)",
     "desc": "Pode ser usado como foco arcano.",
     "category": {
-      "name": "Bastão",
-      "key": "rod"
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -4170,7 +4332,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -4188,7 +4350,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.53",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -4206,7 +4368,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.27 ",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -4230,8 +4392,8 @@
   },
   {
     "key": "srd_sack",
-    "name": "Saco",
-    "desc": "Um saco. Capacidade: 1 pé cúbico/30 libras de equipamento.",
+    "name": "Saca",
+    "desc": "Uma Saca armazena até 15 kg dentro de 30 centímetros cúbicos",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4242,7 +4404,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.2",
+    "weight": "0.25",
     "weight_unit": "kg",
     "cost": "0.01"
   },
@@ -4278,7 +4440,7 @@
       "name": "Gargantuan",
       "key": "gargantuan"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "10000.00"
   },
@@ -4408,7 +4570,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -4426,7 +4588,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "200.00"
   },
@@ -4604,7 +4766,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.27 ",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "2"
   },
@@ -4650,7 +4812,7 @@
   },
   {
     "key": "srd_signal-whistle",
-    "name": "Apito de Sinalização",
+    "name": "Apito Sinalizador",
     "desc": "Para sinalização.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -4662,27 +4824,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.05"
-  },
-  {
-    "key": "srd_signet-ring",
-    "name": "Anel de Sinete",
-    "desc": "Um anel com um sinete.",
-    "category": {
-      "name": "Anel",
-      "key": "ring"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0.0 ",
-    "weight_unit": "kg",
-    "cost": "5.00"
   },
   {
     "key": "srd_silk",
@@ -4828,7 +4972,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.6",
+    "weight": "4",
     "weight_unit": "kg",
     "cost": "20.00"
   },
@@ -4846,7 +4990,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "0.02"
   },
@@ -4930,9 +5074,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.2",
+    "weight": "2.5",
     "weight_unit": "kg",
-    "cost": "0.10"
+    "cost": "1"
   },
   {
     "key": "srd_splint-armor",
@@ -4976,7 +5120,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -5000,11 +5144,11 @@
   },
   {
     "key": "srd_staff",
-    "name": "Cajado",
+    "name": "Cetro",
     "desc": "Pode ser usado como foco arcano.",
     "category": {
-      "name": "Cajado",
-      "key": "staff"
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
     },
     "weapon": {
       "name": "Bordão",
@@ -5080,7 +5224,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "9",
+    "weight": "10",
     "weight_unit": "kg",
     "cost": "2"
   },
@@ -5134,7 +5278,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.53",
+    "weight": "5",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -5170,27 +5314,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "600.00"
-  },
-  {
-    "key": "srd_totem",
-    "name": "Totem",
-    "desc": "Pode ser usado como foco druídico.",
-    "category": {
-      "name": "Equipamento de Aventura",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0.0 ",
-    "weight_unit": "kg",
-    "cost": "1.00"
   },
   {
     "key": "srd_trident",
@@ -5254,7 +5380,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "150.00"
   },
@@ -5272,13 +5398,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "1.00"
   },
   {
     "key": "srd_viol",
-    "name": "Viola",
+    "name": "Violino",
     "desc": "Alguns dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
     "category": {
       "name": "Ferramentas",
@@ -5317,8 +5443,8 @@
     "name": "Varinha",
     "desc": "Pode ser usada como foco arcano.",
     "category": {
-      "name": "Varinha",
-      "key": "wand"
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -5424,14 +5550,14 @@
       "name": "Imenso",
       "key": "gargantuan"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "25000.00"
   },
   {
     "key": "srd_waterskin",
     "name": "Odre",
-    "desc": "Usado para beber. 2,27 kg é o peso quando cheio. Capacidade: 4 litros de líquido.",
+    "desc": "Usado para beber. 2,5 kg é o peso quando cheio. Capacidade: 4 litros de líquido.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5442,7 +5568,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.27 ",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "0.20"
   },
@@ -5460,7 +5586,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.27 ",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -5550,7 +5676,7 @@
   },
   {
     "key": "srd_woodcarvers-tools",
-    "name": "Ferramentas de entalhador",
+    "name": "Ferramentas de Entalhador",
     "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a qualquer teste de habilidade que você faça usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
     "category": {
       "name": "Ferramentas",
@@ -5562,13 +5688,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.27 ",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
   {
     "key": "srd_wooden-staff",
-    "name": "Cajado de madeira",
+    "name": "Cajado de madeira (também um Bastão)",
     "desc": "Pode ser usado como foco druídico.",
     "category": {
       "name": "Equipamento de Aventura",
@@ -5620,7 +5746,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "0",
     "weight_unit": "kg",
     "cost": "1200.00"
   },
@@ -5629,8 +5755,8 @@
     "name": "Varinha de teixo",
     "desc": "Pode ser usada como foco druídico.",
     "category": {
-      "name": "Varinha",
-      "key": "wand"
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
