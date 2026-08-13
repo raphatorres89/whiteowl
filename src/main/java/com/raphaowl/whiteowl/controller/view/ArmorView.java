@@ -3,11 +3,11 @@ package com.raphaowl.whiteowl.controller.view;
 public record ArmorView(
         String name,
         String category,
-        int acBase,
+        Integer acBase,
         String acDisplay,
-        boolean acAddDexMod,
+        Boolean acAddDexMod,
         Integer acCapDexMod,
-        boolean grantsStealthDisadvantage,
+        Boolean grantsStealthDisadvantage,
         Integer strengthScoreRequired
 ) {
 }

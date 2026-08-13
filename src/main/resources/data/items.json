@@ -15,7 +15,7 @@
     },
     "weight": "0.91",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_acid",
@@ -49,7 +49,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -67,7 +67,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -103,7 +103,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -177,7 +177,7 @@
     },
     "weight": "2.27",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_bagpipes",
@@ -231,7 +231,7 @@
     },
     "weight": "31.75",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_basket",
@@ -280,14 +280,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.81",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -383,10 +383,10 @@
         {
           "property": {
             "name": "Munição",
-            "type": null,
+            "type": "Agulha",
             "desc": "Você pode usar uma arma que tenha a propriedade Munição para realizar um ataque à distância somente se tiver munição para disparar com a arma. Cada vez que você atacar com a arma, uma unidade de munição é consumida. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa ter uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição utilizada gastando 1 minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade Munição para realizar um ataque corpo a corpo, deverá tratá-la como uma arma improvisada (consulte a seção “Armas Improvisadas”). Uma funda precisa estar carregada para causar qualquer dano quando usada dessa maneira."
           },
-          "detail": "alcance 7,5/30 m"
+          "detail": "alcance 7,5/30"
         },
         {
           "property": {
@@ -400,14 +400,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -443,7 +443,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -461,13 +461,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_breastplate",
-    "name": "Peitoral",
+    "name": "Couraça Peitoral",
     "desc": "Esta armadura consiste em uma peça metálica ajustada para proteger o peito, usada junto com couro flexível. Embora deixe as pernas e os braços relativamente desprotegidos, essa armadura oferece boa proteção aos órgãos vitais do usuário sem limitar significativamente seus movimentos.",
     "category": {
       "name": "Armadura",
@@ -475,11 +475,11 @@
     },
     "weapon": null,
     "armor": {
-      "name": "Peitoral",
+      "name": "Couraça Peitoral",
       "key": "srd_breastplate",
       "category": "medium",
       "ac_base": 14,
-      "ac_display": "14 + modificador de DES (máx. 2)",
+      "ac_display": "14 + modif. de DES (máx. 2)",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": 2,
       "grants_stealth_disadvantage": false,
@@ -489,7 +489,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "9.072",
+    "weight": "10",
     "weight_unit": "kg",
     "cost": "400.00"
   },
@@ -525,7 +525,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "0.05"
   },
@@ -561,7 +561,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -579,7 +579,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -633,7 +633,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.722",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "8.00"
   },
@@ -687,7 +687,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.722",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "15.00"
   },
@@ -741,7 +741,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -769,25 +769,25 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "24.948",
+    "weight": "27",
     "weight_unit": "kg",
     "cost": "75.00"
   },
   {
     "key": "srd_chain-shirt",
-    "name": "Camisa de Malha",
-    "desc": "Feita de anéis metálicos interligados, uma camisa de malha é usada entre camadas de roupas ou couro. Esta armadura oferece proteção moderada à parte superior do corpo do usuário e permite que o som dos anéis roçando uns nos outros seja abafado pelas camadas externas.",
+    "name": "Cota de Malha Parcial",
+    "desc": "Feita de anéis metálicos interligados, uma cota de malha é usada entre camadas de roupas ou couro. Esta armadura oferece proteção moderada à parte superior do corpo do usuário e permite que o som dos anéis roçando uns nos outros seja abafado pelas camadas externas.",
     "category": {
       "name": "Armadura",
       "key": "armor"
     },
     "weapon": null,
     "armor": {
-      "name": "Camisa de Malha",
+      "name": "Cota de Malha Parcial",
       "key": "srd_chain-shirt",
       "category": "medium",
       "ac_base": 13,
-      "ac_display": "13 + modificador de DES (máx. 2)",
+      "ac_display": "13 + modif. de DES (máx. 2)",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": 2,
       "grants_stealth_disadvantage": false,
@@ -797,7 +797,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "9.072",
+    "weight": "10",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -869,7 +869,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "0.02"
   },
@@ -889,7 +889,7 @@
     },
     "weight": "0.454",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_climbers-kit",
@@ -905,7 +905,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "5.443",
+    "weight": "6",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -923,7 +923,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -941,7 +941,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -959,7 +959,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.722",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "15.00"
   },
@@ -977,9 +977,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_cloves",
@@ -1028,14 +1028,14 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -1053,7 +1053,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -1071,7 +1071,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -1089,7 +1089,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.629",
+    "weight": "4",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -1221,10 +1221,10 @@
         {
           "property": {
             "name": "Munição",
-            "type": null,
+            "type": "Virote",
             "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com ela. Cada vez que você atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa ter uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta dedicando um minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, você trata a arma como uma arma improvisada (veja “Armas Improvisadas” posteriormente nesta seção). Uma funda precisa estar carregada para causar qualquer dano quando usada dessa maneira."
           },
-          "detail": "alcance 9,1/36,6 m"
+          "detail": "alcance 9/36"
         },
         {
           "property": {
@@ -1246,16 +1246,120 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "75.00"
+  },
+  {
+    "key": "srd_musket",
+    "name": "Mosquete",
+    "desc": "Um mosquete.",
+    "category": {
+      "name": "Arma",
+      "key": "weapon"
+    },
+    "weapon": {
+      "name": "Mosquete",
+      "key": "srd_musket",
+      "damage_type": {
+        "name": "Perfurante",
+        "key": "piercing"
+      },
+      "damage_dice": "1d6",
+      "properties": [
+        {
+          "property": {
+            "name": "Duas Mãos",
+            "type": null,
+            "desc": "Esta arma requer duas mãos quando você realiza um ataque com ela."
+          },
+          "detail": null
+        },
+        {
+          "property": {
+            "name": "Munição",
+            "type": "Bala",
+            "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com ela. Cada vez que você atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa ter uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta dedicando um minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, você trata a arma como uma arma improvisada (veja “Armas Improvisadas” posteriormente nesta seção). Uma funda precisa estar carregada para causar qualquer dano quando usada dessa maneira."
+          },
+          "detail": "alcance 12/36"
+        },
+        {
+          "property": {
+            "name": "Recarga",
+            "type": null,
+            "desc": "Devido ao tempo necessário para carregar esta arma, você pode disparar apenas uma unidade de munição quando usar uma ação, ação bônus ou reação para dispará-la, independentemente do número de ataques que normalmente poderia realizar."
+          },
+          "detail": null
+        }
+      ],
+      "is_simple": false,
+      "is_martial": true,
+      "is_improvised": false,
+      "distance_unit": "metros"
+    },
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "5",
+    "weight_unit": "kg",
+    "cost": "500"
+  },
+  {
+    "key": "srd_pistol",
+    "name": "Pistola",
+    "desc": "Uma pistola.",
+    "category": {
+      "name": "Arma",
+      "key": "weapon"
+    },
+    "weapon": {
+      "name": "Pistola",
+      "key": "srd_pistol",
+      "damage_type": {
+        "name": "Perfurante",
+        "key": "piercing"
+      },
+      "damage_dice": "1d6",
+      "properties": [
+        {
+          "property": {
+            "name": "Munição",
+            "type": "Bala",
+            "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com ela. Cada vez que você atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa ter uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta dedicando um minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, você trata a arma como uma arma improvisada (veja “Armas Improvisadas” posteriormente nesta seção). Uma funda precisa estar carregada para causar qualquer dano quando usada dessa maneira."
+          },
+          "detail": "alcance 9/36"
+        },
+        {
+          "property": {
+            "name": "Recarga",
+            "type": null,
+            "desc": "Devido ao tempo necessário para carregar esta arma, você pode disparar apenas uma unidade de munição quando usar uma ação, ação bônus ou reação para dispará-la, independentemente do número de ataques que normalmente poderia realizar."
+          },
+          "detail": null
+        }
+      ],
+      "is_simple": false,
+      "is_martial": true,
+      "is_improvised": false,
+      "distance_unit": "metros"
+    },
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1.5",
+    "weight_unit": "kg",
+    "cost": "250"
   },
   {
     "key": "srd_crossbow-heavy",
@@ -1276,9 +1380,25 @@
       "properties": [
         {
           "property": {
+            "name": "Munição",
+            "type": "Virote",
+            "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com ela. Cada vez que você atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa ter uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta dedicando um minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, você trata a arma como uma arma improvisada (veja “Armas Improvisadas” posteriormente nesta seção). Uma funda precisa estar carregada para causar qualquer dano quando usada dessa maneira."
+          },
+          "detail": "alcance 30/120"
+        },
+        {
+          "property": {
             "name": "Recarga",
             "type": null,
             "desc": "Devido ao tempo necessário para carregar esta arma, você pode disparar apenas uma unidade de munição quando usar uma ação, ação bônus ou reação para dispará-la, independentemente do número de ataques que normalmente poderia realizar."
+          },
+          "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
           },
           "detail": null
         },
@@ -1294,14 +1414,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "8.165",
+    "weight": "9",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -1324,11 +1444,19 @@
       "properties": [
         {
           "property": {
-            "name": "Munição",
+            "name": "Duas Mãos",
             "type": null,
+            "desc": "Esta arma requer as duas mãos quando você ataca com ela."
+          },
+          "detail": null
+        },
+        {
+          "property": {
+            "name": "Munição",
+            "type": "Virote",
             "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com ela. Cada vez que você atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa ter uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta dedicando um minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, você trata a arma como uma arma improvisada (veja “Armas Improvisadas” posteriormente nesta seção). Uma funda precisa estar carregada para causar qualquer dano quando usada dessa maneira."
           },
-          "detail": "alcance 24,4/97,5 m"
+          "detail": "alcance 24/96"
         },
         {
           "property": {
@@ -1342,14 +1470,14 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -1367,9 +1495,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_crystal",
@@ -1428,22 +1556,22 @@
             "type": null,
             "desc": "Se uma arma possui a propriedade arremesso, você pode arremessá-la para realizar um ataque à distância. Se a arma for corpo a corpo, você usa o mesmo modificador de atributo na jogada de ataque e na jogada de dano que usaria em um ataque corpo a corpo com a arma. Por exemplo, se você arremessar uma machadinha, usa sua Força; mas, se arremessar uma adaga, pode usar Força ou Destreza, pois a adaga possui a propriedade acuidade."
           },
-          "detail": "alcance 6,1/18,3 m"
+          "detail": "alcance 6/18"
         }
       ],
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.454",
+    "weight": "0.5",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_dart",
@@ -1476,20 +1604,20 @@
             "type": null,
             "desc": "Se uma arma possui a propriedade arremesso, você pode arremessá-la para realizar um ataque à distância. Se a arma for corpo a corpo, você usa o mesmo modificador de atributo na jogada de ataque e na jogada de dano que usaria em um ataque corpo a corpo com a arma. Por exemplo, se você arremessar uma machadinha, usa sua Força; mas, se arremessar uma adaga, pode usar Força ou Destreza, pois a adaga possui a propriedade acuidade."
           },
-          "detail": "alcance 6,1/18,3 m"
+          "detail": "alcance 6/18"
         }
       ],
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.113",
+    "weight": "0.150",
     "weight_unit": "kg",
     "cost": "0.05"
   },
@@ -1525,7 +1653,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -1561,7 +1689,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "6.00"
   },
@@ -1579,7 +1707,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -1651,7 +1779,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -1675,14 +1803,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -1738,7 +1866,7 @@
     },
     "weight": "0.454",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_forgery-kit",
@@ -1754,7 +1882,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "15.00"
   },
@@ -1826,19 +1954,27 @@
             "desc": "Esta arma requer o uso das duas mãos quando você realiza um ataque com ela."
           },
           "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
+          },
+          "detail": null
         }
       ],
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.722",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "20.00"
   },
@@ -1856,7 +1992,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "30.00"
   },
@@ -1928,9 +2064,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_greataxe",
@@ -1956,6 +2092,14 @@
             "desc": "Esta arma requer o uso das duas mãos quando você realiza um ataque com ela."
           },
           "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
+          },
+          "detail": null
         }
       ],
       "is_simple": false,
@@ -1968,20 +2112,20 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.175",
+    "weight": "3.5",
     "weight_unit": "kg",
     "cost": "30.00"
   },
   {
     "key": "srd_greatclub",
-    "name": "Porrete Grande",
-    "desc": "Um porrete grande.",
+    "name": "Clava Grande",
+    "desc": "Uma clava grande.",
     "category": {
       "name": "Arma",
       "key": "weapon"
     },
     "weapon": {
-      "name": "Porrete Grande",
+      "name": "Clava Grande",
       "key": "srd_greatclub",
       "damage_type": {
         "name": "Concussão",
@@ -2008,7 +2152,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
     "cost": "0.20"
   },
@@ -2036,6 +2180,14 @@
             "desc": "Esta arma requer o uso das duas mãos quando você realiza um ataque com ela."
           },
           "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
+          },
+          "detail": null
         }
       ],
       "is_simple": false,
@@ -2048,7 +2200,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.000",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -2084,6 +2236,14 @@
             "desc": "Esta arma requer o uso das duas mãos quando você realiza um ataque com ela."
           },
           "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
+          },
+          "detail": null
         }
       ],
       "is_simple": false,
@@ -2096,7 +2256,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.722",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "20.00"
   },
@@ -2114,7 +2274,7 @@
       "key": "srd_half-plate",
       "category": "medium",
       "ac_base": 15,
-      "ac_display": "15 + modificador de Destreza (máx. 2)",
+      "ac_display": "15 + modif. de DES (máx. 2)",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": 2,
       "grants_stealth_disadvantage": true,
@@ -2124,7 +2284,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "18.144",
+    "weight": "20",
     "weight_unit": "kg",
     "cost": "750.00"
   },
@@ -2142,7 +2302,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -2160,9 +2320,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_handaxe",
@@ -2188,6 +2348,14 @@
             "desc": "Uma arma leve é pequena e fácil de manejar, sendo ideal para lutar com duas armas."
           },
           "detail": null
+        },
+        {
+          "property": {
+            "name": "Arremesso",
+            "type": null,
+            "desc": "Se uma arma tiver a propriedade arremesso, você pode arremessá-la para realizar um ataque à distância. Se a arma for uma arma corpo a corpo, você usa o mesmo modificador de atributo para a jogada de ataque e a jogada de dano que usaria em um ataque corpo a corpo com a arma. Por exemplo, se você arremessar uma machadinha, usará sua Força, mas, se arremessar uma adaga, poderá usar sua Força ou sua Destreza, pois a adaga possui a propriedade acuidade."
+          },
+          "detail": "alcance 6/18"
         }
       ],
       "is_simple": true,
@@ -2200,7 +2368,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -2218,7 +2386,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -2236,13 +2404,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
   {
     "key": "srd_hide-armor",
-    "name": "Armadura de Peles",
+    "name": "Gibão de Peles",
     "desc": "Esta armadura rudimentar consiste em peles e couros espessos. É comumente usada por tribos bárbaras, humanoides malignos e outros povos que não têm acesso às ferramentas e materiais necessários para criar armaduras melhores.",
     "category": {
       "name": "Armadura",
@@ -2250,11 +2418,11 @@
     },
     "weapon": null,
     "armor": {
-      "name": "Peles",
+      "name": "Gibão de Peles",
       "key": "srd_hide",
       "category": "medium",
       "ac_base": 12,
-      "ac_display": "12 + modificador de Destreza (máx. 2)",
+      "ac_display": "12 + modif. de DES (máx. 2)",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": 2,
       "grants_stealth_disadvantage": false,
@@ -2264,7 +2432,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "5.443",
+    "weight": "6",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -2300,7 +2468,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "3.00"
   },
@@ -2430,7 +2598,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -2448,7 +2616,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -2466,7 +2634,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "0.02"
   },
@@ -2544,26 +2712,26 @@
   },
   {
     "key": "srd_lance",
-    "name": "Lança de justa",
-    "desc": "Uma lança de justa.\r\n\r\nVocê tem desvantagem quando usa uma lança de justa para atacar um alvo a até 1,5 metro de você. Além disso, uma lança de justa requer as duas mãos para ser empunhada quando você não está montado.",
+    "name": "Lança de montaria",
+    "desc": "Uma lança de montaria.\r\n\r\nVocê tem desvantagem quando usa uma lança de montaria para atacar um alvo a até 1,5 metro de você. Além disso, uma lança de montaria requer as duas mãos para ser empunhada quando você não está montado.",
     "category": {
       "name": "Arma",
       "key": "weapon"
     },
     "weapon": {
-      "name": "Lança de justa",
+      "name": "Lança de montaria",
       "key": "srd_lance",
       "damage_type": {
         "name": "Perfurante",
         "key": "piercing"
       },
-      "damage_dice": "1d12",
+      "damage_dice": "1d10",
       "properties": [
         {
           "property": {
-            "name": "Especial (Lança de justa)",
+            "name": "Duas mãos (a menos que montado)",
             "type": null,
-            "desc": "Você tem desvantagem quando usa uma lança de justa para atacar um alvo a até 1,5 metro de você. Além disso, uma lança de justa requer as duas mãos para ser empunhada quando você não está montado."
+            "desc": "Você tem desvantagem quando usa uma lança de montaria para atacar um alvo a até 1,5 metro de você. Além disso, uma lança de montaria requer as duas mãos para ser empunhada quando você não está montado."
           },
           "detail": null
         },
@@ -2572,6 +2740,14 @@
             "name": "Alcance",
             "type": null,
             "desc": "Esta arma adiciona 1,5 metro ao seu alcance quando você ataca com ela, assim como ao determinar seu alcance para ataques de oportunidade com ela."
+          },
+          "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
           },
           "detail": null
         }
@@ -2586,9 +2762,65 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.722",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "10.00"
+  },
+  {
+    "key": "srd_longlance",
+    "name": "Lança Longa",
+    "desc": "Uma lança longa.\r\n\r\nVocê tem desvantagem quando usa uma lança longa para atacar um alvo a até 1,5 metro de você. Além disso, uma lança longa requer as duas mãos para ser empunhada quando você não está montado.",
+    "category": {
+      "name": "Arma",
+      "key": "weapon"
+    },
+    "weapon": {
+      "name": "Lança longa",
+      "key": "srd_longlance",
+      "damage_type": {
+        "name": "Perfurante",
+        "key": "piercing"
+      },
+      "damage_dice": "1d10",
+      "properties": [
+        {
+          "property": {
+            "name": "Duas mãos (a menos que montado)",
+            "type": null,
+            "desc": "Você tem desvantagem quando usa uma lança de montaria para atacar um alvo a até 1,5 metro de você. Além disso, uma lança de montaria requer as duas mãos para ser empunhada quando você não está montado."
+          },
+          "detail": null
+        },
+        {
+          "property": {
+            "name": "Alcance",
+            "type": null,
+            "desc": "Esta arma adiciona 1,5 metro ao seu alcance quando você ataca com ela, assim como ao determinar seu alcance para ataques de oportunidade com ela."
+          },
+          "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
+          },
+          "detail": null
+        }
+      ],
+      "is_simple": false,
+      "is_martial": true,
+      "is_improvised": false,
+      "distance_unit": "metros"
+    },
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "9",
+    "weight_unit": "kg",
+    "cost": "5.00"
   },
   {
     "key": "srd_lantern-bullseye",
@@ -2604,7 +2836,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -2622,7 +2854,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -2640,7 +2872,7 @@
       "key": "srd_leather",
       "category": "light",
       "ac_base": 11,
-      "ac_display": "11 + modificador de Destreza",
+      "ac_display": "11 + modif. de DES",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": null,
       "grants_stealth_disadvantage": false,
@@ -2650,7 +2882,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -2668,7 +2900,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -2716,9 +2948,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_linen",
@@ -2776,7 +3008,7 @@
         {
           "property": {
             "name": "Munição",
-            "type": null,
+            "type": "Flecha",
             "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com a arma. Cada vez que atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa de uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta ao passar 1 minuto procurando no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, tratará a arma como uma arma improvisada (consulte “Armas Improvisadas” posteriormente na seção). Uma funda deve estar carregada para causar qualquer dano quando usada dessa maneira."
           },
           "detail": "alcance 45/180"
@@ -2786,6 +3018,14 @@
             "name": "Duas Mãos",
             "type": null,
             "desc": "Esta arma requer as duas mãos quando você ataca com ela."
+          },
+          "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
           },
           "detail": null
         }
@@ -2800,7 +3040,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -2858,7 +3098,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "15.00"
   },
@@ -2876,7 +3116,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "35.00"
   },
@@ -2894,7 +3134,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "30.00"
   },
@@ -2925,7 +3165,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -2979,9 +3219,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.722",
+    "weight": "3",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_masons-tools",
@@ -2997,7 +3237,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.629",
+    "weight": "4",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -3025,6 +3265,14 @@
             "desc": "Esta arma requer as duas mãos quando você ataca com ela."
           },
           "detail": null
+        },
+        {
+          "property": {
+            "name": "Pesada",
+            "type": null,
+            "desc": "Uma arma pesada é grande e difícil de manejar, sendo ideal para causar grande dano."
+          },
+          "detail": null
         }
       ],
       "is_simple": false,
@@ -3037,7 +3285,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -3097,14 +3345,14 @@
   },
   {
     "key": "srd_morningstar",
-    "name": "Maça-estrela",
-    "desc": "Uma maça-estrela.",
+    "name": "Maça Estrela",
+    "desc": "Uma maça Estrela.",
     "category": {
       "name": "Arma",
       "key": "weapon"
     },
     "weapon": {
-      "name": "Maça-estrela",
+      "name": "Maça Estrela",
       "key": "srd_morningstar",
       "damage_type": {
         "name": "Perfurante",
@@ -3122,7 +3370,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "15.00"
   },
@@ -3140,7 +3388,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -3188,7 +3436,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -3224,7 +3472,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "20.00"
   },
@@ -3260,7 +3508,7 @@
       "key": "srd_padded",
       "category": "light",
       "ac_base": 11,
-      "ac_display": "11 + modificador de Destreza",
+      "ac_display": "11 + modif. de DES",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": null,
       "grants_stealth_disadvantage": true,
@@ -3270,7 +3518,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.629",
+    "weight": "4",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -3288,7 +3536,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.268",
+    "weight": "2.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -3324,7 +3572,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "12.00"
   },
@@ -3380,7 +3628,7 @@
     },
     "weight": "0.454",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_perfume-vial",
@@ -3414,9 +3662,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_pig",
@@ -3473,14 +3721,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "8.165",
+    "weight": "9",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -3498,13 +3746,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.113",
+    "weight": "0.150",
     "weight_unit": "kg",
     "cost": "0.05"
   },
   {
     "key": "srd_plate-armor",
-    "name": "Armadura de placas",
+    "name": "Armadura de Placas",
     "desc": "A armadura de placas consiste em placas metálicas moldadas e interligadas que cobrem todo o corpo. Um traje de placas inclui manoplas, botas de couro pesadas, um elmo com viseira e grossas camadas de acolchoamento sob a armadura. Fivelas e tiras distribuem o peso pelo corpo.",
     "category": {
       "name": "Armadura",
@@ -3512,7 +3760,7 @@
     },
     "weapon": null,
     "armor": {
-      "name": "Placas",
+      "name": "Armadura de Placas",
       "key": "srd_plate",
       "category": "heavy",
       "ac_base": 18,
@@ -3526,7 +3774,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "29.484",
+    "weight": "32",
     "weight_unit": "kg",
     "cost": "1500.00"
   },
@@ -3616,7 +3864,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -3634,7 +3882,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "3.175",
+    "weight": "3.5",
     "weight_unit": "kg",
     "cost": "0.05"
   },
@@ -3652,9 +3900,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "4.536",
+    "weight": "5",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_potters-tools",
@@ -3670,7 +3918,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.361",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -3712,14 +3960,14 @@
   },
   {
     "key": "srd_quarterstaff",
-    "name": "Bordão",
-    "desc": "Um bordão.",
+    "name": "Cajado",
+    "desc": "Um cajado.",
     "category": {
       "name": "Arma",
       "key": "weapon"
     },
     "weapon": {
-      "name": "Bordão",
+      "name": "Cajado",
       "key": "srd_quarterstaff",
       "damage_type": {
         "name": "Concussão",
@@ -3739,14 +3987,14 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.814",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "0.20"
   },
@@ -3815,14 +4063,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "meters"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -3840,7 +4088,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907 ",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -3858,13 +4106,13 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907 ",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "5.00"
   },
   {
     "key": "srd_ring-mail",
-    "name": "Cota de anéis",
+    "name": "Cota de Anéis",
     "desc": "Esta armadura é feita de couro com anéis metálicos pesados costurados nela. Os anéis ajudam a reforçar a armadura contra golpes de espadas e machados. A cota de anéis é inferior à cota de malha e geralmente é usada apenas por aqueles que não podem pagar por uma armadura melhor.",
     "category": {
       "name": "Armadura",
@@ -3872,7 +4120,7 @@
     },
     "weapon": null,
     "armor": {
-      "name": "Cota de anéis",
+      "name": "Cota de Anéis",
       "key": "srd_ring-mail",
       "category": "heavy",
       "ac_base": 14,
@@ -3886,7 +4134,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "8.165",
+    "weight": "20",
     "weight_unit": "kg",
     "cost": "30.00"
   },
@@ -3904,7 +4152,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.81 ",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -4012,7 +4260,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "15.00"
   },
@@ -4045,16 +4293,16 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.05"
   },
   {
     "key": "srd_scale-mail",
-    "name": "Cota de Escamas",
+    "name": "Loriga de Escamas",
     "desc": "Esta armadura consiste em um casaco e perneiras (e talvez uma saia separada) de couro coberto por peças de metal sobrepostas, semelhantes às escamas de um peixe. O conjunto inclui manoplas.",
     "category": {
       "name": "Armadura",
@@ -4062,21 +4310,21 @@
     },
     "weapon": null,
     "armor": {
-      "name": "Cota de Escamas",
+      "name": "Loriga de Escamas",
       "key": "srd_scale-mail",
       "category": "medium",
       "ac_base": 14,
-      "ac_display": "14 + modificador de Destreza (máx. 2)",
+      "ac_display": "14 + modif. de DES (máx. 2)",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": 2,
       "grants_stealth_disadvantage": true,
       "strength_score_required": null
     },
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "20",
+    "weight": "22",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -4091,10 +4339,10 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.36 ",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -4135,14 +4383,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.36 ",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -4157,7 +4405,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "0.0 ",
@@ -4175,7 +4423,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "0.0 ",
@@ -4193,12 +4441,12 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_sheep",
@@ -4216,23 +4464,33 @@
     },
    "weight": "34",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_shield",
     "name": "Escudo",
     "desc": "Um escudo é feito de madeira ou metal e é empunhado com uma mão. Usar um escudo aumenta sua Classe de Armadura em 2. Você só pode se beneficiar de um escudo por vez.",
     "category": {
-      "name": "Escudo",
-      "key": "shield"
+      "name": "Armadura",
+      "key": "armor"
     },
     "weapon": null,
-    "armor": null,
+    "armor": {
+      "name": "Escudo",
+      "key": "srd_shield",
+      "category": "Escudo",
+      "ac_base": 2,
+      "ac_display": "+2",
+      "ac_add_dexmod": false,
+      "ac_cap_dexmod": 0,
+      "grants_stealth_disadvantage": false,
+      "strength_score_required": null
+    },
     "size": {
-      "name": "Tiny",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "2.7",
+    "weight": "3",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -4256,10 +4514,10 @@
         {
           "property": {
             "name": "Munição",
-            "type": null,
+            "type": "Flecha",
             "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com ela. Cada vez que você atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa de uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta ao dedicar 1 minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, você trata a arma como uma arma improvisada (consulte “Armas Improvisadas” mais adiante nesta seção). Uma funda precisa estar carregada para causar dano quando usada dessa maneira."
           },
-          "detail": "alcance 80/320"
+          "detail": "alcance 24/96"
         },
         {
           "property": {
@@ -4273,14 +4531,14 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907 ",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -4321,14 +4579,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907 ",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -4348,7 +4606,7 @@
     },
     "weight": "2.27 ",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_sickle",
@@ -4379,14 +4637,14 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907 ",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -4440,7 +4698,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -4458,7 +4716,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -4518,23 +4776,23 @@
         {
           "property": {
             "name": "Munição",
-            "type": null,
+            "type": "Bala",
             "desc": "Você pode usar uma arma que tenha a propriedade munição para realizar um ataque à distância somente se tiver munição para disparar com ela. Cada vez que você atacar com a arma, você gasta uma unidade de munição. Retirar a munição de uma aljava, estojo ou outro recipiente faz parte do ataque (você precisa de uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade da munição gasta ao dedicar 1 minuto para procurar no campo de batalha.\n\nSe você usar uma arma que tenha a propriedade munição para realizar um ataque corpo a corpo, você trata a arma como uma arma improvisada (consulte “Armas Improvisadas” mais adiante nesta seção). Uma funda precisa estar carregada para causar dano quando usada dessa maneira."
           },
-          "detail": "alcance 80/320"
+          "detail": "alcance 9/36"
         }
       ],
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.0 ",
+    "weight": "0.0",
     "weight_unit": "kg",
     "cost": "0.10"
   },
@@ -4615,7 +4873,7 @@
             "type": null,
             "desc": "Se uma arma tiver a propriedade arremesso, você pode arremessá-la para realizar um ataque à distância. Se a arma for uma arma corpo a corpo, você usa o mesmo modificador de atributo para a jogada de ataque e para a jogada de dano que usaria em um ataque corpo a corpo com a arma. Por exemplo, se você arremessar uma machadinha, usará sua Força, mas se arremessar uma adaga, poderá usar Força ou Destreza, pois a adaga possui a propriedade acuidade."
           },
-          "detail": "alcance 20/60"
+          "detail": "alcance 6/18"
         },
         {
           "property": {
@@ -4629,14 +4887,14 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.36 ",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "1.00"
   },
@@ -4654,7 +4912,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.36 ",
+    "weight": "1.5",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -4686,7 +4944,7 @@
     },
     "weapon": null,
     "armor": {
-      "name": "Talas",
+      "name": "Armadura de Talas",
       "key": "srd_splint",
       "category": "heavy",
       "ac_base": 17,
@@ -4700,7 +4958,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "27.2",
+    "weight": "30",
     "weight_unit": "kg",
     "cost": "200.00"
   },
@@ -4736,7 +4994,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "1000.00"
   },
@@ -4769,16 +5027,16 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "pés"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.81 ",
+    "weight": "2",
     "weight_unit": "kg",
-    "cost": "5.00"
+    "cost": "0.2"
   },
   {
     "key": "srd_studded-leather-armor",
@@ -4792,19 +5050,19 @@
     "armor": {
       "name": "Couro batido",
       "key": "srd_studded-leather",
-      "category": "leve",
+      "category": "Leve",
       "ac_base": 12,
-      "ac_display": "12 + modificador de Destreza",
+      "ac_display": "12 + modif. de DES",
       "ac_add_dexmod": true,
       "ac_cap_dexmod": null,
       "grants_stealth_disadvantage": false,
       "strength_score_required": null
     },
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "5.9",
+    "weight": "6.5",
     "weight_unit": "kg",
     "cost": "45.00"
   },
@@ -4819,12 +5077,12 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "9",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_thieves-tools",
@@ -4837,10 +5095,10 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "25.00"
   },
@@ -4855,10 +5113,10 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.50"
   },
@@ -4873,7 +5131,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "4.53",
@@ -4891,10 +5149,10 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.01"
   },
@@ -4909,7 +5167,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "0.0 ",
@@ -4927,7 +5185,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "0.0 ",
@@ -4949,16 +5207,8 @@
         "name": "Perfurante",
         "key": "piercing"
       },
-      "damage_dice": "1d6",
+      "damage_dice": "1d8",
       "properties": [
-        {
-          "property": {
-            "name": "Duas Mãos",
-            "type": null,
-            "desc": "Esta arma requer duas mãos quando você realiza um ataque com ela."
-          },
-          "detail": null
-        },
         {
           "property": {
             "name": "Arremesso",
@@ -4973,20 +5223,20 @@
             "type": null,
             "desc": "Esta arma pode ser usada com uma ou duas mãos. Um valor de dano entre parênteses aparece com a propriedade — esse é o dano quando a arma é usada com as duas mãos para realizar um ataque corpo a corpo."
           },
-          "detail": "1d8"
+          "detail": "1d10"
         }
       ],
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "pés"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.81 ",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -5001,7 +5251,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "0.0 ",
@@ -5019,7 +5269,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "0.0 ",
@@ -5037,10 +5287,10 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "30.00"
   },
@@ -5073,10 +5323,10 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "10.00"
   },
@@ -5096,18 +5346,27 @@
         "key": "piercing"
       },
       "damage_dice": "1d8",
-      "properties": [],
+      "properties": [
+        {
+          "property": {
+            "name": "Versátil",
+            "type": null,
+            "desc": "Esta arma pode ser usada com uma ou duas mãos. Um valor de dano entre parênteses aparece com a propriedade — esse é o dano quando a arma é usada com as duas mãos para realizar um ataque corpo a corpo."
+          },
+          "detail": "1d10"
+        }
+      ],
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "pés"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907 ",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -5140,14 +5399,14 @@
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "pés"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.907 ",
+    "weight": "1",
     "weight_unit": "kg",
     "cost": "15.00"
   },
@@ -5180,7 +5439,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "2.27 ",
@@ -5198,7 +5457,7 @@
     "weapon": null,
     "armor": null,
     "size": {
-      "name": "Miúdo",
+      "name": "Minúsculo",
       "key": "tiny"
     },
     "weight": "2.27 ",
@@ -5219,7 +5478,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.01"
   },
@@ -5237,7 +5496,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.01"
   },
@@ -5265,21 +5524,29 @@
             "desc": "Esta arma adiciona 1,5 metro ao seu alcance quando você realiza um ataque com ela, assim como ao determinar seu alcance para ataques de oportunidade com ela."
           },
           "detail": null
+        },
+        {
+          "property": {
+            "name": "Acuidade",
+            "type": null,
+            "desc": "Ao realizar um ataque com uma arma com acuidade, você usa sua escolha entre o modificador de Força ou de Destreza para as jogadas de ataque e dano. Você deve usar o mesmo modificador para ambas as jogadas."
+          },
+          "detail": null
         }
       ],
       "is_simple": false,
       "is_martial": true,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.36 ",
+    "weight": "1.5",
     "weight_unit": "kg",
-    "cost": "2.00"
+    "cost": "2"
   },
   {
     "key": "srd_woodcarvers-tools",
@@ -5328,14 +5595,14 @@
       "is_simple": true,
       "is_martial": false,
       "is_improvised": false,
-      "distance_unit": "feet"
+      "distance_unit": "metros"
     },
     "armor": null,
     "size": {
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "1.81 ",
+    "weight": "2",
     "weight_unit": "kg",
     "cost": "5.00"
   },
@@ -5371,7 +5638,7 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.45",
+    "weight": "0.5",
     "weight_unit": "kg",
     "cost": "10.00"
   }

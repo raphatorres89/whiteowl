@@ -6,11 +6,13 @@ import java.util.Objects;
 
 import com.raphaowl.whiteowl.controller.view.DamageView;
 import com.raphaowl.whiteowl.controller.view.ItemView;
+import com.raphaowl.whiteowl.controller.view.ArmorView;
 import com.raphaowl.whiteowl.controller.view.PropertyView;
 import com.raphaowl.whiteowl.controller.view.WeaponPropertyView;
 import com.raphaowl.whiteowl.controller.view.WeaponView;
 import com.raphaowl.whiteowl.model.DamageType;
 import com.raphaowl.whiteowl.model.Item;
+import com.raphaowl.whiteowl.model.ItemArmor;
 import com.raphaowl.whiteowl.model.ItemWeapon;
 import com.raphaowl.whiteowl.model.Property;
 import com.raphaowl.whiteowl.model.WeaponProperty;
@@ -27,13 +29,30 @@ public class ItemMapper {
 //            "/images/items/" + item.slug() + ".png",
             item.category().name(),
             toWeaponView(item.weapon()),
-            null,
+            toArmorView(item.armor()),
 //            item.weapon(),
 //            item.armor(),
             item.size().name(),
             normalizeDecimal(item.weight()),
             item.weightUnit(),
             normalizeDecimal(item.cost())
+        );
+    }
+
+    private static ArmorView toArmorView(ItemArmor armor) {
+        if (armor == null) {
+            return null;
+        }
+
+        return new ArmorView(
+                armor.name(),
+                armor.category(),
+                armor.acBase(),
+                armor.acDisplay(),
+                Boolean.TRUE.equals(armor.acAddDexMod()),
+                armor.acCapDexMod(),
+                Boolean.TRUE.equals(armor.grantsStealthDisadvantage()),
+                armor.strengthScoreRequired()
         );
     }
 
