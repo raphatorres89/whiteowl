@@ -72,6 +72,7 @@ public class ItemMapper {
 
         return new WeaponView(
                 weapon.name(),
+                weapon.key(),
                 toDamageView(weapon.damageType()),
                 weapon.damageDice(),
                 toWeaponPropertyViews(weapon.properties()),

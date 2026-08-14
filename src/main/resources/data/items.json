@@ -74,9 +74,9 @@
   {
     "key": "srd_alchemists-supplies",
     "name": "Suprimentos de Alquimista",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Identificar uma substância (CD 15) ou iniciar um incêndio (CD 15) Fabricação: Ácido, Bolsa de Componentes, Fogo Alquímico, Óleo, Papel, Perfume",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -182,9 +182,9 @@
   {
     "key": "srd_bagpipes",
     "name": "Gaita de Foles",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -496,9 +496,9 @@
   {
     "key": "srd_brewers-supplies",
     "name": "Suprimentos de Cervejeiro",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Detectar bebida envenenada (CD 15) ou identificar álcool (CD 10) Fabricação: Antitoxina",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -550,9 +550,9 @@
   {
     "key": "srd_calligraphers-supplies",
     "name": "Suprimentos de Calígrafo",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Escrever texto com uma caligrafia que protege contra falsificação (CD 15) Fabricação: Pergaminho Mágico, Tinta",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -622,9 +622,9 @@
   {
     "key": "srd_carpenters-tools",
     "name": "Ferramentas de Carpinteiro",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Selar ou abrir uma porta ou recipiente (CD 20) Fabricação: Aríete Portável, Baliza, Barril, Baú, Cajado, Clava, Clava Grande, Escada, Tocha",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -820,9 +820,9 @@
   {
     "key": "srd_cartographers-tools",
     "name": "Ferramentas de Cartógrafo",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nSer proficiente com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo realizados usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Elaborar o mapa de uma pequena área (CD 15) Fabricação: Mapa",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -1348,9 +1348,9 @@
   {
     "key": "srd_cobblers-tools",
     "name": "Ferramentas de Sapateiro",
-    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\nProficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade feitos usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Modificar calçado para conceder Vantagem no próximo teste de Destreza (Acrobacia) do usuário (CD 10) Fabricação: Kit de Escalada",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -1384,9 +1384,9 @@
   {
     "key": "srd_cooks-utensils",
     "name": "Utensílios de Cozinheiro",
-    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\nProficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade feitos usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Melhorar o sabor dos alimentos (CD 10) ou detectar alimentos estragados ou envenenados (CD 15) Fabricação: Rações",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -1930,9 +1930,9 @@
   {
     "key": "srd_dice-set",
     "name": "Conjunto de dados",
-    "desc": "Este item abrange uma grande variedade de peças de jogos, incluindo dados e baralhos de cartas (para jogos como Three-Dragon Ante). Alguns exemplos comuns aparecem na tabela de ferramentas, mas existem outros tipos de conjuntos de jogos. Se você for proficiente com um conjunto de jogos, pode adicionar seu bônus de proficiência aos testes de atributo que fizer para jogar com esse conjunto. Cada tipo de conjunto de jogos exige uma proficiência separada.",
+    "desc": "Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Jogos",
       "key": "tools"
     },
     "weapon": null,
@@ -1946,11 +1946,47 @@
     "cost": "0.10"
   },
   {
+    "key": "srd_dragon-chess",
+    "name": "Xadrez-do-Dragão",
+    "desc": "Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)",
+    "category": {
+      "name": "Jogos",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0",
+    "weight_unit": "kg",
+    "cost": "1"
+  },
+  {
+    "key": "srd_three-dragon-ante",
+    "name": "Jogo dos Três Dragões",
+    "desc": "Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)",
+    "category": {
+      "name": "Jogos",
+      "key": "tools"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0",
+    "weight_unit": "kg",
+    "cost": "1"
+  },
+  {
     "key": "srd_disguise-kit",
     "name": "Kit de disfarce",
-    "desc": "Esta bolsa de cosméticos, tintura de cabelo e pequenos acessórios permite criar disfarces que alteram sua aparência física. Ser proficiente com este kit permite adicionar seu bônus de proficiência aos testes de atributo que fizer para criar um disfarce visual.",
+    "desc": "Aplicar maquiagem (CD 10)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Outras Ferramentas",
       "key": "tools"
     },
     "weapon": null,
@@ -1984,9 +2020,9 @@
   {
     "key": "srd_drum",
     "name": "Tambor",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -2001,10 +2037,10 @@
   },
   {
     "key": "srd_dulcimer",
-    "name": "Saltério",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "name": "Xilofone",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -2159,9 +2195,9 @@
   {
     "key": "srd_flute",
     "name": "Flauta",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -2177,9 +2213,9 @@
   {
     "key": "srd_forgery-kit",
     "name": "Kit de falsificação",
-    "desc": "Esta pequena caixa contém uma variedade de papéis e pergaminhos, penas e tintas, selos e lacres de cera, folhas de ouro e prata e outros materiais necessários para criar falsificações convincentes de documentos físicos. \\n\\nA proficiência com este kit permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer para criar uma falsificação física de um documento.",
+    "desc": "Imitar 10 ou menos palavras escritas de outra pessoa (CD 15) ou duplicar um selo de cera (CD 20)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Outras Ferramentas",
       "key": "tools"
     },
     "weapon": null,
@@ -2287,9 +2323,9 @@
   {
     "key": "srd_glassblowers-tools",
     "name": "Ferramentas de Vidreiro",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\\n\\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Discernir como um objeto de vidro foi manuseado nas últimas 24 horas (CD 15) Fabricação: Frasco, Jarro, Luneta, Lupa",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -2699,9 +2735,9 @@
   {
     "key": "srd_herbalism-kit",
     "name": "Kit de Herbalismo",
-    "desc": "Este kit contém uma variedade de instrumentos, como tesouras, almofariz e pilão, além de bolsas e frascos usados por herbalistas para criar remédios e poções. A proficiência com este kit permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer para identificar ou aplicar ervas. Além disso, a proficiência com este kit é necessária para criar antitoxinas e poções de cura.",
+    "desc": "Identificar uma planta (CD 10)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Outras Ferramentas",
       "key": "tools"
     },
     "weapon": null,
@@ -2763,9 +2799,9 @@
   {
     "key": "srd_horn",
     "name": "Trombeta",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -2911,9 +2947,9 @@
   {
     "key": "srd_jewelers-tools",
     "name": "Ferramentas de Joalheiro",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Discernir o valor de uma gema (CD 15) Fabricação: Foco Arcano, Símbolo Sagrado",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -3195,9 +3231,9 @@
   {
     "key": "srd_leatherworkers-tools",
     "name": "Ferramentas de Coureiro",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Moldar a estética de um item de couro (CD 10) Fabricação: Algibeira, Aljava, Armadura de Couro, Armadura de Couro Batido, Cantil, Chicote, Estojo de Mapa ou Pergaminho, Estojo de Virotes de Besta, Funda, Gibão de Peles, Mochila, Pergaminho",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -3411,9 +3447,9 @@
   {
     "key": "srd_lute",
     "name": "Alaúde",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -3429,9 +3465,9 @@
   {
     "key": "srd_lyre",
     "name": "Lira",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -3532,9 +3568,9 @@
   {
     "key": "srd_masons-tools",
     "name": "Ferramentas de Pedreiro",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Cinzelar um símbolo ou buraco na pedra (CD 10) Fabricação: Roldana e Polias",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -3683,9 +3719,9 @@
   {
     "key": "srd_navigators-tools",
     "name": "Ferramentas de Navegador",
-    "desc": "Este conjunto de instrumentos é usado para navegação no mar. A proficiência com ferramentas de navegador permite traçar o curso de um navio e seguir cartas de navegação. Além disso, essas ferramentas permitem adicionar seu bônus de proficiência a qualquer teste de habilidade que você faça para evitar se perder no mar.",
+    "desc": "Traçar uma rota (CD 10) ou determinar a posição observando as estrelas (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Outras Ferramentas",
       "key": "tools"
     },
     "weapon": null,
@@ -3831,9 +3867,9 @@
   {
     "key": "srd_painters-supplies",
     "name": "Suprimentos de Pintor",
-    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nProficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Fazer uma pintura reconhecível de algo que você viu (CD 10) Fabricação: Foco Druídico, Símbolo Sagrado",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -3867,9 +3903,9 @@
   {
     "key": "srd_pan-flute",
     "name": "Flauta de Pã",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de atributo que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco para conjuração de magias. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -4123,9 +4159,9 @@
   {
     "key": "srd_playing-card-set",
     "name": "Baralho de cartas",
-    "desc": "Este item abrange uma ampla variedade de peças para jogos, incluindo dados e baralhos de cartas (para jogos como Three-Dragon Ante). Alguns exemplos comuns aparecem na tabela de Ferramentas, mas existem outros tipos de conjuntos de jogos. Se você tiver proficiência com um conjunto de jogos, pode adicionar seu bônus de proficiência aos testes de atributo que fizer para jogar um jogo com esse conjunto. Cada tipo de conjunto de jogos exige uma proficiência separada.",
+    "desc": "Discernir se alguém está trapaceando (CD 10) ou ganhar o jogo (CD 20)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Jogos",
       "key": "tools"
     },
     "weapon": null,
@@ -4159,9 +4195,9 @@
   {
     "key": "srd_poisoners-kit",
     "name": "Kit de Veneno",
-    "desc": "Um kit de veneno inclui os frascos, produtos químicos e outros equipamentos necessários para a criação de venenos. A proficiência com este kit permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer para fabricar ou usar venenos.",
+    "desc": "Detectar um objeto envenenado (CD 10)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Outras Ferramentas",
       "key": "tools"
     },
     "weapon": null,
@@ -4213,9 +4249,9 @@
   {
     "key": "srd_potters-tools",
     "name": "Ferramentas de Oleiro",
-    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Discernir como um objeto de cerâmica foi manuseado nas últimas 24 horas (CD 15) Fabricação: Jarro, Lâmpada",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -4738,10 +4774,10 @@
   },
   {
     "key": "srd_shawm",
-    "name": "Charamela",
-    "desc": "Vários dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de atributo que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "name": "Oboé",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -5105,9 +5141,9 @@
   {
     "key": "srd_smiths-tools",
     "name": "Ferramentas de Ferreiro",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de atributo que você fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Forçar a abertura de uma porta ou recipiente (CD 20) Fabricação: qualquer arma Corpo a Corpo (exceto Cajado, Chicote, Clava, Clava Grande), armadura Média (exceto Gibão de Peles), armadura Pesada, Arpéu e Gancho, Balas de Arma de Fogo, Balas de Funda, Balde, Corrente, Esferas de Metal, Estacas de Ferro, Estrepes, Panela de Ferro, Pé de Cabra",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -5375,9 +5411,9 @@
   {
     "key": "srd_thieves-tools",
     "name": "Ferramentas de Ladrão",
-    "desc": "Este conjunto de ferramentas inclui uma pequena lima, um conjunto de gazuas, um pequeno espelho montado em um cabo de metal, um conjunto de tesouras de lâmina estreita e um par de alicates. A proficiência com essas ferramentas permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você faça para desarmar armadilhas ou abrir fechaduras.",
+    "desc": "Abrir uma fechadura (CD 15) ou desarmar uma armadilha (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Outras Ferramentas",
       "key": "tools"
     },
     "weapon": null,
@@ -5411,9 +5447,9 @@
   {
     "key": "srd_tinkers-tools",
     "name": "Ferramentas de Funileiro",
-    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você faça usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Monte um item Minúsculo composto de sucata, que se desfaz em 1 minuto (CD 20) Fabricação: Apito Sinalizador, Armadilha de Caça, Cadeado ou Fechadura, Caixa para Fogo, Espelho, Grilhões, Lanterna Coberta, Lanterna Foca-Facho, Mosquete, Pá, Pistola,Pote, Sino",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -5549,9 +5585,9 @@
   {
     "key": "srd_viol",
     "name": "Violino",
-    "desc": "Alguns dos tipos mais comuns de instrumentos musicais são apresentados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, poderá adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical exige uma proficiência separada.",
+    "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
     "category": {
-      "name": "Ferramentas",
+      "name": "Instrumentos Musicais",
       "key": "tools"
     },
     "weapon": null,
@@ -5719,9 +5755,9 @@
   {
     "key": "srd_weavers-tools",
     "name": "Ferramentas de Tecelão",
-    "desc": "Essas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a quaisquer testes de habilidade que você faça usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Reparar um rasgo em uma roupa (CD 10) ou costurar um ornamento Minúsculo (CD 10) Fabricação: Armadura Acolchoada, Cesta, Cobertor, Saco de Dormir, Roupas Finas, Rede, Túnica, Corda, Saca, Cordão, Tenda, Roupas de Viagem",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
@@ -5821,9 +5857,9 @@
   {
     "key": "srd_woodcarvers-tools",
     "name": "Ferramentas de Entalhador",
-    "desc": "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou profissão.\n\n\r\nA proficiência com um conjunto de ferramentas de artesão permite adicionar seu bônus de proficiência a qualquer teste de habilidade que você faça usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão exige uma proficiência separada.",
+    "desc": "Entalhar um padrão em madeira (CD 10) Fabricação: Armas à Distância (exceto Funda, Mosquete e Pistola), Cajado, Caneta Tinteiro, Clava, Clava Grande, Dardos, Flechas, Foco Arcano, Foco Druídico, Virotes",
     "category": {
-      "name": "Ferramentas",
+      "name": "Ferramentas de Artesão",
       "key": "tools"
     },
     "weapon": null,
