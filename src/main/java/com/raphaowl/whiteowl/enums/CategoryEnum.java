@@ -10,9 +10,7 @@ import lombok.Getter;
 @Getter
 public enum CategoryEnum {
     ADVENTURING_GEAR("adventuring-gear", "Equipamentos de Aventura"),
-    AMMUNITION("ammunition", "Munições"),
     ARMOR("armor", "Armaduras"),
-    POISON("poison", "Venenos"),
     TOOLS("tools", "Ferramentas"),
     TRADE_GOOD("trade-good", "Bens Comerciais"),
     WEAPON("weapon", "Armas"),

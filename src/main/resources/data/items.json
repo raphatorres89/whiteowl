@@ -131,7 +131,7 @@
     "desc": "20 flechas para Arco. Devem ser armazenadas em uma aljava",
     "category": {
       "name": "Munição",
-      "key": "ammunition"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -142,24 +142,6 @@
     "weight": "0.5",
     "weight_unit": "kg",
     "cost": "1"
-  },
-  {
-    "key": "srd_assassins-blood",
-    "name": "Sangue de Assassino",
-    "desc": "Uma criatura exposta a este veneno deve realizar um teste de resistência de Constituição CD 10. Se falhar, sofre 6 (1d12) de dano de veneno e fica envenenada por 24 horas. Se obtiver sucesso, sofre metade do dano e não fica envenenada.\n\n\r\n\r\n***Ingerido.*** Uma criatura deve engolir uma dose inteira de um veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem no teste de resistência ou causar apenas metade do dano em caso de falha.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "150.00"
   },
   {
     "key": "srd_backpack",
@@ -471,7 +453,7 @@
     "desc": "Dardos para serem disparados com uma zarabatana.",
     "category": {
       "name": "Munição",
-      "key": "ammunition"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -582,24 +564,6 @@
     "weight": "1",
     "weight_unit": "kg",
     "cost": "0.05"
-  },
-  {
-    "key": "srd_burnt-othur-fumes",
-    "name": "Fumaça de Othur Queimado",
-    "desc": "Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou sofrerá 10 (3d6) de dano de veneno e deverá repetir o teste de resistência no início de cada um de seus turnos. A cada teste de resistência falho subsequente, a criatura sofre 3 (1d6) de dano de veneno. Após três testes de resistência bem-sucedidos, o veneno termina.\n\n***Inalado.*** Esses venenos são pós ou gases que fazem efeito quando inalados. Soprar o pó ou liberar o gás afeta criaturas dentro de um cubo de 1,5 metro. A nuvem resultante se dissipa imediatamente. Prender a respiração é ineficaz contra venenos inalados, pois eles afetam as membranas nasais, os canais lacrimais e outras partes do corpo.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "500.00"
   },
   {
     "key": "srd_calligraphers-supplies",
@@ -1526,30 +1490,12 @@
     "cost": "10.00"
   },
   {
-    "key": "srd_crawler-mucus",
-    "name": "Muco de Rastejador",
-    "desc": "Este veneno deve ser coletado de um rastejador morto ou incapacitado. Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou ficará envenenada por 1 minuto. A criatura envenenada fica paralisada. A criatura pode repetir o teste de resistência ao final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.\n\n***Contato.*** O veneno de contato pode ser espalhado sobre um objeto e permanece potente até ser tocado ou lavado. Uma criatura que tocar o veneno de contato com a pele exposta sofre seus efeitos.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "200.00"
-  },
-  {
     "key": "srd_crossbow-bolt",
     "name": "Virotes",
     "desc": "20 virotes de besta. Devem ser armazenados em um estojo",
     "category": {
       "name": "Munição",
-      "key": "ammunition"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -2054,24 +2000,6 @@
     "cost": "25.00"
   },
   {
-    "key": "srd_drow-poison",
-    "name": "Veneno drow",
-    "desc": "Este veneno é normalmente produzido apenas pelos drow, e somente em um local muito distante da luz do sol. Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou ficará envenenada por 1 hora. Se falhar no teste de resistência por 5 ou mais, a criatura também ficará inconsciente enquanto estiver envenenada dessa forma. A criatura acorda se sofrer dano ou se outra criatura usar uma ação para acordá-la.\r\n\n\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser aplicado por meio de um ferimento ou lavado. Uma criatura que sofra dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "200.00"
-  },
-  {
     "key": "srd_drum",
     "name": "Tambor",
     "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
@@ -2142,24 +2070,6 @@
     "weight": "0",
     "weight_unit": "kg",
     "cost": "5.00"
-  },
-  {
-    "key": "srd_essense-of-either",
-    "name": "Essência de éter",
-    "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 15 ou ficará envenenada por 8 horas. A criatura envenenada fica inconsciente. A criatura acorda se sofrer dano ou se outra criatura usar uma ação para acordá-la.\n\n***Inalado.*** Esses venenos são pós ou gases que fazem efeito quando inalados. Soprar o pó ou liberar o gás submete as criaturas em um cubo de 1,5 metro a seus efeitos. A nuvem resultante se dissipa imediatamente depois. Prender a respiração é ineficaz contra venenos inalados, pois eles afetam as membranas nasais, os canais lacrimais e outras partes do corpo.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "300.00"
   },
   {
     "key": "srd_fishing-tackle",
@@ -3620,24 +3530,6 @@
     "cost": "100.00"
   },
   {
-    "key": "srd_malice",
-    "name": "Malícia",
-    "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 15 ou ficará envenenada por 1 hora. A criatura envenenada fica cega.\n\n***Inalado.*** Esses venenos são pós ou gases que fazem efeito quando inalados. Soprar o pó ou liberar o gás submete as criaturas em um cubo de 1,5 metro aos seus efeitos. A nuvem resultante se dissipa imediatamente depois. Prender a respiração é ineficaz contra venenos inalados, pois eles afetam as membranas nasais, os canais lacrimais e outras partes do corpo.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "250.00"
-  },
-  {
     "key": "srd_manacles",
     "name": "Grilhões",
     "desc": "Como uma ação Usar Objeto, você pode usar Grilhões para prender uma criatura Pequena ou Média involuntária a até 1,5 metro de você que tem a condição Contido, Imobilizado ou Incapacitado, se você for bem-sucedido em um teste de Destreza (Prestidigitação) CD 13. Enquanto presa, uma criatura tem Desvantagem em jogadas de ataque, e a criatura está Contida se os grilhões estiverem presos a uma corrente ou gancho fixo no lugar. Escapar dos grilhões requer um teste bem-sucedido de Destreza (Prestidigitação) CD 20 como uma ação. Estourá-los requer um teste bem-sucedido de Força (Atletismo) CD 25 como uma ação. Um conjunto de Grilhões vem com uma chave. Sem a chave, uma criatura pode usar Ferramentas de Ladrão para abrir os Grilhões com um teste bem-sucedido de Destreza (Prestidigitação) CD 15.",
@@ -3738,24 +3630,6 @@
     "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.20"
-  },
-  {
-    "key": "srd_midnight-tears",
-    "name": "Lágrimas da Meia-Noite",
-    "desc": "Uma criatura que ingere este veneno não sofre nenhum efeito até o badalar da meia-noite. Se o veneno não tiver sido neutralizado até então, a criatura deve ser bem-sucedida em um teste de resistência de Constituição CD 17, sofrendo 31 (9d6) de dano de veneno em caso de falha, ou metade desse dano em caso de sucesso.\n\n ***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem no teste de resistência ou causar apenas metade do dano em caso de falha.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "1500.00"
   },
   {
     "key": "srd_mirror-steel",
@@ -3873,24 +3747,6 @@
     "cost": "1.00"
   },
   {
-    "key": "srd_oil-of-taggit",
-    "name": "Óleo de Taggit",
-    "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou ficará envenenada por 24 horas. A criatura envenenada fica inconsciente. A criatura acorda se sofrer dano.\n\n ***Contato.*** Venenos de contato podem ser espalhados sobre um objeto e permanecem potentes até serem tocados ou removidos com água. Uma criatura que tocar o veneno de contato com a pele exposta sofre seus efeitos.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "400.00"
-  },
-  {
     "key": "srd_orb",
     "name": "Orbe",
     "desc": "Um Foco Arcano assume uma das formas na tabela Foco Arcano e é adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usar tal item como um Foco de Conjuração.",
@@ -3971,24 +3827,6 @@
     "weight": "2.5",
     "weight_unit": "kg",
     "cost": "10.00"
-  },
-  {
-    "key": "srd_pale-tincture",
-    "name": "Tintura pálida",
-    "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 16 ou sofrerá 3 (1d6) de dano de veneno e ficará envenenada. A criatura envenenada deve repetir o teste de resistência a cada 24 horas, sofrendo 3 (1d6) de dano de veneno em caso de falha. Enquanto este veneno não terminar, o dano causado pelo veneno não pode ser curado por nenhum meio. Após obter sucesso em sete testes de resistência, o efeito termina e a criatura pode se curar normalmente. \n\n ***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem no teste de resistência ou causar apenas metade do dano em caso de falha.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "250.00"
   },
   {
     "key": "srd_pan-flute",
@@ -4269,7 +4107,7 @@
     "name": "Veneno básico",
     "desc": "Como uma Ação Bônus, você pode usar um frasco de Veneno Básico para revestir uma arma ou até três peças de munição. Uma criatura que sofre dano Perfurante ou Cortante da arma ou munição envenenada sofre 1d4 pontos de dano Venenoso adicional. Uma vez aplicado, o veneno retém a potência por 1 minuto ou até que o dano dele seja causado, o que ocorrer primeiro.",
     "category": {
-      "name": "Veneno",
+      "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -4389,24 +4227,6 @@
     "weight": "0.5",
     "weight_unit": "kg",
     "cost": "0.50"
-  },
-  {
-    "key": "srd_purple-worm-poison",
-    "name": "Veneno de verme púrpura",
-    "desc": "Este veneno deve ser extraído de um verme púrpura morto ou incapacitado. Uma criatura submetida a este veneno deve realizar um teste de resistência de Constituição CD 19, sofrendo 42 (12d6) de dano de veneno em caso de falha, ou metade desse dano em caso de sucesso.\r\n\n\n\r\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser introduzido em um ferimento ou removido com água. Uma criatura que sofra dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "2000.00"
   },
   {
     "key": "srd_quarterstaff",
@@ -4881,24 +4701,6 @@
     "cost": "0.50"
   },
   {
-    "key": "srd_serpent-venom",
-    "name": "Veneno de Serpente",
-    "desc": "Este veneno deve ser extraído de uma cobra venenosa gigante morta ou incapacitada. Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 11, sofrendo 10 (3d6) de dano de veneno se falhar, ou metade desse dano se obtiver sucesso.\n\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser introduzido por meio de um ferimento ou ser removido. Uma criatura que sofrer dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "200.00"
-  },
-  {
     "key": "srd_shawm",
     "name": "Oboé",
     "desc": "Tocar uma música conhecida (CD 10) ou improvisar uma música (CD 15)",
@@ -5306,7 +5108,7 @@
     "desc": "Tecnicamente, o custo é de 20 unidades por 4 pp.",
     "category": {
       "name": "Munição",
-      "key": "ammunition"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -5661,24 +5463,6 @@
     "cost": "0.01"
   },
   {
-    "key": "srd_torpor",
-    "name": "Torpor",
-    "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em uma salvaguarda de Constituição CD 15 ou ficará envenenada por 4d6 horas. A criatura envenenada fica incapacitada.\r\n\n\n\r\n***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem na salvaguarda ou causar apenas metade do dano em uma falha.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "600.00"
-  },
-  {
     "key": "srd_trident",
     "name": "Tridente",
     "desc": "Um tridente.",
@@ -5725,24 +5509,6 @@
     "weight": "2",
     "weight_unit": "kg",
     "cost": "5.00"
-  },
-  {
-    "key": "srd_truth-serum",
-    "name": "Soro da Verdade",
-    "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em uma salvaguarda de Constituição CD 11 ou ficará envenenada por 1 hora. A criatura envenenada não pode conscientemente dizer uma mentira, como se estivesse sob o efeito da magia zona da verdade.\r\n\n\n\r\n***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem na salvaguarda ou causar apenas metade do dano em uma falha.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "150.00"
   },
   {
     "key": "srd_vial",
@@ -6091,24 +5857,6 @@
     "weight": "2",
     "weight_unit": "kg",
     "cost": "5.00"
-  },
-  {
-    "key": "srd_wyvern-poison",
-    "name": "Veneno de wyvern",
-    "desc": "Este veneno deve ser extraído de uma wyvern morta ou incapacitada. Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 15, sofrendo 24 (7d6) de dano de veneno se falhar, ou metade desse dano se for bem-sucedida.\r\n\n\n\r\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser introduzido através de um ferimento ou removido. Uma criatura que sofra dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
-    "category": {
-      "name": "Veneno",
-      "key": "adventuring-gear"
-    },
-    "weapon": null,
-    "armor": null,
-    "size": {
-      "name": "Minúsculo",
-      "key": "tiny"
-    },
-    "weight": "0",
-    "weight_unit": "kg",
-    "cost": "1200.00"
   },
   {
     "key": "srd_yew-wand",
