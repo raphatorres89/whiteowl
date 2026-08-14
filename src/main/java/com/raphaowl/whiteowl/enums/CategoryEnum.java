@@ -9,16 +9,14 @@ import lombok.Getter;
 
 @Getter
 public enum CategoryEnum {
-    ADVENTURING_GEAR("adventuring-gear", "Equipamento de Aventura"),
-    AMMUNITION("ammunition", "Munição"),
-    ARMOR("armor", "Armadura"),
-    DRAWN_VEHICLE("drawn-vehicle", "Veículo Puxado"),
-    POISON("poison", "Veneno"),
+    ADVENTURING_GEAR("adventuring-gear", "Equipamentos de Aventura"),
+    AMMUNITION("ammunition", "Munições"),
+    ARMOR("armor", "Armaduras"),
+    POISON("poison", "Venenos"),
     TOOLS("tools", "Ferramentas"),
-    TRADE_GOOD("trade-good", "Bem Comercial"),
-    WATERBORNE_VEHICLE("waterborne-vehicle", "Veículo Aquático"),
-    WEAPON("weapon", "Arma"),
-    LAND_VEHICLE("land-vehicle", "Veículo Terrestre");
+    TRADE_GOOD("trade-good", "Bens Comerciais"),
+    WEAPON("weapon", "Armas"),
+    VEHICLE("vehicle", "Veículos");
 
     private final String key;
     private final String label;

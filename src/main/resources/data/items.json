@@ -643,7 +643,7 @@
     "desc": "Veículo puxado.",
     "category": {
       "name": "Veículo Terrestre",
-      "key": "land-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -651,7 +651,7 @@
       "name": "Enorme",
       "key": "huge"
     },
-    "weight": "272.155",
+    "weight": "300",
     "weight_unit": "kg",
     "cost": "100.00"
   },
@@ -661,7 +661,7 @@
     "desc": "Veículo puxado.",
     "category": {
       "name": "Veículo Terrestre",
-      "key": "land-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -669,9 +669,153 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "90.718",
+    "weight": "100",
     "weight_unit": "kg",
     "cost": "15.00"
+  },
+  {
+    "key": "srd_camel",
+    "name": "Camelo",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "225",
+    "weight_unit": "kg",
+    "cost": "50.00"
+  },
+  {
+    "key": "srd_draft_horse",
+    "name": "Cavalo de Carga",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "270",
+    "weight_unit": "kg",
+    "cost": "50.00"
+  },
+  {
+    "key": "srd_war_horse",
+    "name": "Cavalo de Guerra",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "270",
+    "weight_unit": "kg",
+    "cost": "400.00"
+  },
+  {
+    "key": "srd_riding_horse",
+    "name": "Cavalo de Montaria",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "240",
+    "weight_unit": "kg",
+    "cost": "75.00"
+  },
+  {
+    "key": "srd_elephant",
+    "name": "Elefante",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "660",
+    "weight_unit": "kg",
+    "cost": "200.00"
+  },
+  {
+    "key": "srd_mastiff",
+    "name": "Mastim",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Pequeno",
+      "key": "small"
+    },
+    "weight": "93",
+    "weight_unit": "kg",
+    "cost": "25.00"
+  },
+  {
+    "key": "srd_mule",
+    "name": "Mula",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "210",
+    "weight_unit": "kg",
+    "cost": "8.00"
+  },
+  {
+    "key": "srd_pony",
+    "name": "Pônei",
+    "desc": "Montarias e outos animais",
+    "category": {
+      "name": "Montaria",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Médio",
+      "key": "medium"
+    },
+    "weight": "112",
+    "weight_unit": "kg",
+    "cost": "30.00"
   },
   {
     "key": "srd_cartographers-tools",
@@ -839,11 +983,11 @@
   },
   {
     "key": "srd_chariot",
-    "name": "Carruagem",
+    "name": "Biga",
     "desc": "Veículo puxado.",
     "category": {
       "name": "Veículo Terrestre",
-      "key": "land-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -851,7 +995,7 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "45.359",
+    "weight": "50",
     "weight_unit": "kg",
     "cost": "250.00"
   },
@@ -2050,11 +2194,11 @@
   },
   {
     "key": "srd_galley",
-    "name": "Galé",
-    "desc": "Um veículo aquático. Velocidade: 6,44 km/h",
+    "name": "Galera",
+    "desc": "Velocidade de 6,5 km por hora. Tripulação: 80, Passageiros: -, Carga: 150 ton, CA: 15, PV: 500, Limiar de dano: 20",
     "category": {
       "name": "Veículo Aquático",
-      "key": "waterborne-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -2803,10 +2947,10 @@
   {
     "key": "srd_keelboat",
     "name": "Barco de quilha",
-    "desc": "Veículo aquático. Velocidade: 1,61 km/h.",
+    "desc": "Velocidade de 1,6 km por hora. Tripulação: 1, Passageiros: 6, Carga: 600kg, CA: 15, PV: 100, Limiar de dano: 10",
     "category": {
       "name": "Veículo Aquático",
-      "key": "waterborne-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -3208,11 +3352,11 @@
   },
   {
     "key": "srd_longship",
-    "name": "Navio longo",
-    "desc": "Veículo aquático. Velocidade: 4,83 km/h.",
+    "name": "Dracar",
+    "desc": "Velocidade de 4,8 km por hora. Tripulação: 40, Passageiros: 150, Carga: 10 ton, CA: 15, PV: 300, Limiar de dano: 15",
     "category": {
       "name": "Veículo Aquático",
-      "key": "waterborne-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -4375,10 +4519,10 @@
   {
     "key": "srd_rowboat",
     "name": "Barco a remo",
-    "desc": "Veículo aquático. Velocidade de 1,5 milhas por hora.",
+    "desc": "Velocidade de 2,4 km por hora. Tripulação: 1, Passageiros: 3, Carga: -, CA: 11, PV: 50, Limiar de dano: -",
     "category": {
       "name": "Veículo Aquático",
-      "key": "waterborne-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -4386,7 +4530,7 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "45.3",
+    "weight": "45",
     "weight_unit": "kg",
     "cost": "50.00"
   },
@@ -4428,11 +4572,11 @@
   },
   {
     "key": "srd_sailing-ship",
-    "name": "Navio à Vela",
-    "desc": "Veículo aquático. Velocidade de 2 mph.",
+    "name": "Veleiro",
+    "desc": "Velocidade de 3,2 km por hora. Tripulação: 20, Passageiros: 20, Carga: 100 ton, CA: 15, PV: 300, Limiar de dano: 15",
     "category": {
       "name": "Veículo Aquático",
-      "key": "waterborne-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -4888,7 +5032,7 @@
     "desc": "Veículo terrestre puxado.",
     "category": {
       "name": "Veículo Terrestre",
-      "key": "land-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -4896,7 +5040,7 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "136",
+    "weight": "150",
     "weight_unit": "kg",
     "cost": "20.00"
   },
@@ -5422,11 +5566,11 @@
   },
   {
     "key": "srd_wagon",
-    "name": "Carroça",
+    "name": "Vagão",
     "desc": "Veículo puxado.",
     "category": {
       "name": "Veículo Terrestre",
-      "key": "land-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,
@@ -5434,7 +5578,7 @@
       "name": "Grande",
       "key": "large"
     },
-    "weight": "181.000",
+    "weight": "200",
     "weight_unit": "kg",
     "cost": "35.00"
   },
@@ -5539,10 +5683,10 @@
   {
     "key": "srd_warship",
     "name": "Navio de Guerra",
-    "desc": "Veículo aquático. Velocidade: 2,5 milhas por hora.",
+    "desc": "Velocidade de 4 km por hora. Tripulação: 60, Passageiros: 60, Carga: 200 ton, CA: 15, PV: 500, Limiar de dano: 20",
     "category": {
       "name": "Veículo Aquático",
-      "key": "waterborne-vehicle"
+      "key": "vehicle"
     },
     "weapon": null,
     "armor": null,

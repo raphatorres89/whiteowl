@@ -2,7 +2,10 @@ package com.raphaowl.whiteowl.controller;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import com.raphaowl.whiteowl.controller.mapper.ItemMapper;
 import com.raphaowl.whiteowl.controller.view.ItemView;
@@ -45,6 +48,20 @@ public class ItemController {
 
         model.addAttribute("items", items);
         model.addAttribute("category", categoryEnum);
+        if (categoryEnum == CategoryEnum.VEHICLE) {
+            Map<String, List<ItemView>> vehicleItemsByType = items.stream()
+                    .collect(Collectors.groupingBy(ItemView::category))
+                    .entrySet().stream()
+                    .sorted(Map.Entry.comparingByKey(String.CASE_INSENSITIVE_ORDER))
+                    .collect(Collectors.toMap(
+                            Map.Entry::getKey,
+                            entry -> entry.getValue().stream()
+                                    .sorted(Comparator.comparing(ItemView::name))
+                                    .toList(),
+                            (left, right) -> left,
+                            LinkedHashMap::new));
+            model.addAttribute("vehicleItemsByType", vehicleItemsByType);
+        }
 
         model.addAttribute("breadcrumbs", BreadcrumbBuilder.buildBreadcrumb("Itens", "/items", categoryEnum.getLabel()));
         return "item-category";
