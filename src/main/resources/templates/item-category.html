@@ -27,7 +27,6 @@
 
         <div th:if="${!#lists.isEmpty(items) and category.getKey() == 'weapon'}"
              class="space-y-8">
-            <p class="text-sm text-gray-400">Clique no título da coluna para ordenar.</p>
 
             <div class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6">
                 <div th:each="weaponGroup : ${weaponItemsByType}">
@@ -127,7 +126,6 @@
 
         <div th:if="${!#lists.isEmpty(items) and category.getKey() == 'armor'}"
              class="space-y-8">
-            <p class="text-sm text-gray-400">Clique no título da coluna para ordenar.</p>
 
             <div class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6">
                 <div th:each="armorGroup : ${armorItemsByType}">
@@ -238,98 +236,15 @@
             </script>
         </div>
 
-        <div th:if="${!#lists.isEmpty(items) and category.getKey() == 'vehicle'}"
+        <div th:if="${!#lists.isEmpty(items) and category.getKey() != 'weapon' and category.getKey() != 'armor'}"
              class="space-y-8">
-            <p class="text-sm text-gray-400">Clique no título da coluna para ordenar.</p>
 
             <div class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6">
-            <div th:each="vehicleGroup : ${vehicleItemsByType}">
-                <h2 class="text-2xl text-gold mb-4 pt-4" th:text="${vehicleGroup.key}">Veículo Aquático</h2>
-
-                <div class="overflow-x-auto">
-                    <table class="min-w-full text-sm text-left text-gray-300 vehicleTable">
-                        <thead class="text-xs uppercase tracking-wide text-gray-400 border-b border-gray-800">
-                        <tr>
-                            <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="name">Nome</th>
-                            <th class="px-3 py-2">Descrição</th>
-                            <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="weight">Peso</th>
-                            <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="cost">Custo</th>
-                        </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-800/80 vehicleTableBody">
-                        <tr th:each="item : ${vehicleGroup.value}"
-                            class="hover:bg-black/20 transition"
-                            th:attr="data-name=${item.name},
-                                     data-weight=${item.weight != null ? item.weight : -1},
-                                     data-cost=${item.cost != null ? item.cost : -1}">
-                            <td class="px-3 py-3 text-white font-medium" th:text="${item.name}">Veículo</td>
-                            <td class="px-3 py-3 text-gray-400 max-w-xl" th:text="${item.description}">Descrição do item</td>
-                            <td class="px-3 py-3" th:text="${item.weight != null ? item.weight + ' ' + item.weightUnit : '-'}">1 kg</td>
-                            <td class="px-3 py-3" th:text="${item.cost != null ? item.cost + ' PO' : '-'}">10 PO</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            </div>
-
-            <script>
-                (() => {
-                    const tables = document.querySelectorAll('.vehicleTable');
-                    if (!tables.length) return;
-
-                    tables.forEach((table) => {
-                        const tbody = table.querySelector('.vehicleTableBody');
-                        if (!tbody) return;
-
-                        const headers = table.querySelectorAll('[data-sort-key]');
-                        let currentSortKey = null;
-                        let currentDirection = 1;
-
-                        const getValue = (row, key) => {
-                            if (key === 'name') return (row.dataset.name || '').toLowerCase();
-                            if (key === 'weight') return Number(row.dataset.weight ?? -1);
-                            if (key === 'cost') return Number(row.dataset.cost ?? -1);
-                            return '';
-                        };
-
-                        const sortRows = (key) => {
-                            if (currentSortKey === key) {
-                                currentDirection *= -1;
-                            } else {
-                                currentSortKey = key;
-                                currentDirection = 1;
-                            }
-
-                            const rows = Array.from(tbody.querySelectorAll('tr'));
-                            rows.sort((a, b) => {
-                                const aValue = getValue(a, key);
-                                const bValue = getValue(b, key);
-                                if (aValue < bValue) return -1 * currentDirection;
-                                if (aValue > bValue) return 1 * currentDirection;
-                                return 0;
-                            });
-                            rows.forEach((row) => tbody.appendChild(row));
-                        };
-
-                        headers.forEach((header) => {
-                            header.addEventListener('click', () => sortRows(header.dataset.sortKey));
-                        });
-                    });
-                })();
-            </script>
-        </div>
-
-        <div th:if="${!#lists.isEmpty(items) and category.getKey() == 'adventuring-gear'}"
-             class="space-y-8">
-            <p class="text-sm text-gray-400">Clique no título da coluna para ordenar.</p>
-
-            <div class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6">
-                <div th:each="adventuringGearGroup : ${adventuringGearItemsByType}">
-                    <h2 class="text-2xl text-gold mb-4 pt-4" th:text="${adventuringGearGroup.key}">Equipamento de Aventura</h2>
+                <div th:each="standardGroup : ${standardItemsByType}">
+                    <h2 class="text-2xl text-gold mb-4 pt-4" th:text="${standardGroup.key}">Categoria</h2>
 
                     <div class="overflow-x-auto">
-                        <table class="min-w-full text-sm text-left text-gray-300 adventuringGearTable">
+                        <table class="min-w-full text-sm text-left text-gray-300 standardItemsTable">
                             <thead class="text-xs uppercase tracking-wide text-gray-400 border-b border-gray-800">
                             <tr>
                                 <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="name">Nome</th>
@@ -338,13 +253,13 @@
                                 <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="cost">Custo</th>
                             </tr>
                             </thead>
-                            <tbody class="divide-y divide-gray-800/80 adventuringGearTableBody">
-                            <tr th:each="item : ${adventuringGearGroup.value}"
+                            <tbody class="divide-y divide-gray-800/80 standardItemsTableBody">
+                            <tr th:each="item : ${standardGroup.value}"
                                 class="hover:bg-black/20 transition"
                                 th:attr="data-name=${item.name},
                                          data-weight=${item.weight != null ? item.weight : -1},
                                          data-cost=${item.cost != null ? item.cost : -1}">
-                                <td class="px-3 py-3 text-white font-medium" th:text="${item.name}">Corda de cânhamo</td>
+                                <td class="px-3 py-3 text-white font-medium" th:text="${item.name}">Item</td>
                                 <td class="px-3 py-3 text-gray-400 max-w-xl" th:text="${item.description}">Descrição do item</td>
                                 <td class="px-3 py-3" th:text="${item.weight != null ? item.weight + ' ' + item.weightUnit : '-'}">1 kg</td>
                                 <td class="px-3 py-3" th:text="${item.cost != null ? item.cost + ' PO' : '-'}">10 PO</td>
@@ -357,171 +272,11 @@
 
             <script>
                 (() => {
-                    const tables = document.querySelectorAll('.adventuringGearTable');
+                    const tables = document.querySelectorAll('.standardItemsTable');
                     if (!tables.length) return;
 
                     tables.forEach((table) => {
-                        const tbody = table.querySelector('.adventuringGearTableBody');
-                        if (!tbody) return;
-
-                        const headers = table.querySelectorAll('[data-sort-key]');
-                        let currentSortKey = null;
-                        let currentDirection = 1;
-
-                        const getValue = (row, key) => {
-                            if (key === 'name') return (row.dataset.name || '').toLowerCase();
-                            if (key === 'weight') return Number(row.dataset.weight ?? -1);
-                            if (key === 'cost') return Number(row.dataset.cost ?? -1);
-                            return '';
-                        };
-
-                        const sortRows = (key) => {
-                            if (currentSortKey === key) {
-                                currentDirection *= -1;
-                            } else {
-                                currentSortKey = key;
-                                currentDirection = 1;
-                            }
-
-                            const rows = Array.from(tbody.querySelectorAll('tr'));
-                            rows.sort((a, b) => {
-                                const aValue = getValue(a, key);
-                                const bValue = getValue(b, key);
-                                if (aValue < bValue) return -1 * currentDirection;
-                                if (aValue > bValue) return 1 * currentDirection;
-                                return 0;
-                            });
-                            rows.forEach((row) => tbody.appendChild(row));
-                        };
-
-                        headers.forEach((header) => {
-                            header.addEventListener('click', () => sortRows(header.dataset.sortKey));
-                        });
-                    });
-                })();
-            </script>
-        </div>
-
-        <div th:if="${!#lists.isEmpty(items) and category.getKey() == 'tools'}"
-             class="space-y-8">
-            <p class="text-sm text-gray-400">Clique no título da coluna para ordenar.</p>
-
-            <div class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6">
-                <div th:each="toolGroup : ${toolItemsByType}">
-                    <h2 class="text-2xl text-gold mb-4 pt-4" th:text="${toolGroup.key}">Ferramentas de Artesão</h2>
-
-                    <div class="overflow-x-auto">
-                        <table class="min-w-full text-sm text-left text-gray-300 toolsTable">
-                            <thead class="text-xs uppercase tracking-wide text-gray-400 border-b border-gray-800">
-                            <tr>
-                                <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="name">Nome</th>
-                                <th class="px-3 py-2">Descrição</th>
-                                <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="weight">Peso</th>
-                                <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="cost">Custo</th>
-                            </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-800/80 toolsTableBody">
-                            <tr th:each="item : ${toolGroup.value}"
-                                class="hover:bg-black/20 transition"
-                                th:attr="data-name=${item.name},
-                                         data-weight=${item.weight != null ? item.weight : -1},
-                                         data-cost=${item.cost != null ? item.cost : -1}">
-                                <td class="px-3 py-3 text-white font-medium" th:text="${item.name}">Ferramenta</td>
-                                <td class="px-3 py-3 text-gray-400 max-w-xl" th:text="${item.description}">Descrição do item</td>
-                                <td class="px-3 py-3" th:text="${item.weight != null ? item.weight + ' ' + item.weightUnit : '-'}">1 kg</td>
-                                <td class="px-3 py-3" th:text="${item.cost != null ? item.cost + ' PO' : '-'}">10 PO</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <script>
-                (() => {
-                    const tables = document.querySelectorAll('.toolsTable');
-                    if (!tables.length) return;
-
-                    tables.forEach((table) => {
-                        const tbody = table.querySelector('.toolsTableBody');
-                        if (!tbody) return;
-
-                        const headers = table.querySelectorAll('[data-sort-key]');
-                        let currentSortKey = null;
-                        let currentDirection = 1;
-
-                        const getValue = (row, key) => {
-                            if (key === 'name') return (row.dataset.name || '').toLowerCase();
-                            if (key === 'weight') return Number(row.dataset.weight ?? -1);
-                            if (key === 'cost') return Number(row.dataset.cost ?? -1);
-                            return '';
-                        };
-
-                        const sortRows = (key) => {
-                            if (currentSortKey === key) {
-                                currentDirection *= -1;
-                            } else {
-                                currentSortKey = key;
-                                currentDirection = 1;
-                            }
-
-                            const rows = Array.from(tbody.querySelectorAll('tr'));
-                            rows.sort((a, b) => {
-                                const aValue = getValue(a, key);
-                                const bValue = getValue(b, key);
-                                if (aValue < bValue) return -1 * currentDirection;
-                                if (aValue > bValue) return 1 * currentDirection;
-                                return 0;
-                            });
-                            rows.forEach((row) => tbody.appendChild(row));
-                        };
-
-                        headers.forEach((header) => {
-                            header.addEventListener('click', () => sortRows(header.dataset.sortKey));
-                        });
-                    });
-                })();
-            </script>
-        </div>
-
-        <div th:if="${!#lists.isEmpty(items) and category.getKey() != 'weapon' and category.getKey() != 'armor' and category.getKey() != 'vehicle' and category.getKey() != 'adventuring-gear' and category.getKey() != 'tools'}"
-             class="space-y-8">
-            <p class="text-sm text-gray-400">Clique no título da coluna para ordenar.</p>
-
-            <div class="bg-card border border-gray-800 rounded-2xl p-4 md:p-6">
-                <div class="overflow-x-auto">
-                    <table class="min-w-full text-sm text-left text-gray-300 defaultItemsTable">
-                        <thead class="text-xs uppercase tracking-wide text-gray-400 border-b border-gray-800">
-                        <tr>
-                            <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="name">Nome</th>
-                            <th class="px-3 py-2">Descrição</th>
-                            <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="weight">Peso</th>
-                            <th class="px-3 py-2 cursor-pointer select-none" data-sort-key="cost">Custo</th>
-                        </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-800/80 defaultItemsTableBody">
-                        <tr th:each="item : ${items}"
-                            class="hover:bg-black/20 transition"
-                            th:attr="data-name=${item.name},
-                                     data-weight=${item.weight != null ? item.weight : -1},
-                                     data-cost=${item.cost != null ? item.cost : -1}">
-                            <td class="px-3 py-3 text-white font-medium" th:text="${item.name}">Item</td>
-                            <td class="px-3 py-3 text-gray-400 max-w-xl" th:text="${item.description}">Descrição do item</td>
-                            <td class="px-3 py-3" th:text="${item.weight != null ? item.weight + ' ' + item.weightUnit : '-'}">1 kg</td>
-                            <td class="px-3 py-3" th:text="${item.cost != null ? item.cost + ' PO' : '-'}">10 PO</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <script>
-                (() => {
-                    const tables = document.querySelectorAll('.defaultItemsTable');
-                    if (!tables.length) return;
-
-                    tables.forEach((table) => {
-                        const tbody = table.querySelector('.defaultItemsTableBody');
+                        const tbody = table.querySelector('.standardItemsTableBody');
                         if (!tbody) return;
 
                         const headers = table.querySelectorAll('[data-sort-key]');
