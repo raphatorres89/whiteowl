@@ -1808,9 +1808,9 @@
   {
     "key": "srd_crystal",
     "name": "Cristal",
-    "desc": "Pode ser usado como foco arcano.",
+    "desc": "Um Foco Arcano assume uma das formas na tabela Foco Arcano e é adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usar tal item como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Arcano",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -3803,9 +3803,9 @@
   {
     "key": "srd_orb",
     "name": "Orbe",
-    "desc": "Pode ser usado como foco arcano.",
+    "desc": "Um Foco Arcano assume uma das formas na tabela Foco Arcano e é adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usar tal item como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Arcano",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -4501,9 +4501,9 @@
   {
     "key": "srd_rod",
     "name": "Cajado (também um Bastão)",
-    "desc": "Pode ser usado como foco arcano.",
+    "desc": "Um Foco Arcano assume uma das formas na tabela Foco Arcano e é adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usar tal item como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Arcano",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -5289,9 +5289,9 @@
   {
     "key": "srd_sprig-of-mistletoe",
     "name": "Ramo de Visco",
-    "desc": "Um ramo de visco que pode ser usado como foco druídico.",
+    "desc": "Um Foco Druídico assume uma das formas apresenta-das na tabela Foco Druídico e é esculpido, amarrado com fita ou pintado para canalizar magia primitiva. Um Druida ou Guardião pode usar um objeto como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Druídico",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -5325,9 +5325,9 @@
   {
     "key": "srd_staff",
     "name": "Cetro",
-    "desc": "Pode ser usado como foco arcano.",
+    "desc": "Um Foco Arcano assume uma das formas na tabela Foco Arcano e é adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usar tal item como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Arcano",
       "key": "adventuring-gear"
     },
     "weapon": {
@@ -5621,9 +5621,9 @@
   {
     "key": "srd_wand",
     "name": "Varinha",
-    "desc": "Pode ser usada como foco arcano.",
+    "desc": "Um Foco Arcano assume uma das formas na tabela Foco Arcano e é adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usar tal item como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Arcano",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -5875,9 +5875,9 @@
   {
     "key": "srd_wooden-staff",
     "name": "Cajado de madeira (também um Bastão)",
-    "desc": "Pode ser usado como foco druídico.",
+    "desc": "Um Foco Druídico assume uma das formas apresenta-das na tabela Foco Druídico e é esculpido, amarrado com fita ou pintado para canalizar magia primitiva. Um Druida ou Guardião pode usar um objeto como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Druídico",
       "key": "adventuring-gear"
     },
     "weapon": {
@@ -5933,9 +5933,9 @@
   {
     "key": "srd_yew-wand",
     "name": "Varinha de teixo",
-    "desc": "Pode ser usada como foco druídico.",
+    "desc": "Um Foco Druídico assume uma das formas apresenta-das na tabela Foco Druídico e é esculpido, amarrado com fita ou pintado para canalizar magia primitiva. Um Druida ou Guardião pode usar um objeto como um Foco de Conjuração.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Foco Druídico",
       "key": "adventuring-gear"
     },
     "weapon": null,
