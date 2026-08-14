@@ -92,6 +92,20 @@ public class ItemController {
                             LinkedHashMap::new));
             model.addAttribute("toolItemsByType", toolItemsByType);
         }
+        if (categoryEnum == CategoryEnum.ADVENTURING_GEAR) {
+            Map<String, List<ItemView>> adventuringGearItemsByType = items.stream()
+                    .collect(Collectors.groupingBy(ItemView::category))
+                    .entrySet().stream()
+                    .sorted(Map.Entry.comparingByKey(String.CASE_INSENSITIVE_ORDER))
+                    .collect(Collectors.toMap(
+                            Map.Entry::getKey,
+                            entry -> entry.getValue().stream()
+                                    .sorted(Comparator.comparing(ItemView::name))
+                                    .toList(),
+                            (left, right) -> left,
+                            LinkedHashMap::new));
+            model.addAttribute("adventuringGearItemsByType", adventuringGearItemsByType);
+        }
         if (categoryEnum == CategoryEnum.WEAPON) {
             Map<String, List<ItemView>> weaponItemsByType = items.stream()
                     .collect(Collectors.groupingBy(ItemController::weaponGroupLabel))

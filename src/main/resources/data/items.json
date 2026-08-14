@@ -20,7 +20,7 @@
   {
     "key": "srd_acid",
     "name": "Ácido",
-    "desc": "Como uma ação, você pode espirrar o conteúdo deste frasco em uma criatura a até 1,5 metro de você ou arremessar o frasco a até 6 metros, quebrando-o com o impacto. Em ambos os casos, faça um ataque à distância contra uma criatura ou objeto, tratando o ácido como uma arma improvisada. Se acertar, o alvo sofre 2d6 de dano de ácido.",
+    "desc": "Ao executar a ação Atacar, você pode substituir um de seus ataques arremessando um frasco de Ácido. Ataque uma criatura ou objeto à sua vista a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofre 2d6 pontos de dano Ácido.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -55,8 +55,8 @@
   },
   {
     "key": "srd_alchemists-fire-flask",
-    "name": "Fogo Alquímico (frasco)",
-    "desc": "Este fluido viscoso e adesivo entra em combustão quando exposto ao ar. Como uma ação, você pode arremessar este frasco a até 6 metros, quebrando-o com o impacto. Faça um ataque à distância contra uma criatura ou objeto, tratando o fogo de alquimista como uma arma improvisada. Se acertar, o alvo sofre 1d4 de dano de fogo no início de cada um de seus turnos. Uma criatura pode encerrar esse dano usando sua ação para realizar um teste de Destreza CD 10 para apagar as chamas.",
+    "name": "Fogo Alquímico",
+    "desc": "Ao executar a ação Atacar, você pode substituir um de seus ataques arremessado um frasco de Fogo Alquímico. Escolha como alvo uma criatura ou objeto à sua vista a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofre 1d4 pontos de dano Ígneo e entra em combustão (veja o glossário de regras).",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -92,9 +92,9 @@
   {
     "key": "srd_amulet",
     "name": "Amuleto",
-    "desc": "Pode ser usado como símbolo sagrado.",
+    "desc": "Usado ou segurado. Um Símbolo Sagrado assume uma das formas na tabela Símbolo Sagrado e é adornado ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como um Foco de Conjuração. A tabela indica se um Símbolo Sagrado precisa ser segurado, usado ou exibido em tecido (como um tabardo ou um emblema) ou um Escudo.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Símbolo Sagrado",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -110,7 +110,7 @@
   {
     "key": "srd_antitoxin-vial",
     "name": "Antitoxina (frasco)",
-    "desc": "Uma criatura que beber este frasco de líquido recebe vantagem em testes de resistência contra veneno por 1 hora. Não concede nenhum benefício a mortos-vivos ou constructos.",
+    "desc": "Como uma Ação Bônus, você pode beber um frasco de Antitoxina para obter Vantagem nas salvaguardas para evitar ou encerrar a condição Envenenado por 1 hora.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -127,8 +127,8 @@
   },
   {
     "key": "srd_arrow-bow",
-    "name": "Flecha (arco)",
-    "desc": "Uma flecha para um arco.",
+    "name": "Flechas",
+    "desc": "20 flechas para Arco. Devem ser armazenadas em uma aljava",
     "category": {
       "name": "Munição",
       "key": "ammunition"
@@ -139,9 +139,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.02",
+    "weight": "0.5",
     "weight_unit": "kg",
-    "cost": "0.05"
+    "cost": "1"
   },
   {
     "key": "srd_assassins-blood",
@@ -149,7 +149,7 @@
     "desc": "Uma criatura exposta a este veneno deve realizar um teste de resistência de Constituição CD 10. Se falhar, sofre 6 (1d12) de dano de veneno e fica envenenada por 24 horas. Se obtiver sucesso, sofre metade do dano e não fica envenenada.\n\n\r\n\r\n***Ingerido.*** Uma criatura deve engolir uma dose inteira de um veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem no teste de resistência ou causar apenas metade do dano em caso de falha.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -164,7 +164,7 @@
   {
     "key": "srd_backpack",
     "name": "Mochila",
-    "desc": "Uma mochila. Capacidade: aproximadamente 28,3 litros ou 13,6 kg de equipamento.",
+    "desc": "Uma Mochila armazena até 15 quilos dentro de 30 centímetros cúbicos. Também pode servir como um alforje.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -178,6 +178,60 @@
     "weight": "2.5",
     "weight_unit": "kg",
     "cost": "2"
+  },
+  {
+    "key": "srd_blowgun_needles",
+    "name": "Agulhas",
+    "desc": "50 agulhas de zarabatana. Devem ser armazenadas em uma algibeira",
+    "category": {
+      "name": "Munição",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.5",
+    "weight_unit": "kg",
+    "cost": "1"
+  },
+  {
+    "key": "srd_bullets",
+    "name": "Balas, Arma de Fogo",
+    "desc": "10 balas de arma de fogo. Devem ser armazenadas em uma algibeira",
+    "category": {
+      "name": "Munição",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1",
+    "weight_unit": "kg",
+    "cost": "3"
+  },
+  {
+    "key": "srd_sling_bullets",
+    "name": "Balas, Funda",
+    "desc": "20 balas de funda. Devem ser armazenadas em uma algibeira",
+    "category": {
+      "name": "Munição",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.750",
+    "weight_unit": "kg",
+    "cost": "0.04"
   },
   {
     "key": "srd_bagpipes",
@@ -199,8 +253,8 @@
   },
   {
     "key": "srd_ball-bearings-bag-of-1000",
-    "name": "Esferas de Metal (saco com 1.000)",
-    "desc": "Como uma ação, você pode espalhar estas pequenas esferas de metal de sua bolsa para cobrir uma área quadrada e nivelada de aproximadamente 3 metros de lado. Uma criatura que se mova pela área coberta deve ser bem-sucedida em um teste de resistência de Destreza CD 10 ou ficará caída. Uma criatura que atravesse a área usando metade do deslocamento não precisa realizar o teste.",
+    "name": "Esferas de Metal",
+    "desc": "Como uma ação Usar Objeto, você pode derramar Esferas de Metal de sua algibeira. Elas se espalham para cobrir uma área nivelada quadrada de 3 metros de lados a até 3 metros de você. Uma criatura que entra nesta área pela primeira vez em um turno deve ser bem-sucedida em uma salvaguarda de Destreza CD 10 ou tem a condição Caído. Leva 10 minutos para recolher as Esferas de Metal.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -218,7 +272,7 @@
   {
     "key": "srd_barrel",
     "name": "Barril",
-    "desc": "Um barril. Capacidade: aproximadamente 151 litros de líquido ou 113 litros de sólidos.",
+    "desc": "Um Barril armazena até 160 litros de líquido ou até 0,16 metro cúbico de produtos secos.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -236,7 +290,7 @@
   {
     "key": "srd_basket",
     "name": "Cesta",
-    "desc": "Uma cesta. Capacidade: aproximadamente 57 litros ou 18 kg de equipamento.",
+    "desc": "Uma Cesta armazena até 20 quilos dentro de 60 centímetros cúbicos.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -294,7 +348,7 @@
   {
     "key": "srd_bedroll",
     "name": "Saco de Dormir",
-    "desc": "Um saco de dormir.",
+    "desc": "Um Saco de Dormir acomoda uma criatura Pequena ou Média. Enquanto estiver em um Saco de Dormir, você é automaticamente bem-sucedido em salvaguardas contra frio extremo (veja o Livro do Mestre).",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -312,7 +366,7 @@
   {
     "key": "srd_bell",
     "name": "Sino",
-    "desc": "Um sino.",
+    "desc": "Quando tocado como uma ação Usar Objeto, um Sino produz um som que pode ser ouvido a até 18 metros de distância.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -330,7 +384,7 @@
   {
     "key": "srd_blanket",
     "name": "Cobertor",
-    "desc": "Um cobertor.",
+    "desc": "Enquanto estiver envolto em um cobertor, você tem Vantagem em salvaguardas contra frio extremo (veja o Livro do Mestre).",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -348,7 +402,7 @@
   {
     "key": "srd_block-and-tackle",
     "name": "Roldana e Polias",
-    "desc": "Um conjunto de polias com um cabo passando por elas e um gancho para prender a objetos. Uma talha permite içar até quatro vezes o peso que você normalmente consegue levantar.",
+    "desc": "Roldana e Polias permitem içar até quatro vezes o peso que você normalmente pode levantar.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -432,7 +486,7 @@
   {
     "key": "srd_book",
     "name": "Livro",
-    "desc": "Um livro pode conter poesias, relatos históricos, informações sobre uma área específica de conhecimento, diagramas e anotações sobre invenções de gnomos ou praticamente qualquer outra coisa que possa ser representada por meio de textos ou imagens. Um livro de magias é um grimório (descrito posteriormente nesta seção).",
+    "desc": "Um livro contém texto de ficção ou não-ficção. Se você consultar um livro de não-ficção especializado em um determinado tema, você obtém um bônus de +5 em testes de Inteligência (Arcanismo, História, Natureza ou Religião) que você fizer sobre esse tema.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -450,7 +504,7 @@
   {
     "key": "srd_bottle-glass",
     "name": "Garrafa de Vidro",
-    "desc": "Uma garrafa de vidro. Capacidade: 1 litro de líquido.",
+    "desc": "Uma Garrafa de Vidro armazena até 1 litro.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -514,7 +568,7 @@
   {
     "key": "srd_bucket",
     "name": "Balde",
-    "desc": "Um balde. Capacidade: 11,36 litros de líquido ou 14,16 litros de sólidos.",
+    "desc": "Um Balde armazena até 0,3 metro cúbico de conteúdo.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -535,7 +589,7 @@
     "desc": "Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou sofrerá 10 (3d6) de dano de veneno e deverá repetir o teste de resistência no início de cada um de seus turnos. A cada teste de resistência falho subsequente, a criatura sofre 3 (1d6) de dano de veneno. Após três testes de resistência bem-sucedidos, o veneno termina.\n\n***Inalado.*** Esses venenos são pós ou gases que fazem efeito quando inalados. Soprar o pó ou liberar o gás afeta criaturas dentro de um cubo de 1,5 metro. A nuvem resultante se dissipa imediatamente. Prender a respiração é ineficaz contra venenos inalados, pois eles afetam as membranas nasais, os canais lacrimais e outras partes do corpo.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -567,8 +621,8 @@
   },
   {
     "key": "srd_caltrops-bag-of-20",
-    "name": "Estrepes (saco com 20)",
-    "desc": "Como uma ação, você pode espalhar um saco de estrepes para cobrir uma área quadrada de 1,5 metro de lado. Qualquer criatura que entre na área deve ser bem-sucedida em um teste de resistência de Destreza CD 15 ou para de se mover neste turno e sofre 1 de dano perfurante. Sofrer esse dano reduz o deslocamento de caminhada da criatura em 3 metros até que ela recupere pelo menos 1 ponto de vida. Uma criatura que atravesse a área usando metade do deslocamento não precisa realizar o teste de resistência.",
+    "name": "Estrepes",
+    "desc": "Como uma ação Usar Objeto, você pode espalhar Estrepes de sua bolsa para cobrir uma área quadrada de 1,5 metro de lados a até 1,5 metro de você. Uma criatura que entra nesta área pela primeira vez em um turno deve ser bem-sucedida em uma salvaguarda de Destreza CD 15 ou sofre 1 ponto de dano Perfurante e tem o Deslocamento reduzido a 0 até o início do próximo turno dela. Leva 10 minutos para recolher os Estrepes.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -586,7 +640,7 @@
   {
     "key": "srd_candle",
     "name": "Vela",
-    "desc": "Por 1 hora, uma vela emite luz plena em um raio de 1,5 metro e luz fraca por mais 1,5 metro.",
+    "desc": "Por 1 hora, uma Vela acesa emite Luz Plena em um raio de 1,5 metro e Meia-luz por mais 1,5 metro.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -838,7 +892,7 @@
   {
     "key": "srd_case-crossbow-bolt",
     "name": "Estojo, Virotes de Besta",
-    "desc": "Este estojo de madeira pode comportar até vinte virotes de besta.",
+    "desc": "Um Estojo de Virotes de Besta armazena até 20 Virotes.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -856,7 +910,7 @@
   {
     "key": "srd_case-map-or-scroll",
     "name": "Estojo, Mapa ou Pergaminho",
-    "desc": "Este estojo cilíndrico de couro pode comportar até dez folhas de papel enroladas ou cinco folhas de pergaminho enroladas.",
+    "desc": "Um Estojo de Mapa ou Pergaminho armazena até 10 folhas de papel ou 5 folhas de pergaminho.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -874,7 +928,7 @@
   {
     "key": "srd_map",
     "name": "Mapa",
-    "desc": "Este mapa pode ser usado para navegação e planejamento de viagens.",
+    "desc": "Se consultar um mapa detalhado, você obtém um bônus de +5 em testes de Sabedoria (Sobrevivência) que realizar para encontrar um caminho no lugar representado nele.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -891,8 +945,8 @@
   },
   {
     "key": "srd_chain-10-feet",
-    "name": "Corrente (3 metros)",
-    "desc": "Uma corrente tem 10 pontos de vida. Ela pode ser rompida com um teste de Força CD 20 bem-sucedido.",
+    "name": "Corrente",
+    "desc": "Como uma ação Usar Objeto, você pode enrolar uma Corrente em torno de uma criatura involuntária a até 1,5 metro de você, e ela tem a condição Contido, Imobilizado ou Incapacitado se você for bem-sucedido em um teste de Força (Atletismo) CD 13. Se as pernas da criatura estiverem amarradas, a criatura tem a condição Contido até escapar. Escapar da Corrente requer que a criatura realize um teste bem-sucedido de Destreza (Acrobacia) CD 18 como uma ação. Estourar a Corrente requer um teste bem-sucedido de Força (Atletismo) CD 20 como uma ação.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1002,7 +1056,7 @@
   {
     "key": "srd_chest",
     "name": "Baú",
-    "desc": "Um baú. Capacidade: 0,34 m³/136 kg de equipamento.",
+    "desc": "Um Baú armazena até 0,35 metros cúbicos (ou 350 litros) de conteúdo.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1218,7 +1272,7 @@
   {
     "key": "srd_tunic",
     "name": "Túnica",
-    "desc": "Uma Túnica tem significado vocacional ou cerimonial.Alguns eventos e locais admitem apenas pessoas vestindo uma Túnica com certas cores ou símbolos.",
+    "desc": "Uma Túnica tem significado vocacional ou cerimonial. Alguns eventos e locais admitem apenas pessoas vestindo uma Túnica com certas cores ou símbolos.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1235,8 +1289,8 @@
   },
   {
     "key": "srd_clothes-costume",
-    "name": "Roupas, Fantasia",
-    "desc": "Uma fantasia.",
+    "name": "Fantasia",
+    "desc": "Enquanto estiver usando uma Fantasia, você tem Vantagem em qualquer teste de atributo que realize para se passar pela pessoa ou tipo de pessoa que a Fantasia representa.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1254,7 +1308,7 @@
   {
     "key": "srd_clothes-fine",
     "name": "Roupas, Finas",
-    "desc": "Roupas elegantes.",
+    "desc": "Roupas Finas são feitas de tecidos caros e adornadas com detalhes habilmente trabalhados. Alguns eventos e locais admitem apenas pessoas vestindo essas roupas.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1272,7 +1326,7 @@
   {
     "key": "srd_clothes-travelers",
     "name": "Roupas, Viagem",
-    "desc": "Roupas de viajante.",
+    "desc": "Roupas de Viagem são roupas resistentes projetadas para viagens em vários ambientes.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1366,7 +1420,7 @@
   {
     "key": "srd_component-pouch",
     "name": "Bolsa de Componentes",
-    "desc": "Uma bolsa de componentes é uma pequena bolsa de couro impermeável presa a um cinto, com compartimentos para armazenar todos os componentes materiais e outros itens especiais necessários para conjurar suas magias, exceto aqueles componentes que possuem um custo específico (conforme indicado na descrição da magia).",
+    "desc": "Uma Bolsa de Componentes é à prova d’água e cheia de compartimentos que contêm todos os componentes Materiais sem custo de suas magias.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -1477,7 +1531,7 @@
     "desc": "Este veneno deve ser coletado de um rastejador morto ou incapacitado. Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou ficará envenenada por 1 minuto. A criatura envenenada fica paralisada. A criatura pode repetir o teste de resistência ao final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.\n\n***Contato.*** O veneno de contato pode ser espalhado sobre um objeto e permanece potente até ser tocado ou lavado. Uma criatura que tocar o veneno de contato com a pele exposta sofre seus efeitos.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -1491,8 +1545,8 @@
   },
   {
     "key": "srd_crossbow-bolt",
-    "name": "Virote de besta",
-    "desc": "Virotes usados em uma besta.",
+    "name": "Virotes",
+    "desc": "20 virotes de besta. Devem ser armazenados em um estojo",
     "category": {
       "name": "Munição",
       "key": "ammunition"
@@ -1503,9 +1557,9 @@
       "name": "Minúsculo",
       "key": "tiny"
     },
-    "weight": "0.036",
+    "weight": "0.750",
     "weight_unit": "kg",
-    "cost": "0.05"
+    "cost": "1"
   },
   {
     "key": "srd_crossbow-hand",
@@ -1790,7 +1844,7 @@
   {
     "key": "srd_crowbar",
     "name": "Pé de cabra",
-    "desc": "Usar um pé de cabra concede vantagem em testes de Força nos quais a alavancagem do pé de cabra possa ser aplicada.",
+    "desc": "Usar um Pé de Cabra concede a você Vantagem em testes de Força, onde a alavancagem do Pé de Cabra pode ser aplicada.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2005,7 +2059,7 @@
     "desc": "Este veneno é normalmente produzido apenas pelos drow, e somente em um local muito distante da luz do sol. Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou ficará envenenada por 1 hora. Se falhar no teste de resistência por 5 ou mais, a criatura também ficará inconsciente enquanto estiver envenenada dessa forma. A criatura acorda se sofrer dano ou se outra criatura usar uma ação para acordá-la.\r\n\n\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser aplicado por meio de um ferimento ou lavado. Uma criatura que sofra dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -2074,9 +2128,9 @@
   {
     "key": "srd_emblem",
     "name": "Emblema",
-    "desc": "Pode ser usado como símbolo sagrado.",
+    "desc": "Exibido em tecido ou em um escudo. Um Símbolo Sagrado assume uma das formas na tabela Símbolo Sagrado e é adornado ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como um Foco de Conjuração. A tabela indica se um Símbolo Sagrado precisa ser segurado, usado ou exibido em tecido (como um tabardo ou um emblema) ou um Escudo.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Símbolo Sagrado",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -2095,7 +2149,7 @@
     "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 15 ou ficará envenenada por 8 horas. A criatura envenenada fica inconsciente. A criatura acorda se sofrer dano ou se outra criatura usar uma ação para acordá-la.\n\n***Inalado.*** Esses venenos são pós ou gases que fazem efeito quando inalados. Soprar o pó ou liberar o gás submete as criaturas em um cubo de 1,5 metro a seus efeitos. A nuvem resultante se dissipa imediatamente depois. Prender a respiração é ineficaz contra venenos inalados, pois eles afetam as membranas nasais, os canais lacrimais e outras partes do corpo.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -2158,8 +2212,8 @@
   },
   {
     "key": "srd_flask-or-tankard",
-    "name": "Cantil ou caneca",
-    "desc": "Para beber. Capacidade: 500 ml de líquido.",
+    "name": "Cantil",
+    "desc": "Um Cantil comporta até 2 litros. Se você não beber água suficiente, corre o risco de desidratação (veja o glossário de regras).",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2395,7 +2449,7 @@
   {
     "key": "srd_grappling-hook",
     "name": "Arpéu",
-    "desc": "Um gancho de escalada.",
+    "desc": "Como uma ação Usar Objeto, você pode arremessar um Arpéu em um corrimão, uma borda ou outra superfície na qual pode ser ancorado, a até 15 metros de você, e o arpéu se ancora se você for bem-sucedido em um teste de Destreza (Acrobacia) CD 13. Se você amarrar uma corda no gancho, poderá escalá-la.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2715,6 +2769,24 @@
     "cost": "5.00"
   },
   {
+    "key": "srd_healing_potion",
+    "name": "Poção de Cura",
+    "desc": "Esta poção é um item mágico. Como uma Ação Bônus, você pode bebê-la ou administrá-la a outra criatura a até 1,5 metro de você. A criatura que beber o líquido vermelho mágico deste frasco restaura 2d4 + 2 Pontos de Vida.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.250",
+    "weight_unit": "kg",
+    "cost": "50"
+  },
+  {
     "key": "srd_healers-kit",
     "name": "Kit de Curandeiro",
     "desc": "Este kit é uma bolsa de couro contendo bandagens, unguentos e talas. O kit tem dez usos. Com uma ação, você pode gastar um uso do kit para estabilizar uma criatura que tenha 0 pontos de vida, sem precisar realizar um teste de Sabedoria (Medicina).",
@@ -2781,7 +2853,7 @@
   {
     "key": "srd_holy-water-flask",
     "name": "Água Benta (frasco)",
-    "desc": "Com uma ação, você pode espirrar o conteúdo deste frasco sobre uma criatura a até 1,5 metro de você ou arremessá-lo a até 6 metros, quebrando-o com o impacto. Em ambos os casos, faça um ataque à distância contra uma criatura-alvo, tratando a água benta como uma arma improvisada. Se o alvo for um corruptor ou morto-vivo, ele sofre 2d6 de dano radiante.\n\nUm clérigo ou paladino pode criar água benta realizando um ritual especial. O ritual leva 1 hora para ser realizado, usa prata em pó no valor de 25 po e exige que o conjurador gaste um espaço de magia de 1º nível.",
+    "desc": "Ao executar a ação Atacar, você pode substituir um de seus ataques arremessando um pote de Água Benta. Escolha como alvo uma criatura à sua vista a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modifi-cador de Destreza e Bônus de Proficiência) ou sofre 2d8 pontos de dano Radiante se for um Ínfero ou um Morto-vivo.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2835,7 +2907,7 @@
   {
     "key": "srd_hunting-trap",
     "name": "Armadilha de Caça",
-    "desc": "Quando você usa sua ação para prepará-la, esta armadilha forma um aro de aço serrilhado que se fecha quando uma criatura pisa em uma placa de pressão no centro. A armadilha é presa por uma corrente pesada a um objeto imóvel, como uma árvore ou uma estaca fincada no chão. Uma criatura que pise na placa deve ser bem-sucedida em um teste de resistência de Destreza CD 13 ou sofrerá 1d4 de dano perfurante e ficará impedida de se mover. A partir de então, até que a criatura se liberte da armadilha, seu movimento fica limitado pelo comprimento da corrente (normalmente 0,9 metro). Uma criatura pode usar sua ação para realizar um teste de Força CD 13, libertando a si mesma ou outra criatura ao seu alcance em caso de sucesso. Cada teste malsucedido causa 1 de dano perfurante à criatura presa.",
+    "desc": "Como uma ação Usar Objeto, você pode armar uma Armadilha de Caça, que é um anel de aço dentado que se fecha quando uma criatura pisa em uma placa de pressão no centro. A armadilha é presa em uma corrente pesada a um objeto imóvel, como uma árvore ou um espigão cravado no chão. Uma criatura que pisa no prato deve ser bem-sucedida em uma salvaguarda de Destreza CD 13 ou sofre 1d4 de dano Perfurante e tem o Deslocamento reduzido a 0 até o início de seu próximo turno. Depois disso, até que a criatura se liberte da armadilha, o movimento dela é limitado pelo comprimento da corrente (normalmente 1 metro). Uma criatura pode executar uma ação para realizar um teste de Força (Atletismo) CD 13, libertando-se ou libertando outra criatura ao alcance dela em caso de sucesso. Cada falha causa 1 ponto de dano Perfurante à criatura presa.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2852,8 +2924,8 @@
   },
   {
     "key": "srd_ink-1-ounce-bottle",
-    "name": "Tinta (frasco de 30 ml)",
-    "desc": "Um frasco de tinta.",
+    "name": "Tinta",
+    "desc": "A tinta vem em uma garrafa de 30 mililitros, que fornece tinta suficiente para escrever cerca de 500 páginas.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2871,7 +2943,7 @@
   {
     "key": "srd_ink-pen",
     "name": "Caneta Tinteiro",
-    "desc": "Uma caneta para escrever com tinta.",
+    "desc": "Usando Tinta, uma Caneta Tinteiro é usada para escrever ou desenhar.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -2965,7 +3037,7 @@
   {
     "key": "srd_jug-or-pitcher",
     "name": "Jarro",
-    "desc": "Para beber bastante. Capacidade: 4 litros de líquido.",
+    "desc": "Um Jarro armazena até 4 litros.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3000,8 +3072,8 @@
   },
   {
     "key": "srd_ladder-10-foot",
-    "name": "Escada (3 metros)",
-    "desc": "Uma escada de 3 metros.",
+    "name": "Escada",
+    "desc": "Uma Escada tem 3 metros de altura. Você deve escalar para subir ou descer.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3019,7 +3091,7 @@
   {
     "key": "srd_lamp",
     "name": "Lâmpada",
-    "desc": "Uma lâmpada emite luz plena em um raio de 4,5 metros e luz fraca por mais 9 metros. Depois de acesa, queima por 6 horas com um frasco (473 ml) de óleo.",
+    "desc": "Uma Lâmpada usa Óleo para combustão para emitir Luz Plena em um raio de 4,5 metros e Meia-luz por mais 9 metros.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3036,8 +3108,8 @@
   },
   {
     "key": "srd_lamp-oil-flask",
-    "name": "Óleo para lâmpada (frasco)",
-    "desc": "O óleo normalmente vem em um frasco de barro que comporta 473 ml. Com uma ação, você pode espirrar o óleo deste frasco sobre uma criatura a até 1,5 metro de você ou arremessá-lo a até 6 metros, quebrando-o com o impacto. Faça um ataque à distância contra uma criatura ou objeto-alvo, tratando o óleo como uma arma improvisada. Se acertar, o alvo fica coberto de óleo. Se o alvo sofrer qualquer dano de fogo antes que o óleo seque (após 1 minuto), ele sofrerá 5 pontos adicionais de dano de fogo pelo óleo em chamas. Você também pode derramar um frasco de óleo no chão para cobrir uma área quadrada de 1,5 metro de lado, desde que a superfície seja nivelada. Se aceso, o óleo queima por 2 rodadas e causa 5 pontos de dano de fogo a qualquer criatura que entre na área ou termine seu turno nela. Uma criatura só pode sofrer esse dano uma vez por turno.",
+    "name": "Óleo",
+    "desc": "Você pode cobrir uma criatura, objeto ou área com Óleo ou utilizá-lo como combustível, conforme detalhado abaixo. Cobrindo uma Criatura ou um Objeto. Ao executar a ação Atacar, você pode substituir um de seus ataques por arremessar um pote de Óleo. Escolha uma criatura ou objeto a até 6 metros de distância. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e seu Bônus de Proficiência) ou fica coberto de óleo. Se o alvo sofrer dano Ígneo antes que o óleo seque (após 1 minuto), ele sofre 5 pontos de dano Ígneo adicionais devido ao óleo em combustão. Cobrindo um Espaço. Você pode executar a ação Usar Objeto para despejar um pote de Óleo em um terreno plano para cobrir uma área quadrada de 1,5 metro de lado a até 1,5 metro de você. Ao ser aceso, o óleo queima até o fim do turno 2 rodadas depois (ou 12 segundos) e causa 5 pontos de dano Ígneo a qualquer criatura que entre ou termine o turno na área. Uma criatura sofre esse dano apenas uma vez por turno. Combustível. O Óleo serve como combustível para Lâmpadas e Lanternas. Uma vez aceso, um pote de Óleo queima por 6 horas em uma Lâmpada ou Lanterna. Esse tempo de queima não precisa ser consecutivo; você pode extinguir o Óleo em combustão (como uma ação Usar Objeto) e acendê-lo até que ele tenha queimado por um total de 6 horas.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3167,7 +3239,7 @@
   {
     "key": "srd_lantern-bullseye",
     "name": "Lanterna Foca-facho",
-    "desc": "Uma lanterna de foco emite luz plena em um cone de 18 metros e luz fraca por mais 18 metros. Depois de acesa, queima por 6 horas com um frasco (473 ml) de óleo.",
+    "desc": "Uma Lanterna Foca-Facho usa Óleo como combustão para emitir Luz Plena em um Cone de 18 metros e Meia-luz por mais 18 metros.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3185,7 +3257,7 @@
   {
     "key": "srd_lantern-hooded",
     "name": "Lanterna Coberta",
-    "desc": "Uma lanterna coberta emite luz plena em um raio de 9 metros e luz fraca por mais 9 metros. Depois de acesa, queima por 6 horas com um frasco (473 ml) de óleo. Com uma ação, você pode baixar a cobertura, reduzindo a luz para luz fraca em um raio de 1,5 metro.",
+    "desc": "Uma Lanterna Coberta usa Óleo para combustão para emitir Luz Plena em um raio de 9 metros e Meia-luz por mais 9 metros. Como uma Ação Bônus, você pode baixar o capuz, reduzindo a luz para Meia-luz em um raio de 1,5 metro, ou levantá-lo novamente.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3315,7 +3387,7 @@
   {
     "key": "srd_lock",
     "name": "Cadeado",
-    "desc": "Uma chave é fornecida com o cadeado. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode arrombar este cadeado com um teste de Destreza CD 15 bem-sucedido. Seu Mestre pode decidir que cadeados melhores estão disponíveis por preços mais altos.",
+    "desc": "Um Cadeado vem com uma chave. Sem a chave, uma criatura pode usar Ferramentas de Ladrão para abrir este Cadeado com um teste bem-sucedido de Destreza (Prestidigitação) CD 15.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3329,6 +3401,24 @@
     "weight": "0.5",
     "weight_unit": "kg",
     "cost": "10.00"
+  },
+  {
+    "key": "srd_fire-box",
+    "name": "Caixa para Fogo",
+    "desc": "Uma Caixa para Fogo é um pequeno recipiente contendo pedra de sílex, aço contra fogo e material muito seco e altamente inflamável (geralmente pano seco embebido em óleo leve) usado para acender um fogo. Usá-lo para acender uma Lâmpada, Lanterna, Tocha ou Vela — ou qualquer outra coisa com combustível exposto — requer uma Ação Bônus. Acender qualquer outro fogo leva 1 minuto.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.5",
+    "weight_unit": "kg",
+    "cost": "0.5"
   },
   {
     "key": "srd_longbow",
@@ -3514,7 +3604,7 @@
   {
     "key": "srd_magnifying-glass",
     "name": "Lupa",
-    "desc": "Esta lente permite observar objetos pequenos mais de perto. Também é útil como substituta de pederneira e aço para acender fogueiras. Acender uma fogueira com uma lupa requer luz tão intensa quanto a luz do sol para ser focalizada, material inflamável para iniciar a combustão e cerca de 5 minutos para o fogo pegar. Uma lupa concede vantagem em qualquer teste de habilidade feito para avaliar ou inspecionar um item pequeno ou altamente detalhado.",
+    "desc": "Uma Lupa concede Vantagem em qualquer teste de atributo realizado para avaliar ou inspecionar um item altamente detalhado. Acender uma fogueira com uma Lupa requer luz tão brilhante quanto a luz do sol para ser focado, lenha para acender e cerca de 5 minutos para o fogo acender.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3535,7 +3625,7 @@
     "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 15 ou ficará envenenada por 1 hora. A criatura envenenada fica cega.\n\n***Inalado.*** Esses venenos são pós ou gases que fazem efeito quando inalados. Soprar o pó ou liberar o gás submete as criaturas em um cubo de 1,5 metro aos seus efeitos. A nuvem resultante se dissipa imediatamente depois. Prender a respiração é ineficaz contra venenos inalados, pois eles afetam as membranas nasais, os canais lacrimais e outras partes do corpo.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -3550,7 +3640,7 @@
   {
     "key": "srd_manacles",
     "name": "Grilhões",
-    "desc": "Estas contenções de metal podem prender uma criatura Pequena ou Média. Escapar das algemas requer um teste de Destreza CD 20 bem-sucedido. Rompê-las requer um teste de Força CD 20 bem-sucedido. Cada conjunto de algemas vem com uma chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode arrombar a fechadura das algemas com um teste de Destreza CD 15 bem-sucedido. As algemas têm 15 pontos de vida.",
+    "desc": "Como uma ação Usar Objeto, você pode usar Grilhões para prender uma criatura Pequena ou Média involuntária a até 1,5 metro de você que tem a condição Contido, Imobilizado ou Incapacitado, se você for bem-sucedido em um teste de Destreza (Prestidigitação) CD 13. Enquanto presa, uma criatura tem Desvantagem em jogadas de ataque, e a criatura está Contida se os grilhões estiverem presos a uma corrente ou gancho fixo no lugar. Escapar dos grilhões requer um teste bem-sucedido de Destreza (Prestidigitação) CD 20 como uma ação. Estourá-los requer um teste bem-sucedido de Força (Atletismo) CD 25 como uma ação. Um conjunto de Grilhões vem com uma chave. Sem a chave, uma criatura pode usar Ferramentas de Ladrão para abrir os Grilhões com um teste bem-sucedido de Destreza (Prestidigitação) CD 15.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3655,7 +3745,7 @@
     "desc": "Uma criatura que ingere este veneno não sofre nenhum efeito até o badalar da meia-noite. Se o veneno não tiver sido neutralizado até então, a criatura deve ser bem-sucedida em um teste de resistência de Constituição CD 17, sofrendo 31 (9d6) de dano de veneno em caso de falha, ou metade desse dano em caso de sucesso.\n\n ***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem no teste de resistência ou causar apenas metade do dano em caso de falha.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -3669,8 +3759,8 @@
   },
   {
     "key": "srd_mirror-steel",
-    "name": "Espelho de aço",
-    "desc": "Um espelho.",
+    "name": "Espelho",
+    "desc": "Um espelho de aço portátil é prático tanto para uso pessoal quanto para espiar ao redor de cantos e refletir luz como sinal.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3737,7 +3827,7 @@
   {
     "key": "srd_net",
     "name": "Rede",
-    "desc": "Uma rede.\r\n\r\nUma criatura Grande ou menor atingida por uma rede fica impedida até ser libertada. Uma rede não afeta criaturas incorpóreas ou criaturas Enormes ou maiores. Uma criatura pode usar sua ação para realizar um teste de Força CD 10, libertando a si mesma ou outra criatura ao seu alcance em caso de sucesso. Causar 5 pontos de dano cortante à rede (CA 10) também liberta a criatura sem feri-la, encerrando o efeito e destruindo a rede.\r\n\r\nQuando você usa uma ação, ação bônus ou reação para atacar com uma rede, pode realizar apenas um ataque, independentemente do número de ataques que normalmente poderia realizar.",
+    "desc": "Ao executar a ação Atacar, você pode substituir um de seus ataques pelo arremesso de uma Rede. Escolha uma criatura à sua vista a até 4,5 metros de distância. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e seu Bônus de Proficiência) ou tem a condição Contido até escapar. O alvo é bem-sucedido automaticamente se for de tamanho Enorme ou maior. Para escapar, o alvo ou uma criatura a até 1,5 metro dele deve executar uma ação para realizar um teste de Força (Atletismo) CD 10, libertando a criatura Contida em caso de sucesso. Destruir a Rede (CA 10; 5 PV; imunidade a dano de Contundente, Psíquico e Venenoso) também liberta o alvo, encerrando a condição.",
     "category": {
       "name": "Arma",
       "key": "weapon"
@@ -3788,7 +3878,7 @@
     "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 13 ou ficará envenenada por 24 horas. A criatura envenenada fica inconsciente. A criatura acorda se sofrer dano.\n\n ***Contato.*** Venenos de contato podem ser espalhados sobre um objeto e permanecem potentes até serem tocados ou removidos com água. Uma criatura que tocar o veneno de contato com a pele exposta sofre seus efeitos.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -3888,7 +3978,7 @@
     "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 16 ou sofrerá 3 (1d6) de dano de veneno e ficará envenenada. A criatura envenenada deve repetir o teste de resistência a cada 24 horas, sofrendo 3 (1d6) de dano de veneno em caso de falha. Enquanto este veneno não terminar, o dano causado pelo veneno não pode ser curado por nenhum meio. Após obter sucesso em sete testes de resistência, o efeito termina e a criatura pode se curar normalmente. \n\n ***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem no teste de resistência ou causar apenas metade do dano em caso de falha.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -3920,8 +4010,8 @@
   },
   {
     "key": "srd_paper-one-sheet",
-    "name": "Papel (uma folha)",
-    "desc": "Uma folha de papel.",
+    "name": "Papel",
+    "desc": "Uma folha de papel pode comportar cerca de 250 palavras escritas à mão.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3938,8 +4028,8 @@
   },
   {
     "key": "srd_parchment-one-sheet",
-    "name": "Pergaminho (uma folha)",
-    "desc": "Uma folha de pergaminho.",
+    "name": "Pergaminho",
+    "desc": "Uma folha de pergaminho pode comportar cerca de 250 palavras escritas à mão.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -3974,8 +4064,8 @@
   },
   {
     "key": "srd_perfume-vial",
-    "name": "Perfume (frasco)",
-    "desc": "Um frasco de perfume.",
+    "name": "Perfume",
+    "desc": "O perfume vem em um frasco de 120 mililitros. Por 1 hora após aplicar o Perfume em si, você tem Vantagem em testes de Carisma (Persuasão) realizados ao executar a ação Influenciar em um Humanoide Indiferente a até 1,5 metro de você.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4177,10 +4267,10 @@
   {
     "key": "srd_poison-basic",
     "name": "Veneno básico",
-    "desc": "Você pode usar o veneno deste frasco para revestir uma arma cortante ou perfurante ou até três munições. Aplicar o veneno exige uma ação. Uma criatura atingida pela arma ou munição envenenada deve realizar um teste de resistência de Constituição CD 10 ou sofrerá 1d4 de dano de veneno. Depois de aplicado, o veneno mantém sua potência por 1 minuto antes de secar.",
+    "desc": "Como uma Ação Bônus, você pode usar um frasco de Veneno Básico para revestir uma arma ou até três peças de munição. Uma criatura que sofre dano Perfurante ou Cortante da arma ou munição envenenada sofre 1d4 pontos de dano Venenoso adicional. Uma vez aplicado, o veneno retém a potência por 1 minuto ou até que o dano dele seja causado, o que ocorrer primeiro.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -4213,7 +4303,7 @@
   {
     "key": "srd_pole-10-foot",
     "name": "Baliza",
-    "desc": "Uma baliza de 3 metros.",
+    "desc": "Uma Baliza tem 3 metros de comprimento. Você pode usá-la para tocar algo a até 3 metros de distância. Se precisar realizar um teste de Força (Atletismo) como parte de um Salto em Altura ou Salto em Distância, você pode utilizar a Baliza para se impulsionar, recebendo Vantagem no teste.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4229,9 +4319,27 @@
     "cost": "0.05"
   },
   {
+    "key": "srd_pot",
+    "name": "Pote",
+    "desc": "Um Frasco armazena até meio litro.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "0.250",
+    "weight_unit": "kg",
+    "cost": "0.02"
+  },
+  {
     "key": "srd_pot-iron",
-    "name": "Panela de ferro",
-    "desc": "Uma panela de ferro. Capacidade: 3,8 litros de líquido.",
+    "name": "Pote de ferro",
+    "desc": "Um Pote de Ferro comporta até 4 litros.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4267,7 +4375,7 @@
   {
     "key": "srd_pouch",
     "name": "Algibeira",
-    "desc": "Uma algibeira de tecido ou couro pode conter até 20 projéteis de funda ou 50 agulhas de zarabatana, entre outras coisas. Uma algibeira compartimentada para guardar componentes de magia é chamada de algibeira de componentes (descrita anteriormente nesta seção).\r\nCapacidade: 0,0057 metros cúbicos/2,722 kg de equipamento.",
+    "desc": "Uma Algibeira comporta até 3 kg em um volume de 6 litros.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4288,7 +4396,7 @@
     "desc": "Este veneno deve ser extraído de um verme púrpura morto ou incapacitado. Uma criatura submetida a este veneno deve realizar um teste de resistência de Constituição CD 19, sofrendo 42 (12d6) de dano de veneno em caso de falha, ou metade desse dano em caso de sucesso.\r\n\n\n\r\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser introduzido em um ferimento ou removido com água. Uma criatura que sofra dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -4343,7 +4451,7 @@
   {
     "key": "srd_quiver",
     "name": "Aljava",
-    "desc": "Uma aljava pode conter até 20 flechas.",
+    "desc": "Uma Aljava armazena até 20 Flechas.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4360,8 +4468,8 @@
   },
   {
     "key": "srd_ram-portable",
-    "name": "Aríete portátil",
-    "desc": "Você pode usar um aríete portátil para arrombar portas. Ao fazer isso, você recebe um bônus de +4 no teste de Força. Outro personagem pode ajudá-lo a usar o aríete, concedendo vantagem nesse teste.",
+    "name": "Aríete Portável",
+    "desc": "Você pode usar um Aríete Portável para arrombar portas. Ao fazer isso, você recebe um bônus de +4 no teste de Força. Outro personagem pode ajudá-lo a usar o Aríete, concedendo-lhe Vantagem nesse teste.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4418,8 +4526,8 @@
   },
   {
     "key": "srd_rations-1-day",
-    "name": "Rações (1 dia)",
-    "desc": "As rações consistem em alimentos secos adequados para viagens prolongadas, incluindo carne seca, frutas desidratadas, biscoitos secos e nozes.",
+    "name": "Rações",
+    "desc": "As rações consistem em alimentos prontos para viagem, incluindo biscoito duro, carne seca, frutas secas e nozes. Veja “Desnutrição” no glossário de regras para os riscos de não comer.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4437,9 +4545,9 @@
   {
     "key": "srd_reliquary",
     "name": "Relicário",
-    "desc": "Pode ser usado como símbolo sagrado.",
+    "desc": "Segurado. Um Símbolo Sagrado assume uma das formas na tabela Símbolo Sagrado e é adornado ou pintado para canalizar magia divina. Um Clérigo ou Paladino pode usar um Símbolo Sagrado como um Foco de Conjuração. A tabela indica se um Símbolo Sagrado precisa ser segurado, usado ou exibido em tecido (como um tabardo ou um emblema) ou um Escudo.",
     "category": {
-      "name": "Equipamento de Aventura",
+      "name": "Símbolo Sagrado",
       "key": "adventuring-gear"
     },
     "weapon": null,
@@ -4518,8 +4626,8 @@
   },
   {
     "key": "srd_rope-hempen-50-feet",
-    "name": "Corda de cânhamo (15 metros)",
-    "desc": "Uma corda, seja feita de cânhamo ou seda, possui 2 pontos de vida e pode ser rompida com um teste de Força CD 17.",
+    "name": "Corda",
+    "desc": "Como uma ação Usar Objeto, você pode dar um nó em uma Corda se for bem-sucedido em um teste de Destreza (Prestidigitação) CD 10. Um teste bem-sucedido de Força (Atletismo) CD 20 pode romper a Corda. Você pode amarrar uma criatura involuntária com a Corda somente se a criatura tem a condição Contido, Imobilizado ou Incapacitado. Se as pernas da criatura estiverem amarradas, a criatura tem a condição Contido até escapar. Escapar da Corda requer que a criatura realize um teste bem-sucedido de Destreza (Acrobacia) CD 15 como uma ação.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4553,6 +4661,24 @@
     "cost": "10.00"
   },
   {
+    "key": "srd_rope-silk",
+    "name": "Cordão",
+    "desc": "Um cordão tem 3 metros de comprimento. Você pode dar um nó nele como uma ação Usar Objeto.",
+    "category": {
+      "name": "Equipamento de Aventura",
+      "key": "adventuring-gear"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Minúsculo",
+      "key": "tiny"
+    },
+    "weight": "1",
+    "weight_unit": "kg",
+    "cost": "0.1"
+  },
+  {
     "key": "srd_rowboat",
     "name": "Barco a remo",
     "desc": "Velocidade de 2,4 km por hora. Tripulação: 1, Passageiros: 3, Carga: -, CA: 11, PV: 50, Limiar de dano: -",
@@ -4573,7 +4699,7 @@
   {
     "key": "srd_sack",
     "name": "Saca",
-    "desc": "Uma Saca armazena até 15 kg dentro de 30 centímetros cúbicos",
+    "desc": "Uma Saca armazena até 15 kg dentro de 30 centímetros cúbicos.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4760,7 +4886,7 @@
     "desc": "Este veneno deve ser extraído de uma cobra venenosa gigante morta ou incapacitada. Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 11, sofrendo 10 (3d6) de dano de veneno se falhar, ou metade desse dano se obtiver sucesso.\n\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser introduzido por meio de um ferimento ou ser removido. Uma criatura que sofrer dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -4935,7 +5061,7 @@
   {
     "key": "srd_shovel",
     "name": "Pá",
-    "desc": "Uma pá.",
+    "desc": "Trabalhando por 1 hora, você pode usar uma Pá para cavar um buraco de 1,5 metro de cada lado no solo ou material semelhante.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -4993,7 +5119,7 @@
   {
     "key": "srd_signal-whistle",
     "name": "Apito Sinalizador",
-    "desc": "Para sinalização.",
+    "desc": "Quando soprado como uma ação Usar Objeto, um Apito Sinalizador produz um som que pode ser ouvido a até 180 metros de distância.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5079,6 +5205,60 @@
     "weight": "150",
     "weight_unit": "kg",
     "cost": "20.00"
+  },
+  {
+    "key": "srd_riding_saddle",
+    "name": "Sela de Viagem",
+    "desc": "Uma sela vem com um bridão, freio, rédea e qualquer outro equipamento necessário para usar a sela.",
+    "category": {
+      "name": "Sela",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Pequeno",
+      "key": "small"
+    },
+    "weight": "12.5",
+    "weight_unit": "kg",
+    "cost": "10.00"
+  },
+  {
+    "key": "srd_military_saddle",
+    "name": "Sela Militar",
+    "desc": "Uma Sela Militar concede Vantagem em qualquer teste de atributo que você realizar para permanecer montado.",
+    "category": {
+      "name": "Sela",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Pequeno",
+      "key": "small"
+    },
+    "weight": "15",
+    "weight_unit": "kg",
+    "cost": "20.00"
+  },
+  {
+    "key": "srd_exotic_saddle",
+    "name": "Sela Exótica",
+    "desc": "Uma Sela Exótica é necessária para montar uma criatura aquática ou voadora.",
+    "category": {
+      "name": "Sela",
+      "key": "vehicle"
+    },
+    "weapon": null,
+    "armor": null,
+    "size": {
+      "name": "Pequeno",
+      "key": "small"
+    },
+    "weight": "20",
+    "weight_unit": "kg",
+    "cost": "60.00"
   },
   {
     "key": "srd_sling",
@@ -5243,7 +5423,7 @@
   {
     "key": "srd_spike-iron",
     "name": "Estaca de Ferro",
-    "desc": "Uma estaca de ferro.",
+    "desc": "Estacas de Ferro vêm em pacotes de dez. Como uma ação Usar Objeto, você pode usar um objeto contundente, como um Martelo Leve, para martelar uma Estaca em madeira, terra ou um material semelhante. Você pode fazer isso para fechar uma porta, amarrar uma corda ou corrente na Estaca.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5307,7 +5487,7 @@
   {
     "key": "srd_spyglass",
     "name": "Luneta",
-    "desc": "Objetos observados através de uma luneta aparecem ampliados para o dobro de seu tamanho.",
+    "desc": "Objetos vistos através de uma Luneta são ampliados até o dobro do seu tamanho.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5393,7 +5573,7 @@
   {
     "key": "srd_tent",
     "name": "Tenda",
-    "desc": "Um abrigo simples e portátil de lona que acomoda duas pessoas para dormir.",
+    "desc": "Uma Tenda acomoda para dormir até duas criaturas Pequenas ou Médias.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5465,7 +5645,7 @@
   {
     "key": "srd_torch",
     "name": "Tocha",
-    "desc": "Uma tocha queima por 1 hora, fornecendo luz plena em um raio de 6 metros e luz fraca por mais 6 metros. Se você realizar um ataque corpo a corpo com uma tocha acesa e acertar, ela causa 1 de dano de fogo.",
+    "desc": "Uma Tocha entra em combustão por 1 hora, emitindo Luz Plena em um raio de 6 metros e Meia-luz por mais 6 metros. Ao executar a ação Atacar, você pode atacar com a Tocha, usando-a como uma arma Simples Corpo a Corpo. Em caso de acerto, o alvo sofre 1 ponto de dano Ígneo.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5486,7 +5666,7 @@
     "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em uma salvaguarda de Constituição CD 15 ou ficará envenenada por 4d6 horas. A criatura envenenada fica incapacitada.\r\n\n\n\r\n***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem na salvaguarda ou causar apenas metade do dano em uma falha.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -5552,7 +5732,7 @@
     "desc": "Uma criatura submetida a este veneno deve ser bem-sucedida em uma salvaguarda de Constituição CD 11 ou ficará envenenada por 1 hora. A criatura envenenada não pode conscientemente dizer uma mentira, como se estivesse sob o efeito da magia zona da verdade.\r\n\n\n\r\n***Ingerido.*** Uma criatura deve engolir uma dose inteira de veneno ingerido para sofrer seus efeitos. A dose pode ser administrada em comida ou líquido. Você pode decidir que uma dose parcial tenha um efeito reduzido, como conceder vantagem na salvaguarda ou causar apenas metade do dano em uma falha.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
@@ -5567,7 +5747,7 @@
   {
     "key": "srd_vial",
     "name": "Frasco",
-    "desc": "Usado para armazenar líquidos. Capacidade: 4 onças de líquido.",
+    "desc": "Um Frasco armazena até 150 mililitros.",
     "category": {
       "name": "Equipamento de Aventura",
       "key": "adventuring-gear"
@@ -5918,7 +6098,7 @@
     "desc": "Este veneno deve ser extraído de uma wyvern morta ou incapacitada. Uma criatura exposta a este veneno deve ser bem-sucedida em um teste de resistência de Constituição CD 15, sofrendo 24 (7d6) de dano de veneno se falhar, ou metade desse dano se for bem-sucedida.\r\n\n\n\r\n***Ferimento.*** O veneno de ferimento pode ser aplicado a armas, munições, componentes de armadilhas e outros objetos que causem dano perfurante ou cortante, permanecendo potente até ser introduzido através de um ferimento ou removido. Uma criatura que sofra dano perfurante ou cortante de um objeto revestido com o veneno fica exposta aos seus efeitos.",
     "category": {
       "name": "Veneno",
-      "key": "poison"
+      "key": "adventuring-gear"
     },
     "weapon": null,
     "armor": null,
