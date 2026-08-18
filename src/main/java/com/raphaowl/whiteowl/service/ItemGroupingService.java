@@ -1,5 +1,6 @@
 package com.raphaowl.whiteowl.service;
 
+import java.text.Collator;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -32,29 +33,42 @@ public class ItemGroupingService {
     );
 
     public GroupedItems build(CategoryEnum category, List<ItemView> items) {
+        Collator ptCollator = Collator.getInstance(Locale.of("pt", "BR"));
+        Comparator<String> localizedStringOrder = ptCollator::compare;
+        Comparator<ItemView> itemNameOrder = Comparator.comparing(ItemView::name, localizedStringOrder);
+        List<ItemView> list = items.stream().sorted(itemNameOrder).toList();
         return switch (category) {
             case WEAPON -> new GroupedItems("weaponItemsByType",
-                    groupBy(items, this::weaponGroupLabel, Comparator.comparingInt(entry -> weaponGroupRank(entry.getKey()))));
-            case ARMOR -> new GroupedItems("armorItemsByType", groupBy(items, this::armorGroupLabel, this::compareArmorGroups));
-            case VEHICLE, TOOLS, ADVENTURING_GEAR -> new GroupedItems("standardItemsByType", groupByCategory(items));
-            default -> new GroupedItems("standardItemsByType", groupAsSingleSection(category.getLabel(), items));
+                    groupBy(list, this::weaponGroupLabel, Comparator.comparingInt(entry -> weaponGroupRank(entry.getKey())), itemNameOrder));
+            case ARMOR -> new GroupedItems("armorItemsByType",
+                    groupBy(list, this::armorGroupLabel, (left, right) -> compareArmorGroups(left, right, localizedStringOrder), itemNameOrder));
+            case VEHICLE, TOOLS, ADVENTURING_GEAR -> new GroupedItems("standardItemsByType",
+                    groupByCategory(list, localizedStringOrder, itemNameOrder));
+            default -> new GroupedItems("standardItemsByType", groupAsSingleSection(category.getLabel(), list, itemNameOrder));
         };
     }
 
-    private Map<String, List<ItemView>> groupAsSingleSection(String sectionTitle, List<ItemView> items) {
+    private Map<String, List<ItemView>> groupAsSingleSection(
+            String sectionTitle,
+            List<ItemView> items,
+            Comparator<ItemView> itemOrder) {
         Map<String, List<ItemView>> groupedItems = new LinkedHashMap<>();
-        groupedItems.put(sectionTitle, items.stream().sorted(Comparator.comparing(ItemView::name)).toList());
+        groupedItems.put(sectionTitle, items.stream().sorted(itemOrder).toList());
         return groupedItems;
     }
 
-    private Map<String, List<ItemView>> groupByCategory(List<ItemView> items) {
-        return groupBy(items, ItemView::category, Map.Entry.comparingByKey(String.CASE_INSENSITIVE_ORDER));
+    private Map<String, List<ItemView>> groupByCategory(
+            List<ItemView> items,
+            Comparator<String> localizedStringOrder,
+            Comparator<ItemView> itemOrder) {
+        return groupBy(items, ItemView::category, Map.Entry.comparingByKey(localizedStringOrder), itemOrder);
     }
 
     private Map<String, List<ItemView>> groupBy(
             List<ItemView> items,
             Function<ItemView, String> groupBy,
-            Comparator<Map.Entry<String, List<ItemView>>> groupOrder) {
+            Comparator<Map.Entry<String, List<ItemView>>> groupOrder,
+            Comparator<ItemView> itemOrder) {
         return items.stream()
                 .collect(Collectors.groupingBy(groupBy))
                 .entrySet().stream()
@@ -62,18 +76,21 @@ public class ItemGroupingService {
                 .collect(Collectors.toMap(
                         Map.Entry::getKey,
                         entry -> entry.getValue().stream()
-                                .sorted(Comparator.comparing(ItemView::name))
+                                .sorted(itemOrder)
                                 .toList(),
                         (left, right) -> left,
                         LinkedHashMap::new));
     }
 
-    private int compareArmorGroups(Map.Entry<String, List<ItemView>> left, Map.Entry<String, List<ItemView>> right) {
+    private int compareArmorGroups(
+            Map.Entry<String, List<ItemView>> left,
+            Map.Entry<String, List<ItemView>> right,
+            Comparator<String> localizedStringOrder) {
         int rankDiff = Integer.compare(armorGroupRank(left.getKey()), armorGroupRank(right.getKey()));
         if (rankDiff != 0) {
             return rankDiff;
         }
-        return String.CASE_INSENSITIVE_ORDER.compare(left.getKey(), right.getKey());
+        return localizedStringOrder.compare(left.getKey(), right.getKey());
     }
 
     private String armorGroupLabel(ItemView item) {
