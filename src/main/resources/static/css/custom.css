@@ -88,3 +88,70 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+/* =========================================================
+   Dice Roller
+   ========================================================= */
+
+.dice-toggle {
+    width: 56px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9999px;
+
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    cursor: pointer;
+
+    transition:
+            transform 0.2s ease,
+            border-color 0.2s ease,
+            box-shadow 0.2s ease;
+}
+
+.dice-toggle img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.dice-toggle:hover {
+    transform: scale(1.08);
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+.dice-button {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9999px;
+
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    cursor: pointer;
+
+    transition:
+            transform 0.2s ease,
+            border-color 0.2s ease;
+}
+
+.dice-button img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.dice-button:hover {
+    transform: translateY(-3px) scale(1.08);
+    border-color: rgba(255, 255, 255, 0.35);
+}

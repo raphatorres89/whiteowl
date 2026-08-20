@@ -6,6 +6,7 @@
 <script th:src="@{/js/menu.js}"></script>
 <script th:src="@{/js/particles.js}"></script>
 <script th:src="@{/js/cursor.js}"></script>
+<script th:src="@{/js/dice-roller.js}"></script>
 
 <body class="bg-main">
 
@@ -22,6 +23,8 @@
         <main class="min-h-screen">
             <div th:replace="${content}"></div>
         </main>
+
+        <div th:replace="~{fragments/dice-roller :: dice-roller}"></div>
 
         <div th:replace="~{fragments/footer :: footer}"></div>
     </div>
